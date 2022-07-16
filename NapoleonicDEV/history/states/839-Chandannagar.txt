@@ -1,0 +1,24 @@
+state={
+	id=839
+	name="Chandannagar"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FRA
+		victory_points = {
+			9515 3
+		}
+	}
+
+
+
+	provinces={
+		10035 11911 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

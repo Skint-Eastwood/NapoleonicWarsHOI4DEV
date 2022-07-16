@@ -1,0 +1,16 @@
+characters={
+	GER_francis_II={ #Democratic Leader
+		name="Francis II"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/GER_francis_II.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1835.3.2.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	PRE_Frederick_William_II={ 
+		name="Frederick William II"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRE/PRE_Frederick_William_II.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ stout_defender }
+			expire="1797.11.16.1"
+			id=-1
+		}
+	}
+}

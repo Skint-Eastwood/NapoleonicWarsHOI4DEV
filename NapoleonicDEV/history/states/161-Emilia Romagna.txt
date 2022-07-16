@@ -1,0 +1,35 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = MOD
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+			782 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = MOD
+
+	}
+
+	provinces={
+		3773 3976 6790 6973 9752 
+	}
+	manpower=3202401
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

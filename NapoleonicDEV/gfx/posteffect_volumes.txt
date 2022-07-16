@@ -1,0 +1,136 @@
+#REWORKED mod
+
+posteffect_values = {
+	name = standard	
+	lut = "gfx/world/colorcorrection.tga"
+	BLOOM_WIDTH = 0.0
+	BLOOM_SCALE = 0.0
+	BRIGHT_THRESHOLD = 0.0
+}
+
+posteffect_values = {
+	name = default
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = mid_distance
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = max_distance
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = europe
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = america
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = pacific_japan_china_raj
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+posteffect_values = {
+	name = default_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+	tonemap_middlegrey = 0.50
+}
+
+
+
+#### VOLUMES HEIGHTS
+
+posteffect_volumes = {
+
+	posteffect_height_volume = {
+		name = "Base Highest"
+		
+		posteffect_values_day = max_distance
+		posteffect_values_night = default_night
+		
+		height = 1500
+		fade_distance = 200
+	}
+	
+	posteffect_height_volume = {
+		name = "Base Medium"
+		
+		posteffect_values_day = mid_distance
+		posteffect_values_night = default_night
+		
+                height = 800
+		fade_distance = 100
+	}
+	
+	posteffect_height_volume = {
+		name = "Base"
+		
+		posteffect_values_day = default
+		posteffect_values_night = default_night
+		
+		height = 0
+		fade_distance = 0
+	}
+}
+
+
+#################
+posteffect_volume = {
+		name = Europe_Russia
+		
+		posteffect_values_day = europe
+		posteffect_values_night = default_night
+		posteffect_values_day_winter = europe
+		posteffect_values_night_winter = default_night
+    
+		position = { 3198.0 50.0 1614.0 }
+		size = { 1500.0 160.0 900.0 }
+		fade_distance = 10
+	}
+
+posteffect_volume = {
+		name = America
+		
+		posteffect_values_day = america
+		posteffect_values_night = default_night
+		posteffect_values_day_winter = america
+		posteffect_values_night_winter = default_night
+    
+		position = { 1242.0 50.0 1514.0 }
+		size = { 2200.0 160.0 3000.0 }
+		fade_distance = 10.0
+	}
+
+posteffect_volume = {
+		name = Pacific
+		
+		posteffect_values_day = pacific_japan_china_raj
+		posteffect_values_night = default_night
+		posteffect_values_day_winter = pacific_japan_china_raj
+		posteffect_values_night_winter = default_night
+    
+		position = { 4691.0 50.0 1034.0 }
+		size = { 1800.0 160.0 1400.0 }
+		fade_distance = 10.0
+	}

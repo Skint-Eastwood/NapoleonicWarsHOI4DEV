@@ -1,0 +1,16 @@
+characters={
+	TUR_Selim_III={ #Democratic Leader
+		name="Selim III"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/TUR_Selim_III.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1808.7.28.1"
+			id=-1
+		}
+	}
+}

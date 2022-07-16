@@ -1,0 +1,16 @@
+characters={
+	PDS_Charles_Emmanuel_IV={ #Democratic Leader
+		name="Charles Emmanuel IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/PDS/PDS_Charles_Emmanuel_IV.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

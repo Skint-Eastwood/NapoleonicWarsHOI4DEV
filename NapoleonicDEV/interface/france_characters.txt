@@ -1,0 +1,24 @@
+spriteTypes= {
+    spriteTypes = {
+        name = "GFX_FRA_Napoleon.dds"
+        texturefile = "gfx/leaders/FRA/FRA_Napoleon.dds"
+    }
+
+
+    ## Generals ##
+
+    spriteTypes = {
+        name = "GFX_Portrait_France_Napoleon.dds"
+        texturefile = "gfx/leaders/FRA/Portrait_France_Napoleon.dds"
+    }
+    
+    spriteTypes = {
+        name = "GFX_Portrait_France_Eugene_De_Beauharnais.dds"
+        texturefile = "gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
+    }
+
+    spriteTypes = {
+        name = "GFX_idea_FRA_Jacques-Louis_David.dds"
+        texturefile = "gfx/interface/ideas/idea_FRA_Jacques-Louis_David.dds"
+    }
+}

@@ -1,0 +1,16 @@
+characters={
+	MEK_Queen_Charlotte={ #Democratic Leader
+		name="Queen Charlotte"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEK/MEK_Queen_Charlotte.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1818.11.17.1"
+			id=-1
+		}
+	}
+}

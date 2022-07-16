@@ -1,0 +1,16 @@
+characters={
+	PPL_Pope_Blessed_Pius_IX={ #Democratic Leader
+		name="Pope Blessed Pius IX"
+		portraits={
+			civilian={
+				large="gfx/leaders/PPL/PPL_Pope_Blessed_Pius_IX.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1878.2.7.1"
+			id=-1
+		}
+	}
+}

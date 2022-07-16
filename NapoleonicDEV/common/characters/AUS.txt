@@ -1,0 +1,16 @@
+characters={
+	AUS_Francis_I={ 
+		name="Francis I"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/AUS_Francis_I.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ autocratic_imperialist }
+			expire="1835.3.2.1"
+			id=-1
+		}
+	}
+}

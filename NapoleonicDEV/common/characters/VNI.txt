@@ -1,0 +1,16 @@
+characters={
+	VNI_Doge_Lodovico_Manin={ #Democratic Leader
+		name="Doge Lodovico Manin"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNI/VNI_Doge_Lodovico_Manin.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1802.10.24.1"
+			id=-1
+		}
+	}
+}

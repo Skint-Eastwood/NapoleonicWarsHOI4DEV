@@ -1,0 +1,16 @@
+characters={
+	ANT_African_Tribes={ #Democratic Leader
+		name="African Tribes"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANT/ANT_African_Tribes.dds"
+			}
+		}
+		country_leader={
+			ideology=Tribal
+			traits={ dictator }
+			expire="1799.2.16.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,34 @@
+capital = 797
+
+
+set_convoys = 300
+
+add_ideas = {
+}
+	
+1792.1.1 = {
+	 set_capital = {state = 797} 
+	remember_old_capital = no
+}
+	
+
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	authoritarian = 20
+	monarchist = 60
+	socialism = 0
+}
+
+
+add_ideas = {
+}
+
+recruit_character = TUR_Selim_III
+

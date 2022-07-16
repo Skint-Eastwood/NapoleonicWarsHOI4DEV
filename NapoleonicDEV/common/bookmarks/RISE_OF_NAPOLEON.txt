@@ -1,0 +1,215 @@
+bookmarks = {
+	bookmark = {
+		name = "The Rise of Napoleon"
+		desc = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France."
+		date = 1792.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France."
+			ideology = Monarchist 
+			ideas = {
+				
+				FRA_King_Louis
+				FRA_Constitutional_Guard
+				
+			}
+
+			focuses = {
+
+				FRA_abolish_the_monarchy
+				FRA_the_path_ahead
+				FRA_hold_the_election
+
+			}
+		}
+
+		"PRE"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}	
+		}
+
+
+		"ENG"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"AUS"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"TUR"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"SOV"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"GER"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+
+		"SPR"={
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}	
+
+		"POR"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+		
+		"POL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}	
+
+		"USA"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}	
+		
+		"PPL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+
+		"BAY"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+
+		"HOL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+
+		"MEK"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+
+		"VNI"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}
+	}
+}
+
+
+			
+

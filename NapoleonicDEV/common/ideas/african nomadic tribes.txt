@@ -1,0 +1,18 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+		ANT_Nomadic_Tribes = {
+			picture = air_support_focus
+			allowed = {
+				original_tag = ANT
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.025
+				research_speed_factor = -0.2
+				justify_war_goal_time = +0.3
+			}
+		}

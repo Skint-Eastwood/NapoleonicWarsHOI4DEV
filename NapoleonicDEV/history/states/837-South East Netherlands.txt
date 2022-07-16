@@ -1,0 +1,32 @@
+state={
+	id=837
+	name="STATE_837"
+
+	history={
+		owner = BEL
+		add_core_of = BEL
+		victory_points = {
+			778 1 
+		}
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6500 11562 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

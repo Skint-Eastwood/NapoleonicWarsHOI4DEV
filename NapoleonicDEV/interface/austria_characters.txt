@@ -1,0 +1,6 @@
+spriteTypes= {
+    spriteTypes = {
+        name = "GFX_AUS_Francis_I.dds"
+        texturefile = "gfx/leaders/AUS/AUS_Francis_I.dds"
+    }
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 801
+	name = "STATE_801"
+	manpower = 1218780
+	state_category = rural
+	history = {
+		owner = TUR
+		victory_points = { 
+			9612 3
+		}
+		victory_points = { 
+			3796 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex =1
+
+		}
+		add_core_of = BUL
+		add_core_of = TUR
+		controller = TUR
+	}
+	provinces = {
+		3796 3819 3952 6842 9610 9612 
+	}
+	local_supplies = 0.0
+
+}

@@ -1,0 +1,16 @@
+characters={
+	HAN_George_III={ #Democratic Leader
+		name="George III"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAN/HAN_George_III.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1820.1.29.1"
+			id=-1
+		}
+	}
+}

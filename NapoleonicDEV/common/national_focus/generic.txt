@@ -1,0 +1,491 @@
+﻿
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	###############
+	## Political ##
+	###############
+
+
+	focus = {
+		id = "Political Effort"
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 14
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	################
+	## Revolution ##
+	################
+
+
+	focus = {
+		id = "Support The Revolution"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Political Effort" }
+		relative_position_id = "Political Effort"
+		mutually_exclusive = { focus = "Remain Neutral" focus = "Side against the Revolution" }
+		x = -4
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Begin Reforms"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Support The Revolution" }
+		relative_position_id = "Support The Revolution"
+	
+		x = 0
+		y = 1
+
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Begin democratic campaign"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Begin Reforms" }
+		relative_position_id = "Support The Revolution"
+	
+		x = 0
+		y = 2
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Demand Referendum"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Begin democratic campaign" }
+		relative_position_id = "Support The Revolution"
+	
+		x = 0
+		y = 3
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Join France"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Demand Referendum" }
+		relative_position_id = "Support The Revolution"
+		mutually_exclusive = { focus = "Our Own Way" }
+	
+		x = 0
+		y = 4
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Our Own Way"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Demand Referendum" }
+		relative_position_id = "Support The Revolution"
+		mutually_exclusive = { focus = "Join France" }
+	
+		x = 4
+		y = 4
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Anti French Ideals"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Our Own Way" }
+		relative_position_id = "Our Own Way"
+		mutually_exclusive = { focus = "Leave The French Alone" }
+	
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Dissaprove of Napoleon"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Anti French Ideals" }
+		relative_position_id = "Anti French Ideals"
+		#mutually_exclusive = { focus = "Leave The French Alone" }
+	
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Embargo The French"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Dissaprove of Napoleon" }
+		relative_position_id = "Dissaprove of Napoleon"
+		#mutually_exclusive = { focus = "Leave The French Alone" }
+	
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Cut Diplomatic Ties With The French"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Embargo The French" }
+		relative_position_id = "Embargo The French"
+		#mutually_exclusive = { focus = "Leave The French Alone" }
+	
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "War With France"
+		icon = GFX_focus_attack_france
+		prerequisite = { focus = "Cut Diplomatic Ties With The French" }
+		relative_position_id = "Cut Diplomatic Ties With The French"
+		#mutually_exclusive = { focus = "Leave The French Alone" }
+	
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+				}
+			}
+		}
+	
+	focus = {
+		id = "Destroy the Coalition"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Join France" }
+		relative_position_id = "Support The Revolution"
+	
+		x = 0
+		y = 5
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Promote Voting"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Demand Referendum" }
+		relative_position_id = "Support The Revolution"
+	
+		x = -2
+		y = 4
+		
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "War Plan Green"
+		icon = GFX_focus_war_plan_green
+		prerequisite = { focus = "Destroy the Coalition" }
+		relative_position_id = "Support The Revolution"
+
+		x = -2
+		y = 6
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			 declare_war_on = {
+                target = SOV
+                type = annex_everything
+			 }
+		}
+	}
+
+	focus = {
+		id = "War Plan Red"
+		icon = GFX_focus_attack_britain
+		prerequisite = { focus = "Destroy the Coalition" }
+		relative_position_id = "Support The Revolution"
+		x = 0
+		y = 6
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			 declare_war_on = {
+                target = ENG
+                type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = "War Plan White"
+		icon = GFX_focus_war_plan_white
+		prerequisite = { focus = "Destroy the Coalition" }
+		relative_position_id = "Support The Revolution"
+
+		x = 2
+		y = 6
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			 declare_war_on = {
+                target = AUS
+                type = annex_everything
+			}
+		}
+	}
+
+	#############
+	## Neutral ##
+	#############
+
+	focus = {
+		id = "Remain Neutral"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Political Effort" }
+		relative_position_id = "Political Effort"
+		mutually_exclusive = { focus = "Side against the Revolution" focus = "Support The Revolution" }
+		x = 14
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	###############
+	## Coalition ##
+	###############
+
+
+	focus = {
+		id = "Side against the Revolution"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Political Effort" }
+		relative_position_id = "Political Effort"
+		mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 18
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Stay true to our ways"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Side against the Revolution" }
+		relative_position_id = "Side against the Revolution"
+		##mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Crush Democracy!"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Stay true to our ways" }
+		relative_position_id = "Stay true to our ways"
+		##mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+	focus = {
+		id = "Strengthen current government"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Crush Democracy!" }
+		relative_position_id = "Crush Democracy!"
+		##mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+	
+	focus = {
+		id = "Destroy the Democracies"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Strengthen current government" }
+		relative_position_id = "Strengthen current government"
+		##mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+	
+	focus = {
+		id = "Serve or Die!"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = "Destroy the Democracies" }
+		relative_position_id = "Destroy the Democracies"
+		##mutually_exclusive = { focus = "Remain Neutral" focus = "Support The Revolution" }
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 45
+			}
+		}
+
+
+

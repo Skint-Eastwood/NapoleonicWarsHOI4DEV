@@ -1,0 +1,27 @@
+state={
+	id=838
+	name="STATE_838"
+ history={
+		owner = AFG
+		add_core_of = AFG
+		victory_points = {
+			4958 1 
+		}
+		victory_points = {
+			4482 5 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		756 1632 4482 4549 4958 5003 7491 7560 7639 7924 9605 10205 10357 10414 10742 12239 12722 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

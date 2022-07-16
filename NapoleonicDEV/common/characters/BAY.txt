@@ -1,0 +1,16 @@
+characters={
+	BAY_Charles_Theodore={ #Democratic Leader
+		name="Charles Theodore"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAY/BAY_Charles_Theodore.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1799.2.16.1"
+			id=-1
+		}
+	}
+}

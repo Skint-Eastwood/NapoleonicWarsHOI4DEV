@@ -1,0 +1,35 @@
+
+state={
+	id=157
+	name="STATE_157"
+
+	history={
+		owner = PPL
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+
+			}
+			6831 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = PPL
+
+	}
+
+	provinces={
+		782 925 967 6606 6793 6926 6985 9838 9924 11790 11861 
+	}
+	manpower=2979335
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

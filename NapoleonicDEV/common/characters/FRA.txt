@@ -1,0 +1,330 @@
+characters={
+	FRA_Napoleon_Bonaparte={ #Democratic Leader
+		name="Napoleon Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_Napoleon.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic
+			traits={ dictator }
+			expire="1821.5.5.1"
+			id=-1
+		}
+	}
+
+	FRA_Louis_XVI={ 
+		name="Louis XVI"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_Louis_XVI.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ unpopular_monarch }
+			expire="1793.1.21.1"
+			id=-2
+		}
+	}
+	## Advisors ##
+
+	## Political ##
+
+	FRA_Jacques-Louis_David={
+		name="Jacques-Louis David"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 75
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+
+	FRA_Charles_Maurice_de_Talleyrand_Perigord={
+		name="Charles Maurice de Talleyrand-Périgord"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+
+	FRA_Pierre_Daru={
+		name="Pierre Daru"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 125
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				prince_of_terror
+			}
+		}
+	}
+
+	FRA_Jean-Baptiste_Collin_de_Sussy={
+		name="Jean-Baptiste Collin de Sussy"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 125
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+
+	FRA_Francois_Barbé-Marbois={
+		name="François Barbé-Marbois"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+
+	FRA_Napoleon_Bonaparte_Command={
+		name="Napoleon Bonaparte"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 250
+			slot = high_command
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				army_infantry_3
+			}
+		}
+	}
+
+	FRA_Pasquale_Paoli={
+		name="Pasquale Paoli"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+
+	
+	FRA_Emmanuel_Joseph_Sieyès={
+		name="Emmanuel Joseph Sieyès"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				popular_figurehead
+			}
+		}
+	}
+
+	FRA_Lucien_Bonaparte={
+		name="Lucien Bonaparte"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+
+
+	## Generals ##
+
+	FRA_Napoleon_Bonaparte_General={
+		name="Napoleon Bonaparte"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/FRA_Napoleon.dds"
+				small="gfx/leaders/FRA/FRA_Napoleon.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist war_hero politically_connected  }
+			skill=6
+			attack_skill=5
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	
+	FRA_Eugene_De_Beauharnais={
+		name="Eugène de Beauharnais"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
+				small="gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+}
+

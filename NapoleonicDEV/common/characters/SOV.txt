@@ -1,0 +1,16 @@
+characters={
+	SOV_Catherine_II={ #Democratic Leader
+		name="Catherine II"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/SOV_Catherine_II.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1796.11.17.1"
+			id=-1
+		}
+	}
+}
