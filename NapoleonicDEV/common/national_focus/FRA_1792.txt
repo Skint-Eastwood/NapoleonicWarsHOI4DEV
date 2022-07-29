@@ -9,130 +9,56 @@ focus_tree = {
 		}
 	}
 
-	#Introduce Conscription
+	#Intoduction of the guilotine
 	focus = {
-		id = FRA_introduce_conscription
-		icon = GFX_focus_generic_manpower
+		id = FRA_Intoduction_of_the_guilotine
+		icon = GFX_Focus_generic_strike_at_democracy1
 		x = 5
 		y = 2
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_press_priests_into_service  }
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		add_stability = -0.1
 			}
-		}
-	}
-
-	#The Path Ahead
+			
+			#The peasants revolt escalates
 	focus = {
-		id = FRA_the_path_ahead
-		icon = GFX_focus_POL_complete_april_constitution
-		x = 4
-		y = 0
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		
-		completion_reward = {
-
-		}
-	}
-
-
-	#Secure Our Borders
-	focus = {
-		id = FRA_secure_our_borders
-		icon = GFX_focus_focus_fra_border
-		x = 3
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = FRA_the_path_ahead  }
-	}
-
-	#Press Priests Into Service
-	focus = {
-		id = FRA_press_priests_into_service
-		icon = GFX_focus_SOV_penal_battalions
+		id = FRA_The_peasants_revolt_escalates
+		icon = Focus_rom_handle_king
 		x = 5
-		y = 1
-		cost = 5
+		y = 0
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_the_path_ahead  }
-	}
+                prerequisite = {FRA_Intoduction_of_the_guilotine}
+		completion_reward = {		
+		add_popularity = {
+    ideology = democracy
+    popularity = 0.2
+}
 
-	#Dissolve the Constiutional Guard
+
+              			#Fear of the counter revolution
 	focus = {
-		id = FRA_dissolve_the_constiutional_guard
-		icon = GFX_focus_rom_abdicate
-		x = 3
-		y = 2
-		cost = 5
+		id = FRA_Fear_of_the_counter_revolution
+		icon = Goal_generic_demand_territory
+		x = 5
+		y = -2
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_secure_our_borders  }
-
-		completion_reward = {
-
-			remove_ideas = FRA_Constitutional_Guard
-			add_ideas = FRA_Democracy_on_the_rise
-		}
-	}
-
-	#Abolish The Monarchy
-	focus = {
-		id = FRA_abolish_the_monarchy
-		icon = GFX_focus_generic_monarchy_1
-		x = 4
-		y = 3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			democratic > 0.55
-		}
-
-		prerequisite = { focus = FRA_introduce_conscription  } prerequisite = { focus = FRA_dissolve_the_constiutional_guard  }
-
-		completion_reward = {
-			remove_ideas = FRA_King_Louis
-		}
-	}
-
-	#Hold The Election
-	focus = {
-		id = FRA_hold_the_election
-		icon = GFX_focus_fra_french_union
-		x = 4 
-		y = 4
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = FRA_abolish_the_monarchy  }
-
-		completion_reward = {
-			set_cosmetic_tag = FRP_FRA
-		#set_politics = {
-				#ruling_party = Democratic
-					#elections_allowed = no	
-			#}
-			country_event = france.1
-			load_focus_tree = FRA_First_Republic
-
+                prerequisite = {FRA_Intoduction_of_the_guilotine}
+		completion_reward = {		
+		add_popularity = {
+    ideology = democracy
+    popularity = 0.2
+}
+			}
 		}
 	}
 }
