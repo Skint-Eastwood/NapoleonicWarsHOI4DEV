@@ -34,6 +34,8 @@
  MOD:0 "Modena"
  MOD_DEF:0 "Modena"
  MOD_ADJ:0 "Modena"
+ GEN:0 "Genoa"
+ GEN_ADJ:0 "Genoan"
  PDS:0 "Piedmont-Sardinia"
  PDS_DEF:0 "Piedmont-Sardinia"
  PDS_ADJ:0 "Piedmont-Sardinia"
