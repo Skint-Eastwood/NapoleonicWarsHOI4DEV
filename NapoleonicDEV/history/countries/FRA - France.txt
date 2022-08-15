@@ -26,7 +26,6 @@ set_popularities = {
 
 add_ideas = {
 	FRA_King_Louis
-	FRA_Constitutional_Guard
 
 	## Economic / Political ##
 
@@ -49,3 +48,4 @@ recruit_character = FRA_Napoleon_Bonaparte_Command
 recruit_character = FRA_Pasquale_Paoli
 recruit_character = FRA_Emmanuel_Joseph_Sieyès
 recruit_character = FRA_Lucien_Bonaparte
+recruit_character = FRA_The_People

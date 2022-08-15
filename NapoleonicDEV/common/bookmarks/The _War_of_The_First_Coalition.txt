@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "The Rise of Napoleon"
-		desc = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France."
+		name = "The War of The First Coalition"
+		desc = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. "
 		date = 1792.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "FRA"
 		default = yes
 		
 		"FRA"={
-			history = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France."
+			history = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom."
 			ideology = Monarchist 
 			ideas = {
 				
@@ -19,9 +19,9 @@ bookmarks = {
 
 			focuses = {
 
-				FRA_abolish_the_monarchy
-				FRA_the_path_ahead
-				FRA_hold_the_election
+				FRA_the_french_republic
+				FRA_fear_of_the_counter_revolution
+				FRA_form_the_national_convention
 
 			}
 		}

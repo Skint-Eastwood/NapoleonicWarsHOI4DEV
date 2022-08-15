@@ -2,7 +2,7 @@ ideas = {
 	## Starting Ideas ##
 	country = {
 		FRA_King_Louis = {
-			picture = air_support_focus
+			picture = idea_chi_army_corruption3
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -14,111 +14,23 @@ ideas = {
 				stability_weekly = -0.0025
 			}
 		}
-		FRA_Constitutional_Guard = {
-			picture = air_support_focus
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
 
-			removal_cost = -1
-			
-			modifier = {
-				political_power_gain = -0.50
-			}
-		}
 
 
 	## Ideas ##
 
-		FRA_our_rightful_leader = {
-			picture = air_support_focus
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			allowed_civil_war = {
-				tag = FRA #stays with main country
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				conscription_factor = 0.25
-				justify_war_goal_time = -0.2
-			}
+	FRA_Constitutional_Guard = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
 		}
 
-		FRA_Democracy_on_the_rise = {
-			picture = air_support_focus
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				democratic_drift = 0.1
-			}
-		}
-
-		FRA_the_king_lives = {
-			picture = air_support_focus
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				stability_factor = -0.2
-				monarchism_drift = 0.3
-			}
-		}
-
-		## Companies ##
-
-		"French Industrial Research" = {
+		removal_cost = -1
 		
-			picture = generic_tank_manufacturer_3
-
-			available = {
-
-			}
-						
-			allowed = {
-				original_tag = FRA
-			}
-						
-			research_bonus = {
-				industry = 0.20
-			}
-			
-
-			traits = { industrial_concern }
+		modifier = {
+			political_power_gain = -0.50
 		}
-
-		"French Industrial Research" = {
-		
-			picture = generic_tank_manufacturer_3
-
-			available = {
-
-			}
-						
-			allowed = {
-				original_tag = FRA
-			}
-						
-			research_bonus = {
-				industry = 0.20
-			}
-			
-
-			traits = { industrial_concern }
-		}
+	}
 	}
 }
