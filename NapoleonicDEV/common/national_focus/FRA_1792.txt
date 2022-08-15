@@ -9,55 +9,57 @@ focus_tree = {
 		}
 	}
 
+
+
 	#Intoduction of the guilotine
 	focus = {
-		id = FRA_Intoduction_of_the_guilotine
+		id = FRA_intoduction_of_the_guilotine
 		icon = GFX_Focus_generic_strike_at_democracy1
-		x = 5
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-
-		completion_reward = {		
-		add_stability = -0.1
-			}
-			
-			#The peasants revolt escalates
-	focus = {
-		id = FRA_The_peasants_revolt_escalates
-		icon = Focus_rom_handle_king
 		x = 5
 		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-                prerequisite = {FRA_Intoduction_of_the_guilotine}
 		completion_reward = {		
-		add_popularity = {
-    ideology = democracy
-    popularity = 0.2
-}
+			add_stability = -0.1
+		}
+	}
 
-
-              			#Fear of the counter revolution
+	#The Peasant Revolt Escalates 
 	focus = {
-		id = FRA_Fear_of_the_counter_revolution
-		icon = Goal_generic_demand_territory
-		x = 5
-		y = -2
+		id = FRA_the_peasant_revolt_escalates
+		icon = GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 1
 		cost = 10
+		prerequisite = { focus = FRA_intoduction_of_the_guilotine }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-                prerequisite = {FRA_Intoduction_of_the_guilotine}
 		completion_reward = {		
-		add_popularity = {
-    ideology = democracy
-    popularity = 0.2
-}
+			add_popularity = {
+   				ideology = Democratic
+    			popularity = 0.2
+			}
+		}
+	}
+
+	#The Peasant Revolt Escalates 
+	focus = {
+		id = FRA_fear_of_the_counter_revolution
+		icon = GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_intoduction_of_the_guilotine }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_popularity = {
+   				ideology = Democratic
+    			popularity = 0.2
 			}
 		}
 	}
