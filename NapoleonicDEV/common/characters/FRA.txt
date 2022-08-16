@@ -1,16 +1,29 @@
 characters={
+
+	FRA_national_convention={ 
+		name="The National Convention"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_national_convention.dds"
+			}
+		}
+	}
+
+	FRA_the_revolutionaries={ 
+		name="The Revolutionaries"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_the_revolutionaries.dds"
+			}
+		}
+	}
+
 	FRA_Napoleon_Bonaparte={ #Democratic Leader
 		name="Napoleon Bonaparte"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/FRA_Napoleon.dds"
 			}
-		}
-		country_leader={
-			ideology=democratic
-			traits={ dictator }
-			expire="1821.5.5.1"
-			id=-1
 		}
 	}
 
@@ -28,22 +41,6 @@ characters={
 			id=-2
 		}
 	}
-
-	FRA_The_People={ 
-		name="The People"
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/FRA_The_People.dds"
-			}
-		}
-		country_leader={
-			ideology=Despotism
-			traits={ unpopular_monarch }
-			expire="1793.1.21.1"
-			id=-3
-		}
-	}
-	
 
 	## Advisors ##
 

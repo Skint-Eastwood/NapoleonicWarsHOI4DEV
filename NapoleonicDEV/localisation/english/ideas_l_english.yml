@@ -6,13 +6,11 @@
 
  FRA_King_Louis:0 "King Louis XVI"
  FRA_King_Louis_desc:0 "King Louis XVI the tyranical and unpopular monarch of France."
- FRA_Constitutional_Guard:0 "Constitutional Guard"
- FRA_Democracy_on_the_rise:0 "Democracy On The Rise"
- FRA_Democracy_on_the_rise_desc:0 "Democracy is on the rise within the kingdom of Bourbon France."
- FRA_the_king_lives:0 "The King Lives"
- FRA_the_king_lives_desc:0 "Former king and ruler of France King Louis has been spared by the French people and allowed to continue living however he has had all of his former royal titles stripped and is nothing but a commoner "
- FRA_our_rightful_leader:0 "Our Rightfull Leader"
- FRA_our_rightful_leader_desc:0 "The execution of the former King of France, King Louis, leaves France with their one true, rightful leader Sir Napoleon Bonaparte"
+ FRA_Constitutional_Guard:0 "The Constitutional Guard"
+ FRA_Constitutional_Gard_desc:0 "The French Royal guard formed in 1792 as part of the Maison du Roi being superseded by the National Guard"
+ FRA_National_Convention:0 "The National Convention"
+ FRA_National_Convention_desc:0 "The National Convention were a group of individuals elected to provide France with a new constitution after the French monarchy had been toppled "
+ FRA_Napoleon:0 "Napoleon Bonaparte"
 
 ###################
 ## African Ideas ##

@@ -113,15 +113,24 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {	
-			remove_ideas = FRA_King_Louis
 			add_stability = 0.3
-			retire_country_leader = yes
-				promote_character = {
-    			character = FRA_The_People
-    			ideology = Despotism
+			remove_ideas = FRA_King_Louis
+			set_politics = {
+				ruling_party = Democratic
+					elections_allowed = no	
+			}
+			add_country_leader_role = {
+				character = FRA_the_revolutionaries
+				promote_leader = yes
+				country_leader = {
+				  ideology = democratic
+				  expire = ""
+				  traits = { popular_figurehead }
 				}
+			}
 		}
 	}
+
 	
 
 	focus = {
@@ -136,6 +145,18 @@ focus_tree = {
 		}
 		completion_reward = {		
 			add_political_power = 20
+			add_ideas = FRA_National_Convention
+
+			remove_country_leader = yes
+			add_country_leader_role = {
+				character = FRA_national_convention
+				promote_leader = yes
+				country_leader = {
+				  ideology = democratic
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
 		}
 	}
 	
@@ -150,13 +171,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}		
-		completion_reward = {		
+		completion_reward = {	
+			remove_country_leader = yes	
 			set_cosmetic_tag = FRP_FRA
 			load_focus_tree = FRA_First_Republic
-			set_politics = {
-				ruling_party = Democratic
-					elections_allowed = no	
+			add_ideas = FRA_Napoleon
+
+			add_country_leader_role = {
+				character = FRA_Napoleon_Bonaparte
+				promote_leader = yes
+				country_leader = {
+				  ideology = democratic
+				  expire = ""
+				  traits = { dictator }
+				}
 			}
+		
 		}
 	}
 

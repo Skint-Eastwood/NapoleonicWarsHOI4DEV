@@ -36,6 +36,8 @@ add_ideas = {
 }
 
 recruit_character = FRA_Louis_XVI
+recruit_character = FRA_national_convention
+recruit_character = FRA_the_revolutionaries
 recruit_character = FRA_Napoleon_Bonaparte
 recruit_character = FRA_Napoleon_Bonaparte_General
 recruit_character = FRA_Eugene_De_Beauharnais
@@ -48,4 +50,3 @@ recruit_character = FRA_Napoleon_Bonaparte_Command
 recruit_character = FRA_Pasquale_Paoli
 recruit_character = FRA_Emmanuel_Joseph_Sieyès
 recruit_character = FRA_Lucien_Bonaparte
-recruit_character = FRA_The_People

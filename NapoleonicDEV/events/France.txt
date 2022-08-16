@@ -4,7 +4,7 @@
 
 add_namespace = france
 
-# The  Louis Question
+# brunswick manifesto event
 country_event = {
 	id = france.1
 	title = france.1.t
@@ -13,7 +13,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Kill Louis
+	option = { # 
 		name = france.1.a
 		ai_chance = {
 			factor = 75 	
@@ -28,21 +28,7 @@ country_event = {
 				elections_allowed = no	
 	    }
 	}
-	
-
-	option = { # Let Him Live
-		name = france.1.b
-		ai_chance = { 
-			factor = 25 
-		}			
-	}
-
-		add_political_power = 100
-		add_ideas = {
-			FRA_the_king_lives
-		}
-}			
-
+}
 
 country_event = {
 	id = france.2
