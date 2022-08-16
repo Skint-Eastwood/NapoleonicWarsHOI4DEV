@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_first_french_republic"
+		texturefile = "gfx/event_pictures/report_first_french_republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.dds"
+	}
+
+}

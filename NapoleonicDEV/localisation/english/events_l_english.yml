@@ -1,19 +1,18 @@
 ﻿l_english:
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
- france.1.t:0 "the Louis Question"
- france.1.d:0 "After the French election and Bonapartes take over as leader of France the Question on everyones mind is what will happen to the former king?"
- france.1.a:0 "Execute Him, Hes a Tyrant!"
- france.1.b:0 "Spare Him and Have His Titles Stripped"
-
+ france.1.t:0 "The Declaration First French Republic"
+ france.1.d:0 "The French monarchy has been toppled and the First French Republic has rose from the ashes to take its place"
+ france.1.a:0 "Liberté, égalité, fraternité."
  austria.1.t:0 "the French Demand Lombardy"
  austria.1.d:0 "French leader Napoleon Bonaparte has demanded the Austrian Empire hand him control of the state of Lombardy"
  austria.1.a:0 "Austria Accept"
  austria.1.a:0 "Austria Decline"
-
  france.2.t:0 "Austria Accept French Demands"
  france.2.d:0 "The Austrians chose to hand over the state of Lombardy to the French and Napoleon Bonaparte"
  france.2.a:0 "This truly is a glorious day for France!"
-
  france.3.t:0 "Austria Declines French Demands"
  france.3.d:0 "Austria declines frances demands to hand over the italian state of Lombardy"
  france.3.a:0 "They will regret this"
+ news.1.t:0 "The Declaration First French Republic"
+ news.1.d:0 "The French monarchy has been toppled and the First French Republic has rose from the ashes to take its place"
+ news.1.a:0 "Liberté, égalité, fraternité."

@@ -9,26 +9,18 @@ country_event = {
 	id = france.1
 	title = france.1.t
 	desc = france.1.d
-	picture = GFX_report_event_japan_army_mountainside
+	picture = GFX_report_first_french_republic
 	
 	is_triggered_only = yes
 	
 	option = { # 
 		name = france.1.a
 		ai_chance = {
-			factor = 75 	
-		} 
-
-		retire_character = FRA_Louis_XVI
-		add_ideas = {
-			FRA_our_rightful_leader
-		}
-		set_politics = {
-				ruling_party = Democratic
-				elections_allowed = no	
-	    }
+			factor = 100	
+		}	
 	}
 }
+
 
 country_event = {
 	id = france.2

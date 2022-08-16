@@ -97,6 +97,9 @@ focus_tree = {
    				ideology = Democratic
     			popularity = 0.3
 			}
+
+			country_event = { id = france.1 }
+			news_event = { id = news.1 }
 		}
 	}
 
