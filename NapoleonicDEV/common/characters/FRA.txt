@@ -28,6 +28,23 @@ characters={
 			id=-2
 		}
 	}
+
+	FRA_The_People={ 
+		name="The People"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_The_People.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ unpopular_monarch }
+			expire="1793.1.21.1"
+			id=-3
+		}
+	}
+	
+
 	## Advisors ##
 
 	## Political ##

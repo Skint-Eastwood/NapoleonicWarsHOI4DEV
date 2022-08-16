@@ -1,0 +1,326 @@
+focus_tree = {
+	id = FRA_Kingdom
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+
+	focus = {
+		id = FRA_sister_republic
+		icon = FRA_P
+		x = 6
+		y = 0
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			owns_state = 36
+			owns_state = 7
+		}
+		
+		completion_reward = {
+			36 = { transfer_state_to = HOL }
+			7 = { transfer_state_to = HOL }
+			FRA = {
+				puppet = HOL
+			}
+			HOL = {
+				set_cosmetic_tag  = DSR_HOL
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_demand_lombardy
+		icon = FRA_P
+		x = 6
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_sister_republic }
+
+		available = {
+			owns_state = 3
+			owns_state = 151
+		}
+		
+		completion_reward = {
+			AUS = {
+				country_event = austria.1
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_cisalpine_republic
+		icon = 
+		
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_demand_lombardy }
+		relative_position_id = FRA_sister_republic
+		
+		available = {
+			owns_state = 3
+			owns_state = 151
+			owns_state = 159
+		}
+		
+		completion_reward = {
+			3 = { transfer_state_to = SWI }
+			151 = { transfer_state_to = SWI }
+			159 = { transfer_state_to = SWI }
+			FRA = {
+				puppet = SWI
+			}
+			SWI = {
+				set_cosmetic_tag = CAP_SWI
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_piedmontese_republic
+		icon = FRA
+		
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_cisalpine_republic }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+	focus = {
+		id = FRA_helvetic_republic
+		icon = FRA
+		
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_piedmontese_republic }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	#######################
+	## Undermine Britain ##
+	#######################
+
+	focus = {
+		id = FRA_undermine_britain
+		icon = FRA
+		
+		x = 2
+		y = 5
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_helvetic_republic }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_siege_of_acre
+		icon = FRA
+		
+		x = 2
+		y = 6
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_undermine_britain }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	#######################
+	##   Roman Republic  ##
+	#######################
+
+	focus = {
+		id = FRA_roman_republic
+		icon = FRA
+		
+		x = -2
+		y = 5
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_helvetic_republic }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_jacobin_plot
+		icon = FRA
+		
+		x = -2
+		y = 6
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_roman_republic }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+
+	###############
+	## Main Tree ##
+	###############
+	
+	focus = {
+		id = FRA_lucienist_help
+		icon = FRA
+		
+		x = 0
+		y = 7
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_jacobin_plot}
+		prerequisite = { focus = FRA_siege_of_acre }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_power_over_the_pope
+		icon = FRA
+		icon = FRA
+		mutually_exclusive = {
+			focus = FRA_the_first_consul
+			focus = FRA_power_over_the_emperor
+		}  
+
+		
+		x = -3
+		y = 8
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_lucienist_help }
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_the_first_consul
+		icon = FRA
+		mutually_exclusive = {
+			focus = FRA_power_over_the_pope
+			focus = FRA_power_over_the_emperor
+		}  
+
+		x = 0
+		y = 8
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_lucienist_help }
+
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_power_over_the_emperor
+		icon = FRA
+		mutually_exclusive = {
+			focus = FRA_power_over_the_pope
+			focus = FRA_the_first_consul
+		}  
+
+		x = 3
+		y = 8
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_lucienist_help }
+
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_i_am_the_revolution
+		icon = FRA
+
+		x = 0
+		y =9
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { 
+			focus = FRA_power_over_the_emperor
+		 	focus = FRA_the_first_consul 
+			focus = FRA_power_over_the_pope }
+
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_vive_la_france
+		icon = FRA
+
+		x = 0
+		y = 10
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_i_am_the_revolution }
+
+		relative_position_id = FRA_sister_republic
+		
+		
+		completion_reward = {
+				add_political_power = 50
+		}
+	}
+}
