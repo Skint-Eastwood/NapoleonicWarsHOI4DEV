@@ -1,7 +1,7 @@
 characters={
 
 	FRA_national_convention={ 
-		name="The National Convention"
+		name="National-Convention"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/FRA_national_convention.dds"

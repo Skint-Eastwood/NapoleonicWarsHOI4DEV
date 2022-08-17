@@ -76,7 +76,7 @@ focus_tree = {
 		}
 		completion_reward = {		
 			add_popularity = {
-   				ideology = Democratic
+   				ideology = authoritarian_democracy
     			popularity = 0.2
 			}
 		}
@@ -94,7 +94,7 @@ focus_tree = {
 		}
 		completion_reward = {		
 			add_popularity = {
-   				ideology = Democratic
+   				ideology = authoritarian_democracy
     			popularity = 0.3
 			}
 
@@ -119,14 +119,14 @@ focus_tree = {
 			add_stability = 0.3
 			remove_ideas = FRA_King_Louis
 			set_politics = {
-				ruling_party = Democratic
+				ruling_party = authoritarian_democracy
 					elections_allowed = no	
 			}
 			add_country_leader_role = {
 				character = FRA_the_revolutionaries
 				promote_leader = yes
 				country_leader = {
-				  ideology = democratic
+				  ideology = authoritarian_democracy
 				  expire = ""
 				  traits = { popular_figurehead }
 				}
@@ -155,7 +155,7 @@ focus_tree = {
 				character = FRA_national_convention
 				promote_leader = yes
 				country_leader = {
-				  ideology = democratic
+				  ideology = authoritarian_democracy
 				  expire = ""
 				  traits = { popular_figurehead }
 				}
@@ -184,7 +184,7 @@ focus_tree = {
 				character = FRA_Napoleon_Bonaparte
 				promote_leader = yes
 				country_leader = {
-				  ideology = democratic
+				  ideology = authoritarian_democracy
 				  expire = ""
 				  traits = { dictator }
 				}
@@ -233,7 +233,7 @@ focus = {
 
 	focus = {
 		id = FRA_establish_the_constitutional_guard
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_the_constitutional_guard
 		x = 8
 		y = 2
 		cost = 10

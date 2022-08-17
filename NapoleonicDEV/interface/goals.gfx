@@ -2986,4 +2986,15 @@ spriteTypes = {
 		name = "GFX_focus_war_plan_white"
 		texturefile = "gfx/interface/goals/focus_war_plan_white.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_focus_the_constitutional_guard"
+		texturefile = "gfx/interface/goals/focus_the_constitutional_guard.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_intro_guilotine"
+		texturefile = "gfx/interface/goals/focus_intro_guilotine.dds"
+	}
+
 }
