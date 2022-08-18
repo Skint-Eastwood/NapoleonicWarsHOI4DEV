@@ -1,6 +1,6 @@
 focus_tree = {
 	id = FRA_First_Republic
-	continuous_focus_position = { x = 0 y = 1500 } 
+	continuous_focus_position = { x = 0 y = 2000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -9,15 +9,88 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = FRA_aftermath_of_the_tuileries
+		icon = GFX_focus_focus_fra_border
+		x = 5
+		y = 0
+		cost = 0.2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {	
+			add_stability = 0.3
+			remove_ideas = FRA_King_Louis
+			set_politics = {
+				ruling_party = authoritarian_democracy
+					elections_allowed = no	
+			}
+			add_country_leader_role = {
+				character = FRA_the_revolutionaries
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_form_the_national_convention
+		icon = GFX_focus_fra_french_union
+		x = 5
+		y = 1
+		cost = 5.8
+		prerequisite = { focus = FRA_aftermath_of_the_tuileries }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_political_power = 20
+			add_ideas = FRA_National_Convention
+
+			remove_country_leader = yes
+			add_country_leader_role = {
+				character = FRA_national_convention
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+	
+
+	focus = {
+		id = FRA_the_french_republic
+		icon = GFX_focus_fra_le_deluge
+		x = 5
+		y = 2
+		cost = 10
+		prerequisite = { focus = FRA_form_the_national_convention }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
 
 	focus = {
 		id = FRA_sister_republic
 		icon = FRA_P
-		x = 6
-		y = 0
+		x = 5
+		y = 3
 		cost = 5
+		prerequisite = { focus = FRA_the_french_republic }
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		available = {
 			owns_state = 36
 			owns_state = 7
@@ -38,8 +111,8 @@ focus_tree = {
 	focus = {
 		id = FRA_demand_lombardy
 		icon = FRA_P
-		x = 6
-		y = 1
+		x = 5
+		y = 4
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = FRA_sister_republic }
@@ -58,8 +131,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_cisalpine_republic
-		icon = 
-		
+		icon = FRA_P
 		x = 0
 		y = 2
 		cost = 5
@@ -102,6 +174,7 @@ focus_tree = {
 				add_political_power = 50
 		}
 	}
+
 	focus = {
 		id = FRA_helvetic_republic
 		icon = FRA

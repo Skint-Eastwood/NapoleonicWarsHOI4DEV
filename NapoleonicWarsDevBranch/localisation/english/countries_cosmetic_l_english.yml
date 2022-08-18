@@ -10,6 +10,11 @@
  FRP_FRA:0 "First French Republic" 
  FRP_FRA_DEF:0 "the First French Republic"
 
+## Revolutionary France ##
+
+ REV_FRA:0 "Revolutionary France"
+ REV_FRA_DEF:0 "Revolutionary France"
+
  ## Holland Tags ##
 
  DSR_HOL:0 "Dutch Sister Republic"

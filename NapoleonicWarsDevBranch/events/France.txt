@@ -1,15 +1,14 @@
-﻿###########################
+###########################
 # French Events
 ###########################
 
 add_namespace = france
 
-# brunswick manifesto event
 country_event = {
 	id = france.1
 	title = france.1.t
 	desc = france.1.d
-	picture = GFX_report_first_french_republic
+	picture = GFX_report_storming_the_tuileries
 	
 	is_triggered_only = yes
 	
@@ -26,41 +25,18 @@ country_event = {
 	id = france.2
 	title = france.2.t
 	desc = france.2.d
-	picture = GFX_report_event_japan_army_mountainside
+	picture = GFX_report_french_republic
 	
 	is_triggered_only = yes
 	
-	option = { # Austria Accept
+	option = {
 		name = france.2.a
 		ai_chance = {
 			factor = 1
-
-			}
-	} 
-
-		add_political_power = 50
-
+		}
+	}
 }			
 
-
-country_event = {
-	id = france.3
-	title = france.3.t
-	desc = france.3.d
-	picture = GFX_report_event_japan_army_mountainside
-	
-	is_triggered_only = yes
-	
-	option = { # Austria Declines
-		name = france.3.a
-		ai_chance = {
-			factor = 1
-	} 
-
-		add_political_power = -20
-
-	}			
-}
 
 
 

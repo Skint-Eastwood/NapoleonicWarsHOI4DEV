@@ -1,10 +1,9 @@
-﻿###########################
+###########################
 # News Events
 ###########################
 
 add_namespace = news
 
-# First French Republic
 news_event = {
 	id = news.1
 	title = news.1.t
@@ -19,5 +18,21 @@ news_event = {
 		name = news.1.a
 	}
 }
+
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+	}
+}
+
 
 
