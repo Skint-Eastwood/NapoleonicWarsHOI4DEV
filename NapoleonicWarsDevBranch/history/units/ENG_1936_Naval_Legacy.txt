@@ -1,0 +1,348 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###
+	fleet = {
+		name = "Home Command"
+		naval_base = 11064 # Scapa Flow
+		task_force = {
+			name = "First Ships Of The Line" #29
+			location = 11064 # Scapa Flow
+			ship = { name = "1st Rate 1" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 3" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 4" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 5" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 6" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 7" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 8" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 9" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 10" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 11" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 12" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 13" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 14" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 15" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 16" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 17" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 18" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 19" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 20" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 21" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 22" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 23" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 24" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 25" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 26" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 27" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 28" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Rate 29" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		}				
+		task_force = {				
+			name = "Second Ships Of The Line"	#32
+			location = 9458 # Portsmouth
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 1" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 2" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 3" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 4" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 5" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 6" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 7" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 8" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 9" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 10" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 11" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 12" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 13" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 14" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 15" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 16" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 17" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 18" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 19" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 20" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 21" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 22" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 23" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 24" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 25" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 26" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 27" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 28" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 29" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 30" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 31" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Rate 32" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+		task_force = {
+			name = "Third Ships Of The Line"	#64	
+			location = 9458 # Portsmouth			
+			ship = { name = "3rd Rate 1" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 35" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 36" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 42" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 43" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 44" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 45" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 46" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 47" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 48" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 49" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 50" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 51" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 52" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 53" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 54" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 55" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 56" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 57" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 58" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 59" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 60" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 61" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 62" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 63" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Rate 64" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+		task_force = {
+			name = "Fourth Ships Of The Line" #128
+			location = 11297 # Hull
+			ship = { name = "4th Rate 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 43" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 44" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 45" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 46" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 47" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 48" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 49" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 50" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 51" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 52" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 53" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 54" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 55" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 56" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 57" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 58" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 59" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 60" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 61" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 62" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 63" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 64" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 65" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 66" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 67" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 68" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 69" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 70" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 71" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 72" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 73" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 74" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 75" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 76" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 77" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 78" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 79" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 80" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 81" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 82" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 83" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 84" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 85" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 86" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 87" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 88" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 89" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 90" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 91" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 92" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 93" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 94" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 95" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 96" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 97" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 98" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 99" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 100" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 101" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 102" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 103" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 104" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 105" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 106" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 107" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 108" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 109" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 110" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 111" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 112" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 113" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 114" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 115" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 116" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 117" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 118" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 119" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 120" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 121" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 122" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 123" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 124" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 125" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 126" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 127" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Rate 128" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		}				
+		task_force = {
+			name = "Privateers" #64
+			location = 11064 # Scapa Flow
+			ship = { name = "Privateer 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 39" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 41" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 42" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 49" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 50" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 51" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 52" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 53" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 54" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 55" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 56" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 57" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 58" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 59" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 60" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 61" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 62" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 63" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Privateer 64" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+}

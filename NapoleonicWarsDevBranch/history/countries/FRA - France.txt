@@ -1,0 +1,72 @@
+capital = 16
+
+set_convoys = 300
+set_cosmetic_tag = KIN_FRA
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	construction1 = 1
+	seven_artillery = 1
+	early_cavalry = 1
+	
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+}
+
+set_research_slots = 3
+
+1792.1.1 = {
+}
+
+add_ideas = {
+	FRA_Unpopular_Monarch
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 6
+	authoritarian = 0
+	monarchist = 45
+	socialism = 3
+	Liberalism = 4
+	authoritarian_democracy = 30
+	jacobinism = 12
+}
+
+add_ideas = {
+	FRA_King_Louis
+
+	## Economic / Political ##
+
+	civilian_economy
+	limited_conscription
+	limited_exports
+	
+}
+
+recruit_character = FRA_Louis_XVI
+recruit_character = FRA_national_convention
+recruit_character = FRA_the_revolutionaries
+recruit_character = FRA_Napoleon_Bonaparte
+recruit_character = FRA_Napoleon_Bonaparte_General
+recruit_character = FRA_Eugene_De_Beauharnais
+recruit_character = FRA_Jacques-Louis_David
+recruit_character = FRA_Charles_Maurice_de_Talleyrand_Perigord
+recruit_character = FRA_Pierre_Daru
+recruit_character = FRA_jean-Baptiste_Collin_de_Sussy
+recruit_character = FRA_Francois_Barbé-Marbois
+recruit_character = FRA_Napoleon_Bonaparte_Command
+recruit_character = FRA_Pasquale_Paoli
+recruit_character = FRA_Emmanuel_Joseph_Sieyès
+recruit_character = FRA_Lucien_Bonaparte

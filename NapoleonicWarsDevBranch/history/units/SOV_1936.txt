@@ -1,0 +1,612 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Strelkovaya Diviziya"			# Rifle Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		gun_cannon = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gornostrelkovaya Diviziya"		# Motor Rifle Division
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+
+division_template = {
+	name = "Legkaya Kavaleriya" 	# Kavaleriyskaya Diviziya
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+
+### Note: OOB abstracts away the following:
+#	Marine Brigade (3x marine bn), 2 Brigades: Leningrad, Sevastopol
+#	Airborne Brigade (3x paratrooper bn), 1 Brigade: Moscow
+
+
+##### OOB #####
+units = {
+	##### Severno-Zapadnoe TVD (North West Theatre) -- Archangelsk #####							
+	division= {			
+		name = "16ya Kavaleriyskaya Diviziya"		
+		location = 11181
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# Directly subordinate to TVD			
+	division= {			
+		name = "67ya Strelkovaya Diviziya"		
+		location = 3134
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}								
+	division= {			
+		name = "72ya 'Turkestan.' Gornostrelk. Div."		
+		location = 3151
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}		
+
+	# 6ya Kavaleriyskiy Korpus
+	division= {			
+		name = "6ya 'Chongarskaya' Kav. Div."		
+		location = 6293
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "36ya 'Chongarskaya' Kav. Div."		
+		location = 6293
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}	
+
+	# 3ya Kavaleriyskiy Korpus
+	division= {			
+		name = "7ya Kavaleriyskaya Diviziya"		
+		location = 3267
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "11ya Kavaleriyskaya Diviziya"		
+		location = 11216
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+
+
+	#### Ural'skii Voennyii Okrug (Urals Military District) -- Smolensk ####
+	# 10ya Strelkoviy Korpus		
+	division= {			
+		name = "14ya 'Krivorozhskaya' Strelk. Div."		
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "52ya Strelkovaya Diviziya"		
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "55ya 'Kurskaya' Strelk. Div."		
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+
+	# Subordinate to VO
+	division= {			
+		name = "65ya Strelkovaya Diviziya"		
+		location = 306
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}						
+
+	#### Volga Voennyii Okrug (Volga Military District) -- Hoymel (Gomel) ####
+	# 12ya Strelkoviy Korpus		
+	division= {			
+		name = "31ya 'Stalingradskaya' Strelk. Div."		
+		location = 9288
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "61ya 'Turkestanskaya' Strelk. Div."		
+		location = 9288
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}					
+	division= {			
+		name = "86ya 'Kazanskaya' Strelk. Div."		
+		location = 3335
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+			
+	division= {			
+		name = "81ya Strelkovaya Diviziya"		
+		location = 11271
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+
+
+	##### Yugo-Zapadnaya Teatr VD (South West TVD) -- Kyiv, Dnipropetrovsk #####				
+	#### Kiev Voennyii Okrug (Kiev Military District) -- Kiev ####
+	# 8ya Strelkoviy Korpus		
+			
+	division= {			
+		name = "58ya Gornostrelkovaya Diviziya"		
+		location = 9493
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "99ya Strelkovaya Diviziya"		
+		location = 3470
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# 15ya Strelkoviy Korpus		
+	division= {			
+		name = "15ya 'Sivashskaya' Strelk. Div."		
+		location = 3511
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+
+	# 1ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "1ya 'Chernigov' Kav. Div."		
+		location = 3430
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "3ya 'Bessarabskaya' Kav. Div."		
+		location = 6455
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# 2ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "9ya 'Krymskiy' Kav. Div."		
+		location = 525
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "31ya Kavaleriyskaya Diviziya"		
+		location = 525
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+
+	# 17ya Strelkoviy Korpus		
+	division= {			
+		name = "60ya 'Kavkazskaya' Gornostrelk. Div."		
+		location = 741
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "62ya 'Turkestanskaya' Strelk. Div."		
+		location = 11670
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "100ya Strelkovaya Diviziya"		
+		location = 11670
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# 5ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "5ya 'Bleanov' Kav. Div."		
+		location = 11437
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "14ya 'Bessarabskaya' Kav. Div."		
+		location = 11437
+		division_template = "Legkaya Kavaleriya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	
+
+
+	#### Kharkov Voenniy Okrug (Kharkov Military District) -- Kharkov ####
+	# 7ya Strelkoviy Korpus		
+	division= {			
+		name = "3ya 'Krymskaya' Strelk. Div."		
+		location = 418
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "25ya 'Chapayevskaya' Strelk. Div."		
+		location = 418
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+
+	# 14ya Strelkoviy Korpus		
+	division= {			
+		name = "23ya 'Khar'kovskaya' Strelk. Div."		
+		location = 3580
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "75ya Strelkovaya Diviziya"		
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}			
+	division= {			
+		name = "80ya 'Donbassa' Strelk. Div."		
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+			
+
+
+	##### Blizhniy Vostok Teatr VD (Near East Theater) -- Astrakhan #####
+	#### Zakavkaz'e Voennyii Okrug (Transcaucasus Military District) -- Tblisi ####
+	### Batumi Gruppa Armiya -- Batumi ###		
+	# 15ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "17ya Gorno-Kav. Div."		
+		location = 3653
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}		
+			
+
+	#### Severniy Kavkaz Voennyii Okrug (North Caucasus Military District) -- Rostov na Don ####
+	# 9ya Territorial'niy Korpus
+	division= {			
+		name = "10ya 'Severnogo Kraya' Strelk. Div."		
+		location = 3686
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}					
+
+	# 7ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "10ya Kavaleriyskaya Diviziya"		
+		location = 6474
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "12ya 'Kubanskaya' Kav. Div."		
+		location = 6474
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "13ya 'Kubanskaya' Kav. Div."		
+		location = 6474
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "15ya 'Donskaya' Kav. Div."		
+		location = 6474
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+
+	# Subordinate to AG
+	division= {			
+		name = "28ya 'Vyatskaya' Gornostrelk. Div."		
+		location = 9417
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}					
+
+	#### Tsentral'naya Aziya Voennyii Okrug (Central Asia Military District) -- Tashkent ####
+	# 9ya Kavaleriyskiy Korpus		
+	division= {			
+		name = "18ya 'Turkestanskaya' Kav. Div."		
+		location = 12370
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "20ya 'Tadzhikskaya' Kav. Div."		
+		location = 5062
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "21ya 'Ferganskaya' Kav. Div."		
+		location = 4768
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	# Subordinate to AG
+	division= {			
+		name = "19ya Gorno-Kav. Div."		
+		location = 1459
+		division_template = "Legkaya Kavaleriya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "68ya 'Turkestan.' Gornostrelk. Div."		
+		location = 4923
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "83ya 'Turkestan.' Gornostrelk. Div."		
+		location = 12805
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+			
+
+
+	##### Dal'nevostochniy Teatr VD (Far Eastern TVD) -- Chita #####			
+
+
+	### Khaborovsk Gruppa Armiya -- Khabarovsk ###  		
+	# Subordinatre to AG
+			
+
+
+			
+
+	#### Sibirskii Voennyii Okrug (Siberian Military District) -- Semipalatinsk ####
+	# Subordinatre to AG
+	division= {			
+		name = "71ya Strelkovaya Diviziya"		
+		location = 10610
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "73ya Strelkovaya Diviziya"		
+		location = 1749
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "78ya Strelkovaya Diviziya"		
+		location = 12529
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "94ya Strelkovaya Diviziya"		
+		location = 12662
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+			
+
+
+	##### NAVAL UNITS #####
+	### Northern Fleet -- Murmansk
+	#navy = {	
+	#	name = "Severnyy Flot"
+	#	base = 3134
+	#	location = 3134 # Murmansk
+	#	# 1ya Flotiliya Esmintsev
+	#	#ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+	#	
+	#}	
+			
+}					
+
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = artillery_equipment_1
+	#		creator = "SOV" 
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.3
+	#	efficiency = 50
+	#}
+
+	### Ships Under Construction Notes ###
+	# DD: Leningrad & Minsk variant (x4) ("Leningrad" "Moskva" "Kharkov" "Minsk")
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = destroyer_1
+	#		creator = "SOV"
+	#		version_name = "Leningrad & Minsk Class"
+	#	}
+	#	requested_factories = 2
+	#	progress = 0.70
+	#	amount = 4
+	#}
+	
+}
+	#####################

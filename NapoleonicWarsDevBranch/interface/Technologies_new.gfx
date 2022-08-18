@@ -1,0 +1,391 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_infantry_grenades_medium"
+		texturefile = "gfx/interface/technologies/grenade.dds"
+	}
+	spriteType = {
+		name = "GFX_infantry_light_medium"
+		texturefile = "gfx/interface/technologies/irregular.dds"
+	}
+	spriteType = {
+		name = "GFX_infantry_light1_medium"
+		texturefile = "gfx/interface/technologies/light_infantry.dds"
+	}
+	SpriteType = {
+		name = "GFX_carbine_medium"
+		texturefile = "gfx/interface/technologies/carbine.dds"
+	}
+	SpriteType = {
+		name = "GFX_officer_pistols_medium"
+		texturefile = "gfx/interface/technologies/officer_pistols.dds"
+	}
+	SpriteType = {
+		name = "GFX_integrated_cartridge_medium"
+		texturefile = "gfx/interface/technologies/integrated_cartridge.dds"
+	}
+	SpriteType = {
+		name = "GFX_uniforms_medium"
+		texturefile = "gfx/interface/technologies/uniforms.dds"
+	}
+	SpriteType = {
+		name = "GFX_uniforms1_medium"
+		texturefile = "gfx/interface/technologies/uniforms1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_rifle_medium"
+		texturefile = "gfx/interface/technologies/early_rifle.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_rifle1_medium"
+		texturefile = "gfx/interface/technologies/rifle1.dds"
+	}
+	SpriteType = {
+		name = "GFX_breech_loaded_rifle_medium"
+		texturefile = "gfx/interface/technologies/rifle2.dds"
+	}
+	SpriteType = {
+		name = "GFX_plug_bayonets_medium"
+		texturefile = "gfx/interface/technologies/bayonet_plug.dds"
+	}
+	SpriteType = {
+		name = "GFX_socket_bayonets_medium"
+		texturefile = "gfx/interface/technologies/bayonet_socket.dds"
+	}
+	SpriteType = {
+		name = "GFX_sword_bayonets_medium"
+		texturefile = "gfx/interface/technologies/bayonet_sword.dds"
+	}
+	SpriteType = {
+		name = "GFX_carbine_rifle_medium"
+		texturefile = "gfx/interface/technologies/carbine_rifle.dds"
+	}
+	SpriteType = {
+		name = "GFX_desert_equipment_medium"
+		texturefile = "gfx/interface/technologies/desert_uniform.dds"
+	}
+	SpriteType = {
+		name = "GFX_desert_equipment2_medium"
+		texturefile = "gfx/interface/technologies/desert_uniform2.dds"
+	}
+	SpriteType = {
+		name = "GFX_winter_equipment_medium"
+		texturefile = "gfx/interface/technologies/cold_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_winter_equipment2_medium"
+		texturefile = "gfx/interface/technologies/cold_equipment2.dds"
+	}
+	SpriteType = {
+		name = "GFX_breech_loaded_carbine_medium"
+		texturefile = "gfx/interface/technologies/breech_loaded_carbine.dds"
+	}
+	SpriteType = {
+		name = "GFX_guards_medium"
+		texturefile = "gfx/interface/technologies/guards.dds"
+	}
+	SpriteType = {
+		name = "GFX_guards2_medium"
+		texturefile = "gfx/interface/technologies/guards2.dds"
+	}
+	SpriteType = {
+		name = "GFX_guards3_medium"
+		texturefile = "gfx/interface/technologies/guards3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jagers_medium"
+		texturefile = "gfx/interface/technologies/jager.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jagers2_medium"
+		texturefile = "gfx/interface/technologies/jager2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jagers3_medium"
+		texturefile = "gfx/interface/technologies/jagers3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_skirmishers_medium"
+		texturefile = "gfx/interface/technologies/skirmishers.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_skirmishers2_medium"
+		texturefile = "gfx/interface/technologies/skirmishers2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_skirmishers3_medium"
+		texturefile = "gfx/interface/technologies/skirmishers3.dds"
+	}
+	SpriteType = {
+		name = "GFX_supply_lines_medium"
+		texturefile = "gfx/interface/technologies/supply_line.dds"
+	}
+	SpriteType = {
+		name = "GFX_supply_lines2_medium"
+		texturefile = "gfx/interface/technologies/supply_line2.dds"
+	}
+	SpriteType = {
+		name = "GFX_musicians_medium"
+		texturefile = "gfx/interface/technologies/musicians.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_quartermasters_medium"
+		texturefile = "gfx/interface/technologies/QM.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_qaurtermasters2_medium"
+		texturefile = "gfx/interface/technologies/QM2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_qaurtermasters3_medium"
+		texturefile = "gfx/interface/technologies/QM3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_qaurtermasters4_medium"
+		texturefile = "gfx/interface/technologies/QM4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_sappers_medium"
+		texturefile = "gfx/interface/technologies/sappers.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_sappers2_medium"
+		texturefile = "gfx/interface/technologies/sappers2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_sappers3_medium"
+		texturefile = "gfx/interface/technologies/sappers3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_sappers4_medium"
+		texturefile = "gfx/interface/technologies/sappers4.dds"
+	}
+	SpriteType = {
+		name = "GFX_early_cavalry_medium"
+		texturefile = "gfx/interface/technologies/early_cavalry.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_hussars_medium"
+		texturefile = "gfx/interface/technologies/basic_hussars.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_dragoon_medium"
+		texturefile = "gfx/interface/technologies/basic_dragoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_lancers_medium"
+		texturefile = "gfx/interface/technologies/basic_lancers.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_cuirassier_medium"
+		texturefile = "gfx/interface/technologies/basic_cuirassier.dds"
+	}
+	SpriteType = {
+		name = "GFX_regular_cuirassier_medium"
+		texturefile = "gfx/interface/technologies/regular_cuirassier.dds"
+	}
+	SpriteType = {
+		name = "GFX_reiter_medium"
+		texturefile = "gfx/interface/technologies/reiter.dds"
+	}
+	SpriteType = {
+		name = "GFX_regular_lancer_medium"
+		texturefile = "gfx/interface/technologies/regular_lancer.dds"
+	}
+	SpriteType = {
+		name = "GFX_regular_hussars_medium"
+		texturefile = "gfx/interface/technologies/regular_hussar.dds"
+	}
+	SpriteType = {
+		name = "GFX_regular_dragoon_medium"
+		texturefile = "gfx/interface/technologies/regular_dragoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_lancer_medium"
+		texturefile = "gfx/interface/technologies/heavy_lancer.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_dragoon_medium"
+		texturefile = "gfx/interface/technologies/heavy_dragoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_dragoon_medium"
+		texturefile = "gfx/interface/technologies/light_dragoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_hussars_medium"
+		texturefile = "gfx/interface/technologies/advanced_hussars.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_lancer_medium"
+		texturefile = "gfx/interface/technologies/advanced_lancer.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_dragoon_medium"
+		texturefile = "gfx/interface/technologies/advanced_dragoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_cuirassier_medium"
+		texturefile = "gfx/interface/technologies/advanced_cuirassier.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_guards_medium"
+		texturefile = "gfx/interface/technologies/light_guards.dds"
+	}
+	SpriteType = {
+		name = "GFX_horse_grenadiers_medium"
+		texturefile = "gfx/interface/technologies/horse_grenadiers.dds"
+	}
+	SpriteType = {
+		name = "GFX_carabiniers_medium"
+		texturefile = "gfx/interface/technologies/carabiniers.dds"
+	}
+	SpriteType = {
+		name = "GFX_horse_skirmishers_medium"
+		texturefile = "gfx/interface/technologies/horse_skirmishers.dds"
+	}
+	SpriteType = {
+		name = "GFX_seven_artillery_medium"
+		texturefile = "gfx/interface/technologies/seven_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_limbered_cannons_medium"
+		texturefile = "gfx/interface/technologies/basic_limbered_cannons.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_mortar_medium"
+		texturefile = "gfx/interface/technologies/basic_mortar.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_howitzer_medium"
+		texturefile = "gfx/interface/technologies/basic_howitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_demi-cannons_medium"
+		texturefile = "gfx/interface/technologies/demi_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_limbered_medium"
+		texturefile = "gfx/interface/technologies/improved_limbered.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_howitzer_medium"
+		texturefile = "gfx/interface/technologies/improved_howitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_mortar_medium"
+		texturefile = "gfx/interface/technologies/improved_mortar.dds"
+	}
+	SpriteType = {
+		name = "GFX_limbered_howitzer_medium"
+		texturefile = "gfx/interface/technologies/limbered_howitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_limbered_mortar_medium"
+		texturefile = "gfx/interface/technologies/limbered_mortar.dds"
+	}
+	SpriteType = {
+		name = "GFX_limbered_mortar_medium"
+		texturefile = "gfx/interface/technologies/limbered_mortar.dds"
+	}
+	SpriteType = {
+		name = "GFX_carronades_medium"
+		texturefile = "gfx/interface/technologies/carronades.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_howitzer_medium"
+		texturefile = "gfx/interface/technologies/heavy_howitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_cannon_obusier_medium"
+		texturefile = "gfx/interface/technologies/cannon_obusier.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_field_guns_medium"
+		texturefile = "gfx/interface/technologies/advanced_field_guns.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_firing_medium"
+		texturefile = "gfx/interface/technologies/improved_firing.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_cannon_medium"
+		texturefile = "gfx/interface/technologies/heavy_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_heavy_cannon_medium"
+		texturefile = "gfx/interface/technologies/super_heavy_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_fourth_ship_of_the_line_medium"
+		texturefile = "gfx/interface/technologies/4th_rate_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_third_ship_of_the_line_medium"
+		texturefile = "gfx/interface/technologies/3rd_rate_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_third_ship_of_the_line_2_medium"
+		texturefile = "gfx/interface/technologies/3rd_rate_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_third_ship_of_the_line_3_medium"
+		texturefile = "gfx/interface/technologies/3rd_rate_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_second_ship_of_the_line_medium"
+		texturefile = "gfx/interface/technologies/2nd_rate_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_second_ship_of_the_line_2_medium"
+		texturefile = "gfx/interface/technologies/2nd_rate_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_second_ship_of_the_line_3_medium"
+		texturefile = "gfx/interface/technologies/2nd_rate_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_first_ship_of_the_line_medium"
+		texturefile = "gfx/interface/technologies/1st_rate_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_first_ship_of_the_line_2_medium"
+		texturefile = "gfx/interface/technologies/1st_rate_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_first_ship_of_the_line_3_medium"
+		texturefile = "gfx/interface/technologies/1st_rate_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_culture_enlightenment_medium"
+		texturefile = "gfx/interface/technologies/culture_enlightenment.dds"
+	}
+	SpriteType = {
+		name = "GFX_culture_neoclassicism_medium"
+		texturefile = "gfx/interface/technologies/culture_neoclassicism.dds"
+	}
+	SpriteType = {
+		name = "GFX_culture_nationalism_medium"
+		texturefile = "gfx/interface/technologies/culture_nationalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_culture_mass_media_medium"
+		texturefile = "gfx/interface/technologies/culture_mass_media.dds"
+	}
+	SpriteType = {
+		name = "GFX_train1_medium"
+		texturefile = "gfx/interface/technologies/train1.dds"
+	}
+	SpriteType = {
+		name = "GFX_train2_medium"
+		texturefile = "gfx/interface/technologies/train2.dds"
+	}
+	SpriteType = {
+		name = "GFX_train3_medium"
+		texturefile = "gfx/interface/technologies/train3.dds"
+	}
+	SpriteType = {
+		name = "GFX_train4_medium"
+		texturefile = "gfx/interface/technologies/train4.dds"
+	}
+}

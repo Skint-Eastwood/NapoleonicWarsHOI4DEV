@@ -1,0 +1,153 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLITAN SPRNCE ###
+	fleet = {
+		name = "Armada Real"
+		naval_base = 1048 # Dunkerque
+		task_force = {				
+			name = "First Ships Of The Line"	#20
+			location = 1048 # Dunkerque			
+			# 8e Division des Contre-Torpilleurs
+			ship = { name = "1st Rate 1" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 3" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 4" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 5" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 6" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 7" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 8" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 9" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 10" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 11" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 12" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 13" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 14" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 15" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 16" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 17" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 18" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 19" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Rate 20" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		}
+		task_force = {				
+			name = "Second Ships Of The Line"		#16	
+			location = 1048 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 1" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 2" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 3" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 4" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 5" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 6" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 7" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 8" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 9" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 10" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 11" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 12" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 13" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 14" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 15" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Rate 16" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = SPR } } }
+		}	
+		task_force = {				
+			name = "Third Ships Of The Line"		#32	
+			location = 1048 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "3rd Rate 1" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Rate 32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		}
+		task_force = {				
+			name = "Fourth Ships Of The Line"	#40
+			location = 1048 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "4th Rate 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "4th Rate 40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		}
+		task_force = {				
+			name = "Privateers"			#10
+			location = 1048 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "Privateer 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Privateer 10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+		}
+	}
+} 

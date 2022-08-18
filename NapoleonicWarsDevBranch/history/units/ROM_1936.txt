@@ -1,0 +1,215 @@
+﻿division_template = {
+	name = "Divizia de Infanterie"			# Infantry Division
+	# Note: also Fortress divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Brigada de Munte"				# Mountain Brigade
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Brigada de Cavalerie" 				# Cavalry Brigade
+	# Note: regiments within the brigade were battalion-sized units
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		lancers = { x = 1 y = 0 }
+	}
+}
+
+
+
+units = {
+	######## LAND UNITS ########
+	##### Fortele Terestre Române #####
+	# Corp 1 Armata
+	division = {
+		#name = "Divizia 2 Infanterie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9617
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Divizia 3 Infanterie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9617
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Divizia 11 Infanterie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9617
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "5 Brigada de Cavalerie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9617
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Brigada 1 Cavalerie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9617
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Brigada 6 Cavalerie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}		
+		location = 9617
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Brigada 8 Cavalerie"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9617
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# Corp Alpinisti
+	division = {
+		#name = "Brigada 1 de Munte Mixtă"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9617
+		division_template = "Brigada de Munte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "Brigada 2 de Munte Mixtă"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9617
+		division_template = "Brigada de Munte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "Brigada 3 de Munte Mixtă"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9617
+		division_template = "Brigada de Munte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "Brigada 4 de Munte Mixtă"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9617
+		division_template = "Brigada de Munte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+}
+
+
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.87
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = artillery_equipment_1
+	#		creator = "ROM"
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.24
+	#	efficiency = 100
+	#}
+	
+}

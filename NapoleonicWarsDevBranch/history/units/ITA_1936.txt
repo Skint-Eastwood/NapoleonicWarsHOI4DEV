@@ -1,0 +1,212 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		#artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Celere" 		# Divisione Celere (Fast Division)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		#cavalry = { x = 0 y = 1 }
+		#cavalry = { x = 1 y = 0 }
+		#cavalry = { x = 1 y = 1 }
+		#cavalry = { x = 2 y = 0 }		# (elite) Bersaglieri Regiment
+		#cavalry = { x = 2 y = 1 }
+		#cavalry = { x = 3 y = 0 }	# L3/35 Tankette Battaltion
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		#cavalry = { x = 0 y = 1 }
+		#cavalry = { x = 1 y = 0 }
+		#cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+
+	##### Commando Superiore Metropolitana #####
+	### Gruppo d'Armata Ovest ###
+	## 1a Armata ##
+	# II Corpo d'Armata #
+	division= {	
+		name = "4a Divisione di Fanteria 'Livorno'"
+		location = 3780
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4a Divisione Alpina 'Cuneense'"
+		location = 3780
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.3
+	}
+
+	# III Corpo d'Armata #
+	division= {	
+		name = "3a Divisione di Fanteria 'Ravenna'"
+		location = 6606
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6a Divisione di Fanteria 'Cuneo'"
+		location = 6606
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+
+	# Subordinate to Army
+	division= {	
+		name = "1° Raggruppamento Celere"
+		location = 6606
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	## 4a Armata ##
+	# Corpo d'Armata Alpina #
+	division= {	
+		name = "1a Divisione Alpina 'Taurinense'"
+		location = 782
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.3
+	}
+
+	# I Corpo d'Armata #
+	division= {	
+		name = "1a Divisione di Fanteria 'Superga'"
+		location = 782
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2a Divisione Alpina 'Tridentina'"
+		location = 782
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.3
+	}
+
+	# IV Corpo d'Armata #
+	division= {	
+		name = "2a Divisione di Fanteria 'Sforzesca'"
+		location = 3773
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7a Divisione di Fanteria 'Lupi di Toscana'"
+		location = 3773
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.2
+	}
+
+
+	##### NAVAL UNITS #####
+	### 1st FLEET ###
+	#navy = {					
+	#	name = "1a Squadra Navale"				
+	#	base = 11837
+	#	location = 11837 # Taranto		
+	#	#ship = { name = "RM Zara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
+	#	
+	#}					
+											
+}
+
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	if = {
+		limit = { is_tutorial = no }
+
+		add_equipment_production = {
+			equipment = {
+				type = infantry_equipment_1
+				creator = "ITA"
+			}
+			requested_factories = 4
+			progress = 0.1
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = support_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+
+
+		### Under Contruction Notes ###
+		# BB: RM Conte di Cavour (BB_2: Caio Duilio Class) (Refit, Recomm. 1-Jun, 1937) 	
+		#add_equipment_production = {
+		#	equipment = {
+		#		type = battleship_2
+		#		creator = "ITA" 
+		#	}
+		#	requested_factories = 1
+		#	progress = 0.20
+		#	amount = 1
+		#}
+		
+	}
+
+}
+	#####################

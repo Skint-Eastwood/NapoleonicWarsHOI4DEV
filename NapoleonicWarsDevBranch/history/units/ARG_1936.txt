@@ -1,0 +1,127 @@
+﻿division_template = {
+	name = "División de Infanteria"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigada Montaña"			# Mountain Brigade
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "División de Caballería"  	# Cavalry Division
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército Argentino #####
+	division= {	# "1era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12364 # Buenos Aires
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "2da División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10953 # Southern Argentina
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "3era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 7500 # Parana
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "4ta División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 12942 # Cordoba
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "5ta División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 8216 # Salta
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "División de Caballería"
+		location = 12364 # Buenos Aires
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Destacamento de Montaña Cuyo"
+		location = 10992 # Mendoza
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Destacamento de Montaña Norte"
+		location = 8216 # Salta
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARG"
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+	
+}

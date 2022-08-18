@@ -1,0 +1,56 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+# lets make sure the allies dont overcommit to invasions early on
+careful_with_early_invasions = {
+	enable = {
+		date < 1809.1.1
+
+		if = {
+			limit = { NOT = { has_dlc = "Man the Guns"} }
+			
+		}
+		else = {
+			
+		}
+		
+		OR = {
+			is_in_faction_with = ENG # anyone in allies
+			tag = FRA
+		}
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "ITA"			
+		value = -500
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "HOL"			
+		value = -500
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = "FRA"			
+		value = -500
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = -300
+	}
+	
+} 

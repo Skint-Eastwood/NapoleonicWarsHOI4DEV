@@ -1,0 +1,481 @@
+technologies = {
+
+
+	seven_artillery = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		enable_subunits = {
+			#wooden_cannons
+			gun_cannon
+		}
+		path = {
+			leads_to_tech = basic_howitzer
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_mortar
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = demi-cannons
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_limbered_cannons
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+#	demi-cannons = {
+#		enable_equipments = {
+#			demi-cannons_1
+#		}
+#		enable_subunits = {
+#			demi_cannonsbrigade
+#		}
+#		research_cost = 1.5
+#		path = {
+#			leads_to_tech = carronades
+#			research_cost_coeff = 1
+#		}
+#		folder = {
+#			name = artillery_folder
+#			position = { x = -10 y = 2 }
+#		}
+#		
+#		categories = {
+#			artillery
+#			artillery_naval
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#			
+#		}
+#	}
+#	carronades = {
+#		enable_equipments = {
+#			carronades
+#		}
+#		research_cost = 1.5
+#		
+#		folder = {
+#			name = artillery_folder
+#			position = { x = -10 y = 8 }
+#		}
+#		
+#		categories = {
+#			artillery
+#			artillery_naval
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#			
+#		}
+#	}
+	basic_howitzer = {
+		enable_equipments = {
+			howitzer_equipment_1
+		}
+		enable_subunits = {
+			howitzer
+		}
+		path = {
+			leads_to_tech = improved_howitzer
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 2 }
+		}
+		
+		categories = {
+			artillery
+			artillery_howitzer
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	improved_howitzer = {
+		
+		howitzer = {
+			#attack = 0.1
+			urban = {
+			attack = 0.1
+			}
+		}
+		
+		path = {
+			leads_to_tech = heavy_howitzer
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		categories = {
+			artillery
+			artillery_howitzer
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	cannon_obusier = {
+		enable_equipments = {
+			howitzer_equipment_3
+		}
+		research_cost = 1.5
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		categories = {
+			artillery
+			artillery_howitzer
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	heavy_howitzer = {
+		enable_equipments = {
+			howitzer_equipment_2
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = cannon_obusier
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 8 }
+		}
+		path = {
+			leads_to_tech = heavy_howitzer
+			research_cost_coeff = 1
+		}
+		categories = {
+			artillery
+			artillery_howitzer
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	basic_mortar = {
+		enable_equipments = {
+			mortar_equipment_1
+		}
+		enable_subunits = {
+			mortar
+		}
+		path = {
+			leads_to_tech = improved_mortar
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			artillery
+			artillery_mortars
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	improved_mortar = {
+		mortar = {
+			soft_attack = 0.1
+			
+		}
+		path = {
+			leads_to_tech = coehorn
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			artillery
+			artillery_mortars
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	
+	basic_limbered_cannons = {
+		enable_equipments = {
+			#artillery_equipment_2
+			limbered_transport_1
+		}
+		enable_subunits = {
+			limbered_cannon
+		}
+		path = {
+			leads_to_tech = improved_limbered
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			artillery
+			artillery_limber
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	improved_limbered = {
+		
+		enable_equipments = {
+			#artillery_equipment_3
+			limbered_transport_2
+		}
+		
+		
+		limbered_cannon = {
+			maximum_speed = 0.25
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		path = {
+			leads_to_tech = limbered_mortar
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = limbered_howitzer
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = advanced_field_guns
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			artillery
+			artillery_limber
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	limbered_howitzer = {
+		howitzer = {
+			maximum_speed = 0.25
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 4 }
+		}
+		research_cost = 0.5
+		categories = {
+			artillery
+			artillery_howitzer
+			artillery_limber
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	limbered_mortar = {
+		mortar = {
+			maximum_speed = 0.25
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 4 }
+		}
+		research_cost = 0.5
+		categories = {
+			artillery
+			artillery_mortars
+			artillery_limber
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	advanced_field_guns = {
+		enable_equipments = {
+			#artillery_equipment_12pdrs
+			#artillery_equipment_4pdrs
+			#artillery_equipment_9pdrs
+			artillery_equipment_2
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+		path = {
+			leads_to_tech = improved_firing
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		categories = {
+			artillery
+			artillery_field_guns
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	improved_firing = {
+		artillery = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 8 }
+		}
+		path = {
+			leads_to_tech = heavy_cannon
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	heavy_cannon = {
+		enable_equipments = {
+			#artillery_equipment_18pdrs
+			#artillery_equipment_24pdrs
+			artillery_equipment_3
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
+		}
+		path = {
+			leads_to_tech = super_heavy_cannon
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		categories = {
+			artillery
+			artillery_heavy
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	super_heavy_cannon = {
+		#enable_equipments = {
+			#artillery_equipment_64pdrs
+		#}
+		artillery = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		howitzer = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		mortar = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		limbered_cannon = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 12 }
+		}
+		research_cost = 2
+		categories = {
+			artillery
+			artillery_heavy
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+	
+}

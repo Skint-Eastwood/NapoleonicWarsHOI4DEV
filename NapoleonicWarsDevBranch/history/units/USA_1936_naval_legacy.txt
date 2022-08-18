@@ -1,0 +1,164 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLITAN USANCE ###
+	fleet = {
+		name = "National Navy"
+		naval_base = 1562 # Dunkerque
+		task_force = {				
+			name = "First Ships Of The Line"	#3
+			location = 1562 # Dunkerque			
+			# 8e Division des Contre-Torpilleurs
+			ship = { name = "1st Rate 1" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Rate 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Rate 3" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+		}
+		task_force = {				
+			name = "Second Ships Of The Line"		#5
+			location = 1562 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 1" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Rate 2" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Rate 3" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Rate 4" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Rate 5" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
+		}	
+		task_force = {				
+			name = "Third Ships Of The Line"		#10
+			location = 1562 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "3rd Rate 1" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Rate 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		}
+		task_force = {				
+			name = "Fourth Ships Of The Line"	#30
+			location = 1562 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "4th Rate 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Rate 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+		}
+		task_force = {				
+			name = "Privateers"			#80
+			location = 1562 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "Privateer 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 39" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 41" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 42" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 49" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 50" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 51" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 52" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 53" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 54" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 55" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 56" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 57" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 58" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 59" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 60" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 61" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 62" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 63" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 64" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 65" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 66" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 67" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 68" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 69" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 70" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 71" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 72" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 73" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 74" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 75" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 76" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 77" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 78" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 79" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Privateer 80" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+
+		}
+	}
+} 

@@ -1,0 +1,96 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLITAN PORNCE ###
+	fleet = {
+		name = "Marinha Real"
+		naval_base = 11805 # Dunkerque
+		task_force = {				
+			name = "First Ships Of The Line"	#5
+			location = 11805 # Dunkerque			
+			# 8e Division des Contre-Torpilleurs
+			ship = { name = "1st Rate 1" definition = battleship equipment = { battleship_1 = { amount = 1 owner = POR } } }
+			ship = { name = "1st Rate 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = POR } } }
+			ship = { name = "1st Rate 3" definition = battleship equipment = { battleship_1 = { amount = 1 owner = POR } } }
+			ship = { name = "1st Rate 4" definition = battleship equipment = { battleship_1 = { amount = 1 owner = POR } } }
+			ship = { name = "1st Rate 5" definition = battleship equipment = { battleship_1 = { amount = 1 owner = POR } } }
+		}
+		task_force = {				
+			name = "Second Ships Of The Line"		#10
+			location = 11805 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "2nd Rate 1" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 2" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 3" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 4" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 5" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 6" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 7" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 8" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 9" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "2nd Rate 10" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = POR } } }
+		}	
+		task_force = {				
+			name = "Third Ships Of The Line"		#16
+			location = 11805 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "3rd Rate 1" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+			ship = { name = "3rd Rate 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POR } } }
+		}
+		task_force = {				
+			name = "Fourth Ships Of The Line"	#20
+			location = 11805 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "4th Rate 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+			ship = { name = "4th Rate 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
+		}
+		task_force = {				
+			name = "Privateers"			#10
+			location = 11805 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "Privateer 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+			ship = { name = "Privateer 10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR } } }
+		}
+	}
+} 
