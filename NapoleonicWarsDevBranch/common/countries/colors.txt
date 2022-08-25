@@ -1,4 +1,45 @@
 #reload countrycolors
+
+RJT = {
+	color = rgb { 180  4  68 }
+	color_ui = rgb { 180  4  68 }
+}
+
+TRV = {
+	color = rgb { 0  255  17 }
+	color_ui = rgb { 0  255  17 }
+}
+
+QNG = {
+	color = rgb { 204  204  0 }
+	color_ui = rgb { 204  204  0 }
+}
+
+LAD = {
+	color = rgb { 157  86  134 }
+	color_ui = rgb { 157  86  134 }
+}
+
+MAR = {
+	color = rgb { 192  192  192 }
+	color_ui = rgb { 192  192  192 }
+}
+
+CNT = {
+	color = rgb { 178  0  255 }
+	color_ui = rgb { 178  0  255 }
+}
+
+MYS = {
+	color = rgb { 0  148  255 }
+	color_ui = rgb { 0  148  255 }
+}
+
+HYD = {
+	color = rgb { 153  76  0 }
+	color_ui = rgb { 153  76  0 }
+}
+
 GER = {
 	color = rgb { 255 216 0 }
 	color_ui = rgb { 255 216 0 }
@@ -857,3 +898,24 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
+
+MUG = {
+	color = rgb { 152  136  41 }
+	color_ui = rgb { 152  136  41 }
+}
+
+KOK = {
+	color = rgb { 4  238  126 }
+	color_ui = rgb { 4  238  126 }
+}
+
+BKH = {
+	color = rgb { 252  119  184 }
+	color_ui = rgb { 252  119  184 }
+}
+
+KHV = {
+	color = rgb { 234  116  6 }
+	color_ui = rgb { 234  116  6 }
+}
+

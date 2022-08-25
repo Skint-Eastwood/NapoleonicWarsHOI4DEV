@@ -1,0 +1,80 @@
+scripted_gui = {
+    fra_mobolization_gui = {
+		window_name = "fra_mobolization_gui_window"
+		context_type = decision_category
+
+		visible = {
+
+		}
+
+		properties = {
+			#states
+			fra_nord_prov_icon = {
+				image = "[GET_fra_nord_prov]"
+			}
+			fra_picardy_prov_icon = {
+				image = "[GET_fra_picardy_prov]"
+			}
+			fra_normandy_prov_icon = {
+				image = "[GET_fra_normandy_prov]"
+			}
+			fra_brittany_prov_icon = {
+				image = "[GET_fra_brittany_prov]"
+			}
+			fra_loire_prov_icon = {
+				image = "[GET_fra_loire_prov]"
+			}
+			fra_poitou_prov_icon = {
+				image = "[GET_fra_poitou_prov]"
+			}
+			fra_centre_sud_prov_icon = {
+				image = "[GET_fra_centre_sud_prov]"
+			}
+			fra_bourgogne_prov_icon = {
+				image = "[GET_fra_bourgogne_prov]"
+			}
+			fra_champagne_prov_icon = {
+				image = "[GET_fra_champagne_prov]"
+			}
+			fra_franhe_comte_prov_icon = {
+				image = "[GET_fra_franhe_comte_prov]"
+			}
+			fra_elsa_prov_icon = {
+				image = "[GET_fra_elsa_prov]"
+			}
+			fra_rhone_prov_icon = {
+				image = "[GET_fra_rhone_prov]"
+			}
+			fra_alpes_prov_icon = {
+				image = "[GET_fra_alpes_prov]"
+			}
+			fra_longuedoc_prov_icon = {
+				image = "[GET_fra_longuedoc_prov]"
+			}
+			fra_midi_pyr_prov_icon = {
+				image = "[GET_fra_midi_pyr_prov]"
+			}
+			fra_aqvitania_prov_icon = {
+				image = "[GET_fra_aqvitania_prov]"
+			}
+			fra_centre_prov_icon = {
+				image = "[GET_fra_centre_prov]"
+			}
+			fra_auvergne_prov_icon = {
+				image = "[GET_fra_auvergne_prov]"
+			}
+			fra_limousin_prov_icon = {
+				image = "[GET_fra_limousin_prov]"
+			}
+			fra_west_pyr_prov_icon = {
+				image = "[GET_fra_west_pyr_prov]"
+			}
+			fra_provence_icon = {
+				image = "[GET_fra_provence_prov]"
+			}
+			fra_il_de_icon = {
+				image = "[GET_fra_il_de_prov]"
+			}
+		}
+	}
+}

@@ -9,13 +9,12 @@ state={
 	
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
+		owner = QNG
+		add_core_of = QNG
 		
 		buildings = {
 			infrastructure = 1
 		}
-
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

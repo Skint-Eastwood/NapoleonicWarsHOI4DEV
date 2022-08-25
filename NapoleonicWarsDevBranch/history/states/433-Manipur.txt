@@ -1,0 +1,27 @@
+
+state={
+	id=433
+	name="STATE_433"
+
+	history={
+		victory_points = {
+			2054 1 
+		}
+		owner = RJT
+		add_core_of = RJT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1908 2002 2054 2086 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12844 12868 12876 12886 
+	}
+	manpower=11786000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=9.000
+}

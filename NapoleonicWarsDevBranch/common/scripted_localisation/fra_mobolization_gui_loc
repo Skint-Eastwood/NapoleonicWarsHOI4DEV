@@ -1,0 +1,657 @@
+# Gets the loc to be displayed based on what the current v (value) of the element in the array is (the value corresponds to the party id set in the scripted effect).
+defined_text = {
+	name = GET_fra_nord_prov
+	text = {
+		trigger = {
+			29 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_nord_icon_0"
+	}
+	text = {
+		trigger = {
+			29 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_nord_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_picardy_prov
+	text = {
+		trigger = {
+			785 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_picardy_icon_0"
+	}
+	text = {
+		trigger = {
+			785 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_picardy_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_normandy_prov
+	text = {
+		trigger = {
+			15 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_normandy_icon_0"
+	}
+	text = {
+		trigger = {
+			15 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_normandy_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_brittany_prov
+	text = {
+		trigger = {
+			14 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_brittany_icon_0"
+	}
+	text = {
+		trigger = {
+			14 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_brittany_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_loire_prov
+	text = {
+		trigger = {
+			30 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_loire_icon_0"
+	}
+	text = {
+		trigger = {
+			30 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_loire_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_poitou_prov
+	text = {
+		trigger = {
+			23 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_poitou_icon_0"
+	}
+	text = {
+		trigger = {
+			23 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_poitou_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_centre_sud_prov
+	text = {
+		trigger = {
+			33 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_centre_sud_icon_0"
+	}
+	text = {
+		trigger = {
+			33 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_centre_sud_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_bourgogne_prov
+	text = {
+		trigger = {
+			27 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_bourgogne_icon_0"
+	}
+	text = {
+		trigger = {
+			27 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_bourgogne_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_champagne_prov
+	text = {
+		trigger = {
+			18 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_champagne_icon_0"
+	}
+	text = {
+		trigger = {
+			18 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_champagne_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_franhe_comte_prov
+	text = {
+		trigger = {
+			17 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_franhe_comte_icon_0"
+	}
+	text = {
+		trigger = {
+			17 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_franhe_comte_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_elsa_prov
+	text = {
+		trigger = {
+			28 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_elsa_icon_0"
+	}
+	text = {
+		trigger = {
+			28 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_elsa_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_rhone_prov
+	text = {
+		trigger = {
+			20 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_rhone_icon_0"
+	}
+	text = {
+		trigger = {
+			20 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_rhone_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_alpes_prov
+	text = {
+		trigger = {
+			32 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_alpes_icon_0"
+	}
+	text = {
+		trigger = {
+			32 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_alpes_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_longuedoc_prov
+	text = {
+		trigger = {
+			22 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_longuedoc_icon_0"
+	}
+	text = {
+		trigger = {
+			22 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_longuedoc_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_midi_pyr_prov
+	text = {
+		trigger = {
+			31 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_midi_pyr_icon_0"
+	}
+	text = {
+		trigger = {
+			31 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_midi_pyr_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_aqvitania_prov
+	text = {
+		trigger = {
+			19 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_aqvitania_icon_0"
+	}
+	text = {
+		trigger = {
+			19 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_aqvitania_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_centre_prov
+	text = {
+		trigger = {
+			24 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_centre_icon_0"
+	}
+	text = {
+		trigger = {
+			24 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_centre_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_auvergne_prov
+	text = {
+		trigger = {
+			26 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_auvergne_icon_0"
+	}
+	text = {
+		trigger = {
+			26 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_auvergne_icon_1"
+	}
+}
+
+defined_text = {
+	name = GET_fra_limousin_prov
+	text = {
+		trigger = {
+			25 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_limousin_icon_0"
+	}
+	text = {
+		trigger = {
+			25 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_limousin_icon_1"
+	}
+}
+defined_text = {
+	name = GET_fra_west_pyr_prov
+	text = {
+		trigger = {
+			806 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_west_pyr_icon_0"
+	}
+	text = {
+		trigger = {
+			806 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_west_pyr_icon_1"
+	}
+}
+defined_text = {
+	name = GET_fra_provence_prov
+	text = {
+		trigger = {
+			21 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_provence_icon_0"
+	}
+	text = {
+		trigger = {
+			21 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_provence_icon_1"
+	}
+}
+defined_text = {
+	name = GET_fra_il_de_prov
+	text = {
+		trigger = {
+			16 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = less_than
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_il_de_icon_0"
+	}
+	text = {
+		trigger = {
+			16 = {
+				check_variable = {
+					var = FRA_mob_limit
+					value = 1
+					compare = equals
+				}
+				is_owned_by = FRA
+			}
+		}
+		localization_key = "GFX_FRA_mob_limit_il_de_icon_1"
+	}
+}

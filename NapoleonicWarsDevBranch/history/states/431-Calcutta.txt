@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = BAN
+		add_core_of = BAN
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -15,12 +16,10 @@ state={
 			air_base = 2
 			4245 = {
 				naval_base = 6
-
 			}
 
 		}
 		victory_points = {
-			add_core_of = BAN
 			4245 5 
 		}
 

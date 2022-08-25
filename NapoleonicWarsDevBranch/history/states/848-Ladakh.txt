@@ -1,0 +1,18 @@
+state={
+	id=848
+	name="STATE_848"
+	history = {
+		owner = LAD
+		add_core_of = LAD
+	}
+
+
+	provinces={
+		5042 7273 
+	}
+
+	manpower=2000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

@@ -1,0 +1,14 @@
+fra_mobilization_gui_decisions = {
+	icon = rev_zeal_simbol
+	allowed = {
+		
+	}
+	visible = {
+		original_tag = FRA
+	}
+	
+	priority = 61
+
+	scripted_gui = fra_mobolization_gui
+	visible_when_empty = yes
+}

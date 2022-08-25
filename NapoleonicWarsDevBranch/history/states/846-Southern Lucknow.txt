@@ -1,0 +1,17 @@
+state={
+	id=846
+	name="STATE_846"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+	}
+
+	provinces={
+		4045 4410 5040 5096 7938 10332 
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		owner = KOK
+		add_core_of = KOK
+
+	}
+
+	provinces={
+		1483 1766 2058 4316 4923 5087 7706 10408 10530 10660 12370 12640 12805 
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

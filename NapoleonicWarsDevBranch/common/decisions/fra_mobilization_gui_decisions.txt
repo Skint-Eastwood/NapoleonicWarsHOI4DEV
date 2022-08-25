@@ -1,0 +1,1888 @@
+fra_mobilization_gui_decisions = {
+	fr_mobilization_29 = {
+
+		available = {
+			NOT = {
+				29 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			29 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 29 } 
+		}
+		
+		days_remove = 30
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				29 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				29 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		remove_effect = {
+			29 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					29 = {
+						state_population > 1000000 
+					}
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					29 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}				
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					29 = {
+						state_population < 500000 
+					}
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_785 = {
+
+		available = {
+			NOT = {
+				785 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			785 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 785 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				785 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				785 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		
+		days_remove = 30
+
+		remove_effect = {
+			785 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					785 = {
+						state_population > 1000000 
+					}
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					785 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					785 = {
+						state_population < 500000 
+					}					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_15 = {
+
+		available = {
+			NOT = {
+				15 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}	
+		}
+
+		visible = {
+			original_tag = FRA
+			15 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 15 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				15 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				15 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		
+		days_remove = 30
+
+		remove_effect = {
+			15 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					15 = {
+						state_population > 1000000 
+					}
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					15 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					15 = {
+						state_population < 500000 
+					}				
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_14 = {
+
+		available = {
+			NOT = {
+				14 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			14 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 14 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				14 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				14 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		
+		days_remove = 30
+
+		remove_effect = {
+			14 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					14 = {
+						state_population > 1000000 
+					}
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					14 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					14 = {
+						state_population < 500000 
+					}
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_30 = {
+
+		available = {
+			NOT = {
+				30 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			30 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 30 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				30 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				30 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			30 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					30 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					30 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					30 = {
+						state_population < 500000 
+					}										
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_23 = {
+
+		available = {
+			NOT = {
+				23 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			23 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 23 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				23 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				23= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			23 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					23 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					23 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					23 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_33 = {
+
+		available = {
+			NOT = {
+				33 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			33 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 33 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				33 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				33= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			33 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					33 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					33 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					33 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_27 = {
+
+		available = {
+			NOT = {
+				27 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			27 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 27 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				27 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				27= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			27 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					27 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					27 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					27 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_18 = {
+
+		available = {
+			NOT = {
+				18 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			18 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 18 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				18 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				18= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			18 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					18 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					18 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					18 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_17 = {
+
+		available = {
+			NOT = {
+				17 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			17 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 17 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				17 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				17= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			17 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					17 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					17 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					17 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_28 = {
+
+
+		available = {
+			NOT = {
+				28 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			28 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 28 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				28 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				28= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			28 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					28 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					28 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					28 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_20 = {
+
+		available = {
+			NOT = {
+				20 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			20 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 20 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				20 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				20= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			20 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					20 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					20 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					20 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_32 = {
+
+		available = {
+			NOT = {
+				32 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			32 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 32 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				32 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				32= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			32 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					32 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					32 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					32 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_22 = {
+
+		available = {
+			NOT = {
+				22 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			22 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 22 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				22 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				22= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			22 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					22 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					22 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					22 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_31 = {
+	
+		available = {
+			NOT = {
+				31 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			31 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 31 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				31 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				31= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			31 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					31 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					31 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					31 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_19 = {
+
+		available = {
+			NOT = {
+				19 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			19 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 19 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				19 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				19= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			19 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					19 = {
+						state_population > 1000000 
+					}
+				
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					19 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+				
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					19 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_24 = {
+
+		available = {
+			NOT = {
+				24 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			24 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 24 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				24 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				24= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			24 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					24 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					24 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					24 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_26 = {
+
+		available = {
+			NOT = {
+				26 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			26 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 26 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				26 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				26= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			26 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					26 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					26 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					26 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_25 = {
+
+		available = {
+			NOT = {
+				25 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			25 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 25 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				25 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				25= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			25 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					25 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					25 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+			
+				}
+				add_manpower = 10000
+				
+			}
+			if = {
+				limit = {
+					25 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_806 = {
+
+		available = {
+			NOT = {
+				806 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			806 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 806 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				806 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				806 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			806 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					806 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					806 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					806 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_21 = {
+
+		available = {
+			NOT = {
+				21 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			21 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 21 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				21 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				21= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			21 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					21 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					21 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					21 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	fr_mobilization_16 = {
+
+		available = {
+			NOT = {
+				16 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			16 = {
+				is_owned_by = FRA
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 10
+		
+		highlight_states = {
+			highlight_state_targets = { state = 16 } 
+		}
+		
+		icon = {
+			key = mob_0
+			trigger = {
+				16 = {
+					check_variable = { var = FRA_mob_limit value = 1 compare = less_than }
+				}
+			}
+		}
+		icon = {
+			key = mob_1
+			trigger = {
+				16= {
+					check_variable = { var = FRA_mob_limit value = 1 compare = equals }
+				}
+			}
+		}
+		days_remove = 30
+
+		remove_effect = {
+			16 = {
+				add_to_variable = {
+					var = FRA_mob_limit
+					value = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					16 = {
+						state_population > 1000000 
+					}
+					
+				}
+				add_manpower = 15000
+			}
+			if = {
+				limit = {
+					16 = {
+						state_population < 1000000 
+						state_population > 500000 
+					}
+					
+				}
+				add_manpower = 10000
+			}
+			if = {
+				limit = {
+					16 = {
+						state_population < 500000 
+					}
+					
+				}
+				add_manpower = 5000
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
