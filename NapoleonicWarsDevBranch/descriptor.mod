@@ -1,4 +1,4 @@
-version="1.11.2"
+version="1.11.3"
 tags={
 	"Historical"
 }
@@ -18,5 +18,5 @@ replace_path="common/on_actions"
 replace_path="localisation/english/countries_l_english"
 replace_path="events"
 replace_path="music"
-supported_version="1.11.12"
+supported_version="1.11.13"
 remote_file_id="2850474698"

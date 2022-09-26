@@ -20,6 +20,10 @@ focus_tree = {
 		#prerequisite = { focus = AUS_stand_with_the_coalition }
 		#relative_position_id = AUS_matters_in_europe
 
+		available = {
+			has_government = monarchist
+		}
+
 		completion_reward = {		
 
 		add_popularity = {
@@ -41,7 +45,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
 		relative_position_id = AUS_habsburg_monarchy_of_europe
-
+		available = {
+			GER = {
+				is_puppet_of = AUS
+			}
+		}
 		completion_reward = {		
 
 		add_popularity = {
@@ -373,6 +381,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
 		relative_position_id = AUS_habsburg_monarchy_of_europe
+
+		available = {
+		}
 
 		completion_reward = {		
 
@@ -2241,6 +2252,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = AUS_fate_of_the_kaisers_heir }
 		relative_position_id = AUS_an_opportunity
+
+		available = {
+			GER = {
+				is_puppet_of = AUS
+			}
+		}
 
 		completion_reward = {		
 

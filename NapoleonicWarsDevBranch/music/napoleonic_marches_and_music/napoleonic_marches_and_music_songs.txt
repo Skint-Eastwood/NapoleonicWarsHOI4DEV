@@ -176,3 +176,11 @@ music = {
 		}		
 	}
 }
+music = {
+	song = "godsavetheking"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

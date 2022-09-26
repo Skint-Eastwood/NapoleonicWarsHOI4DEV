@@ -1,4 +1,5 @@
 capital = 16
+oob = FRA_1936
 
 set_convoys = 300
 set_cosmetic_tag = KIN_FRA
@@ -70,3 +71,8 @@ recruit_character = FRA_Napoleon_Bonaparte_Command
 recruit_character = FRA_Pasquale_Paoli
 recruit_character = FRA_Emmanuel_Joseph_Sieyès
 recruit_character = FRA_Lucien_Bonaparte
+recruit_character = FRA_Adam_Philippe_Custine
+recruit_character = FRA_Gilbert_du_Motier_de_Lafayette
+recruit_character = FRA_Pierre_Augereau
+recruit_character = FRA_Jean_Charles_Pichegru
+recruit_character = FRA_Francois_Kellermann

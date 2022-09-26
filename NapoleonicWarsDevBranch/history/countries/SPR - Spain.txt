@@ -26,5 +26,5 @@ puppet = MEX
 puppet = CUB
 puppet = DOM
 
-recruit_character = 
+recruit_character = SPR_Carlos_IV
 

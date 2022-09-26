@@ -340,5 +340,100 @@ characters={
 			legacy_id=0
 		}
 	}
+
+	FRA_Adam_Philippe_Custine={
+		name="Adam Philippe Custine"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Adam_Philippe_Custine.dds"
+				small="gfx/leaders/FRA/Portrait_France_Adam_Philippe_Custine.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	FRA_Gilbert_du_Motier_de_Lafayette={
+		name="Gilbert du Motier de Lafayette"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
+				small="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	FRA_Pierre_Augereau={
+		name="Pierre Augereau"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
+				small="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	FRA_Jean_Charles_Pichegru={
+		name="Jean-Charles Pichegru"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Charles_Pichegru.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Charles_Pichegru.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	FRA_Francois_Kellermann={
+		name="Francois Christophe Kellermann"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Francois_Christophe_Kellermann.dds"
+				small="gfx/leaders/FRA/Portrait_France_Francois_Christophe_Kellermann.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
 }
 

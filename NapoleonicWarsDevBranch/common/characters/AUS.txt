@@ -1,4 +1,19 @@
 characters={
+	AUS_Leopold_II={ 
+		name="Leopold II"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/AUS_Leopold_II.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ autocratic_imperialist }
+			expire="1792.3.1.1"
+			id=-1
+		}
+	}
+
 	AUS_Francis_I={ 
 		name="Francis I"
 		portraits={
@@ -14,3 +29,6 @@ characters={
 		}
 	}
 }
+
+
+

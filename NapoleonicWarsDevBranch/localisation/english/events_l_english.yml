@@ -10,6 +10,12 @@
  france.2.d:0 ""
  france.2.a:0 "Liberté, égalité, fraternité"
 
+## Austria ##
+
+ austria.2.t:0 "Death of Leopold II"
+ austria.2.d:0 "Emperor Leopold II of Austria has died suddenly."
+ austria.2.a:0 "Francis II will take the throne!"
+
 ## News ##
 
  news.1.t:0 "Storming of The Tuileries"

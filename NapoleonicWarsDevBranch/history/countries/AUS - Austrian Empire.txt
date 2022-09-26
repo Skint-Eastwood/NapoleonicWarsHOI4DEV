@@ -25,6 +25,6 @@ add_ideas = {
 puppet = BEL
 puppet = GER
 		
-
+recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I
 
