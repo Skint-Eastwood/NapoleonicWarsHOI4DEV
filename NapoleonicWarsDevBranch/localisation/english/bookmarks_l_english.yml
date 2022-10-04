@@ -1,10 +1,8 @@
-l_english:
- RISE_OF_NAPOLEON:0 "Brief History"
- RISE_OF_NAPOLEON_NAME:0 "Rise of Napoleon"
- RISE_OF_NAPOLEON_DESC:0 "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France. Will he lead them to greatness, or plunge them into darkness?"
+﻿l_english:
+ BM_HISTORY_TITLE:0 "Brief History"
+ RISE_OF_NAPOLEON_NAME:0 "The War of the First Coalition"
+ RISE_OF_NAPOLEON_DESC:0 "The War of the First Coalition was a set of wars that several European powers fought between 1792 and 1797 initially against the constitutional Kingdom of France and then the French Republic that succeeded it. They were only loosely allied and fought without much apparent coordination or agreement; each power had its eye on a different part of France it wanted to appropriate after a French defeat, which never occurred"
  FRA_RISE_OF_NAPOLEON_DESC:0 "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France. Will he lead them to greatness, or plunge them into darkness?"
-
- THE_FRENCH_EMPIRE:0 "Brief History"
  THE_FRENCH_EMPIRE_NAME:0 "The French Empire"
  THE_FRENCH_EMPIRE_DESC:0 "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
  FRA_THE_FRENCH_EMPIRE_DESC:0 "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"

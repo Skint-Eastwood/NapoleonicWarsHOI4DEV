@@ -2997,4 +2997,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_intro_guilotine.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_focus_the_holy_roman_empire"
+		texturefile = "gfx/interface/goals/focus_the_holy_roman_empire.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_aus_habsburg_monarchy"
+		texturefile = "gfx/interface/goals/focus_aus_habsburg_monarchy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_aus_bavaria"
+		texturefile = "gfx/interface/goals/focus_aus_bavaria.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_aus_austrian_netherlands"
+		texturefile = "gfx/interface/goals/focus_aus_austrian_netherlands.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_aus_under_french_threat"
+		texturefile = "gfx/interface/goals/focus_aus_under_french_threat.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_fra_aftermath_of_the_tuilleries"
+		texturefile = "gfx/interface/goals/focus_fra_aftermath_of_the_tuilleries.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_fra_the_french_republic"
+		texturefile = "gfx/interface/goals/focus_fra_the_french_republic.dds"
+	}
 }

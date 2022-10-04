@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "The War of The First Coalition"
-		desc = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. "
+		name = "RISE_OF_NAPOLEON_NAME"
+		desc = "RISE_OF_NAPOLEON_DESC"
 		date = 1792.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "FRA"
@@ -60,6 +60,10 @@ bookmarks = {
 				
 			}
 			focuses = {
+
+				AUS_the_holy_roman_empire
+				AUS_habsburg_monarchy_of_europe
+				AUS_austrian_netherlands
 				
 			}	
 		}

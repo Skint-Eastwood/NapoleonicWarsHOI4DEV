@@ -2,7 +2,7 @@ ideas = {
 	## Starting Ideas ##
 	country = {
 		FRA_King_Louis = {
-			picture = idea_chi_army_corruption3
+			picture = idea_king_louis
 			allowed = {
 				original_tag = FRA
 				always = no

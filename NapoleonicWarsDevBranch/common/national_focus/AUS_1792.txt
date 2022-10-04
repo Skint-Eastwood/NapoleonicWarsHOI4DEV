@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_habsburg_monarchy_of_europe
-		icon = GFX_focus_generic_manpower
+		icon =  GFX_focus_aus_habsburg_monarchy
 		x = 5
 		y = 0
 		cost = 5
@@ -36,7 +36,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_the_holy_roman_empire
-		icon = GFX_focus_generic_manpower
+		icon = GFX_focus_the_holy_roman_empire
 		x = 0
 		y = 1
 		cost = 5
@@ -216,7 +216,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_bavaria
-		icon = GFX_focus_generic_manpower
+		icon = GFX_focus_aus_bavaria
 		x = 8
 		y = 1
 		cost = 5
@@ -372,7 +372,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_austrian_netherlands
-		icon = GFX_focus_generic_manpower
+		icon = GFX_focus_aus_austrian_netherlands
 		x = -8
 		y = 1
 		cost = 5
@@ -397,7 +397,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_under_the_french_threat
-		icon = GFX_focus_generic_manpower
+		icon = GFX_focus_aus_under_french_threat
 		x = 0
 		y = 1
 		cost = 5

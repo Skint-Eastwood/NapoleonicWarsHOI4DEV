@@ -1,5 +1,5 @@
-bookmarks = {
-	bookmark = {
+#bookmarks = {
+#	bookmark = {
 		name = "The French Empire"
 		desc = "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
 		date = 1804.5.18.1
