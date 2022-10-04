@@ -1,0 +1,27 @@
+﻿l_english:
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+
+## France ##
+ france.1.t:0 "Storming The Tuileries"
+ france.1.d:0 "The French monarchy has been toppled"
+ france.1.a:0 "Down With The King!"
+
+ france.2.t:0 "Declaration of The First French Republic"
+ france.2.d:0 ""
+ france.2.a:0 "Liberté, égalité, fraternité"
+
+## Austria ##
+
+ austria.2.t:0 "Death of Leopold II"
+ austria.2.d:0 "Emperor Leopold II of Austria has died suddenly."
+ austria.2.a:0 "Francis II will take the throne!"
+
+## News ##
+
+ news.1.t:0 "Storming of The Tuileries"
+ news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people"
+ news.1.a:0 "Down with the king!."
+
+ news.2.t:0 "Declaration of The First French Republic"
+ news.2.d:0 ""
+ news.2.a:0 "Liberté, égalité, fraternité"

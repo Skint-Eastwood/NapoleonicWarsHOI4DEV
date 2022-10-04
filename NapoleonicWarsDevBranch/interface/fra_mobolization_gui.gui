@@ -1,0 +1,142 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "fra_mobolization_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 400 height= 515 }
+		
+		instantTextBoxType = {
+			name = "mobilization_campaign_title"
+			position = { x = 50 y = -9 }
+			font = "hoi_24header"
+			text = "mobilization_campaign_title_loc"
+			maxWidth = 400
+			maxHeight = 24
+			format = center
+		}
+		
+		containerWindowType = {
+			name = "fra_mobolization_gui_gui_main_container"
+			position = { x = 0 y = 31 }
+			size = { width = 490 height = 480 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_thin_border2"
+			}			
+			
+			iconType = {
+				name = "fra_nord_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_picardy_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_normandy_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_brittany_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_loire_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_poitou_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_centre_sud_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_bourgogne_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_champagne_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_franhe_comte_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_elsa_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_rhone_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_alpes_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_longuedoc_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_midi_pyr_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_centre_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_aqvitania_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_auvergne_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_limousin_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_west_pyr_prov_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_provence_icon"
+				position = { x = 12 y = 9 }
+			}
+			iconType = {
+				name = "fra_il_de_icon"
+				position = { x = 12 y = 9 }
+			}
+			
+			iconType = {
+				name = "FRA_border_icon"
+				spriteType = "GFX_FRA_border_icon_icon"
+				position = { x = 12 y = 9 }
+			}
+		}
+
+		#iconType ={
+		#	name ="production_header_bg"
+		#	spriteType = "GFX_header_bg"
+		#	position = { x= 5 y = 7 }
+		#	Orientation = "UPPER_LEFT"
+		#}	
+
+		#instantTextboxType = {
+		#	name = "political_title"
+		#	position = { x = 45 y = 8 }
+		#	font = "hoi_36header"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "POLITICAL_POLITICAL"
+		#	maxWidth = 400
+		#	maxHeight = 20
+		#	fixedsize = yes
+		#}
+	}
+}

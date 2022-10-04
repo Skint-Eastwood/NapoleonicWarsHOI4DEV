@@ -1,0 +1,351 @@
+technologies = {
+	#TECHNOLOGY
+	electronic_mechanical_engineering = { #Battery
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		
+		path = {
+			leads_to_tech = mechanical_computing 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1799
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 3
+				date > "1799.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1801.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+	
+	radio = {
+		
+		
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -1000 y = 1000 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			
+		}
+	}
+	
+	radio_detection = {
+
+		# 
+		enable_building = {
+			
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -1000 y = 1000 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	mechanical_computing = { #Gas Lighting
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = computing_machine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1804
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	
+	computing_machine = { #Arc Lamp
+
+		# small boost to research speed
+		research_speed_factor = 0.03
+		
+		path = {
+			leads_to_tech = improved_computing_machine 
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 1.5
+		start_year = 1807
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+			modifier = {
+				factor = 3
+				date > "1802.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1803.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	
+	improved_computing_machine = { #High Speed Printing Press
+
+		# small boost to research speed
+		research_speed_factor = 0.03
+		political_power_factor = 0.05
+		
+		path = {
+			leads_to_tech = advanced_computing_machine 
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 1.5
+		start_year = 1810
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1804.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1805.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	
+	advanced_computing_machine = { #Spectroscope
+
+		# small boost to research speed
+		research_speed_factor = 0.03
+		
+		
+		research_cost = 1.5
+		start_year = 1814
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1806.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1807.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	#CULTURE
+	culture_enlightenment = { #Culture 1
+
+		# small boost to research speed
+		research_speed_factor = 0.05
+		
+		
+		path = {
+			leads_to_tech = culture_neoclassicism
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1799
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+	
+	culture_neoclassicism = { #Culture 2
+
+		# small boost to research speed
+		research_speed_factor = 0.01
+		war_support_weekly_factor = 0.50
+		army_morale_factor = 0.10
+		
+		
+		path = {
+			leads_to_tech = culture_nationalism
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1804
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+	
+	culture_nationalism = { #Culture 3
+
+		# small boost to research speed
+		war_support_weekly_factor = 0.50
+		conscription = 0.02
+		army_org_factor = 0.10
+		
+		path = {
+			leads_to_tech = culture_mass_media
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1807
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+	
+	culture_mass_media = { #Culture 4
+
+		# small boost to research speed
+		conscription = 0.01
+		stability_weekly_factor = 0.50
+		war_support_weekly_factor = 0.50
+		political_power_factor = 0.05
+		
+		path = {
+			leads_to_tech = culture_mass_media
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1810
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+	
+}

@@ -1,0 +1,30 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_ideology_Monarchist_group"
+	texturefile = "gfx/interface/ideologies/Monarchist_group.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_ideology_Authoritarian_group"
+		texturefile = "gfx/interface/ideologies/Authoritarian_group.dds"			
+		}	
+
+	SpriteType = {
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_group.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_ideology_FRA_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/FRA_authoritarian_democracy_group.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_FRA_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/FRA_Monarchist_group.dds"			
+	}	
+	
+}

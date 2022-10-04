@@ -1,0 +1,77 @@
+﻿###########################
+# austrian Events
+###########################
+
+add_namespace = austria
+
+country_event = {
+	id = austria.1
+	title = austria.1.t
+	desc = austria.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # Austria Accept
+		name = austria.1.a
+		ai_chance = {
+			factor = 70
+		} 
+
+		FRA = {
+			country_event = france.2
+		}
+		159 = { transfer_state_to = FRA }
+	
+	}
+	
+
+	option = { # Austria Decline
+		name = austria.1.b
+		ai_chance = { 
+			factor = 30
+			 }			
+	
+
+		FRA = {
+			country_event = france.3
+		}
+
+		FRA = {
+			create_wargoal = {
+    		type = annex_everything
+   			target = AUS
+
+			}	
+		}
+	}			
+}
+
+country_event = {
+	id = austria.2
+	title = austria.2.t
+	desc = austria.2.d
+	picture = GFX_report_death_of_leopold
+
+	fire_only_once = yes
+
+	trigger = {
+		date > "1792.3.1"
+		tag = AUS
+	}
+	
+	option = { 
+		name = austria.2.a
+		ai_chance = {
+			factor = 70
+		} 
+		GER = {
+			retire_character = GER_Leopold_II
+		}
+		AUS = {
+			retire_character = AUS_Leopold_II
+		}
+	}
+}
+
+	

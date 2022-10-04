@@ -1,0 +1,26 @@
+
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		victory_points = {
+			12465 1 
+		}
+		owner = KHV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KHV
+
+	}
+
+	provinces={
+		10395 10435 12324 12454 12465 1576 1614 1479
+	}
+	manpower=258430
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

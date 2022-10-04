@@ -1,0 +1,31 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		victory_points = {
+			6626 1 
+		}
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = VEN
+		buildings = {
+			infrastructure = 1
+			6626 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		599 6626 11595 11735
+	}
+	manpower=1063159
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

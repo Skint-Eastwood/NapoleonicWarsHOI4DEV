@@ -1,0 +1,261 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		gun_cannon = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Caballería Ligera" 	# Kavaleriyskaya Diviziya
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+	}
+}
+division_template = {
+	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }	
+		infantry = { x = 1 y = 0 }	
+		infantry = { x = 1 y = 1 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Eng Bn
+	}
+}
+
+###### OOB ######
+units = {
+	#####LAND UNITS #####
+	### MAINLAND UNITS ###
+	division = {			
+		name = "1a División de Infantería"		
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a División de Infantería"		
+		location = 7183  # Sevilla
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "3a División de Infantería"		
+		location = 6906  # Valencia
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "4a División de Infantería"		
+		location = 9764  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "5a División de Infantería"		
+		location = 3816  # Zaragosa
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "6a División de Infantería"		
+		location = 885  # Burgos
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "7a División de Infantería"		
+		location = 11825  # Valladolid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "8a División de Infantería"		
+		location = 758  # La Coruña
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a División de Caballería"		
+		location = 9764  # Barcelona
+		division_template = "Caballería Ligera"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 13071  # Canary Islands
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a Brigada Montaña"		
+		location = 740  #Bilbao
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Brigada Mixta Montaña"		
+		location = 11707  #Oviedo
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "Brigada de Arma de Infantería"		
+		location = 1048  #Cádiz
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+
+	### Island Garrisons ###
+	division = {			
+		name = "Comandancia de Baleares"		
+		location = 9793  #Mallorca
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division = {			
+		name = "Comandancia de Canarias"		
+		location = 13071  # Canary Islands
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	### Ejército de África ###
+	division = {			
+		name = "Circunscripción Occidental"		
+		location = 10094  #Ceuta
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Circunscripción Oriental"		
+		location = 7153  #Melilla
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+
+
+	##### NAVAL UNITS #####
+	#navy = {
+	#	name = "Base Naval El Ferrol"
+	#	base = 758
+	#	location = 758  # Ferrol/Coruna
+	#	#ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+	#	
+	#}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SPR"
+		}
+		requested_factories = 2
+		progress = 0.42
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SPR"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = artillery_equipment_1
+	#		creator = "SPR"
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.24
+	#	efficiency = 100
+	#}
+	### Under Contruction Notes ###
+	# DD: Churucca class (x3) ("ARE Almirante Miranda" "ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = destroyer_2
+	#		creator = "SPR"
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.80
+	#	amount = 3
+	#}
+	
+}

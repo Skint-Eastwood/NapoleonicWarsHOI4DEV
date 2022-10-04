@@ -1,0 +1,2222 @@
+focus_tree = {
+	id = FRA_First_Republic
+	continuous_focus_position = { x = -10 y = 10000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	focus = {
+		id = FRA_orignise_maritime_customs
+		icon = GFX_focus_fra_le_deluge
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_reorginise_the_french_navy	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_rebuild_toulon
+		icon = GFX_focus_fra_le_deluge
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_orignise_maritime_customs }	
+		prerequisite = { focus = FRA_disband_the_naval_infantry }	
+		relative_position_id = FRA_reorginise_the_french_navy	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_marseille_defensive
+		icon = GFX_focus_fra_le_deluge
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_rebuild_toulon }	
+		relative_position_id = FRA_reorginise_the_french_navy	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_legacy_of_rochfort
+		icon = GFX_focus_fra_le_deluge
+		x = 5
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_rebuild_toulon }	
+		relative_position_id = FRA_reorginise_the_french_navy	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_improvation_of_brest
+		icon = GFX_focus_fra_le_deluge
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = FRA_legacy_of_rochfort }	
+		relative_position_id = FRA_reorginise_the_french_navy	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reform_the_costal_guard
+		icon = GFX_focus_fra_le_deluge
+		x = 8
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_orignise_maritime_customs }
+		relative_position_id = FRA_reorginise_the_french_navy		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reinforce_costal_bases
+		icon = GFX_focus_fra_le_deluge
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_reform_the_costal_guard }
+		prerequisite = { focus = FRA_marseille_defensive }
+		relative_position_id = FRA_reorginise_the_french_navy		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+
+	focus = {
+		id = FRA_reorginise_the_french_navy
+		icon = GFX_focus_fra_le_deluge
+		x = -12
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_disband_the_naval_infantry
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_reorginise_the_french_navy }	
+		relative_position_id = FRA_reorginise_the_french_navy
+
+
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reform_the_naval_artillery
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_disband_the_naval_infantry }	
+		relative_position_id = FRA_reorginise_the_french_navy
+
+
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_national_volunteers_of_the_sea
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_reform_the_naval_artillery }	
+		relative_position_id = FRA_reorginise_the_french_navy
+
+
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_recognise_our_mistakes
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_national_volunteers_of_the_sea }	
+		prerequisite = { focus = FRA_assistance_in_the_degree_of_1795 }	
+		relative_position_id = FRA_reorginise_the_french_navy
+
+
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_assistance_in_the_degree_of_1795
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_reform_the_naval_artillery }	
+		relative_position_id = FRA_reorginise_the_french_navy
+
+
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+
+	focus = {
+		id = FRA_aftermath_of_the_tuileries
+		icon = GFX_focus_fra_aftermath_of_the_tuilleries
+		x = 5
+		y = 0
+		cost = 0.2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {	
+			add_stability = 0.3
+			remove_ideas = FRA_King_Louis
+			set_politics = {
+				ruling_party = authoritarian_democracy
+					elections_allowed = no	
+			}
+			add_country_leader_role = {
+				character = FRA_the_revolutionaries
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_form_the_national_convention
+		icon = GFX_focus_fra_french_union
+		x = 5
+		y = 1
+		cost = 5.8
+		prerequisite = { focus = FRA_aftermath_of_the_tuileries }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_political_power = 20
+			add_ideas = FRA_National_Convention
+
+			remove_country_leader = yes
+			add_country_leader_role = {
+				character = FRA_national_convention
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+	
+
+	focus = {
+		id = FRA_the_french_republic
+		icon = GFX_focus_fra_the_french_republic
+		x = 5
+		y = 2
+		cost = 10
+		prerequisite = { focus = FRA_form_the_national_convention }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_vive_la_france
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_the_french_republic }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_create_the_cult_of_reason
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 2
+		cost = 10
+		prerequisite = { focus = FRA_vive_la_france }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_change_the_christian_calendar
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = FRA_create_the_cult_of_reason }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_get_rid_of_the_catholic_church
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 2
+		cost = 10
+		prerequisite = { focus = FRA_vive_la_france }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_destroy_religious_values
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 3
+		cost = 10
+		prerequisite = { focus = FRA_get_rid_of_the_catholic_church }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_deport_catholics
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 4
+		cost = 10
+		prerequisite = { focus = FRA_destroy_religious_values  } 
+		prerequisite = { focus = FRA_change_the_christian_calendar }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_trial_of_louis_XVI
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 5
+		cost = 10
+		prerequisite = { focus = FRA_deport_catholics  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_establish_the_committee_of_public_safety
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 6
+		cost = 10
+		prerequisite = { focus = FRA_trial_of_louis_XVI  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_arm_youself_citizens
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 7
+		cost = 10
+		prerequisite = { focus = FRA_establish_the_committee_of_public_safety  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_crucifix_of_marat
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 8
+		cost = 10
+		prerequisite = { focus = FRA_arm_youself_citizens  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_revolutionary_tribunal
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 9
+		cost = 10
+		prerequisite = { focus = FRA_crucifix_of_marat  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_crimes_against_liberty
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 9
+		cost = 10
+		prerequisite = { focus = FRA_crucifix_of_marat  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_law_of_suspects
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 10
+		cost = 10
+		prerequisite = { focus = FRA_crimes_against_liberty  } 
+		prerequisite = { focus = FRA_revolutionary_tribunal  }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_establish_the_reign_of_terror
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 11
+		cost = 10
+		prerequisite = { focus = FRA_law_of_suspects  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_the_last_of_the_royals
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 12
+		cost = 10
+		prerequisite = { focus = FRA_establish_the_reign_of_terror  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_execute_georges_danton
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 13
+		cost = 10
+		prerequisite = { focus = FRA_the_last_of_the_royals  } 
+		mutually_exclusive = { focus = FRA_allow_dantons_reforms }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_cult_of_the_supreme_being
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 14
+		cost = 10
+		prerequisite = { focus = FRA_execute_georges_danton  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_law_of_22_prairal
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 15
+		cost = 10
+		prerequisite = { focus = FRA_cult_of_the_supreme_being  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_final_victims
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 16
+		cost = 10
+		prerequisite = { focus = FRA_law_of_22_prairal  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_stability_to_the_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 17
+		cost = 10
+		prerequisite = { focus = FRA_final_victims  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_arrest_gracchus_babeuf
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 18
+		cost = 10
+		prerequisite = { focus = FRA_stability_to_the_republic  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_burn_the_tribun_du_peuple
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 19
+		cost = 10
+		prerequisite = { focus = FRA_arrest_gracchus_babeuf  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_orders_from_carnot
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 20
+		cost = 10
+		prerequisite = { focus = FRA_burn_the_tribun_du_peuple  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reaction_to_the_insurrection_of_april_1st
+		icon = GFX_focus_fra_le_deluge
+		x = 4
+		y = 18
+		cost = 10
+		prerequisite = { focus = FRA_stability_to_the_republic  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reduce_revolutionary_tribunal_power
+		icon = GFX_focus_fra_le_deluge
+		x = 4
+		y = 19
+		cost = 10
+		prerequisite = { focus = FRA_reaction_to_the_insurrection_of_april_1st  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_reign_of_terror_disarming_decree
+		icon = GFX_focus_fra_le_deluge
+		x = 4
+		y = 20
+		cost = 10
+		prerequisite = { focus = FRA_reduce_revolutionary_tribunal_power  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_arrest_cambon_sarthe_and_thuriot
+		icon = GFX_focus_fra_le_deluge
+		x = 1
+		y = 18
+		cost = 10
+		prerequisite = { focus = FRA_stability_to_the_republic  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_deport_barere_varenne_vadier_and_herbois
+		icon = GFX_focus_fra_le_deluge
+		x = 1
+		y = 19
+		cost = 10
+		prerequisite = { focus = FRA_arrest_cambon_sarthe_and_thuriot  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_execute_the_jacobin_revolutionary_tribunal
+		icon = GFX_focus_fra_le_deluge
+		x = 1
+		y = 20
+		cost = 10
+		prerequisite = { focus = FRA_deport_barere_varenne_vadier_and_herbois  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_arrest_jean_baptiste_carrier
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 18
+		cost = 10
+		prerequisite = { focus = FRA_stability_to_the_republic  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_end_the_trials_of_94_nantais
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 19
+		cost = 10
+		prerequisite = { focus = FRA_arrest_jean_baptiste_carrier  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_execture_baptiste_carrier
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 20
+		cost = 10
+		prerequisite = { focus = FRA_end_the_trials_of_94_nantais  } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_present_the_1792_constitution
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 21
+		cost = 10
+		prerequisite = { focus = FRA_orders_from_carnot focus = FRA_execute_the_jacobin_revolutionary_tribunal focus = FRA_reign_of_terror_disarming_decree focus = FRA_execture_baptiste_carrier } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_inegrate_the_constitution
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 22
+		cost = 10
+		prerequisite = { focus = FRA_present_the_1792_constitution }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_create_the_directory
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 23
+		cost = 10
+		prerequisite = { focus = FRA_present_the_1792_constitution }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_economic_issues
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 24
+		cost = 10
+		prerequisite = { focus = FRA_create_the_directory }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_plunder_of_war
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 24
+		cost = 10
+		prerequisite = { focus = FRA_economic_issues }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_forced_loan_of_600_million
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 26
+		cost = 10
+		prerequisite = { focus = FRA_plunder_of_war }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		mutually_exclusive = { focus = FRA_destroy_the_printing_press }
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = { 
+		id = FRA_declaration_of_bankruptcy
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 27
+		cost = 10
+		prerequisite = { focus = FRA_forced_loan_of_600_million }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		mutually_exclusive = { focus = FRA_force_the_wealthy_to_pay }
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = { 
+		id = FRA_assure_payment
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 28
+		cost = 10
+		prerequisite = { focus = FRA_declaration_of_bankruptcy }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = { 
+		id = FRA_taxes_on_property_owners
+		icon = GFX_focus_fra_le_deluge
+		x = -5
+		y = 29
+		cost = 10
+		prerequisite = { focus = FRA_assure_payment }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_mint_more_gold_and_silver_coins
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 25
+		cost = 10
+		prerequisite = { focus = FRA_economic_issues }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_destroy_the_printing_press
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 26
+		cost = 10
+		prerequisite = { focus = FRA_mint_more_gold_and_silver_coins }
+		mutually_exclusive = { focus = FRA_forced_loan_of_600_million }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_force_the_wealthy_to_pay
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 27
+		cost = 10
+		prerequisite = { focus = FRA_destroy_the_printing_press }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		mutually_exclusive = { focus = FRA_declaration_of_bankruptcy }
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_basically_a_french_stamp_act
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 29
+		cost = 10
+		prerequisite = { focus = FRA_force_the_wealthy_to_pay focus = FRA_assure_payment }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+	
+
+	focus = {
+		id = FRA_diplomatic_issues
+		icon = GFX_focus_fra_le_deluge
+		x = 3
+		y = 24
+		cost = 10
+		prerequisite = { focus = FRA_create_the_directory }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_treaty_of_tolentino
+		icon = GFX_focus_fra_le_deluge
+		x = 3
+		y = 25
+		cost = 10
+		prerequisite = { focus = FRA_diplomatic_issues }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_treaty_of_leoben
+		icon = GFX_focus_fra_le_deluge
+		x = 3
+		y = 26
+		cost = 10
+		prerequisite = { focus = FRA_treaty_of_tolentino }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_treaty_of_campo_formio
+		icon = GFX_focus_fra_le_deluge
+		x = 3
+		y = 29
+		cost = 10
+		prerequisite = { focus = FRA_treaty_of_leoben }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_prepare_the_1792_legislative_election
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 24
+		cost = 10
+		prerequisite = { focus = FRA_create_the_directory }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_pichegru_head_of_500
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 25
+		cost = 10
+		prerequisite = { focus = FRA_prepare_the_1792_legislative_election }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_declare_the_election_annu
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 25
+		cost = 10
+		prerequisite = { focus = FRA_prepare_the_1792_legislative_election }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_arrest_the_royalists
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 26
+		cost = 10
+		prerequisite = { focus = FRA_pichegru_head_of_500 }
+		prerequisite = { focus = FRA_declare_the_election_annu }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_deport_the_deputies
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 27
+		cost = 10
+		prerequisite = { focus = FRA_arrest_the_royalists }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_destroy_the_royalist_propaganda
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 29
+		cost = 10
+		prerequisite = { focus = FRA_deport_the_deputies }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_Napoleons_proposal
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 30
+		cost = 10
+		prerequisite = { focus = FRA_destroy_the_royalist_propaganda }
+		prerequisite = { focus = FRA_taxes_on_property_owners }
+		prerequisite = { focus = FRA_treaty_of_campo_formio }
+		prerequisite = { focus = FRA_basically_a_french_stamp_act }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_malta_along_the_way
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 31
+		cost = 10
+		prerequisite = { focus = FRA_Napoleons_proposal }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_undermine_british_access_to_india
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 32
+		cost = 10
+		prerequisite = { focus = FRA_malta_along_the_way }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_allow_dantons_reforms
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 13
+		cost = 10
+		prerequisite = { focus = FRA_the_last_of_the_royals  }
+		mutually_exclusive = { focus = FRA_execute_georges_danton } 
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+		focus = {
+		id = FRA_promote_napoleon
+		icon = GFX_focus_fra_le_deluge
+		x = -4
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_annex_belgium
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_promote_napoleon }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_sister_republics
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_annex_belgium }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_southern_republics
+		icon = GFX_focus_fra_le_deluge
+		x = -16
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_sister_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_roman_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -14
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_exile_pope_pius_vi_to_france
+		icon = GFX_focus_fra_le_deluge
+		x = -14
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_roman_republic }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_helvetic_republics
+		icon = GFX_focus_fra_le_deluge
+		x = -22
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_extract_swiss_riches
+		icon = GFX_focus_fra_le_deluge
+		x = -22
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_helvetic_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_tax_the_swiss_cantons
+		icon = GFX_focus_fra_le_deluge
+		x = -22
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_extract_swiss_riches }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_ligurian_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -20
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_republic_of_lucca
+		icon = GFX_focus_fra_le_deluge
+		x = -20
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_ligurian_republic }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_parthenopean_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -20
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_republic_of_lucca }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_republic_of_sicily
+		icon = GFX_focus_fra_le_deluge
+		x = -20
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_parthenopean_republic }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_domination_of_southern_italy
+		icon = GFX_focus_fra_le_deluge
+		x = -20
+		y = 8
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_republic_of_sicily }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_cispadane_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -18
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_establish_a_civic_guard
+		icon = GFX_focus_fra_le_deluge
+		x = -18
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_cispadane_republic }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_cisalpine_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -17
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_establish_a_civic_guard }
+		prerequisite = { focus = FRA_lombard_administration }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_transpadane_republic
+		icon = GFX_focus_fra_le_deluge
+		x = -16
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_lombard_administration
+		icon = GFX_focus_fra_le_deluge
+		x = -16
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_transpadane_republic }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_northern_republics
+		icon = GFX_focus_fra_le_deluge
+		x = -9
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_sister_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_insight_a_revolt_in_connacht
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_northern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+		focus = {
+		id = FRA_send_troops_to_ireland
+		icon = GFX_focus_fra_le_deluge
+		x = -7
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_insight_a_revolt_in_connacht }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_the_dutch_versailles
+		icon = GFX_focus_fra_le_deluge
+		x = -11
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_northern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_allow_the_revolutionary_committees_to_take_charge
+		icon = GFX_focus_fra_le_deluge
+		x = -11
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_the_dutch_versailles }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_establish_south_african_republics
+		icon = GFX_focus_fra_le_deluge
+		x = -11
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_allow_the_revolutionary_committees_to_take_charge }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_defence_of_the_cape_colonies
+		icon = GFX_focus_fra_le_deluge
+		x = -11
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_establish_south_african_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_plan_a_new_campaign
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_sister_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_three_pronged_attack
+		icon = GFX_focus_fra_le_deluge
+		x = -1
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_plan_a_new_campaign }
+		prerequisite = { focus = FRA_rhine_integration }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_rhine_campaign
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_three_pronged_attack }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_complete_fail
+		icon = GFX_focus_fra_le_deluge
+		x = -4
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_rhine_campaign }
+		mutually_exclusive = { focus = FRA_surprising_success }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_a_final_attempt
+		icon = GFX_focus_fra_le_deluge
+		x = -4
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_complete_fail }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_surprising_success
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_rhine_campaign }
+		relative_position_id = FRA_promote_napoleon
+		mutually_exclusive = { focus = FRA_complete_fail }
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_a_change_in_plans
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_surprising_success }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+		focus = {
+		id = FRA_itallian_campaign
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_three_pronged_attack }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_utter_destruction
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_itallian_campaign }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_march_on_vienna
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_utter_destruction }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_first_treaty_of_base
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_annex_belgium }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_second_treaty_of_base
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_first_treaty_of_base }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_third_treaty_of_base
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_second_treaty_of_base }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_second_treaty_of_san_ildefonso
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_third_treaty_of_base }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_make_napoleon_commander_of_itallian_forces
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_annex_belgium }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_rhine_integration
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_make_napoleon_commander_of_itallian_forces }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_enlist_foreigners
+		icon = GFX_focus_fra_le_deluge
+		x = -23
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_enlist_dutchmen
+		icon = GFX_focus_fra_le_deluge
+		x = -6
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_foreigners }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_enlist_belgians
+		icon = GFX_focus_fra_le_deluge
+		x = -6
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_dutchmen }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_enlist_itallians
+		icon = GFX_focus_fra_le_deluge
+		x = 6
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_foreigners }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_enlist_swiss
+		icon = GFX_focus_fra_le_deluge
+		x = 6
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_itallians }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_polish_deserters
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_foreigners }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_irish_deserters
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_polish_deserters }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_prussian_deserters
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_enlist_foreigners }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_austrian_deserters
+		icon = GFX_focus_fra_le_deluge
+		x = -2
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_prussian_deserters }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_free_men_are_brothers
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_austrian_deserters }
+		prerequisite = { focus = FRA_irish_deserters }
+		prerequisite = { focus = FRA_enlist_swiss }
+		prerequisite = { focus = FRA_enlist_belgians }
+		relative_position_id = FRA_enlist_foreigners
+		completion_reward = {	
+			set_cosmetic_tag = FRP_FRA
+
+			country_event = { id = france.2 }
+			news_event = { id = news.2 }
+		}
+	}
+
+}
+

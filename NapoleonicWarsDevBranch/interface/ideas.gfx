@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_idea_king_louis"
+		texturefile = "gfx/interface/ideas/idea_king_louis.dds"
+		noOfFrames = 1
+	}
+
+	### new tfv nat spirit icons
+
+}

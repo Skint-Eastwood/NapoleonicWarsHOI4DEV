@@ -1,0 +1,33 @@
+﻿l_english:
+
+## Kingdom of France ##
+
+ KIN_FRA:0 "Bourbon France" 
+ KIN_FRA_DEF:0 "Bourbon France"
+
+## First Republic Tags##
+
+ FRP_FRA:0 "First French Republic" 
+ FRP_FRA_DEF:0 "the First French Republic"
+
+## Revolutionary France ##
+
+ REV_FRA:0 "Revolutionary France"
+ REV_FRA_DEF:0 "Revolutionary France"
+
+ ## Holland Tags ##
+
+ DSR_HOL:0 "Dutch Sister Republic"
+ DSR_HOL_DEF:0 "the Dutch Sister Republic"
+ 
+ ## Swiss Tags ##
+
+ CAP_SWI:0 "Cisalpine Republic"
+ CAP_SWI_DEF:0 "the Cisalpine Republic"
+ 
+ ## Asian Tags ##
+ 
+ BBN_BAN:0 "British Bengal"
+ BBN_BAN_DEF:0 "British Bengal" 
+ BRA_AND:0 "British Andhra"
+ BRA_AND_DEF:0 "British Andhra"

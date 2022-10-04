@@ -1,0 +1,14 @@
+FRP_FRA = {
+    color = rgb { 57 113 228 }
+    color_ui = rgb { 57 113 228 }
+}
+
+BBN_BAN = {
+    color = rgb { 255 0 0 }
+    color_ui = rgb { 255 0 0 }
+}
+
+BRA_AND = {
+    color = rgb { 255 0 0 }
+    color_ui = rgb { 255 0 0 }
+}

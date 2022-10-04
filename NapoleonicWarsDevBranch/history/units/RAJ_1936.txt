@@ -1,0 +1,154 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "District Garrison"			# Represents precursors to Indian Infantry Divisions (district divisions)
+										# Has older equipment, lower experience
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+
+####### OOB #######
+units = {
+	#India Command
+	
+	#Northern Command
+	
+	division= {	# "Pashawar District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Kohat District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 102
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Rawalpindi District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 103
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Lahore District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 104
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Waziristan District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 105
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	
+	#Eastern Command
+	division= {	# "Meerut District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Lucknow District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 107
+		}
+		location = 11929
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "Presidency & Assam District"
+		location = 1497
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	
+	#Southern Command
+	division= {	# "Deccan District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 4321
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Bombay District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 110
+		}
+		location = 10201
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Madras District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
+		}
+		location = 10278
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

@@ -1,0 +1,116 @@
+ai_historical_focus_list_SOV = {
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		SOV_catch_up
+		SOV_roads_construction
+		SOV_railway_network
+		SOV_small_manu
+		SOV_desregulate_enterprises
+		SOV_scientific_revolution
+		SOV_politics
+		SOV_open_trade_with_britain
+		SOV_protect_the_monarchies
+		SOV_return_conservatism
+		SOV_mutual_collaboration
+		SOV_classic_monarchism
+		SOV_prepare_for_war
+		SOV_learn_from_switzerland
+		SOV_special_forces_1
+		SOV_special_forces_2
+		SOV_winter_soldiers
+	}
+}
+
+ai_focus_defense_SOV = {
+	research = {
+		defensive = 5.0	
+		
+		construction_tech = 2.0
+		artillery = 2.0
+	}
+}
+
+ai_focus_aggressive_SOV = {
+	research = {
+		offensive = 5.0
+
+		
+		# = 2.0
+	}
+}
+
+ai_focus_war_production_SOV = {
+	research = {
+		industry = 10.0
+		construction_tech = 2.0
+		electronics = 2.0
+		computing_tech = 2.0		
+	}
+}
+
+ai_focus_military_equipment_SOV = {
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+}
+
+ai_focus_military_advancements_SOV = {
+	research = {
+		# = 25.0
+		# = 5.0
+		land_doctrine = 100.0
+		# = 7.5
+		# = 3.0
+		# = 7.5
+		# = 7.5
+		# = 3.0
+		# = 4.0
+		# = 5.0
+		night_vision = 5.0
+	}
+}
+
+ai_focus_peaceful_SOV = {
+	research = {
+		industry = 15.0
+		construction_tech = 5.0
+		electronics = 10.0
+		computing_tech = 10.0
+	}
+}
+
+ai_focus_naval_SOV = {
+    research = {
+        naval_equipment = 2.0
+        naval_doctrine = 10.0
+        marine_tech = 15.0
+        dd_tech = 8.0
+        cl_tech = 5.0
+        ca_tech = 3.0
+        bc_tech = 8.0
+        bb_tech = 5.0
+        shbb_tech = 3.0
+        tp_tech = 3.0
+        cv_tech = 3.0
+        ss_tech = 10.0
+    }
+}
+
+
+ai_focus_aviation_SOV = {
+	research = {
+		# = 50.0
+		# = 4.0
+		# = 4.0
+		# = 1.0
+		# = 2.0		
+		# = 4.0
+		# = 5.0
+		# = 1.5
+		# = 5.0
+		# = 10.0
+	}
+}

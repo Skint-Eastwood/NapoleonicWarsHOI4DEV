@@ -1,0 +1,85 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+		FRA_King_Louis = {
+			picture = idea_king_louis
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.0025
+			}
+		}
+
+
+
+	## Ideas ##
+
+	FRA_Constitutional_Guard = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+			has_government = monarchist
+		}
+
+		removal_cost = -1
+		
+		modifier = {
+			political_power_gain = -0.50
+		}
+	}
+
+	FRA_National_Convention = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		removal_cost = -1
+		
+		modifier = {
+			political_power_gain = 0.20
+			stability_weekly = 0.02
+			
+		}
+	}
+
+	FRA_Napoleon = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+			has_government = democratic
+		}
+
+		removal_cost = -1
+		
+		modifier = {	
+			war_support_weekly = 0.01
+			justify_war_goal_time = -0.15	``
+			political_power_cost = 0.1	
+		
+		}
+	}
+
+	}
+}

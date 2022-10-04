@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_french_republic"
+		texturefile = "gfx/event_pictures/report_french_republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_storming_the_tuileries"
+		texturefile = "gfx/event_pictures/report_storming_the_tuileries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_002"
+		texturefile = "gfx/event_pictures/news_event_002.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_death_of_leopold"
+		texturefile = "gfx/event_pictures/report_death_of_leopold.dds"
+	}
+
+}

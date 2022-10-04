@@ -1,0 +1,216 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	light_air
+	medium_air
+	heavy_air
+	armor
+	cat_light_armor
+	cat_medium_armor
+	cat_heavy_armor
+	cat_anti_tank
+	naval_air
+	motorized_equipment
+	cat_mechanized_equipment
+	naval_equipment
+	rocketry
+	nuclear
+	industry
+	electronics
+	land_doctrine
+	air_doctrine
+	naval_doctrine
+	strategic_destruction_tree
+	battlefield_support_tree
+	operational_integrity_tree
+	jet_technology
+	trade_interdiction_tree
+	convoy_defense_tree
+	light_fighter
+	cat_heavy_fighter
+	tactical_bomber
+	cat_strategic_bomber
+	naval_bomber
+	cas_bomber
+	dd_tech
+	cl_tech
+	ca_tech
+	cv_tech
+	bc_tech
+	bb_tech
+	shbb_tech
+	ss_tech
+	tp_tech
+	synth_resources
+	fleet_in_being_tree
+	encryption_tech
+	decryption_tech
+	computing_tech
+	radar_tech
+	infantry_tech
+	marine_tech
+	construction_tech
+	excavation_tech
+	submarine_doctrine
+	air_equipment
+	cat_mobile_warfare
+	cat_superior_firepower
+	cat_grand_battle_plan
+	cat_mass_assault
+	cat_base_strike
+	cat_trade_interdiction
+	cat_fleet_in_being
+	cat_strategic_destruction
+	cat_battlefield_support
+	cat_operational_integrity
+	night_vision
+	base_strike_main
+	mot_rockets
+	support_tech
+	para_tech
+	engineers_tech
+	recon_tech
+	mountaineers_tech
+	military_police_tech
+	hospital_tech
+	logistics_tech
+	signal_company_tech
+	maintenance_company_tech
+	naval_mines
+	concentrated_industry_category
+	dispersed_industry_category
+	asw_tech
+	naval_minesweeping
+	naval_minelaying
+
+
+
+	infantry_light #Infantry
+	infantry_weapons #Infantry
+	infantry_rifle # Infantry
+	breech_loading # Infantry
+	infantry_air_rifle # Special Weapons
+	infantry_grenades # Infantry
+	uniforms #Infantry
+	music #Infantry
+	bayonets #Infantry
+	melee_weapons # Infantry
+	pistol # Infantry
+	carbine # Infantry
+	ammunition # Infantry
+	marine_units # Infantry
+	guards # Infantry
+	jagers # Infantry
+	mountaineers # Infantry
+	snow_uniforms # Infantry
+	desert_uniforms # Infantry
+	garrison # Infantry
+	skirmishers # Infantry
+	supply_lines # Infantry/Support
+	support_tech # Support
+	engineers_tech # Support
+	scouts # Support
+	gendarmerie # Support
+	logistics # Support
+	medical # Support
+	quartermaster # Support
+	communications # Support
+	sappers # Support
+	cavalry # Cavalry
+	reiter # Cavalry
+	cuirassier # Cavalry
+	carabiniers # Cavalry
+	elite_cavalry # Cavalry
+	dragoon # Cavalry
+	hussars # Cavalry
+	lancer # Cavalry
+	mounted_grenades # Cavalry
+	horse_armour #Cavalry
+	line_cavalry # Cavalry
+	artillery #Artillery
+	artillery_field_guns # Artillery
+	artillery_naval #Artillery/Naval
+	artillery_rockets # Special Weapons
+	artillery_limber # Artillery
+	artillery_rifled #Special Weapons
+	artillery_heavy # Artillery
+	artillery_organ # Special Weapons
+	artillery_mortars # Artillery
+	artillery_howitzer # Artillery
+	artillery_puckle # Special Weapons
+	skirmishers # Guerrila
+	saboteur # Guerrilla
+	guerrilla # Guerrilla
+	heavy_guerrilla # Guerrilla
+	counter_insurgent # Guerrilla
+	fire_ships # Guerrilla
+	infiltrator # Guerrilla
+	ship_of_the_line_1st # Naval
+	ship_of_the_line_2nd # Naval
+	ship_of_the_line_3rd # Naval
+	ship_of_the_line_4th # Naval
+	great_frigate # Naval
+	frigate # Naval
+	sloop # Naval
+	corvette # Naval
+	cutter # Naval
+	brig # Naval
+	boarding_hook # Naval
+	spotting # Naval
+	manufactories # industry
+	construction # Industry
+	extraction # Industry
+	fertiliser # Industry
+	gunpowder # Industry
+	horse_corral # Industry
+	forestry # Industry
+	military_production # Logistics
+	semaphores # Logistics
+	supply_lines # Logistics
+	trench_system # Logistics
+	star_fort # Logistics
+	spotting # Logistics
+	language_officers # Logistics
+	officer_training # Logistics
+	global_logistics # Land Doctrine, British style
+	grand_army #Land Doctrine, French Style
+	elite_army #Land Doctrine, Prussian Style
+	mass_firepower #Land Doctrine, Russian Style
+	traditionalism #Land Doctrine, Austrian Style
+	naval_superiorty #Naval Doctrine, British
+	mission_focus #Naval Doctrine, French
+	harrassment_fleet #Naval Doctrine, Spanish
+	guerilla_warfare #Guerilla Doctrine, Spanish
+	skirmishing_support #Guerilla Doctrine, Russian
+	continuous_assault #Guerilla Doctrine, Prussian
+	church_doctrine # Social Advancement
+	medicine # Social Advancement
+	social_sciences # Social Advancement
+	mobilisation # Social Advancement
+	education # Social advancement
+	political_thought # Social Advancement
+	tax_reforms # Social Advancement
+}
+
+technology_folders = {
+	infantry_folder
+	support_folder
+	armour_folder
+	artillery_folder
+	#special_weapons_folder
+	#guerrila_techs_folder
+	naval_folder
+	industry_folder
+	#logistics_folder
+	land_doctrine_folder
+	naval_doctrine_folder
+	#guerrila_doctrine_folder
+	#social_advancement_folder
+	#primitive_weapons_folder
+	air_doctrine_folder
+	air_techs_folder
+	electronics_folder
+
+	#secret_weapons_folder
+}

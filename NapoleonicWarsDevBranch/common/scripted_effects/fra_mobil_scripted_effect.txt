@@ -1,0 +1,15 @@
+FRA_mobil_campagne = {	
+	custom_effect_tooltip = FRA_mobil_campagne_tt
+	if = {
+		limit = {
+			state_population > 10000
+		}
+		add_manpower = 1
+	}
+	if = {
+		limit = {
+			state_population < 10000
+		}
+		add_manpower = 2
+	}
+}

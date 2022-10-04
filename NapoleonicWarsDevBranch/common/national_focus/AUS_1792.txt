@@ -1,0 +1,2804 @@
+focus_tree = {
+	id = AUS_1792
+	continuous_focus_position = { x = 0 y = 2000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	focus = {
+		id = AUS_habsburg_monarchy_of_europe
+		icon =  GFX_focus_aus_habsburg_monarchy
+		x = 5
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		#prerequisite = { focus = AUS_stand_with_the_coalition }
+		#relative_position_id = AUS_matters_in_europe
+
+		available = {
+			has_government = monarchist
+		}
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_holy_roman_empire
+		icon = GFX_focus_the_holy_roman_empire
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
+		relative_position_id = AUS_habsburg_monarchy_of_europe
+		available = {
+			GER = {
+				is_puppet_of = AUS
+			}
+		}
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_kaisers_tour
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_holy_roman_empire }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_portraits_of_the_kaiser
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_kaisers_tour }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_francis_the_great
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_portraits_of_the_kaiser }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_prussias_position
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_kaisers_tour }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_were_allies_for_now
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_prussias_position }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_empire_on_its_knees
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_kaisers_tour }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_pro_habsburg_propaganda
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_empire_on_its_knees }
+		relative_position_id = AUS_the_holy_roman_empire
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_bavaria
+		icon = GFX_focus_aus_bavaria
+		x = 8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
+		relative_position_id = AUS_habsburg_monarchy_of_europe
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_befriend_the_wittelsbach_dynasty
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_bavaria }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_bastion_of_the_alps
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_befriend_the_wittelsbach_dynasty }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_send_equipment_to_bavaria
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_befriend_the_wittelsbach_dynasty }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_defend_munich
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_befriend_the_wittelsbach_dynasty }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_celebrated_the_new_electorat
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_bastion_of_the_alps }
+		prerequisite = { focus = AUS_defend_munich }
+		prerequisite = { focus = AUS_send_equipment_to_bavaria }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_welcome_the_exiled_monarchy_to_wein
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_celebrated_the_new_electorat }
+		relative_position_id = AUS_bavaria
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_austrian_netherlands
+		icon = GFX_focus_aus_austrian_netherlands
+		x = -8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
+		relative_position_id = AUS_habsburg_monarchy_of_europe
+
+		available = {
+		}
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_under_the_french_threat
+		icon = GFX_focus_aus_under_french_threat
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_austrian_netherlands }
+		relative_position_id = AUS_austrian_netherlands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_ban_thought_of_unification
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_under_the_french_threat }
+		relative_position_id = AUS_austrian_netherlands
+		mutually_exclusive = { focus = AUS_surrender_the_netherlands }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_until_the_last_drop_of_blood
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_ban_thought_of_unification }
+		relative_position_id = AUS_austrian_netherlands
+		mutually_exclusive = { focus = AUS_leave_them_to_their_fate }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_leave_them_to_their_fate
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_ban_thought_of_unification }
+		relative_position_id = AUS_austrian_netherlands
+		mutually_exclusive = { focus = AUS_until_the_last_drop_of_blood }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_surrender_the_netherlands
+		icon = GFX_focus_generic_manpower
+		x = -3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_under_the_french_threat }
+		relative_position_id = AUS_austrian_netherlands
+		mutually_exclusive = { focus = AUS_ban_thought_of_unification }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_jemappes_problem
+		icon = GFX_focus_generic_manpower
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_under_the_french_threat }
+		relative_position_id = AUS_austrian_netherlands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_non_privileged_classes_into_government
+		icon = GFX_focus_generic_manpower
+		x = 25
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		#prerequisite = { focus = AUS_stand_with_the_coalition }
+		#relative_position_id = AUS_matters_in_europe
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_a_future_democracy
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_non_privileged_classes_into_government }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_austro_prussian_military_alliance
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_future_democracy }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_electing_the_emperors_son
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_austro_prussian_military_alliance }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_dawn_of_a_new_kaiser
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_electing_the_emperors_son }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_abhord_the_italian_demands
+		icon = GFX_focus_generic_manpower
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_dawn_of_a_new_kaiser }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_revenge_for_the_habsburg_princess
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_dawn_of_a_new_kaiser }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_involve_the_electorates
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_revenge_for_the_habsburg_princess }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_civil_code_of_austria
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_involve_the_electorates }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_french_go_too_far
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_civil_code_of_austria }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_josephist_bureaucracy
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_french_go_too_far }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_restore_capital_punishment
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_josephist_bureaucracy }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_crush_jacobin_plot
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_restore_capital_punishment }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_a_better_police_system
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_josephist_bureaucracy }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_call_pergen
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_better_police_system }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_replace_phillip
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_josephist_bureaucracy }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_under_the_guidance_of_sonnenfels
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_replace_phillip }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_polish_crisis
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_call_pergen }
+		prerequisite = { focus = AUS_crush_jacobin_plot }
+		prerequisite = { focus = AUS_under_the_guidance_of_sonnenfels }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_establish_the_citizens_militia
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_polish_crisis }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_jacobin_conspiracy
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_establish_the_citizens_militia }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_mass_censorship
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_jacobin_conspiracy }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_hanged_and_gibbeted
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_establish_the_citizens_militia }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_imprisonment
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_hanged_and_gibbeted }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_inspect_the_family
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_establish_the_citizens_militia }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_charles_and_johann
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_inspect_the_family }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_best_spy_network_in_europe
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_mass_censorship }
+		prerequisite = { focus = AUS_charles_and_johann }
+		prerequisite = { focus = AUS_imprisonment }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_rhine_in_shame
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_best_spy_network_in_europe focus = AUS_defend_against_jordan_and_moreau }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_definitive_end_of_venice
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_rhine_in_shame }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_official_reception_at_doges_palace
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_definitive_end_of_venice }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_recognise_the_puppets_of_france
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_official_reception_at_doges_palace }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_release_marquis_de_lafayette
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_official_reception_at_doges_palace }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_the_french_emigres
+		icon = GFX_focus_generic_manpower
+		x = -9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_revenge_for_the_habsburg_princess }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_protection_from_the_revolution
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_french_emigres }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_warfront
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_protection_from_the_revolution }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_defend_against_jordan_and_moreau
+		icon = GFX_focus_generic_manpower
+		x = -1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_warfront }
+		relative_position_id = AUS_the_french_emigres
+		mutually_exclusive = { focus = AUS_bonaparte_is_more_a_threat }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_bonaparte_is_more_a_threat
+		icon = GFX_focus_generic_manpower
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_warfront }
+		relative_position_id = AUS_the_french_emigres
+		mutually_exclusive = { focus = AUS_defend_against_jordan_and_moreau }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_rhine_campaign
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_defend_against_jordan_and_moreau focus = AUS_bonaparte_is_more_a_threat }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_a_march_on_paris
+		icon = GFX_focus_generic_manpower
+		x = -4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_warfront }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_burden_of_war
+		icon = GFX_focus_generic_manpower
+		x = -4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_march_on_paris }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_defend_wissembourg
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_warfront }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_increase_patriotic_sentiment
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_defend_wissembourg }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_bonapartes_surrender_terms
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_burden_of_war }
+		prerequisite = { focus = AUS_the_rhine_campaign }
+		prerequisite = { focus = AUS_increase_patriotic_sentiment }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_progressive_reforms
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_bonapartes_surrender_terms }
+		relative_position_id = AUS_the_french_emigres
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+		focus = {
+		id = AUS_the_austrian_ethnicity_problem
+		icon = GFX_focus_generic_manpower
+		x = 9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_revenge_for_the_habsburg_princess }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_hungarian_problem
+		icon = GFX_focus_generic_manpower
+		x = 9
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_austrian_ethnicity_problem }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_take_advantage_of_a_weakened_poland
+		icon = GFX_focus_generic_manpower
+		x = 12
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_austrian_ethnicity_problem }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_full_occupation_of_poland
+		icon = GFX_focus_generic_manpower
+		x = 12
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_take_advantage_of_a_weakened_poland }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_deport_hungarians
+		icon = GFX_focus_generic_manpower
+		x = 8
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_hungarian_problem }
+		relative_position_id = AUS_non_privileged_classes_into_government
+		mutually_exclusive = { focus = AUS_conscript_hungarians }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_conscript_hungarians
+		icon = GFX_focus_generic_manpower
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_hungarian_problem }
+		relative_position_id = AUS_non_privileged_classes_into_government
+		mutually_exclusive = { focus = AUS_deport_hungarians }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_end_segregation_for_hungarians
+		icon = GFX_focus_generic_manpower
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_conscript_hungarians }
+		relative_position_id = AUS_non_privileged_classes_into_government
+		mutually_exclusive = { focus = AUS_form_the_austro_hungarian_empire }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_form_the_austro_hungarian_empire
+		icon = GFX_focus_generic_manpower
+		x = 12
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_conscript_hungarians }
+		relative_position_id = AUS_non_privileged_classes_into_government
+		mutually_exclusive = { focus = AUS_end_segregation_for_hungarians }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_catholicise_the_state
+		icon = GFX_focus_generic_manpower
+		x = 6
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_austrian_ethnicity_problem }
+		relative_position_id = AUS_non_privileged_classes_into_government
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_begin_rearming
+		icon = GFX_focus_generic_manpower
+		x = 46
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		#prerequisite = { focus = AUS_stand_with_the_coalition }
+		#relative_position_id = AUS_matters_in_europe
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_two_cutters
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_begin_rearming }
+		relative_position_id = AUS_begin_rearming
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_improve_vessel_numbers
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_two_cutters }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_more_merchant_vessels
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_improve_vessel_numbers }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_defensive_cannons_for_merchants
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_more_merchant_vessels }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_austro_venetian_navy
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_defensive_cannons_for_merchants focus = AUS_the_KMS focus = AUS_interception_of_foreign_trade_routes }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_introduction_of_the_sextant
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_austro_venetian_navy }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_only_adriatic_naval_power
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_introduction_of_the_sextant }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_interception_of_foreign_trade_routes
+		icon = GFX_focus_generic_manpower
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_improve_vessel_numbers }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_KMS
+		icon = GFX_focus_generic_manpower
+		x = -3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_improve_vessel_numbers }
+		relative_position_id = AUS_the_two_cutters
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_the_kaisers_militia
+		icon = GFX_focus_generic_manpower
+		x = -4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_begin_rearming }
+		relative_position_id = AUS_begin_rearming
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_recover_from_the_war_with_poland
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_kaisers_militia }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_new_variants_of_artillery
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_recover_from_the_war_with_poland }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_open_more_artillery_schools
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_new_variants_of_artillery }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_officers_order
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_open_more_artillery_schools }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_begin_mass_production_of_guns
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_recover_from_the_war_with_poland }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_no_more_weapon_shortages
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_begin_mass_production_of_guns }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_musician_men
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_no_more_weapon_shortages }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_crusaders_of_archduke_charles
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_recover_from_the_war_with_poland }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_light_weight_weapons_for_cavalry
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_crusaders_of_archduke_charles }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_longer_cavalry_spears
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_light_weight_weapons_for_cavalry }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_expanded_conscription_act
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_longer_cavalry_spears focus = AUS_musician_men focus =  AUS_officers_order }
+		relative_position_id = AUS_the_kaisers_militia
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_an_opportunity
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_abhord_the_italian_demands }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_end_of_the_habsburgs
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_an_opportunity }
+		relative_position_id = AUS_abhord_the_italian_demands
+		mutually_exclusive = { focus = AUS_repurpose_the_monarchy }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_fate_of_the_kaisers_heir
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_end_of_the_habsburgs }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_end_of_the_holy_roman_empire
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_fate_of_the_kaisers_heir }
+		relative_position_id = AUS_an_opportunity
+
+		available = {
+			GER = {
+				is_puppet_of = AUS
+			}
+		}
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_a_united_democratic_germany
+		icon = GFX_focus_generic_manpower
+		x = -8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_end_of_the_holy_roman_empire }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_pull_out_of_the_partitioning
+		icon = GFX_focus_generic_manpower
+		x = -8
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_united_democratic_germany }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_end_hungarian_occupation
+		icon = GFX_focus_generic_manpower
+		x = -10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_united_democratic_germany }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_pressure_the_minor_states
+		icon = GFX_focus_generic_manpower
+		x = -9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_end_hungarian_occupation }
+		prerequisite = { focus = AUS_pull_out_of_the_partitioning }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_referendums
+		icon = GFX_focus_generic_manpower
+		x = -9
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_pressure_the_minor_states }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_das_deutsche_bund
+		icon = GFX_focus_generic_manpower
+		x = -9
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_referendums }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_potential_allies
+		icon = GFX_focus_generic_manpower
+		x = -7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_united_democratic_germany focus = AUS_united_states_of_austria }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_united_states_of_austria
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_end_of_the_holy_roman_empire }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_ethnic_autonomy
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_united_states_of_austria }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_expand_past_the_danube
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_ethnic_autonomy }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_end_ottoman_influence_in_the_balkans
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_expand_past_the_danube }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_federation_of_the_danube
+		icon = GFX_focus_generic_manpower
+		x = -5
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_end_ottoman_influence_in_the_balkans }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_principles_of_wien
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_fate_of_the_kaisers_heir }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_first_national_congress
+		icon = GFX_focus_generic_manpower
+		x = -2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_principles_of_wien }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_peoples_party
+		icon = GFX_focus_generic_manpower
+		x = -3
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_first_national_congress }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_a_christian_democratic_party
+		icon = GFX_focus_generic_manpower
+		x = -1
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_first_national_congress }
+		relative_position_id = AUS_an_opportunity
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_repurpose_the_monarchy
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_an_opportunity }
+		relative_position_id = AUS_abhord_the_italian_demands
+		mutually_exclusive = { focus = AUS_end_of_the_habsburgs }
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_king_francis_ii
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_repurpose_the_monarchy }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_repurpose_the_holy_roman_empire
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_king_francis_ii }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_the_traitors_of_democracy
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_repurpose_the_holy_roman_empire }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_plans_for_a_united_roman_kingdom
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_the_traitors_of_democracy }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_get_the_popes_blessing
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_a_christian_democratic_party focus = AUS_plans_for_a_united_roman_kingdom }
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_united_the_states
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_get_the_popes_blessing}
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_untied_roman_kingdom
+		icon = GFX_focus_generic_manpower
+		x = 4
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AUS_united_the_states}
+		relative_position_id = AUS_abhord_the_italian_demands
+
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
+		}
+	}
+}
+

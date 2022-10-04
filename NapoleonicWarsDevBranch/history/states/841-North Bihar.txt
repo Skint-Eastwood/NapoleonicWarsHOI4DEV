@@ -1,0 +1,19 @@
+state={
+	id=841
+	name="STATE_841"
+	manpower = 2500
+
+	state_category = rural
+
+	history={
+		owner = BAN
+		add_core_of = BAN
+	}
+
+	provinces={
+		1541 1569 4459 4516 4544 4571 7334 10361 10751 10878 
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

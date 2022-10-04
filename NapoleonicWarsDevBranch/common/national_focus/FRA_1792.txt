@@ -1,0 +1,247 @@
+focus_tree = {
+	id = FRA_1792
+	continuous_focus_position = { x = 0 y = 1300 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+    ######################
+	## French Republic 	##
+	######################
+
+	focus = {
+		id = FRA_intoduction_of_the_guilotine
+		icon = GFX_focus_secret_rearmament
+		x = 5
+		y = 0
+		cost = 3.6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_stability = -0.15
+		}
+	}
+
+	focus = {
+		id = FRA_the_peasant_revolt_escalates
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 5
+		y = 1
+		cost = 3.6
+		prerequisite = { focus = FRA_intoduction_of_the_guilotine }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_manpower = -100
+			}
+		}
+
+
+	focus = {
+		id = FRA_fear_of_the_counter_revolution
+		icon = GFX_focus_war_plan_white
+		x = 5
+		y = 2
+		cost = 5
+		prerequisite = { focus = FRA_the_peasant_revolt_escalates }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {	
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
+			}
+		}
+	}
+	
+
+	## Brunswick Manifesto Event ##
+
+	focus = {
+		id = FRA_respond_to_the_manifesto
+		icon = GFX_focus_focus_fra_maquis
+		x = 5
+		y = 3
+		cost = 10
+		prerequisite = { focus = FRA_fear_of_the_counter_revolution }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_popularity = {
+   				ideology = authoritarian_democracy
+    			popularity = 0.2
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_to_arms_citizens
+		icon = GFX_focus_generic_little_entente
+		x = 5
+		y = 4
+		cost = 0.3
+		prerequisite = { focus = FRA_respond_to_the_manifesto }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_popularity = {
+   				ideology = authoritarian_democracy
+    			popularity = 0.3
+			}
+
+			country_event = { id = france.1 }
+			news_event = { id = news.1 }
+			load_focus_tree = FRA_First_Republic
+
+			set_cosmetic_tag = REV_FRA
+		}
+	}
+
+focus = {
+		id = FRA_dissolve_the_constitutional_guard
+		icon = GFX_focus_generic_military_dictatorship
+		mutually_exclusive = { focus = FRA_keep_the_constitutional_guard }
+		x = 8
+		y = 3
+		cost = 5.8
+		prerequisite = { focus = FRA_establish_the_constitutional_guard }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}		
+		completion_reward = {		
+			remove_ideas = FRA_Constitutional_Guard
+		}
+	}
+
+focus = {
+		id = FRA_sans_cullotes_in_the_army
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 8
+		y = 4
+		cost = 10
+		prerequisite = { focus = FRA_dissolve_the_constitutional_guard }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}		
+		completion_reward = {		
+			set_cosmetic_tag = FRP_FRA
+			load_focus_tree = FRA_First_Republic
+		}
+	}
+
+	#######################
+	## Kingdom of France ##
+	#######################
+
+	focus = {
+		id = FRA_establish_the_constitutional_guard
+		icon = GFX_focus_the_constitutional_guard
+		x = 8
+		y = 2
+		cost = 10
+		prerequisite = { focus = FRA_the_peasant_revolt_escalates }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			add_ideas = FRA_Constitutional_Guard
+		}
+	}
+	
+
+	focus = {
+		id = FRA_keep_the_constitutional_guard
+		icon = GFX_focus_generic_monarchy_1
+		mutually_exclusive = { focus = FRA_dissolve_the_constitutional_guard }
+		x = 11
+		y = 3
+		cost = 10
+		prerequisite = { focus = FRA_establish_the_constitutional_guard }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			}
+		}
+
+	focus = {
+		id = FRA_army_for_the_soldiers
+		icon = GFX_goal_rhineland
+		x = 11
+		y = 4
+		cost = 10
+		prerequisite = { focus = FRA_keep_the_constitutional_guard }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			}
+		}
+
+	focus = {
+		id = FRA_counter_the_sans_cullotes
+		icon = GFX_goal_generic_dangerous_deal
+		x = 11
+		y = 5
+		cost = 10
+		prerequisite = { focus = FRA_army_for_the_soldiers }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			}
+		}
+
+	focus = {
+		id = FRA_dissolve_the_national_guard
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 11
+		y = 6
+		cost = 10
+		prerequisite = { focus = FRA_counter_the_sans_cullotes }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {		
+			}
+		}
+	
+
+	focus = {
+		id = FRA_royalist_officers
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 11
+		y = 7
+		cost = 10
+		prerequisite = { focus = FRA_dissolve_the_national_guard }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {	
+			load_focus_tree = FRA_Kingdom
+			}
+		}
+	
+
+	# Kindom of france tree switchover #
+
+
+
+}
+
+#		

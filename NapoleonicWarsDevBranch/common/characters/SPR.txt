@@ -1,0 +1,16 @@
+characters={
+	SPR_Carlos_IV={ #Democratic Leader
+		name="Carlos IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/SPR_Carlos_IV.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1799.2.16.1"
+			id=-1
+		}
+	}
+}

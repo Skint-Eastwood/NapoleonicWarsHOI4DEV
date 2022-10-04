@@ -1,0 +1,266 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		gun_cannon = { x = 2 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Leichte Kavallerie" 			# SS division
+	# Note: actually a grouping of 3 independent SS-mot regiments
+	regiments = {
+		lancers = { x = 0 y = 0 }
+	    lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Gebirgsjäger-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 6334
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Infanterie-Division"
+		location = 537
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	# III. Armeekorps
+	division= {	
+		name = "3. Infanterie-Division"
+		location = 478
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23. Infanterie-Division"
+		location = 478
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	### 3. Armee (Wehrmacht-Gruppenkommando) ###
+	# IV. Armeekorps
+	division= {	
+		name = "4. Infanterie-Division"
+		location = 6462
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Infanterie-Division"
+		location = 6462
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Infanterie-Division"
+		location = 6462
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	# VIII. Armeekorps
+	division= {	
+		name = "8. Infanterie-Division"
+		location = 11467
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18. Infanterie-Division"
+		location = 11467
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	# I. Armeekorps
+	division= {	
+		name = "1. Infanterie-Division"
+		location = 6402
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Infanterie-Division"
+		location = 266
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21. Infanterie-Division"
+		location = 3384
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Kavallerie-Kommando Insterburg" 
+		location = 281
+		division_template = "Leichte Kavallerie"
+		start_experience_factor = 0.3
+	}
+
+
+	### 2. Armee (Wehrmacht-Gruppenkommando) ###
+	division= {	
+		name = "13. Infanterie-Division"
+		location = 375
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	# VI. Armeekorps
+	division= {	
+		name = "6. Infanterie-Division"
+		location = 3522
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Infanterie-Division"
+		location = 3522
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	# IX. Armeekorps
+	division= {	
+		name = "9. Infanterie-Division"
+		location = 3522
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Infanterie-Division"
+		location = 11301
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	# X. Armeekorps
+	division= {	
+		name = "19. Infanterie-Division"
+		location = 375
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	# V. Armeekorps
+
+	# VII. Armeekorps
+	division= {	
+		name = "7. Infanterie-Division"
+		location = 3544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	##### NAVAL UNITS #####
+	#navy = {
+	#	name = "Kriegsmarine"
+	#	base = 241
+	#	location = 241  # Wilhemshaven
+	#	ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
+	#	
+	#}
+
+	
+}
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = artillery_equipment_1
+	#		creator = "GER" 
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.3
+	#	efficiency = 50
+	#}
+
+	### Ships Under Contruction ###
+	# SS: Type IIA (x2) ("U-25" "U-26"), Type IIB (x6) ("U-14" "U-16" "U-18" "U-15" "U-20" "U-19")
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = submarine_2
+	#		creator = "GER" 
+	#	}
+	#	requested_factories = 5
+	#	progress = 0.75
+	#	amount = 8
+	#}
+	
+}
+
+#####################
