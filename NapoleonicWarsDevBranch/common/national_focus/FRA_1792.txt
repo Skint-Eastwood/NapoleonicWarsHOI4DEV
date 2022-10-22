@@ -24,6 +24,7 @@ focus_tree = {
 		}
 		completion_reward = {		
 			add_stability = -0.15
+			news_event = { id = news.3 }
 		}
 	}
 
@@ -38,7 +39,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {		
-			add_manpower = -100
+			add_manpower = -1000
 			}
 		}
 
@@ -54,9 +55,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {	
-			create_wargoal = {
-				type = annex_everything
+			declare_war_on = {
 				target = AUS
+				type = annex_everything
 			}
 		}
 	}
@@ -93,6 +94,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {		
+			add_stability = 0.05
+			add_threat = 5
 			add_popularity = {
    				ideology = authoritarian_democracy
     			popularity = 0.3
