@@ -1,0 +1,215 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_FRA_border_icon_icon"
+		textureFile = "/gfx/interface/scripted_gui_graphics/FRA_border_icon_icon.dds"
+	}
+	
+	#nord	
+	spriteType = {
+		name = "GFX_FRA_mob_limit_nord_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_nord_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_nord_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_nord_1.dds"
+	}
+#picardy
+	spriteType = {
+		name = "GFX_FRA_mob_limit_picardy_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_picardy_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_picardy_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_picardy_1.dds"
+	}
+#normandy
+	spriteType = {
+		name = "GFX_FRA_mob_limit_normandy_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_normandy_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_normandy_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_normandy_1.dds"
+	}
+#brittany
+	spriteType = {
+		name = "GFX_FRA_mob_limit_brittany_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_brittany_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_brittany_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_brittany_1.dds"
+	}
+#loire
+	spriteType = {
+		name = "GFX_FRA_mob_limit_loire_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_loire_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_loire_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_loire_1.dds"
+	}
+#poitou
+	spriteType = {
+		name = "GFX_FRA_mob_limit_poitou_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_poitou_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_poitouicon_1"
+		texturefile = "gfx/interface/FRA_moblimit_poitou_1.dds"
+	}
+#centre_sud
+	spriteType = {
+		name = "GFX_FRA_mob_limit_centre_sud_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_centre_sud_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_centre_sud_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_centre_sud_1.dds"
+	}
+#bourgogne
+	spriteType = {
+		name = "GFX_FRA_mob_limit_bourgogne_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_bourgogne_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_bourgogne_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_bourgogne_1.dds"
+	}
+#champagne
+	spriteType = {
+		name = "GFX_FRA_mob_limit_champagne_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_champagne_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_champagne_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_champagne_1.dds"
+	}
+#franhe_comte
+	spriteType = {
+		name = "GFX_FRA_mob_limit_franhe_comte_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_franche_comte_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_franhe_comte_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_franche_comte_1.dds"
+	}
+#elsas
+	spriteType = {
+		name = "GFX_FRA_mob_limit_elsa_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_elsas_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_elsa_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_elsas_1.dds"
+	}
+#rhone
+	spriteType = {
+		name = "GFX_FRA_mob_limit_rhone_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_rhone_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_rhone_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_rhone_1.dds"
+	}
+#alpes
+	spriteType = {
+		name = "GFX_FRA_mob_limit_alpes_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_alpes_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_alpes_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_alpes_1.dds"
+	}
+#longuedoc
+	spriteType = {
+		name = "GFX_FRA_mob_limit_longuedoc_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_longuedoc_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_longuedoc_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_longuedoc_1.dds"
+	}
+#midi pyr
+	spriteType = {
+		name = "GFX_FRA_mob_limit_midi_pyr_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_midi_pyr_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_midi_pyr_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_midi_pyr_1.dds"
+	}
+#poitou
+	spriteType = {
+		name = "GFX_FRA_mob_limit_poitou_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_poitou_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_poitou_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_poitou_1.dds"
+	}
+#aqvitania
+	spriteType = {
+		name = "GFX_FRA_mob_limit_aqvitania_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_aqvitania_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_aqvitania_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_aqvitania_1.dds"
+	}
+#centre
+	spriteType = {
+		name = "GFX_FRA_mob_limit_centre_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_centre_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_centre_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_centre_1.dds"
+	}
+#auvergne
+	spriteType = {
+		name = "GFX_FRA_mob_limit_auvergne_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_auvergne_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_auvergne_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_auvergne_1.dds"
+	}
+#limousin
+	spriteType = {
+		name = "GFX_FRA_mob_limit_limousin_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_limousin_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_limousin_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_limousin_1.dds"
+	}
+#west_pyr
+	spriteType = {
+		name = "GFX_FRA_mob_limit_west_pyr_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_west_pyr_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_west_pyr_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_west_pyr_1.dds"
+	}
+#provence
+	spriteType = {
+		name = "GFX_FRA_mob_limit_provence_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_provence_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_provence_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_provence_1.dds"
+	}
+#il de frans
+	spriteType = {
+		name = "GFX_FRA_mob_limit_il_de_icon_0"
+		texturefile = "gfx/interface/FRA_moblimit_il_de_0.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_mob_limit_il_de_icon_1"
+		texturefile = "gfx/interface/FRA_moblimit_il_de_1.dds"
+	}
+}
