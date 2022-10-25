@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = NFL
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = ENG
+		add_core_of = NFL
 
 	}
 

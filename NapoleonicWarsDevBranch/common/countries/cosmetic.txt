@@ -4,11 +4,11 @@ FRP_FRA = {
 }
 
 BBN_BAN = {
-    color = rgb { 255 0 0 }
-    color_ui = rgb { 255 0 0 }
+    color = rgb { 198 0 0 }
+    color_ui = rgb { 198 0 0 }
 }
 
 BRA_AND = {
-    color = rgb { 255 0 0 }
-    color_ui = rgb { 255 0 0 }
+    color = rgb { 198 0 0 }
+    color_ui = rgb { 198 0 0 }
 }

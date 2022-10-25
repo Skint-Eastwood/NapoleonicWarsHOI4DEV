@@ -1,4 +1,5 @@
 AND = "countries/Andhra.txt"
+NFL = "countries/Newfoundland.txt"
 BKH = "countries/Bukhara.txt"
 KHV = "countries/Khiva.txt"
 KOK = "countries/Kokand"

@@ -1,0 +1,16 @@
+state={
+	id=852
+	name="STATE_852"
+	history = {
+		owner = USA
+		add_core_of = CAN
+		add_core_of = USA
+	}
+	provinces={
+		1769 4775 7899 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
