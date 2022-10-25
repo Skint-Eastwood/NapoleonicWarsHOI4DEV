@@ -1,5 +1,10 @@
 #reload countrycolors
 
+NFL = {
+	color = rgb { 140  53  41 }
+	color_ui = rgb { 140  53  41 }
+}
+
 RJT = {
 	color = rgb { 180  4  68 }
 	color_ui = rgb { 180  4  68 }
@@ -21,13 +26,13 @@ LAD = {
 }
 
 MAR = {
-	color = rgb { 192  192  192 }
-	color_ui = rgb { 192  192  192 }
+	color = rgb { 172  102  58 }
+	color_ui = rgb { 172  102  58 }
 }
 
 CNT = {
-	color = rgb { 178  0  255 }
-	color_ui = rgb { 178  0  255 }
+	color = rgb { 43  135  135 }
+	color_ui = rgb { 43  135  135 }
 }
 
 MYS = {
@@ -209,8 +214,8 @@ AST = {
 	color_ui = rgb { 74 186 126 }
 }
 BHU = {
-	color = rgb { 172 122 88 }
-	color_ui = rgb { 172 122 88 }
+	color = rgb { 65 6 17 }
+	color_ui = rgb { 65 6 17 }
 }
 BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
