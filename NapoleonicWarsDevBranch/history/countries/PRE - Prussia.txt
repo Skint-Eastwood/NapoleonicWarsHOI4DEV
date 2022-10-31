@@ -23,4 +23,5 @@ add_ideas = {
 		}
 
 recruit_character = PRE_Frederick_William_II
+recruit_character = PRE_Gebhard_Leberecht
 

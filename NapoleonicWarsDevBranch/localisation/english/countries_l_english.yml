@@ -1,4 +1,11 @@
 ﻿l_english:
+ PER:0 "Qajar"
+ BRA:0 "Brazil"
+ BRA_DEF:0 "Brazil"
+ BRA_ADJ:0 "Brazilian"
+ USA:0 "United States of America"
+ USA_DEF:0 "the United States of America"
+ USA_ADJ:0 "American"
  NFL:0 "Newfoundland"
  KAZ:0 "Kazakh"
  KAZ_DEF:0 "Kazakh"
