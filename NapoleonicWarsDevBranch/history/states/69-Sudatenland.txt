@@ -17,7 +17,7 @@ state = {
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-			anti_air_building = 1
+			TRBi_air_building = 1
 			424 =
 			{
 				bunker = 1

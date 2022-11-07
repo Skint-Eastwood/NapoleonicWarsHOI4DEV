@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = ANM
+		owner = TRB
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
@@ -18,7 +18,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = ANM
+		add_core_of = TRB
 		victory_points = {
 			1690 1 
 		}

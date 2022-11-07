@@ -86,14 +86,9 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 
-ANM = {
-	color = rgb { 65 65 65 }
-	color_ui = rgb { 65 65 65 }
-}
-
-ANT = {
-	color = rgb { 65 65 65 }
-	color_ui = rgb { 65 65 65 }
+TRB = {
+	color = rgb { 55 55 55 }
+	color_ui = rgb { 55 55 55 }
 }
 
 SOV = {

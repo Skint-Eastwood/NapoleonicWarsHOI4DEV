@@ -1,7 +1,7 @@
 
 state={
 	id=506
-	name="STATE_506" # Antofagasta
+	name="STATE_506" # TRBofagasta
 	manpower = 283605
 	
 	state_category = rural

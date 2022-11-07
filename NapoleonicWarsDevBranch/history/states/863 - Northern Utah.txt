@@ -1,0 +1,15 @@
+state={
+	id=863
+	name="STATE_863"
+	history = {
+		owner = TRB
+		add_core_of = TRB
+	}
+	provinces={
+		13247
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

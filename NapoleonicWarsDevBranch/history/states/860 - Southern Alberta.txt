@@ -1,0 +1,15 @@
+state={
+	id=860
+	name="STATE_860"
+	history = {
+		owner = MEX
+		add_core_of = MEX
+	}
+	provinces={
+		13242 13243
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

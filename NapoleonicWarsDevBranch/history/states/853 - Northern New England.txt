@@ -1,0 +1,17 @@
+state={
+	id=853
+	name="STATE_853"
+	history = {
+		owner = NFL
+		add_core_of = NFL
+		add_core_of = USA
+		set_demilitarized_zone = yes #disputed territory
+	}
+	provinces={
+		4287 10247 12221 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,7 +1,7 @@
 
 state={
 	id=342
-	name="STATE_342" # Antalya
+	name="STATE_342" # TRBalya
 	manpower = 362689
 	resources={
 		chromium=35 # was: 46

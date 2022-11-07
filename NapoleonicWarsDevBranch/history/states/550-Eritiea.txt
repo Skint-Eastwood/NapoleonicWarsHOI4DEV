@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = ANT
-		add_core_of = ANT
+		owner = TRB
+		add_core_of = TRB
 		victory_points = {
 			12766 1
 		}

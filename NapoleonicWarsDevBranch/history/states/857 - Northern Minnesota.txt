@@ -1,0 +1,15 @@
+state={
+	id=857
+	name="STATE_857"
+	history = {
+		owner = NFL
+		add_core_of = NFL
+	}
+	provinces={
+		10618 11667 12597
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+###########################
+# Superevents
+###########################
+
+add_namespace = super
+
+# First Coalition War
+country_event = {
+	id = super.0
+	title = super.0.t
+	desc = super.0.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = super.0.a
+		set_global_flag = superevent
+		set_variable = { NapWars_superevent = 0 }
+		play_song = "superevent0"
+	}
+	
+}	

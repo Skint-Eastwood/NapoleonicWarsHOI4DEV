@@ -7,16 +7,16 @@ state={
 	state_category = rural
 
 	history={
-		owner = ANM
+		owner = TRB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = ANM
+		add_core_of = TRB
 	}
 
 	provinces={
-		736 1788 3481 3498 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 
+		736 1788 3481 3498 4739 9669 10552 10611 10656 11440 12593 12603 12663 
 	}
 
 	local_supplies=0.0 

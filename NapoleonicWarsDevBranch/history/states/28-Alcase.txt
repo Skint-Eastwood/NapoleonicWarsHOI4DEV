@@ -47,7 +47,7 @@ state={
 				bunker = 10
 
 			}
-			anti_air_building = 5
+			TRBi_air_building = 5
 			air_base = 5
 
 		}
