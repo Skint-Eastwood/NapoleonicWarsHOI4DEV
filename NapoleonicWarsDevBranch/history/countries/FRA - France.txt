@@ -23,7 +23,7 @@ set_technology = {
 set_research_slots = 3
 
 1792.1.1 = {
-}
+
 
 add_ideas = {
 	FRA_Unpopular_Monarch
@@ -44,6 +44,7 @@ set_popularities = {
 	authoritarian_democracy = 30
 	jacobinism = 12
 }
+}
 
 add_ideas = {
 	FRA_King_Louis
@@ -54,6 +55,36 @@ add_ideas = {
 	limited_conscription
 	limited_exports
 	
+}
+
+1804.5.18 = {
+
+	add_country_leader_role = {
+		character = FRA_Napoleon_Bonaparte
+		promote_leader = yes
+		country_leader = {
+		  ideology = authoritarian_democracy
+		  expire = ""
+		  traits = { popular_figurehead }
+		}
+	}
+
+	set_popularities = {
+		democratic = 6
+		authoritarian = 0
+		monarchist = 30
+		socialism = 3
+		Liberalism = 4
+		authoritarian_democracy = 45
+		jacobinism = 12
+	}
+
+	set_politics = {
+		ruling_party = authoritarian_democracy
+		last_election = "1890.5.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
 
 recruit_character = FRA_Louis_XVI
