@@ -13,8 +13,8 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = ANT
-		add_core_of = ANT
+		owner = TRB
+		add_core_of = TRB
 		buildings = {
 			infrastructure = 2
 			10833 = {

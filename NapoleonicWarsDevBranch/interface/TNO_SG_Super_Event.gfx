@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_superevent_quote_bg"
+		textureFile = "gfx/superevents/quote_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_superevent_war_of_the_first_coalition"
+		textureFile = "gfx/superevents/war_of_the_first_coalition.dds"
+	}
+}
+

@@ -2,12 +2,13 @@ state={
 	id=852
 	name="STATE_852"
 	history = {
-		owner = USA
-		add_core_of = CAN
+		owner = NFL
+		add_core_of = NFL
 		add_core_of = USA
+		set_demilitarized_zone = yes #disputed territory
 	}
 	provinces={
-		1769 4775 7899 
+		7899 13237
 	}
 	manpower=2000
 	buildings_max_level_factor=1.000

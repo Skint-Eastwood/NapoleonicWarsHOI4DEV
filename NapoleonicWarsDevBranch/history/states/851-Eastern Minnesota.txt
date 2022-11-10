@@ -6,7 +6,7 @@ state={
 		add_core_of = USA
 	}
 	provinces={
-		1734 6767 12550 
+		1719 6827 7896 12550 12588
 	}
 	manpower=2000
 	buildings_max_level_factor=1.000

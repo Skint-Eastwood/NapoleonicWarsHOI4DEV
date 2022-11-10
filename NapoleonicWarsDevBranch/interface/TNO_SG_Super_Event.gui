@@ -1,0 +1,59 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "NW_Super_Event"
+		size = { width = 1275 height = 725 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes  
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg"
+		}
+
+		iconType = {
+			name = "SE_image"
+			position = { x= 20 y = 50 }
+		}
+		
+		iconType = {
+			name = "SE_quote_bg"
+			spriteType = "GFX_superevent_quote_bg"
+			position = { x= -260 y = 150 }
+			Orientation = center
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = -80 y = -340 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "[SE_Title]"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			Orientation = center
+		}
+
+		instantTextBoxType = {
+			name = "Quote"
+			position = { x = 550 y = 550 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 200
+			text = "[SE_Quote]"
+		}
+
+		buttonType = {
+			name = "Close"
+			text = "[SE_Close]"
+			shortcut = "ESCAPE"
+			position = { x = 525 y = 650 }
+			quadTextureSprite = "GFX_button_221x34"
+			buttonFont = "hoi_18mbs"
+		}
+	}	
+}
+

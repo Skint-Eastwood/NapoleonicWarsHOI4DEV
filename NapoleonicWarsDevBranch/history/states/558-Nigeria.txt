@@ -9,8 +9,8 @@ state={
 		rubber=2 # was: 3
 	}
 	history={
-		owner = ANT
-		add_core_of = ANT
+		owner = TRB
+		add_core_of = TRB
 		buildings = {
 			infrastructure = 2
 			arms_factory = 0

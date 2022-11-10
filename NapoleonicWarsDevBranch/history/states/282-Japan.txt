@@ -1,7 +1,7 @@
 
 state={
 	id=282
-	name="STATE_282" # Kanto
+	name="STATE_282" # KTRBo
 	manpower = 13773000
 	
 	state_category = megalopolis

@@ -1,0 +1,23 @@
+scripted_gui = {
+
+	Superevent = {
+		context_type = player_context
+		window_name = "NW_Super_Event"
+
+		visible = {
+			is_ai = no
+			has_global_flag = superevent
+		}
+
+		effects = {
+			Close_click = {
+					clear_variable = NapWars_superevent
+					clr_global_flag = superevent
+			}
+		}		
+
+		properties = {
+			SE_image = { image = "[SE_Image]" }
+		}
+	}
+}
