@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_alpha"
+		texturefile = "gfx/alpha.dds"
+		noOfFrames = 1
+	}
+
+	### new tfv nat spirit icons
+
+}

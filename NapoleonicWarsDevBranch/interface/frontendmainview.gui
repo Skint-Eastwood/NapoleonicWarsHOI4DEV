@@ -25,20 +25,23 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
+		position = { x=0 y =0}
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
-		size = { width = 256 height = 768}
+		size = { width = 500 height = 500}
+		Orientation = center
 		
-		iconType =
-		{
+		ButtonType ={
 			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
-		}
-		
+			position = { x= 500 y = 350 }
+			quadTextureSprite ="GFX_frontend_game_logo"
+			pdx_tooltip = "MENU_DISCORD"
+			clicksound = click_default
+			web_link = "https://discord.gg/zVkDnqvWVr"
+		}	
 	}
+	
 
 	#containerWindowType = {
 	#	name  ="frontend_alpha_stamp"
@@ -73,15 +76,13 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 
-		iconType =
-		{
+		iconType ={
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
 			position = { x= 15 y = 15 }
 		}
 		
-		iconType =
-		{
+		iconType ={
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= 135 y = 15 }
@@ -91,10 +92,10 @@ guiTypes = {
 
 	### SINGLE PLAYER MENU
 	containerWindowType = {
-		name = "mainmenu_single_player"
-		position = { x=0 y =0}
-		size = { width = 320 height = 395}
-		Orientation = CENTER
+		name ="mainmenu_single_player"
+		position = { x=-700 y =0 } 
+		size = { width = 320 height = 1090}
+		Orientation = center
 		Origo = center	
 				
 		background = {
@@ -104,7 +105,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_continue_button"
-			position = { x = 16 y = 18 }
+			position = { x = 16 y = 400 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CONTINUE"
 			buttonFont = "hoi_24header"
@@ -146,7 +147,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_new_button"
-			position = { x = 16 y = 58 }
+			position = { x = 16 y = 440 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_NEW"
 			buttonFont = "hoi_24header"
@@ -156,7 +157,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_load_button"
-			position = {  x = 16 y = 98 }
+			position = {  x = 16 y = 480 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "hoi_24header"
@@ -166,7 +167,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_tutorial_button"
-			position = { x = 16 y = 138}
+			position = { x = 16 y = 520}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_TUTORIAL"
 			buttonFont = "hoi_24header"
@@ -176,7 +177,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 16 y = 218 }
+			position = { x = 16 y = 600 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
 			buttonFont = "hoi_24header"
@@ -186,27 +187,29 @@ guiTypes = {
 		}
 	}
 
+
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
-		size = { width = 320 height = 395}
+		position = {x=-700 y =0}
+		size = { width = 320 height = 1090}
 		Orientation = CENTER
 		Origo = center		
-
-		positionType = {
-			name = "subscription_size"
-			position = { x = 320 y = 523 }
-		}
 				
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_window"
 		}
+
+		iconType = {
+			name = "alpha"
+			position = { x = 35 y = 130}
+			spriteType = "GFX_alpha"
+		}
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 16 y = 18 }
+			position = { x = 16 y = 400}
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_SINGLE_PLAYER"				
@@ -216,7 +219,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
+			position = { x = 16 y = 440 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_MULTI_PLAYER"			
@@ -224,7 +227,6 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 
-		@warn_icon_x = 280
 		iconType = {
 			name = "single_player_button_warn"
 			position = { x = @warn_icon_x y = 22 }
@@ -234,7 +236,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 356 }
+			position = { x = 35 y = 1050 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -252,7 +254,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
+			position = { x = 16 y = 480 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -262,7 +264,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16 y = 138 }
+			position = { x = 16 y = 520 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_CAREER_PROFILE"
 			buttonFont = "hoi_24header"
@@ -272,7 +274,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 178 }
+			position = {  x = 16 y = 560 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "hoi_24header"
@@ -282,7 +284,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 218 }
+			position = { x = 16 y =140 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -290,7 +292,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 260 }
+			position = { x = 16 y = 600 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			
@@ -299,43 +301,58 @@ guiTypes = {
 			
 		}
 
+		ButtonType = {
+			name = "reddit_button"
+			position = { x = 16 y = 70 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "Join Our Reddit!"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			web_link = "https://www.reddit.com/r/NapoleonicWarsHOI4/"
+		}
+
+		ButtonType = {
+			name = "discord_button"
+			position = { x = 16 y = 30 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "Join Our Discord!"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			web_link = "https://discord.gg/zVkDnqvWVr"
+		}
+
+		ButtonType = {
+			name = "steam_button"
+			position = { x = 16 y = 940 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "Our Steam Page"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2826254985"
+		}
+
+		ButtonType = {
+			name = "github_button"
+			position = { x = 16 y = 980 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "Our Github Page"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			web_link = "https://github.com/Skint-Eastwood/NapoleonicWarsHOI4DEV"
+		}
+
 		iconType = {
 			name = "subscription_divider"
 			position = { x = 4 y = 296}
 			spriteType = "GFX_main_lobby_divider"
 		}
 
-		containerWindowType = {
-			name = "subscription_widget"
-			position = { x = 16 y = 312 }
-			size = { width = 288 height = 108 }
-
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget"
-				buttonText = "SUBSCRIPTION_WIDGET"
-				buttonFont = "hoi_24header"
-				multiline = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "subscription_widget_subscribed"
-			position = { x = 16 y = 312 }
-			size = { width = 288 height = 108 }
-
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget_active"
-				frame = 1
-				buttonText = "SUBSCRIPTION_WIDGET_SUBSCRIBED"
-				buttonFont = "hoi_24header"
-				multiline = yes
-			}
-		}
 	}
+	
 	
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
@@ -406,14 +423,14 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=0 y=0 }
+			position = { x=-700 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=50 y=0 }
+			position = { x=-650 y=0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -421,7 +438,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=100 y=0 }
+			position = { x=-600 y=0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -429,7 +446,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=150 y=0 }
+			position = { x=-550 y=0 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -437,7 +454,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=200 y=0 }
+			position = { x=-500 y=0 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
