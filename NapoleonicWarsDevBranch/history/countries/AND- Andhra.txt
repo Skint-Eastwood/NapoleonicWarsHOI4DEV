@@ -1,6 +1,7 @@
 capital = 64
 
 set_convoys = 300
+set_cosmetic_tag = BRA_AND
 
 add_ideas = {
 	
@@ -22,5 +23,4 @@ set_popularities = {
 add_ideas = {
 		}
 
-recruit_character = VNI_Doge_Lodovico_Manin
 

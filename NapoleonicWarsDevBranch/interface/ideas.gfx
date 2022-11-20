@@ -8,6 +8,12 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 
+	SpriteType = {
+		name = "GFX_idea_AUS_crumbling_empire"
+		texturefile = "gfx/interface/ideas/AUS_crumbling_empire.dds"
+		noOfFrames = 1
+	}
+
 	### new tfv nat spirit icons
 
 }

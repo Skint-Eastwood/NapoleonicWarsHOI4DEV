@@ -47,31 +47,5 @@ country_event = {
 	}			
 }
 
-country_event = {
-	id = austria.2
-	title = austria.2.t
-	desc = austria.2.d
-	picture = GFX_report_death_of_leopold
-
-	fire_only_once = yes
-
-	trigger = {
-		date > "1792.3.1"
-		tag = AUS
-	}
-	
-	option = { 
-		name = austria.2.a
-		ai_chance = {
-			factor = 70
-		} 
-		GER = {
-			retire_character = GER_Leopold_II
-		}
-		AUS = {
-			retire_character = AUS_Leopold_II
-		}
-	}
-}
 
 	

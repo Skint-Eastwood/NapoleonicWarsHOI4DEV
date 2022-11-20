@@ -24,10 +24,32 @@
 
  CAP_SWI:0 "Cisalpine Republic"
  CAP_SWI_DEF:0 "the Cisalpine Republic"
+
  
- ## Asian Tags ##
- 
+
+## Other ##
+
+NSW_AST:0 "New South Wales"
+POB_BRA:0 "Portuguese Brazil"
+
+HAB_AUS:0 "Austrian Habsburgs"
+HAB_AUS_DEF:0 "the Austrian Habsburgs"
+AHU_AUS:0 "Austro-Hungarian Empire"
+AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
+
+EMP_AUS_DEF:0 "the Austrian Empire"
+EMP_AUS:0 "Austrian Empire"
+
+## British Colonial Tags ##
+
  BBN_BAN:0 "British Bengal"
  BBN_BAN_DEF:0 "British Bengal" 
  BRA_AND:0 "British Andhra"
  BRA_AND_DEF:0 "British Andhra"
+
+ BAS_AST:0 "British Australia"
+ BAS_AST:0 "British Australia"
+
+
+
+
