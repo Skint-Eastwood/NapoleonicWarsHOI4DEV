@@ -1,5 +1,4 @@
-capital = 64
-set_cosmetic_tag = BRA_AND
+capital = 112
 
 set_convoys = 300
 
@@ -19,9 +18,9 @@ set_popularities = {
 	monarchist = 60
 	socialism = 0
 }
-
 add_ideas = {
 		}
+puppet = BRA
 
-recruit_character = VNI_Doge_Lodovico_Manin
+recruit_character = POL_Stanislaw
 

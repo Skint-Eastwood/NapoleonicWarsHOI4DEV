@@ -4,7 +4,13 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_alpha"
-		texturefile = "gfx/alpha.dds"
+		texturefile = "gfx/menu/alpha.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_discord"
+		texturefile = "gfx/menu/discord.dds"
 		noOfFrames = 1
 	}
 

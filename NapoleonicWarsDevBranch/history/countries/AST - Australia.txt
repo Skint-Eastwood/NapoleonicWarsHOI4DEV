@@ -1,7 +1,7 @@
-capital = 4
+capital = 64
 
 set_convoys = 300
-set_cosmetic_tag = HAB_AUS
+set_cosmetic_tag = NSW_AST
 
 add_ideas = {
 	
@@ -23,10 +23,4 @@ set_popularities = {
 add_ideas = {
 		}
 
-puppet = BEL
-puppet = GER
-
-		
-recruit_character = AUS_Leopold_II
-recruit_character = AUS_Francis_I
 

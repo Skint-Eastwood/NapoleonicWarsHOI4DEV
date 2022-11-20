@@ -38,7 +38,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_frontend_game_logo"
 			pdx_tooltip = "MENU_DISCORD"
 			clicksound = click_default
-			web_link = "https://discord.gg/zVkDnqvWVr"
+
 		}	
 	}
 	
@@ -205,6 +205,16 @@ guiTypes = {
 			name = "alpha"
 			position = { x = 35 y = 130}
 			spriteType = "GFX_alpha"
+		}
+
+		ButtonType = {
+			name = "discord"
+			position = { x = 35 y = 670}
+			quadTextureSprite ="GFX_discord"
+			clicksound = click_default	
+			oversound = ui_menu_over
+			pdx_tooltip = "MENU_DISCORD"
+			web_link = "https://discord.gg/zVkDnqvWVr"
 		}
 			
 		ButtonType = {
