@@ -1,4 +1,4 @@
-﻿l_english:
+﻿ l_english:
  TRB:0 "Nomadic Territories"
  KOR:0 "Joseon"
  JAP:0 "Japan"
@@ -111,8 +111,8 @@
  HAN:0 "Dutchy of Hanover"
  HAN_DEF:0 "the Dutchy of Hanover"
  HAN_ADJ:0 "Hanoverian"
- MEK:0 "Kingdom of Mecklenburg"
- MEK_DEF:0 "Duchy of Mecklenburg"
+ MEK:0 "Duchy of Mecklenburg"
+ MEK_DEF:0 "the Duchy of Mecklenburg"
  MEK_ADJ:0 "Mecklenburgian"
  SAX:0 "Kingdom of Saxony"
  SAX_DEF:0 "the Kingdom of Saxony"

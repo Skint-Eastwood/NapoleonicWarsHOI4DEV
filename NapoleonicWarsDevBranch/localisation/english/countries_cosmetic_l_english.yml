@@ -37,6 +37,9 @@ HAB_AUS_DEF:0 "the Austrian Habsburgs"
 AHU_AUS:0 "Austro-Hungarian Empire"
 AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
 
+AUN_BEL:0 "Austrian Netherlands"
+AUN_BEL_DEF:0 "the Austrian Netherlands"
+
 EMP_AUS_DEF:0 "the Austrian Empire"
 EMP_AUS:0 "Austrian Empire"
 
