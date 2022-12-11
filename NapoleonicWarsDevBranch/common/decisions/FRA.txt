@@ -1,0 +1,136 @@
+FRA_revolutionary_category = {
+
+	FRA_Dantonist_Support = {
+
+		icon = category_SOV_propaganda
+
+		available = {
+
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 100
+		days_re_enable = 80
+
+		cost = 125
+
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = 0.15
+			}
+
+		}
+	}
+
+	FRA_Revolution_Support = {
+
+		icon = category_generic_democracy
+
+		available = {
+
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			stability_weekly = -0.005
+			authoritarian_democracy = 0.15
+			
+		}
+
+		days_remove = 75
+		days_re_enable = 80
+
+		cost = 75
+
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = 0.15
+			}
+
+		}
+	}
+
+	FRA_peoples_will = {
+
+		icon = revolt
+
+		available = {
+			authoritarian_democracy > 0.5
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			war_support_factor = 0.006
+		}
+
+		days_remove = 75
+		days_re_enable = 80
+
+		cost = 150
+
+		complete_effect = {
+			add_stability = -0.15
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = 0.20
+				add_war_support = 0.05
+			}
+		}
+
+	}	
+
+	FRA_revolution = {
+
+		icon = category_usa_congress
+
+		available = {
+			focus_progress = {
+				focus = FRA_to_arms_citizens
+				progress > 1
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			war_support_factor = 0.006
+		}
+
+		days_remove = 75
+		days_re_enable = 80
+
+		cost = 150
+
+		complete_effect = {
+			add_stability = 0.2
+
+			}
+		}
+
+	}
+}

@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_FRA_lucien_bonaparte"
+		texturefile = "gfx/interface/ideas/idea_FRA_lucien_bonaparte.dds"
+		noOfFrames = 1
+	}
+
+}
