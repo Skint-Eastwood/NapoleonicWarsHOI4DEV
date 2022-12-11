@@ -112,39 +112,7 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
-		
-		iconType = {
-			name = "sp_continue_flag_left"
-			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 22 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
-		iconType = {
-			name = "sp_continue_flag_left_overlay"
-			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 22 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
-		iconType = {
-			name = "sp_continue_flag_right"
-			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 245 y = 22 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
-		iconType = {
-			name = "sp_continue_flag_right_overlay"
-			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 245 y = 22 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
+	
 		ButtonType = {
 			name = "sp_new_button"
 			position = { x = 16 y = 440 }
@@ -191,10 +159,10 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = {x=-700 y =0}
-		size = { width = 320 height = 1090}
-		Orientation = CENTER
-		Origo = center		
+		position = {x= 100 y =-15}
+		size = { width = 320 height = 1200}
+		Orientation = UPPER_LEFT``
+		Origo = UPPER_LEFT		
 				
 		background = {
 			name = "Background"		

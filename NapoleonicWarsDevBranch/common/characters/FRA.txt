@@ -276,7 +276,7 @@ characters={
 		name="Lucien Bonaparte"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_lucien_bonaparte"
 		}
 	}
 
