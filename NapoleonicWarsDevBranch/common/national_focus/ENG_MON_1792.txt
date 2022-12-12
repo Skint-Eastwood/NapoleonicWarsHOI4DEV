@@ -1,0 +1,3263 @@
+focus_tree = {
+	id = ENG_MON
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+
+	#For King And Country
+	focus = {
+		id = ENG_Generals_Over_Parliament
+		icon = GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			}
+#Royal_Exiles
+	focus = {
+		id = ENG_The_Army_Reform_Push
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Generals_Over_Parliament}
+		completion_reward = {} 
+			
+#Build_Up_The_Palace
+	focus = {
+		id = ENG_Build_Up_The_Navy
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 3
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Generals_Over_Parliament}
+		completion_reward = {} 
+			
+			
+	focus = {
+		id = ENG_learn_From_The_Civil_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		prerequisite = {ENG_Build_Up_The_Navy&&ENG_The_Army_Reform_Push}	
+		x = 5
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {} 
+		
+	#Peoples_Support
+	focus = {
+		id = ENG_Gain_The_Peoples_Trust
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Learn_From_The_Civil_War}
+		completion_reward = {}
+		
+			
+	#Civil war time
+	focus = {
+		id = ENG_Arrest_Disloyal_MPs
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Gain_The_Peoples_trust}
+		completion_reward = {}
+			
+	#Boost
+	focus = {
+		id = ENG_Use_The_Royal_Coffers
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Arrest_Disloyal_MPs}
+		completion_reward = {}
+			
+	#North
+	focus = {
+		id = ENG_Secure_The_North
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Arrest_Disloyal_MPs}
+		completion_reward = {}
+		
+
+	
+	focus = {
+		id = ENG_Freeze_Parliament
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Arrest_Disloyal_MPs}
+		completion_reward = {}
+		
+
+		#its time now
+	focus = {
+		id = ENG_Raid_Parliamentry_Strongholds
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Freeze_Parliament}
+		completion_reward = {}	
+			
+	
+	focus = {
+		id = ENG_Get_Support_From_The_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 3
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Raid_Parliamentry_Strongholds}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Get_Support_From_The_Homeland
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Raid_Parliamentry_Strongholds}
+		completion_reward = {}
+		mutually_exclusive = { focus = "ENG_Get_Support_From_The_Colonies" }
+		
+
+	focus = {
+		id = ENG_Frozen_Frontlines
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Get_Support_From_The_Colonies&&ENG_Get_Support_From_The_Homeland}
+		completion_reward = {}
+		
+		focus = {
+			id = ENG_Change_Our_Plans
+			icon = Focus_GFX_Focus_generic_strike_at_democracy1
+			x = 3
+			y = 20
+			cost = 10
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+	                prerequisite = {ENG_Frozen_Frontlines}
+			completion_reward = {}
+			
+focus = {
+		id = ENG_Keep_Our_Plans	
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Frozen_Frontlines}
+		completion_reward = {}	mutually_exclusive = { focus = ENG_Change_Our_Plans}
+		
+		
+		focus = {
+			id = ENG_Offensive_In_The_North
+			icon = Focus_GFX_Focus_generic_strike_at_democracy1
+			x = 1
+			y = 22
+			cost = 10
+			search_filters = {
+				FOCUS_FILTER_POLITICAL
+			}
+	                prerequisite = {ENG_Change_Our_Plans}
+			completion_reward = {}
+			
+focus = {
+		id = ENG_Southern_Offensive	
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 3	
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Change_Our_Plans}
+		completion_reward = {}	mutually_exclusive = { focus = "ENG_Offensive_In_The_North" }	
+		
+	focus = {
+		id = ENG_Build_The_Fort_Line
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Keep_Our_Plans}
+		completion_reward = {}
+		
+		
+		focus = {
+		id = ENG_Battle_Of_The_Cheifs	
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Offensive_In_The_North&&ENG_Southern_Offensive&&ENG_Build_The_Fort_Line}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Wellington_Wins	
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			}
+	                prerequisite = {ENG_Battle_Of_The_Cheifs}
+		completion_reward = {}
+		
+		
+		focus = {
+		id = ENG_Nelson_Wins
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Battle_Of_The_Cheifs}
+		completion_reward = {}
+		mutually_exclusive = { focus = "ENG_Wellington_Wins" }	
+		
+focus = {
+		id = ENG_Bleed_Them_White
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Build_The_Fort_Line}
+		completion_reward = {}
+}
+
+focus = {		
+	id = ENG_Defence_Is_The_Best_Offence
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bleed_Them_White}
+		completion_reward = {}
+	}
+	
+focus = {	
+id = ENG_Army_Reform
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Defence_Is_The_Best_Offence&&ENG_Wellington_Wins&&ENG_Nelson_Wins}
+		completion_reward = {}
+	
+focus = {	
+id = ENG_The_Great_Army
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 31
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Army_Reform}
+		completion_reward = {}
+		}
+		
+		focus = {
+		id = ENG_Naval_Commander
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 35
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Nelson_Wins}
+		completion_reward = 
+
+
+focus = {
+		id = ENG_Not_So_Royal_Navy
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 37
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Naval_Commander}
+		completion_reward = {}
+		
+	focus = {
+		id = ENG_Nelsons_Armada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 39
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Not_So_Royal_Navy}
+		completion_reward = 
+
+focus = {
+		id = ENG_Bombard_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 40
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Nelsons_Armada}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Joint_Attack
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 44
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bombard_London}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Land_At_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 46
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Joint_Attack}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Irish_Revolt
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 5
+		y = 44
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bombard_London}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Force_A_Peace
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 48
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Land_At_London}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Large_Attack
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellington_Wins}
+		completion_reward = 	{}
+		
+		focus = {
+		id = ENG_Artillery_Offensives
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 32
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Large_Attack}
+		completion_reward = {}
+		
+	focus = {
+		id = ENG_Crown_The_Grand_Regent
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 34
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Artillery_Offensive}
+		completion_reward = {}
+		
+		
+focus = {
+		id = ENG_Complete_Army_Reform
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 36
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Crown_The_Grand_Regent}
+		completion_reward = {}	
+		
+		focus = {
+		id = ENG_The_Regents_Grand_Army
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 36
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Complete_Army_Reforms}
+		completion_reward = {}
+		
+		
+	focus = {
+		id = ENG_The_Great_Push
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 38
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Regents_Grand_Army}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Surrond_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 40
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+prerequisite = {The_Regents_Grand_Army}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Execute_Our_Enemies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 42
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Surrond_London}
+		completion_reward = {}
+		
+focus = {
+		id = ENG_Finish_The_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 44
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Execute_Our_Enemies}
+		completion_reward = {}
+		
+		ENG_Kings_Gaurd
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 32
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Defence_Is_The_Best_Offence}
+	completion_reward = {}
+	
+	ENG_Recruit_Loyal_Generals
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 34
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Kings_Gaurd}
+		completion_reward = {}
+		
+		
+		ENG_Enfore_Order
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 36
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Recruit_Loyal_Generals}
+		completion_reward = {}
+		
+		ENG_Final_Push
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 40
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Declare_A_Church_Crusade}
+		completion_reward = {}
+
+
+ENG_Declare_A_Church_Crusade
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 38
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Enforce_Order}
+		completion_reward = {}	
+		ENG_Its_Over
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 7	
+		y = 42
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Final_Push}
+		completion_reward = {}
+		
+		
+	focus = {
+		id = ENG_Secure_Our_Power
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Force_A_Peace}
+		completion_reward = {}
+focus = {
+		id = ENG_Rebuild_The_Nation
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Secure_Our_Power}
+		completion_reward = {}
+
+focus = {
+		id = ENG_New_British_Ideals
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_The_Nation}
+		completion_reward = {}
+
+focus = {
+		id = ENG_A_Great_Navy
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 56
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_British_Ideals}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_New_Naval_Tactics
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_Great_Navy}
+		completion_reward = {}
+
+focus = {
+		id = ENG_A_Great_Army
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 56
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_British_Ideals}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Service_For_All
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_Great_Army}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Best_And_Brightest
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 60
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Service_For_All}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Patriotic_Propoganda
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 56
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_British_Ideals}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_A_Easy_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 62
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Best_And_Brightest}
+                prerequisite = { focus = Patriotic_Propoganda }
+prerequisite = { focus = New_Naval_Tactics }
+		completion_reward = {}
+	
+focus = {
+		id = ENG_Not_So_Easy
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 64
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_Easy_War}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Raise_Troop	
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 64
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Not_So_Easy}
+		completion_reward = {}
+focus = {
+		id = ENG_Call_On_The_Admiral
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 66
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Raise_Troops}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Obtain_allies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 68
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Call_On_The_Admiral}
+		completion_reward = {}
+
+focus = {
+		id = ENG_First_Coalition
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 70
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Find_Allies}
+		completion_reward = {}
+focus = {
+		id = ENG_Fund_War_Effort
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 66
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_First_Coalition}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Total_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 68
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Fund_War_Effort}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Everyman_Will_Serve
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 70
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Total_War}
+		completion_reward = {}
+focus = {
+		id = ENG_Anti_French_Propoganda
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 72
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Everyman_Will_Server}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Prepare_For_Landings
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Anti_French_Propoganda}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Naval_Exercises
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Prepare_For_Landings}
+		completion_reward = {}
+focus = {
+		id = ENG_Train_Land_Troops
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Prepare_For_Landings}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Deploy_Special_Forces
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Prepare_For_Landings}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Forces_For_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 0
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Train_Land_Troops}
+		completion_reward = {}
+focus = {
+		id = ENG_Naval_Plans
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Naval_Exercises}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Special_Forces_Are_Ready
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Deploy_Special_Forces}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Co-ordinate_With_Allies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 80
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Forces_For_War}
+                prerequisite = {ENG_Naval_Plans}
+                  prerequisite = {ENG_Special_Forces_Are_Ready}               
+		completion_reward = {}
+focus = {
+		id = ENG_Final_Preparations
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 82
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Co-ordinate_With_Allies}
+		completion_reward = {}
+
+
+focus = {
+		id = ENG_Ready_Landing_Craft
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Final_Preparations}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Landing_At_Brest
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Ready_Landing_Craft}
+		completion_reward = {}
+focus = {
+		id = ENG_War_Industry
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 86
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Landing_At_Brest}
+		completion_reward = {}
+
+	focus = {
+		id = ENG_Connect_Fronts_With_The_Prussians
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 88
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_War_Industry}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Learn_From_The_French
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 90
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Connect_Fronts_With_The_Prussians}
+		completion_reward = {}
+		
+focus = {
+		id = ENG_Invest_In_The_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 56
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_British_Ideals}
+		completion_reward = {}
+
+focus = {
+		id = ENG_Invest_In_Canada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_Colonies}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Invest_In_Australia
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_Colonies}
+		completion_reward = {}
+		
+			focus = {
+		id = ENG_Invest_In_South_Africa
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_Colonies}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Invest_In_Quebec
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4	
+		y = 60
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_Canada}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Invest_In_New_Zealand
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 60
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_Austrailia}
+		completion_reward = {}
+		
+			focus = {
+		id = ENG_Invest_In_Egypt
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_The_South_Africa}
+	completion_reward = {}
+	
+				focus = {
+		id = ENG_Reclaim_The_USA
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 62
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Invest_In_Egypt}
+                                prerequisite = {ENG_Invest_In_Quebec}
+                 prerequisite = {ENG_Invest_In_New_Zealand}                                                           
+	completion_reward = {}
+	
+	
+		id = ENG_Our_Great_Empire
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 64
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reclaim_The_USA}
+	completion_reward = {}
+	
+	id = ENG_Expand_Our_Indian_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 66
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Our_Great_Empire}
+	completion_reward = {}
+	
+	id = ENG_Rule_The_Subcontinent
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 68
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Expand_Our_Indian_Colonies}
+	completion_reward = {}
+	
+	id = ENG_Bury_The_Graveyard
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 70
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rule_The_Subcontinent}
+	completion_reward = {}
+	
+	id = ENG_We_Need_A_Stronger_Navy
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 72
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bury_The_Graveyard}
+	completion_reward = {}
+	
+	id = ENG_Expand_Our_African_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_We_Need_A_Stronger_Navy}
+	completion_reward = {}
+	
+	id = ENG_Pax_Britiania
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Expand_Our_African_Colonies}
+	completion_reward = {}
+	
+	id = ENG_World_Spanning_Empire
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 82
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Pax_Britiania}
+	completion_reward = {}
+	
+	id = ENG_Every_Nation_Will_Play_A_Part
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_World_Spanning_Empird}
+	completion_reward = {}
+	
+	id = ENG_Second_7_Years_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 86
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Every_Nation_Will_Play_A_Part}
+	completion_reward = {}
+	
+	id = ENG_All_To_The_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 88
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Second_7_Years_War}
+	completion_reward = {}
+	
+	id = ENG_Colonial_Commaders
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 90
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_All_To_War}
+	completion_reward = {}
+	
+	focus = {
+		id = ENG_The_World_At_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 3
+		y = 92
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Learn_From_The_French}
+       prerequisite = {ENG_Colonial_Commaders         
+		completion_reward = {}
+		
+id = ENG_Plan_The_Last_Attack
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 94
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_All_To_War}
+	completion_reward = {}
+	
+	id = ENG_Industry_For_The_Plan
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Plan_The_Last_Attack}
+	completion_reward = {}
+	
+	id = ENG_Ships_For_The_Plan
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Plan_The_Last_Attack}
+	completion_reward = {}
+	
+	id = ENG_Soldiers_For_The_Plan
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Plan_The_Last_Attack}
+	completion_reward = {}
+	
+	id = ENG_Special_Forces_For_The_Plan
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Plan_The_Last_Attack}
+	completion_reward = {}
+	
+	id = ENG_Industrial_Devolpment
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Industry_For_The_Plan}
+	completion_reward = {}
+	
+		id = ENG_Naval_Devolpment
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Industry_For_The_Plan}
+	completion_reward = {}
+	
+		id = ENG_Soldier_Training
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Soldiers_For_The_Plan}
+	completion_reward = {}
+	
+			id = ENG_Special_Forces_Training
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Special_Forces_For_The_Plan}
+	completion_reward = {}
+	
+	id = ENG_Industry_Around_The_Empire
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 100
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Industry_Devolpment}
+	completion_reward = {}
+	
+	id = ENG_Ships_From_India
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 100
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Naval_Devolment}
+	completion_reward = {}
+	
+	id = ENG_Soldiers_From_Canada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 100
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Soldier_Training}
+	completion_reward = {}
+	
+	id = ENG_Special_Forces_From_Australia
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Special_Forces_Training}
+	completion_reward = {}
+	
+	id = ENG_Finalise_Industrial_Devolment
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Industry_Around_The_Empire}
+	completion_reward = {}
+	
+		id = ENG_The_Largest_Armada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Ships_From_India}
+	completion_reward = {}
+	
+		id = ENG_Largest_Assualt_Group
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Soldiers_From_Canada}
+	completion_reward = {}
+	
+			id = ENG_Finish_Specalist_Training
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Special_Forces_From_Canada}
+	completion_reward = {}
+	
+	id = ENG_Final_Preparations
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 104
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Finish_Specalist_Training} 
+     prerequisite = {ENG_Largest_Assualt_Group} 
+     prerequisite = {ENG_The_Largest_Armada} 
+     prerequisite = {ENG_Finalise_Industrial_Devolment}
+     prerequisite = {ENG_Learn_From_The_French}             
+	completion_reward = {}
+	
+	ENG_Deploy_The_New_Generals
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 106
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Final_Preparations}
+	completion_reward = {}
+	
+	ENG_Bombard_French_Ports
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 108
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Deploy_The_New_Generals}
+	completion_reward = {}
+	
+	ENG_Cavalry_Raids
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 110
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bombard_French_Ports}
+	completion_reward = {}
+	
+	ENG_Deploy_The_Troops
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 112
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Cavalry_Raids}
+	completion_reward = {}
+	
+	ENG_Full_Army_Deployment
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 114
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Deploy_The_Troops}
+	completion_reward = {}
+	
+	ENG_Start_The_Attack
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 116
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Full_Army_Deployment}
+	completion_reward = {}
+	
+	ENG_Seige_Of_Paris
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 118
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Start_The_Attack}
+	completion_reward = {}
+	
+	ENG_Break_Their_Moral
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 120
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Siege_Of_Paris}
+	completion_reward = {}
+	
+	ENG_Parade_On_The_Streets_Of_Paris
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 122
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Break_Thier_Moral}
+	completion_reward = {}
+	
+	ENG_The_Greatest_Admiral
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 124
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Parade_On_The_Streets_Of_Paris}
+	completion_reward = {}
+	
+	ENG_A_New_King
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 126
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Greatest_Admiral}
+	completion_reward = {}
+	
+	ENG_Victory_At_Last
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 128
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_New_King}
+	completion_reward = {}
+	
+	ENG_Celebrations_In_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 130
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Victory_At_Last}
+	completion_reward = {}
+	
+	ENG_Congress_Of_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 132
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Celebrations_In_London}
+	completion_reward = {}
+	
+	ENG_Nelson's_Dictatorship
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 134
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Congress_Of_London}
+	completion_reward = {}
+	
+	ENG_Rebuild_France
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 136
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Nelson's_Dictatorship}
+	completion_reward = {}
+	
+	ENG_Rebuild_Paris
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_France}
+	completion_reward = {}
+	
+	ENG_Rebuild_Brest
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 8
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_France}
+	completion_reward = {}
+	
+	ENG_Rebuild_Alsace
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 10
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_France}
+	completion_reward = {}
+	
+	ENG_Rebuild_Southern_France
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 2
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_France}
+	completion_reward = {}
+	
+	ENG_Keep_Order
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 6
+		y = 140
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Rebuild_Southern_France}          prerequisite = {ENG_Rebuild_Brest}                              prerequisite = {ENG_Rebuild_Alsace}
+ prerequisite = {ENG_Rebuild_Paris}            
+	completion_reward = {}
+	
+	ENG_French_Puppet
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 132
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Keep_Order}
+	completion_reward = {}
+	
+	ENG_New_French_Leader
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 134
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_French_Puppet}
+	completion_reward = {}
+	
+	ENG_Put_Down_Revolts
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 134
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_French_Leader}
+	completion_reward = {}
+	
+	ENG_God_King_Nelson
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 136
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Put_Down_Revolts}
+	completion_reward = {}
+	
+	ENG_A_New_Church
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_God_King_Nelson}
+	completion_reward = {}
+	
+	ENG_World_Empire
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 4
+		y = 140
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_New_Church}
+	completion_reward = {}
+	
+	
+	focus = {
+		id = ENG_Remove_The_Republicans
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 44
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Execute_Our_Enemies }
+		completion_reward = {}
+	
+	focus = {
+		id = ENG_Wellingtons_Reforms
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 48
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Remove_The_Republicans }
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reforms_On_Religion
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellingtons_Reforms}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reforms_On_The_Army
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellingtons_Reforms}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reforms_On_The_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 26	
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellingtons_Reforms}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reforms_On_Culture
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellingtons_Reforms}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reforms_On_Industry
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 18
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellingtons_Reforms}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_A_New_State_Religion
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_Religion}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_A_Better_Corps_System
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_The_Army}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reform_Canada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 26
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_The_Colonies}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reform_Australia
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 28
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_The_Colonies}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Reform_South_Africa
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 30
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_The_Colonies}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Prepare_For_The_Lords_King
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_The_Culture}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Mass_Employment
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 18
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_On_Industry}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Remove_All_Non_Belivers
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 21
+		y = 55
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Prepare_For_The_Lords_King}
+                prerequisite = {ENG_New_State_Religion}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Working_Women
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 18
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Mass_Employment}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_High_Discapline
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_Better_Corps_System}
+		completion_reward = {}
+		
+	focus = {
+		id = ENG_Intergrate_Canada
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 26
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reform_Canada}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Intergrate_Australia
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 28
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reform_Australia}
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Intergrate_South_Africa
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 30
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reform_South_Africa}
+		completion_reward = {}
+		
+		
+		focus = {
+		id = ENG_Reforms_Complete
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Intergrate_South_Africa}
+                prerequisite = {ENG_Intergrate_Australia}
+                prerequisite = {ENG_Intergrate_Canada}
+                prerequisite = {ENG_High_Discapline}                              prerequisite = {ENG_Working_Woman}
+                prerequisite = {ENG_Remove_All_Non_Belivers}
+		completion_reward = {}
+		
+focus = {
+		id = ENG_The_Great_Reformer
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 60
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_Complete}
+		completion_reward = {}
+			
+			focus = {
+		id = ENG_General_Of_The_People
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 62
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Great_Reformer}
+		completion_reward = {}
+	
+		focus = {
+		id = ENG_Priest_Of_People
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 64
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_General_Of_The_People}
+		completion_reward = {}
+		
+			focus = {
+		id = ENG_Remove_Nelson_For_Treason
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 68
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reforms_Complete}
+		completion_reward = {}
+
+			focus = {
+		id = ENG_Arrest_Nelsons_Supporters
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 70
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+ prerequisite = {ENG_Remove_Nelson_For_Treason}
+	completion_reward = {}
+
+			focus = {
+		id = ENG_Use_The_Army_For_Police
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 72
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Arrest_Nelsons_Supporters}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Expand_The_Regents_Power
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Use_The_Army_For_Police}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Restore_Order
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Use_The_Army_For_Police}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_The_Grandest_Regent
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Use_The_Army_For_Police}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Restore_Order_In_The_Cities
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Restore_Order}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Our_Great_Leader
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Grandest_Regent}
+		completion_reward = {}
+
+focus = {
+		id = ENG_The_King_Dies_With_No_Heir
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Expand_The_Regents_Power }
+		completion_reward = {}
+		
+		focus = {
+		id = ENG_Holy_Leader
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Our_Great_Leader}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Restore_Order_In_The_Countryside
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Restore_Order_In_The_Cities}
+		completion_reward = {}
+		
+				focus = {
+		id = ENG_Purge_The_Zealots
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 80
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Holy_Leader}
+		completion_reward = {}
+
+focus = {
+		id = ENG_The_Regent_Becomes_King
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_King_Dies_With_No_Heir}
+		completion_reward = {}
+		
+		
+focus = {
+		id = ENG_Order_Secure
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 82
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Regent_Becomes_King}
+                prerequisite = {ENG_Purge_The_Zealots}
+                prerequisite = {ENG_Restore_Order_In_The_Countryside}
+		completion_reward = {}
+		
+id = ENG_Hunt_For_Jesus
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Order_Secure}
+		completion_reward = {}
+
+id = ENG_Look_Outwards
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Order_Secure}
+		completion_reward = {}
+
+id = ENG_Reclaim_The_Holy_Land
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 86
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Look_Outwards}
+	completion_reward = {}
+
+id = ENG_Sacrifice_For_His_Return
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 90
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Hunt_For_Jesus}
+		completion_reward = {}
+
+id = ENG_Destroy_The_Muslims
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 86
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Reclaim_The_Holy_Land}
+	completion_reward = {}
+	
+	id = ENG_Call_On_The_Faithul
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 88
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Destroy_The_Muslims}
+		completion_reward = {}
+
+id = ENG_Holy_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 90
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Call_On_The_Faithful}
+		completion_reward = {}
+
+id = E{NG_Sacrifice_Jews}
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 92
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Holy_War}
+                prerequisite = {ENG_Sacrifice_For_His_Return}
+	completion_reward = {}
+
+id = ENG_Punish_Muslims
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 94
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Sacrifice_Jews}
+		completion_reward = {}
+
+id = ENG_Jesus_Is_Found
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Punish_Muslims}
+	completion_reward = {}
+	
+	id = ENG_Our_Lord_And_Saviour
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Jesus_Is_Found}
+	completion_reward = {}
+	
+	id = ENG_He_Is_The_Trinity
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 100
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Our_Lord_And_Saviour}
+		completion_reward = {}
+
+id = ENG_Call_A_Crusade
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_He_Is_The_Trinity}
+		completion_reward = {}
+
+id = ENG_Intergrate_The_Holy_Land
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 104
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Call_A_Crusade}
+	completion_reward = {}
+
+id = ENG_A_New_Head_Of_The_Church
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 106
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Intergrate_The_Holy_Land}
+		completion_reward = {}
+
+id = ENG_Destroy_Resistance
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 108
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_New_Head_Of_The_Church}
+	completion_reward = {}
+	
+	id = ENG_He_Will_Unite_Us
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 110
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Destroy_Resistance}
+		completion_reward = {}
+
+id = ENG_Purge_Disloyal_Army_Units
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 112
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_He_Will_Unite_Us}
+		completion_reward = {}
+
+id = ENG_Remove_History
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 114
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Purge_Disloyal_Army_Units}
+	completion_reward = {}
+
+id = ENG_King_And_God_Are_One
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 116
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Remove_History}
+		completion_reward = {}
+
+id = ENG_Destory_The_Catholic_French
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 118
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_King_And_God_Are_One}
+	completion_reward = {}
+	
+	id = ENG_Deploy_Crusader_Armies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 120
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Destroy_The_Catholic_French}
+	completion_reward = {}
+	
+	id = ENG_New_Crusader_Tactics
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 122
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Deploy_Crusader_Armies}
+	completion_reward = {}
+	
+	id = ENG_Innovative_Crusader_Weapons
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 26
+		y = 122
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {Deploy_Crusader_Armies}
+	completion_reward = {}
+	
+	id = ENG_New_Crusader_Generals
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 122
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Deploy_Crusader_Armies}
+	completion_reward = {}
+	
+	id = ENG_Crusader_Naval_Support
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 122
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {Deploy_Crusader_Armies}
+	completion_reward = {}
+	
+	id = ENG_New_Crusader_Corps
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 124
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_Crusader_Tactics}
+	completion_reward = {}
+	
+	id = ENG_Fast_Loading_Rifles
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 26
+		y = 124
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {Innovative_Crusader_Weapons}
+	completion_reward = {}
+	
+	id = ENG_Best_Of_The_Best
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 22
+		y = 124
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_Crusader_Generals}
+	completion_reward = {}
+	
+	id = ENG_Naval_Co-ordination
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 124
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {Crusader_Naval_Support}
+	completion_reward = {}
+	
+		id = ENG_The_Crusaders_Are_Ready
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 126
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Naval_Co-ordination}
+                                prerequisite = {ENG_Best_Of_The_Best}
+
+                 prerequisite = {ENG_Fast_Loading_Rifles}
+                                 prerequisite = {ENG_New_Crusader_Corps}
+	completion_reward = {}
+	
+	id = ENG_Ally_With_Portugal
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 128
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_The_Crusaders_Are_Ready}
+	completion_reward = {}
+	
+	id = ENG_March_Up_To_France
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 130
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {Ally_With_Portugal}
+	completion_reward = {}
+	
+	id = ENG_God_Is_On_Our_Side
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 132
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_March_Up_To_France}
+	completion_reward = {}
+	
+	id = ENG_Bless_Our_Armies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 20
+		y = 134
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {God_Is_On_Our_Side}
+	completion_reward = {}
+	
+	id = ENG_One_True_Arch_Bischop
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 136
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bless_Our_Armies}
+	completion_reward = {}
+	
+	id = ENG_Purge_The_Arch_Bischops_Supporters
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 138
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_One_True_Arch_Bischop}
+	completion_reward = {}
+	
+	id = ENG_Use_The_Gilloutine
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 140
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Purge_The_Arch_Bischops_Supporters}
+	completion_reward = {}
+	
+	id = ENG_Wellington_Our_Lord_And_Saviour
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 142
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Use_The_Gilloutine}
+	completion_Reward = {}
+	
+	id = ENG_Victory_Over_Napoleon
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 144
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Wellington_Our_Lord_And_Saviour}
+	completion_reward = {}
+	
+	id = ENG_One_True_God
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 146
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Victory_Over_Napoleon}
+	completion_reward = {}
+	
+	id = ENG_Destroy_Catholism
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 148
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_One_True_God}
+	completion_reward = {}
+	
+	id = ENG_Execute_The_Pope
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 150
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Destory_Catholism}
+	completion_reward = {}
+	
+	id = ENG_Put_God_On_Trial
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 152
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Execute_The_Pope}
+	completion_Reward = {}
+	
+	id = ENG_A_New_God
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 24
+		y = 154
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Put_God_On_Trial}
+	completion_reward = {}
+	
+	focus = {		
+	id = ENG_Strengthen_The_King
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 32
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Weaken_The_Generals}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Weaken_The_Generals
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 30
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Defence_Is_The_Best_Offence}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Royal_Army_Expansion
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 34
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Strengthen_The_King}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_For_King_And_Country
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 36
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Royal_Army_Expansion}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Popular_Monarch
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 38
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_For_King_And_Country}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Gain_Support_From_The_Germans
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 40
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Popular_Monarch}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Defensive_Army
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 42
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Strengthen_The_King}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Build_Up_Fortifications
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 44
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Defensive_Army}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_New_Cavalry_Tactics
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 48
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Build_Up_Fortifications}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Import_Supplies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 50
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_Cavalry_Tactics}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Artillery_Barrage_Plans
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 52
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Import_Supplies}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_New_Tactics
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 54
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Artillery_Barrage_Plans}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Push_Scotland
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 56
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_Tactics}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Squeeze_Them_Out_Of_Scotland
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 58
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Push_Scotland}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Scotish_Mercenaries
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 60
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Squeeze_Them_Out_Of_Scotland}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Hit_Them_Hard
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 62
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Scottish_Mercenaries}
+		completion_reward = {}
+	}
+	
+		focus = {		
+	id = ENG_Take_London
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 64
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Hit_Them_Hard}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Victory_For_The_King
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 66
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Take_London}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Parade_Around_The_Nation
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 68
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Victory_For_King}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_A_New_Capital?
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 70
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Parade_Around_The_Nation}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Fedarate_The_UK
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 72
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_A_New_Capital}
+		completion_reward = {}
+	}
+	
+		focus = {		
+	id = ENG_Half_Independence_For_The_Colonies
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 74
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Fedarate_The_UK}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Loyalty_To_The_Crown
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 76
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Half_Independence_For_The_Colonies}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Loyalty_To_King_And_Crown
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 78
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Loyalty_To_The_Crown}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Work_With_The_Coalition
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 80
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Royal_Army_Expansion}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Support_Austria_Against_France
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 82
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Work_With_The_Coalition}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Fund_The_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 84
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Support_Austria_Against_France}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Learn_From_Napoleon
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 86
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Fund_The_War}
+		completion_reward = {}
+	}
+
+
+	focus = {		
+	id = ENG_New_Infantry_Tactics
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 88
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Learn_From_Napoleon}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Bring_The_Generals_Back
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 90
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_New_Infantry_Tactics}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Keep_Them_In_Order
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 92
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Bring_The_Generals_Back}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Non_Discriminatory_Conscription
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 94
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Keep_Them_In_Order}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Vast_Front_War
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 96
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Non_Discriminatory_Consription}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Square_Formations
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 98
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Vast_Front_War}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Beat_Him_At_His_Game
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 100
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Square_Formations}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Manpower_Flood
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40
+		y = 102
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Beat_Him_At_His_Game}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Flood_Them_Out
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 104
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Manpower_Flood}
+		completion_reward = {}
+	}
+	
+		
+	focus = {		
+	id = ENG_Drown_Them_Down
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 106
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Flood_Them_Out}
+		completion_reward = {}
+	}
+	
+	focus = {		
+	id = ENG_Slow_Drowning
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 108
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Drown_Them_Down}
+		completion_reward = {
+
+		}
+	}
+	
+		
+	focus = {		
+	id = ENG_Victory_In_France
+		icon = Focus_GFX_Focus_generic_strike_at_democracy1
+		x = 40	
+		y = 110
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+                prerequisite = {ENG_Slow_Drowning}
+		completion_reward = {}
+	}
+}
+				
+	

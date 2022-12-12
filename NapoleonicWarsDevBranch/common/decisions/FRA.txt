@@ -106,7 +106,7 @@ FRA_revolutionary_category = {
 
 		available = {
 			focus_progress = {
-				focus = FRA_to_arms_citizens
+				focus = FRA_aftermath_of_the_tuileries
 				progress > 1
 			}
 		}
