@@ -1,45 +1,323 @@
 ﻿l_english:
-FRA_sister_republic:0 "Sister Republic of the Dutch"
-FRA_sister_republic_desc:0 ""
+FRA_vive_la_france:0 "Vive La France"
+
+FRA_get_rid_of_the_catholic_church:0 "Get Rid Of The Catholic Church"
+
+FRA_create_the_cult_of_reason:0 "Create The Cult Of Reason"
+
+FRA_change_the_christian_calendar:0 "Change The Christian Calendar"
+
+FRA_destroy_religious_values:0 "Destroy Religeious Values"
+
+FRA_deport_catholics:0 "Deport Catholics"
+
+FRA_trial_of_louis_XVI:0 "Trial Of Louis XVI"
+
+FRA_establish_the_committee_of_public_safety:0 "The Committee Of Public Safety"
+
+FRA_arm_youself_citizens:0 "Arm Yourself Citizens"
+
+FRA_crucifix_of_marat:0 "Crucifix Of Marat"
+
+FRA_revolutionary_tribunal:0 "Revolutionary Tribunal"
+
+FRA_crimes_against_liberty:0 "Crimes Against Liberty"
+
+FRA_law_of_suspects:0 "Law Of Suspects"
+
+FRA_establish_the_reign_of_terror:0 "Establish The Reign Of Terror"
+
+FRA_the_last_of_the_royals:0 "The Last Of The Royals"
+
+FRA_allow_dantons_reforms:0 "Allow Dantons Reforms"
+
+FRA_execute_georges_danton:0 "Execite Georges Dantons"
+
+FRA_cult_of_the_supreme_being:0 "Cult Of The Supreme Being"
+
+FRA_law_of_22_prairal:0 "Law Of 22 Prairal"
+
+FRA_final_victims:0 "Final Victims"
+
+FRA_stability_to_the_republic:0 "Stability To The Republic"
+
+FRA_arrest_jean_baptiste_carrier:0 "Arrest Jean Baptiste Carrier"
+
+FRA_arrest_gracchus_babeuf:0 "Arrest Gracchus Babeuf"
+
+FRA_arrest_cambon_sarthe_and_thuriot:0 "Arrest Cambon Sarther And Thuriot"
+
+FRA_reaction_to_the_insurrection_of_april_1st:0 "Reaction To The Insurrection Of April 1st"
+
+FRA_end_the_trials_of_94_nantais:0 "End The Trials Of 94 Nantais"
+
+FRA_burn_the_tribun_du_peuple:0 "Burn The Tribun Du Peuple"
+
+FRA_deport_barere_varenne_vadier_and_herbois:0 "Deport Barere Varenne Vadier And Herbois"
+
+FRA_reduce_revolutionary_tribunal_power:0 "Reduce Revolutionary Tribunal Power"
+
+FRA_execture_baptiste_carrier:0 "Execute Baptiste Carrier"
+
+FRA_orders_from_carnot:0 "Orders From Carnot"
+
+FRA_execute_the_jacobin_revolutionary_tribunal:0 "Execute The Jacobin Revolutionary Tribunal"
+
+FRA_reign_of_terror_disarming_decree:0 "Reign Of Terror Disarming Decree"
+
+FRA_present_the_1792_constitution:0 "Present The 1792 Constitution"
+
+FRA_inegrate_the_constitution:0 "Integrate The Constitution"
+
+FRA_create_the_directory:0 "Create The Directory"
+
+FRA_economic_issues:0 "Economic Issues"
+
+FRA_plunder_of_war:0 "Plunder Of War"
+
+FRA_mint_more_gold_and_silver_coins:0 "Mint More Gold And Silver Coins"
+
+FRA_destroy_the_printing_press:0 "Destroy The Printing Press"
+
+FRA_force_the_wealthy_to_pay:0 "Force The Wealthy To Pay"
+
+FRA_forced_loan_of_600_million:0 "Forced Loan Of 600 Million"
+
+FRA_declaration_of_bankruptcy:0 "Declaration Of Bankruptcy"
+
+FRA_assure_payment:0 "Assure Payment"
+
+FRA_taxes_on_property_owners:0 "Taxes On Property Owners"
+
+FRA_treaty_of_leoben:0 "Treaty Of Leoben"
+
+FRA_Napoleons_proposal:0 "Napoleons Proposal"
+
+FRA_basically_a_french_stamp_act:0 "The French Stamp Act"
+
+FRA_prepare_the_1792_legislative_election:0 "Prepare The 1792 Legislative Election"
+
+FRA_pichegru_head_of_500:0 "Pichegru Head Of 500"
+
+FRA_arrest_the_royalists:0 "Arrest The Royalists"
+
+FRA_deport_the_deputies:0 "Deport The Deputies"
+
+FRA_destroy_the_royalist_propaganda:0 "Destroy The Royalist Propaganda"
+
+FRA_declare_the_election_annu:0 "Declare The Election Annu"
+
+FRA_diplomatic_issues:0 "Diplomatic Issues"
+
+FRA_treaty_of_tolentino:0 "Treaty Of Tolentino"
+
+FRA_treaty_of_campo_formio:0 "Treaty Of Campo Formio"
+
+FRA_napoleons_proposal:0 "Napoleons Proposal"
+
+FRA_malta_along_the_way:0 "Malta Along The Way"
+
+FRA_undermine_british_access_to_india:0 "Undermine British Access To India"
+
+FRA_reorginise_the_french_navy:0 "Reorginise The French Navy"
+
+FRA_disband_the_naval_infantry:0 "Disband The Naval Infantry"
+
+FRA_reform_the_naval_artillery:0 "Reform The Naval Artillery"
+
+FRA_recognise_our_mistakes:0 "Recognise Our Mistakes"
+
+FRA_national_volunteers_of_the_sea:0 "National Volunteers Of The Sea"
+
+FRA_assistance_in_the_degree_of_1795:0 "Assistance In The Decree Of 1795"
+
+FRA_orignise_maritime_customs:0 "Orginise Maritime Customs"
+
+FRA_rebuild_toulon:0 "Rebuild Toulon"
+
+FRA_legacy_of_rochfort:0 "Legacy Of Rochfort"
+
+FRA_improvation_of_brest:0 "Improvation Of Brest"
+
+FRA_reform_the_costal_guard:0 "Reform The Costal Guard"
+
+FRA_marseielle_defensive:0 "Marseille Defensive"
+
+FRA_reinforce_costal_bases:0 "Reinforce Costal Bases"
+
+FRA_promote_napoleon:0 "Promote Napoleon"
+
+FRA_annex_belgium:0 "Annex Belgium"
+
+FRA_sister_republics:0 "Sister Republics"
+
+FRA_plan_a_new_campaign:0 "Plan A New Campaign"
+
+FRA_make_napoleon_commander_of_itallian_forces:0 "Make Napoleon Itallian Commander"
+
+FRA_rhine_integration:0 "Rhine Integration"
+
+FRA_three_pronged_attack:0 "Three Pronged Attack"
+
+FRA_rhine_campaign:0 "Rhine Campaign"
+
+FRA_surprising_success:0 "Surprising Success"
+
+FRA_a_change_in_plans:0 "A Change In Plans"
+
+FRA_complete_fail:0 "A Complete Fail"
+
+FRA_a_final_attempt:0 "A Final Attempt"
+
+FRA_itallian_campaign:0 "Itallian Campaign"
+
+FRA_utter_destruction:0 "Utter Destruction"
+
+FRA_march_on_vienna:0 "March On Vienna"
+
+FRA_first_treaty_of_base:0 "First Treaty Of Base"
+
+FRA_second_treaty_of_base:0 "Second Treaty Of Base"
+
+FRA_third_treaty_of_base:0 "Third Treaty Of Base"
+
+FRA_second_treaty_of_san_ildefonso:0 "Second Treaty Of San Ildefonso"
+
+FRA_northern_republics:0 "Northern Republics"
+
+FRA_the_dutch_versailles:0 "The Dutch Versailles"
+
+FRA_allow_the_revolutionary_committees_to_take_charge:0 "Allow The Revolutionary Committe To Take Charge"
+
+FRA_establish_south_african_republics:0 "Establish South African Republics"
+
+FRA_defence_of_the_cape_colonies:0 "Defence Of The Cape Colonies"
+
+FRA_insight_a_revolt_in_connacht:0 "Insight A Revolt In Connacht"
+
+FRA_send_troops_to_ireland:0 "Send Troops To Ireland"
+
+FRA_southern_republics:0 "Southern Republics"
+
+FRA_helvetic_republics:0 "Helvetic Republics"
+
+FRA_extract_swiss_riches:0 "Extract Swiss Riches"
+
+FRA_tax_the_swiss_cantons:0 "Tax The Swiss Cantons"
+
+FRA_ligurian_republic:0 "Ligurian Republic"
+
+FRA_republic_of_lucca:0 "Republic Of Lucca"
+
+FRA_parthenopean_republic:0 "Parthenopean Republic"
+
+FRA_republic_of_sicily:0 "Republilc Of Sicily "
+
+FRA_domination_of_southern_italy:0 "Domination Of Southern Italy"
+
+FRA_cispadane_republic:0 "Cispadane Republic"
+
+FRA_establish_a_civic_guard:0 "Establish A Civic Guard"
 
 FRA_cisalpine_republic:0 "Cisalpine Republic"
-FRA_cisalpine_republic_desc:0 ""
 
-FRA_piedmontese_republic:0 "Piedmontese Republic"
-FRA_piedmontese_republic_desc:0 ""
+FRA_transpadane_republic:0 "Transpadane Republic"
 
-FRA_helvetic_republic:0 "Helvetic Republic"
-FRA_helvetic_republic_desc:0 ""
+FRA_lombard_administration:0 "Lombard Administration"
 
-FRA_undermine_britain:0 "Undermine British Access to India"
-FRA_undermine_britain_desc:0 ""
+
 
 FRA_roman_republic:0 "Roman Republic"
-FRA_roman_republic_desc:0 ""
 
-FRA_siege_of_acre:0 "Siege of Acre"
-FRA_siege_of_acre_desc:0 ""
+FRA_exile_pope_pius_vi_to_france:0 "Exile Pope Pius VI To France"
 
-FRA_lucienist_help:0 "Lucienist Help"
-FRA_lucienist_help_desc:0 ""
+FRA_enlist_foreigners:0 "Enlist Foreigners"
 
-FRA_jacobin_plot:0 "Jacobin Plot"
-FRA_jacobin_plot_desc:0 ""
+FRA_prussian_deserters:0 "Prussian Deserters"
 
-FRA_power_over_the_pope:0 "Power Over The Pope"
-FRA_power_over_the_pope_desc:0 ""
+FRA_austrian_deserters:0 "Austrian Deserters"
 
-FRA_the_first_consul:0 "The First Consul"
-FRA_the_first_consul_desc:0 ""
+FRA_enlist_dutchmen:0 "Enlist Dutchmen"
 
-FRA_power_over_the_emperor:0 "Power Over The   Emperor"
-FRA_power_over_the_emperor_desc:0 ""
+FRA_enlist_belgians:0 "Enlist Belgians"
 
-FRA_i_am_the_revolution:0 "I Am The Revolution"
-FRA_i_am_the_revolution_desc:0 ""
+FRA_free_men_are_brothers:0 "Free Men Are Brothers"
 
-FRA_vive_la_france:0 "Vive La France"
-FRA_vive_la_france_desc:0 ""
+FRA_polish_deserters:0 "Polish Deserters"
 
-FRA_demand_lombardy:0 "Demand Lombardy"
-FRA_demand_lombardy_desc:0 "France demands Lombardy from Austria"
+FRA_irish_deserters:0 "Irish Deserters"
+
+FRA_enlist_itallians:0 "Enlist Itallians"
+
+FRA_enlist_swiss:0 "Enlist Swiss"
+
+FRA_colonial_focus:0 "Colonial Focus"
+
+FRA_american_colonies:0 "American Colonies"
+
+FRA_asain_colonies:0 "Asian Colonies"
+
+FRA_african_colonies:0 "African Colonies"
+
+FRA_carribean_colonies:0 "Carribean Colonies"
+
+FRA_negotiate_with_the_rebels:0 "Negotiate With The Rebels"
+
+FRA_let_go_of_st_domingue:0 "Let Go Of St. Domingue"
+
+FRA_guarantees_of_anti_royalism:0 "Guarantees Of Anti Royalism"
+
+
+FRA_brother_republic_in_the_carribean:0 "Brother Republic In The Carribean"
+
+FRA_first_expedition_to_st_domingue:0 "First Expedition To St. Domingue"
+
+FRA_preserve_slavery:0 "Preserve Slavery"
+
+FRA_slave_soldiers:0 "Slave Soldiers"
+
+FRA_upper_class_gendarmerie:0 "Upper Class Gendarmerie"
+
+FRA_local_formations:0 "Local Formations"
+
+FRA_colonial_demi_brigades:0 "Colonial Demi Brigades"
+
+FRA_abolish_slavery:0 "Abolish Slavery"
+
+FRA_amnesty_for_service:0 "Amnesty For Service"
+
+FRA_communal_guard:0 "Communal Guard"
+
+FRA_local_formations:0 "Local Formations"
+
+FRA_garde_nationale_de_st_domingue:0 "Garde Nationale De St. Domingue"
+
+FRA_bolster_local_governance:0 "Bolster Local Governance"
+
+FRA_reinforce_sonthonax_rule:0 "Reinforce Sonthonax Rule"
+
+FRA_increase_the_civil_commissioners_power:0 "Increase The Civic Commissioners Power"
+
+FRA_strip_military_power_from_local_whites:0 "Strip Military Power From Local Whites"
+
+FRA_negotiate_with_the_rebels:0 "Negotiate With The Rebels"
+
+FRA_let_go_of_st_domingue:0 "Let Go Of St. Domingue"
+
+FRA_guarantees_of_anti_royalism:0 "Guarantees Of Anti Royalism"
+
+FRA_support_sonthonax:0 "Support Sonthonax"
+
+FRA_support_louverture:0 "Support Louverture"
+
+FRA_napoleons_special_laws:0 "Napoleons Special Laws"
+
+FRA_second_expedition_to_st_domingue:0 "Second Expedition To St. Domingue"
+
+FRA_re-establish_slavery_on_guedeloupe:0 "Re-Establish Slavery On Guedeloupe"
+
+FRA_victory_in_st_domingue:0 "Victory In St. Domingue"
+
+FRA_direct_rule_from_paris:0 "Direct Rule From Paris"
+
+FRA_return_of_haitian_slavery:0 "Return Of Haitian Slavery"

@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_crest_overlay"
+		texturefile = "gfx/interface/l_shield_frame.dds"
+		noOfFrames = 1
+	}
+
+}
