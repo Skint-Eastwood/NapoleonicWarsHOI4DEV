@@ -80,7 +80,7 @@ bookmarks = {
 			}	
 		}
 
-		"RUS"={
+		"SOV"={
 			history = ""
 			ideology = Monarchist
 			#available = { has_dlc = "La Resistance" } 

@@ -8,7 +8,7 @@ garrison_generic = {
 		ENG
 		USA
 		ITA
-		RUS
+		SOV
 	}
 	
 	roles = {
@@ -211,7 +211,7 @@ infantry_generic = {
 		ENG
 		USA
 		ITA
-		RUS
+		SOV
 		CHI
 		PRC 
 		GXC
@@ -329,7 +329,7 @@ infantry_big_generic = {
 		ENG
 		USA
 		ITA
-		RUS
+		SOV
 		CHI
 		PRC 
 		GXC
@@ -464,7 +464,7 @@ mountaineers_generic = {
 		ENG
 		USA
 		ITA
-		RUS
+		SOV
 	}
 
 	roles = {
@@ -573,7 +573,7 @@ marines_generic = {
 		ENG
 		USA
 		ITA
-		RUS
+		SOV
 	}
 
 	roles = {

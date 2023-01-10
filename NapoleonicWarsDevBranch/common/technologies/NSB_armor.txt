@@ -267,7 +267,7 @@ technologies = {
 				factor = 10 #you are embarassing yourself
 			}
 			modifier = {
-				tag = RUS
+				tag = SOV
 				factor = 3
 			}
 
@@ -531,7 +531,7 @@ technologies = {
 				date > "1938.1.1"
 			}
 			modifier = {
-				tag = RUS
+				tag = SOV
 				factor = 1.5
 			}
 			modifier = {
@@ -552,7 +552,7 @@ technologies = {
 			modifier = {
 				factor = 15.0
 				tag = GER
-				has_opinion_modifier = RUS_ger_treaty
+				has_opinion_modifier = sov_ger_treaty
 			}
 		}
 
@@ -608,7 +608,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = RUS
+				tag = SOV
 			}
 
 			modifier = {

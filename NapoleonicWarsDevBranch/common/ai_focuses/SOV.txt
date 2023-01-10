@@ -1,27 +1,27 @@
-ai_historical_focus_list_RUS = {
+ai_historical_focus_list_SOV = {
 	ai_national_focuses = {
 		# grab as fast as you can if available
-		RUS_catch_up
-		RUS_roads_construction
-		RUS_railway_network
-		RUS_small_manu
-		RUS_desregulate_enterprises
-		RUS_scientific_revolution
-		RUS_politics
-		RUS_open_trade_with_britain
-		RUS_protect_the_monarchies
-		RUS_return_conservatism
-		RUS_mutual_collaboration
-		RUS_classic_monarchism
-		RUS_prepare_for_war
-		RUS_learn_from_switzerland
-		RUS_special_forces_1
-		RUS_special_forces_2
-		RUS_winter_soldiers
+		SOV_catch_up
+		SOV_roads_construction
+		SOV_railway_network
+		SOV_small_manu
+		SOV_desregulate_enterprises
+		SOV_scientific_revolution
+		SOV_politics
+		SOV_open_trade_with_britain
+		SOV_protect_the_monarchies
+		SOV_return_conservatism
+		SOV_mutual_collaboration
+		SOV_classic_monarchism
+		SOV_prepare_for_war
+		SOV_learn_from_switzerland
+		SOV_special_forces_1
+		SOV_special_forces_2
+		SOV_winter_soldiers
 	}
 }
 
-ai_focus_defense_RUS = {
+ai_focus_defense_SOV = {
 	research = {
 		defensive = 5.0	
 		
@@ -30,7 +30,7 @@ ai_focus_defense_RUS = {
 	}
 }
 
-ai_focus_aggressive_RUS = {
+ai_focus_aggressive_SOV = {
 	research = {
 		offensive = 5.0
 
@@ -39,7 +39,7 @@ ai_focus_aggressive_RUS = {
 	}
 }
 
-ai_focus_war_production_RUS = {
+ai_focus_war_production_SOV = {
 	research = {
 		industry = 10.0
 		construction_tech = 2.0
@@ -48,7 +48,7 @@ ai_focus_war_production_RUS = {
 	}
 }
 
-ai_focus_military_equipment_RUS = {
+ai_focus_military_equipment_SOV = {
 	research = {
 		infantry_weapons = 50.0
 		infantry_tech = 15.0
@@ -57,7 +57,7 @@ ai_focus_military_equipment_RUS = {
 	}
 }
 
-ai_focus_military_advancements_RUS = {
+ai_focus_military_advancements_SOV = {
 	research = {
 		# = 25.0
 		# = 5.0
@@ -73,7 +73,7 @@ ai_focus_military_advancements_RUS = {
 	}
 }
 
-ai_focus_peaceful_RUS = {
+ai_focus_peaceful_SOV = {
 	research = {
 		industry = 15.0
 		construction_tech = 5.0
@@ -82,7 +82,7 @@ ai_focus_peaceful_RUS = {
 	}
 }
 
-ai_focus_naval_RUS = {
+ai_focus_naval_SOV = {
     research = {
         naval_equipment = 2.0
         naval_doctrine = 10.0
@@ -100,7 +100,7 @@ ai_focus_naval_RUS = {
 }
 
 
-ai_focus_aviation_RUS = {
+ai_focus_aviation_SOV = {
 	research = {
 		# = 50.0
 		# = 4.0

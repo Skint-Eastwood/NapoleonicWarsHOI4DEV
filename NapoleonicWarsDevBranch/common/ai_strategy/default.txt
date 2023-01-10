@@ -249,7 +249,7 @@ default_role_ratios = {
 				original_tag = ENG
 				original_tag = USA
 				original_tag = JAP
-				original_tag = RUS
+				original_tag = SOV
 			}
 		}
 	}
@@ -454,7 +454,7 @@ default_garrison_production = {
 	enable = {
 		NOT = { 
 			original_tag = GER 
-			original_tag = RUS
+			original_tag = SOV
 			original_tag = USA
 			original_tag = CHI
 			original_tag = FRA
@@ -731,7 +731,7 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = RUS tag = ITA tag = JAP tag = USA tag = POL } }	
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }	
 		date < 1940.1.1				
 	}
 	abort = { 
@@ -759,7 +759,7 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = RUS tag = ITA tag = JAP tag = USA tag = POL } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }
 		date > 1940.1.1				
 	}
 
