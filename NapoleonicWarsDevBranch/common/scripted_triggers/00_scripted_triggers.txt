@@ -194,18 +194,18 @@ CHI_is_on_historical_plan_trigger = {
 		}
 	}
 }
-SOV_is_on_historical_plan_trigger = {
+RUS_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
 			has_game_rule = {
-				rule = SOV_ai_behavior
+				rule = RUS_ai_behavior
 				option = DEFAULT
 			}
 		}
-		has_country_flag = SOV_AI_RANDOM_COMMUNIST_HISTORICAL
+		has_country_flag = RUS_AI_RANDOM_COMMUNIST_HISTORICAL
 		has_game_rule = {
-			rule = SOV_ai_behavior
+			rule = RUS_ai_behavior
 			option = HISTORICAL
 		}
 	}
@@ -277,7 +277,7 @@ ENG_is_on_historical_plan_trigger = {
 	}
 }
 
-SOV_save_pp_for_manpower_trouble = {
+RUS_save_pp_for_manpower_trouble = {
 	has_manpower < 1000000
 	has_political_power < 200
 	surrender_progress > 0	

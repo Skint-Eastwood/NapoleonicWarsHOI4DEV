@@ -73,7 +73,12 @@ focus_tree = {
 		relative_position_id = AUS_the_holy_roman_empire
 
 		completion_reward = {		
-			add_stability = 0.15
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
 		}
 	}
 
@@ -112,11 +117,12 @@ focus_tree = {
 		relative_position_id = AUS_the_holy_roman_empire
 
 		completion_reward = {		
-			add_ideas = AUS_francis
 
-			set_cosmetic_tag = EMP_AUS
-			add_war_support = 0.15
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
 			
+			}
 		}
 	}
 
@@ -163,7 +169,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = AUS_the_empire_on_its_knees
 		icon = GFX_focus_generic_manpower
@@ -176,9 +182,12 @@ focus_tree = {
 		prerequisite = { focus = AUS_kaisers_tour }
 		relative_position_id = AUS_the_holy_roman_empire
 
-		completion_reward = {
-			GER = {
-				add_ideas = AUS_crumbling_empire
+		completion_reward = {		
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
 			}
 		}
 	}
@@ -196,7 +205,12 @@ focus_tree = {
 		relative_position_id = AUS_the_holy_roman_empire
 
 		completion_reward = {		
-			add_war_support = 0.1
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
+			}
 		}
 	}
 
@@ -235,9 +249,11 @@ focus_tree = {
 		relative_position_id = AUS_bavaria
 
 		completion_reward = {		
-			add_opinion_modifier = {
-				target = BAY
-				modifier = large_increase
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
 			}
 		}
 	}
@@ -256,27 +272,10 @@ focus_tree = {
 
 		completion_reward = {		
 
-			39 = {
-				add_building_construction = {
-					type = bunker
-					level = 3
-					instant_build = yes
-					provinces = {
-						6631 6675 9633
-					}
-				}
-			}
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
 			
-			
-
-			153 = {
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					provinces = { 6678 6680
-					}			
-				}
 			}
 		}
 	}
@@ -295,10 +294,10 @@ focus_tree = {
 
 		completion_reward = {		
 
-			send_equipment = {
-				equipment = infantry_equipment
-				amount = 1000
-				target = BAY
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
+			
 			}
 		}
 	}
@@ -1659,8 +1658,12 @@ focus_tree = {
 		mutually_exclusive = { focus = AUS_end_segregation_for_hungarians }
 
 		completion_reward = {		
-			set_cosmetic_tag = AHU_AUS
+
+		add_popularity = {
+			ideology = Democratic
+			popularity = 0.15
 			
+			}
 		}
 	}
 

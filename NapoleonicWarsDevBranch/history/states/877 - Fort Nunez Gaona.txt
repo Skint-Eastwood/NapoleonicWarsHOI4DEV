@@ -1,0 +1,19 @@
+state={
+	id=877
+	name="STATE_877"
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		13262 = {
+			coastal_bunker = 2
+		}
+	}
+	provinces={
+		13262
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
+

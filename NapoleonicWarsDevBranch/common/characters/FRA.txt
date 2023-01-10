@@ -276,7 +276,7 @@ characters={
 		name="Lucien Bonaparte"
 		portraits={
 			army={
-				small="GFX_idea_FRA_lucien_bonaparte"
+				small="GFX_idea_FRA_Jacques-Louis_David"
 		}
 	}
 
@@ -307,8 +307,8 @@ characters={
 		name="Napoleon Bonaparte"
 		portraits={
 			army={
-				large="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
-				small="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
+				large="gfx/leaders/FRA/FRA_Napoleon.dds"
+				small="gfx/leaders/FRA/FRA_Napoleon.dds"
 			}
 		}
 		field_marshal={

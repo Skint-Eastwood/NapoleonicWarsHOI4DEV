@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = NFL
+		owner = LCA
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
@@ -21,7 +21,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = NFL
+		add_core_of = LCA
 		victory_points = {
 			4345 20
 		}

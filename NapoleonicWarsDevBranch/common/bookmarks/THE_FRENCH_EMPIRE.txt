@@ -1,0 +1,112 @@
+#bookmarks = {
+#	bookmark = {
+		name = "The French Empire"
+		desc = "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
+		date = 1804.5.18.1
+		picture = "GFX_select_date_1939"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
+			ideology = neutrality 
+			ideas = {
+				
+			}
+
+			focuses = {
+
+			}
+		}
+
+		"PRE"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}	
+		}
+
+
+		"ENG"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"AUS"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"TUR"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"RUS"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"GER"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+
+		"SPR"={
+			history = ""
+			ideology = neutrality
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+			}	
+		}	
+	}
+}
+
+
+			
+

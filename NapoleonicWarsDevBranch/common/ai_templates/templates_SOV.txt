@@ -1,9 +1,9 @@
 
 
-infantry_SOV = {
+infantry_RUS = {
 
 	available_for = {
-		SOV
+		RUS
 	}
 	
 	roles = {
@@ -20,7 +20,7 @@ infantry_SOV = {
 	
 	match_to_count = 0.60
 
-	infantry_default_SOV = {
+	infantry_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -110,10 +110,10 @@ infantry_SOV = {
 	}
 }
 
-mountaineers_SOV = {
+mountaineers_RUS = {
 
 	available_for = {
-		SOV
+		RUS
 	}
 	
 	roles = {
@@ -133,7 +133,7 @@ mountaineers_SOV = {
 	
 	match_to_count = 0.60
 
-	mountaineers_default_SOV = {
+	mountaineers_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -214,10 +214,10 @@ mountaineers_SOV = {
 	}
 }
 
-marines_SOV = {
+marines_RUS = {
 
 	available_for = {
-		SOV
+		RUS
 	}
 	
 	roles = {
@@ -237,7 +237,7 @@ marines_SOV = {
 	
 	match_to_count = 0.60
 	
-	marine_default_SOV = {
+	marine_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -315,10 +315,10 @@ marines_SOV = {
 
 
 
-garrison_SOV = {
+garrison_RUS = {
 
 	available_for = {
-		SOV
+		RUS
 	}
 	
 	roles = {
@@ -337,7 +337,7 @@ garrison_SOV = {
 	match_to_count = 0.8
 
 
-	garrison_SOV = {
+	garrison_RUS = {
 	
 		upgrade_prio = {
 			factor = 2

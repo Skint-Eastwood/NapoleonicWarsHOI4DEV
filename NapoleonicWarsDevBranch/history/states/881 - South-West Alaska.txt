@@ -1,0 +1,22 @@
+state={
+	id=881
+	name="STATE_881"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+	   1135 7884 10694 12661 13090 13269 13270
+	}
+	manpower=67500
+	buildings_max_level_factor=1
+	state_category="rural"
+
+	local_supplies=0.0 
+}
