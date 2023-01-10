@@ -1,9 +1,9 @@
 characters={
-	RUS_Catherine_II={ #Democratic Leader
+	SOV_Catherine_II={ #Democratic Leader
 		name="Catherine II"
 		portraits={
 			civilian={
-				large="gfx/leaders/RUS/RUS_Catherine_II.dds"
+				large="gfx/leaders/SOV/SOV_Catherine_II.dds"
 			}
 		}
 		country_leader={
