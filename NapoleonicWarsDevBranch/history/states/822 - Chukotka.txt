@@ -3,7 +3,7 @@ state = {
 	name = "STATE_822" #Chukotka
 
 	history = {
-		owner = SOV
+		owner = RUS
 		victory_points = {
 			13063 1 
 		}
@@ -13,7 +13,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = CKK
 		add_core_of = FER
 

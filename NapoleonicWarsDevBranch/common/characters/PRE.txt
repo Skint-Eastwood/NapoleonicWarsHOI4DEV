@@ -13,24 +13,4 @@ characters={
 			id=-1
 		}
 	}
-
-
-	PRE_Gebhard_Leberecht={
-		name="Gebhard Leberecht von Blücher"
-		portraits={
-			army={
-				large="gfx/leaders/PRE/Portrait_Prussia_Gebhard_Leberecht.dds"
-				small="gfx/leaders/PRE/Portrait_Prussia_Gebhard_Leberecht.dds"
-			}
-		}
-		field_marshal={
-			traits={ career_officer politically_connected  }
-			skill=4
-			attack_skill=3
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
-			legacy_id=0
-		}
-	}
 }

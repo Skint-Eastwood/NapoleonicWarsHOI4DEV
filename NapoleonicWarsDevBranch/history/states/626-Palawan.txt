@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = PHI
+		owner = MEX
 		buildings = {
 			infrastructure = 2
 			4429 = {

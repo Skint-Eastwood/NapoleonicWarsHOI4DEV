@@ -1146,7 +1146,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.05
 		targeted_modifier = {
-			tag = SOV
+			tag = RUS
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
@@ -1952,20 +1952,20 @@ leader_traits = {
 
 
 	################################
-	## SOVIET UNION LEADER TRAITS ##
+	## RUSIET UNION LEADER TRAITS ##
 	################################
 
 	### STALIN ###
 	stalin_political_paranoia = {
 		random = no
 		drift_defence_factor = 0.1
-		custom_modifier_tooltip = SOV_paranoia_modifier_increase_effect_tt
+		custom_modifier_tooltip = RUS_paranoia_modifier_increase_effect_tt
 	}
 
 	stalin_political_paranoia_advanced = {
 		random = no
 		drift_defence_factor = 0.1
-		custom_modifier_tooltip = SOV_paranoia_advance_modifier_increase_effect_tt
+		custom_modifier_tooltip = RUS_paranoia_advance_modifier_increase_effect_tt
 	}
 
 	stalin_heart_of_steel = {
@@ -2075,7 +2075,7 @@ leader_traits = {
 		random = no
 		drift_defence_factor = 0.05
 		political_power_factor = 0.1
-		custom_modifier_tooltip = SOV_paranoia_modifier_increase_2_effect_tt
+		custom_modifier_tooltip = RUS_paranoia_modifier_increase_2_effect_tt
 	}
 	
 	#Hess
@@ -2116,7 +2116,7 @@ leader_traits = {
 		stability_factor = -0.05
 	}
 
-	#THE SUPREME SOVIET
+	#THE SUPREME RUSIET
 	strong_party_discipline = {
 		random = no
 		drift_defence_factor = 0.15
@@ -2235,7 +2235,7 @@ leader_traits = {
 	}
 
 	#################################
-	## SOVIET UNION ADVISOR TRAITS ##
+	## RUSIET UNION ADVISOR TRAITS ##
 	#################################
 
 	head_of_the_nkvd_yagoda_initial = {
@@ -2245,7 +2245,7 @@ leader_traits = {
 		enemy_operative_detection_chance = 5
 		enemy_operative_capture_chance_factor = 0.05
 		civilian_intel_to_others = -5
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_yagoda = {
@@ -2255,8 +2255,8 @@ leader_traits = {
 		enemy_operative_detection_chance = 5
 		enemy_operative_capture_chance_factor = 0.05
 		civilian_intel_to_others = -5
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_yagoda_tt
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_yagoda_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_yagoda_no_paranoia = {
@@ -2276,7 +2276,7 @@ leader_traits = {
 		enemy_operative_capture_chance_factor = 0.1
 		civilian_intel_to_others = -10
 		agency_upgrade_time = -0.1
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_yezhov = {
@@ -2287,8 +2287,8 @@ leader_traits = {
 		enemy_operative_capture_chance_factor = 0.1
 		civilian_intel_to_others = -10
 		agency_upgrade_time = -0.1
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_yezhov_tt
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_yezhov_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_yezhov_no_paranoia = {
@@ -2309,7 +2309,7 @@ leader_traits = {
 		enemy_operative_capture_chance_factor = 0.15
 		civilian_intel_to_others = -10
 		intel_network_gain_factor = 0.1
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_beriya = {
@@ -2320,8 +2320,8 @@ leader_traits = {
 		enemy_operative_capture_chance_factor = 0.15
 		civilian_intel_to_others = -10
 		intel_network_gain_factor = 0.1
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_beriya_tt
-		custom_modifier_tooltip = SOV_head_of_the_nkvd_locked_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_beriya_tt
+		custom_modifier_tooltip = RUS_head_of_the_nkvd_locked_tt
 	}
 
 	head_of_the_nkvd_beriya_no_paranoia = {
@@ -2396,7 +2396,7 @@ leader_traits = {
 	}
 
 	#Smilga
-	soviet_economist = {
+	RUSiet_economist = {
 		random = no
 		sprite = 13
 		consumer_goods_factor = -0.02
@@ -3769,7 +3769,7 @@ leader_traits = {
 		drift_defence_factor = 0.15
 	}
 	
-	soviet_thaw = {
+	RUSiet_thaw = {
 		random = no
 		sprite = 13
 		drift_defence_factor = 0.15

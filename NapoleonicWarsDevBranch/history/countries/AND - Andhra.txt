@@ -1,0 +1,27 @@
+capital = 64
+set_cosmetic_tag = BRA_AND
+
+set_convoys = 300
+
+add_ideas = {
+	
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	authoritarian = 20
+	monarchist = 60
+	socialism = 0
+}
+
+add_ideas = {
+		}
+
+recruit_character = VNI_Doge_Lodovico_Manin
+

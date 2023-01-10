@@ -1,22 +1,6 @@
 ideas = {
+
 	country = {
-
-		## Ideas ##
-
-
-		## HRE ##
-
-		AUS_crumbling_empire = {
-			picture = AUS_crumbling_empire
-
-			allowed = {
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				stability_weekly = -0.0025
-			}
 		}
 	}
-}
+

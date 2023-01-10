@@ -22,6 +22,9 @@ set_popularities = {
 add_ideas = {
 		}
 
+puppet = LCA
+puppet = CAN
+puppet = HBC
 puppet = NFL
 puppet = AST
 puppet = HAN

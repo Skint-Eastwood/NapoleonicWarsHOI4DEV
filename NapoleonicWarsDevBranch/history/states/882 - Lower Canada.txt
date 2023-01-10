@@ -1,0 +1,22 @@
+state={
+	id=882
+	name="STATE_882"
+
+	history={
+		owner = LCA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = LCA
+	}
+
+	provinces={
+	  983 1341 1356 1657 1764 4419 4769 7435 7683 7807 7810 7875 7893 10249 10534 10700 10715 11902 12205 12223 12276 13160 13164
+	}
+	manpower=67500
+	buildings_max_level_factor=1
+	state_category="rural"
+
+	local_supplies=0.0 
+}
