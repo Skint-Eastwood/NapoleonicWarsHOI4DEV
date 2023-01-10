@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = RUS
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = RUS
+		add_core_of = SOV
 		victory_points = {
 			775 1 # City of Volgodonsk only founded in 1950 to service the new reservoir
 		}

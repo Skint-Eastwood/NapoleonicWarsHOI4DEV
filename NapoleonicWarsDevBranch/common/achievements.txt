@@ -421,11 +421,11 @@ the_revolution_triumphant = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes
-		tag = RUS
+		tag = SOV
 	}
 	
 	happened = {
-		GER = { is_puppet_of = RUS } 
+		GER = { is_puppet_of = SOV } 
 	}
 }
 
@@ -1058,7 +1058,7 @@ death_or_dishonor_or_cake = {
 			is_owned_by = ROOT
 		}
 		any_state = {
-			is_core_of = RUS
+			is_core_of = SOV
 			is_owned_by = ROOT
 		}
 		any_state = {
@@ -1278,7 +1278,7 @@ lethal_straight = {
 			ENG = { is_licensing_any_to = ROOT }
 			GER = { is_licensing_any_to = ROOT }
 			USA = { is_licensing_any_to = ROOT }
-			RUS = { is_licensing_any_to = ROOT }
+			SOV = { is_licensing_any_to = ROOT }
 			JAP = { is_licensing_any_to = ROOT }
 			FRA = { is_licensing_any_to = ROOT }
 			ITA = { is_licensing_any_to = ROOT }
@@ -2081,7 +2081,7 @@ the_new_home_of_the_revolution = {
 		has_country_leader = {
  			character = MEX_leon_trotsky
  		}
-		RUS = { is_subject_of = MEX }
+		SOV = { is_subject_of = MEX }
 	}
 }
 
@@ -2101,7 +2101,7 @@ assuming_direct_control = {
 				tag = GER
 				tag = ITA
 				tag = FRA
-				tag = RUS
+				tag = SOV
 				tag = JAP
 				tag = CHI
 			}
@@ -3042,7 +3042,7 @@ bad_romeance = {
 		custom_trigger_tooltip = {
 			tooltip = bad_romeance_tt
 			has_any_byz_cosmetic_tag = yes 
-			has_subject = RUS
+			has_subject = SOV
 			has_subject = ROM
 			has_subject = ITA
 		}
@@ -3325,7 +3325,7 @@ no_more_partitions = {
 				is_in_faction_with = POL
 			}
 		}
-		RUS = {
+		SOV = {
 			OR = {
 				exists = no
 				is_in_faction_with = POL
@@ -3378,11 +3378,11 @@ the_pope_how_many_divisions_does_he_have = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			controls_state = 2
 		}
 	}
@@ -3608,14 +3608,14 @@ not_a_step_back = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
 		date > 1945.1.1
-		RUS = {
+		SOV = {
 			NOT = {
-				has_country_flag = achievement_lost_state #flag set if a state changes control away from RUSiets
+				has_country_flag = achievement_lost_state #flag set if a state changes control away from Soviets
 			}
 		}
 	}
@@ -3630,11 +3630,11 @@ one_step_forward = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			has_War_with = POL
 			has_war_with = GER
 			NOT = { has_country_flag = achievement_GER_attacked_POL_first }
@@ -3642,7 +3642,7 @@ one_step_forward = {
 	}
 }
 
-the_RUSiet_onion = {
+the_soviet_onion = {
 	id = 145
 	
 	possible = {
@@ -3651,13 +3651,13 @@ the_RUSiet_onion = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			all_neighbor_country = {
-				is_subject_of = RUS
+				is_subject_of = SOV
 			}
 		}
 	}
@@ -3692,15 +3692,15 @@ the_romanovs_laugh_last = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			OR = {
-				has_idea = RUS_tsar_vladimir_i
+				has_idea = SOV_tsar_vladimir_i
 				has_country_leader = {
-					character = RUS_tsar_vladimir_kirillovich
+					character = SOV_tsar_vladimir_kirillovich
 					ruling_only = yes
 				}
 			}
@@ -3708,48 +3708,48 @@ the_romanovs_laugh_last = {
 		64 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
 		9 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
 		4 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
 		43 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
 		48 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
 		49 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = RUS
-					is_subject_of = RUS
+					Original_tag = SOV
+					is_subject_of = SOV
 				}
 			}
 		}
@@ -3765,13 +3765,13 @@ we_dont_really_like_statistics = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			has_country_leader = {
-				character = RUS_iosif_stalin
+				character = SOV_iosif_stalin
 			}
 			has_country_flag = achievement_no_statistics
 		}
@@ -3787,11 +3787,11 @@ race_for_germany = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
-		RUS = {
+		SOV = {
 			has_country_flag = achievement_race_for_germany
 		}
 	}
@@ -3828,13 +3828,13 @@ just_proper_gander = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = RUS
+		original_tag = SOV
 	}
 	
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = just_proper_gander_tt
-			RUS = {
+			SOV = {
 				check_variable = { propaganda_counter > 29 }
 			}
 			date < 1945.1.1

@@ -2,8 +2,8 @@ state={
 	id=852
 	name="STATE_852"
 	history = {
-		owner = CAN
-		add_core_of = CAN
+		owner = NFL
+		add_core_of = NFL
 		add_core_of = USA
 		set_demilitarized_zone = yes #disputed territory
 	}

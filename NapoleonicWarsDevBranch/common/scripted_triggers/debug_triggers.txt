@@ -1,5 +1,5 @@
-#test_RUS_try_to_steal_ENG_tech = {
-#	RUS = {
+#test_SOV_try_to_steal_ENG_tech = {
+#	SOV = {
 #		num_finished_operations = {
 #			operation = operation_steal_tech_navy
 #			target = ENG

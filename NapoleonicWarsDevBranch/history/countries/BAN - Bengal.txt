@@ -4,7 +4,7 @@ set_convoys = 300
 set_cosmetic_tag = BBN_BAN
 
 add_ideas = {
-	ANT_Nomadic_Tribes
+
 }
 
 set_politics = {
@@ -24,5 +24,4 @@ set_popularities = {
 add_ideas = {
 		}
 
-recruit_character = ANT_African_Tribes
 
