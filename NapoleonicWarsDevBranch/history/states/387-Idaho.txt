@@ -18,7 +18,6 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = TRB
-		add_claim_by = MEX
 		victory_points = {
 			9616 1
 		}

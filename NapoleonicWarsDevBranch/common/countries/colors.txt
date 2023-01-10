@@ -1,9 +1,10 @@
 #reload countrycolors
 
 NFL = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 140  53  41 }
+	color_ui = rgb { 140  53  41 }
 }
+
 RJT = {
 	color = rgb { 180  4  68 }
 	color_ui = rgb { 180  4  68 }
@@ -90,7 +91,7 @@ TRB = {
 	color_ui = rgb { 55 55 55 }
 }
 
-RUS = {
+SOV = {
 	color = rgb { 0 127 14 }
 	color_ui = rgb { 0 127 14 }
 }
@@ -916,30 +917,5 @@ BKH = {
 KHV = {
 	color = rgb { 234  116  6 }
 	color_ui = rgb { 234  116  6 }
-}
-
-LCA = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
-HBC = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
-NSC = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
-PEI = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
-NBR = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
 }
 

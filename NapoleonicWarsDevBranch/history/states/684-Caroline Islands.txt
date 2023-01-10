@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = MEX
+		owner = JAP
 		add_core_of = FSM
 		buildings = {
 			infrastructure = 2

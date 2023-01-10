@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = NBR
+		owner = NFL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
@@ -15,7 +15,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = NBR
+		add_core_of = NFL
 	}
 
 	provinces={

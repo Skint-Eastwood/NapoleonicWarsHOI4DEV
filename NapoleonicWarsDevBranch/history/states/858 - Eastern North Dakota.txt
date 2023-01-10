@@ -2,8 +2,8 @@ state={
 	id=858
 	name="STATE_858"
 	history = {
-		owner = HBC
-		add_core_of = HBC
+		owner = NFL
+		add_core_of = NFL
 	}
 	provinces={
 		1870 12685 13238 13239

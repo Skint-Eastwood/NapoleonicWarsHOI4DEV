@@ -1,4 +1,5 @@
 capital = 64
+oob = PRE_1936
 
 set_convoys = 300
 
@@ -19,8 +20,27 @@ set_popularities = {
 	socialism = 0
 }
 
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	construction1 = 1
+	seven_artillery = 1
+	early_cavalry = 1
+	
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+}
+
+set_research_slots = 3
+
 add_ideas = {
 		}
 
 recruit_character = PRE_Frederick_William_II
+recruit_character = PRE_Gebhard_Leberecht
 

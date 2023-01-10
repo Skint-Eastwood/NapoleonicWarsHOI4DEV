@@ -4,7 +4,6 @@ state={
 	history = {
 		owner = MEX
 		add_core_of = MEX
-		add_claim_by = MEX
 	}
 	provinces={
 		13250 13251
