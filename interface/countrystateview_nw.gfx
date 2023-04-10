@@ -1,0 +1,13 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_terrain_fort"
+		textureFile = "gfx/interface/terrains/terrain_fort.dds"
+	}
+	
+	# TERRAIN WINTER
+	
+	spriteType = {
+		name = "GFX_terrain_fort_winter"
+		textureFile = "gfx/interface/terrains/terrain_fort_winter.dds"
+	}
+}

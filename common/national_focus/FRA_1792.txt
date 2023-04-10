@@ -231,17 +231,14 @@ focus = {
 		y = 7
 		cost = 10
 		prerequisite = { focus = FRA_dissolve_the_national_guard }
-		available = {
-			always = no
-		}
 
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {	
 			load_focus_tree = FRA_Kingdom
+			}
 		}
-	}
 	
 
 	# Kindom of france tree switchover #

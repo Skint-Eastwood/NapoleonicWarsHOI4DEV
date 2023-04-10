@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		add_core_of = MEX
-		owner = MEX
+		add_core_of = COL
+		owner = COL
 		victory_points = {
 			4982 1
 		}
@@ -24,7 +24,7 @@ state={
 	}
 	
 	provinces={
-		4982 8107 12716 
+		8107 12716 
 	}
 
 	local_supplies=5.0 

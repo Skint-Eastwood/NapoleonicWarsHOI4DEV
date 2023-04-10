@@ -1,10 +1,9 @@
 #reload countrycolors
 
 NFL = {
-	color = rgb { 140  53  41 }
-	color_ui = rgb { 140  53  41 }
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
 }
-
 RJT = {
 	color = rgb { 180  4  68 }
 	color_ui = rgb { 180  4  68 }
@@ -91,7 +90,7 @@ TRB = {
 	color_ui = rgb { 55 55 55 }
 }
 
-SOV = {
+RUS = {
 	color = rgb { 0 127 14 }
 	color_ui = rgb { 0 127 14 }
 }
@@ -919,8 +918,6 @@ KHV = {
 	color_ui = rgb { 234  116  6 }
 }
 
-<<<<<<< Updated upstream:common/countries/colors.txt
-=======
 LCA = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
@@ -961,4 +958,3 @@ ARG = {
 	color_ui = rgb { 255 255 122 }
 }
 
->>>>>>> Stashed changes:NapoleonicWarsDevBranch/common/countries/colors.txt

@@ -7,7 +7,7 @@ state=
 	state_category = town
 	history=
 	{
-		owner = PHI
+		owner = MEX	
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

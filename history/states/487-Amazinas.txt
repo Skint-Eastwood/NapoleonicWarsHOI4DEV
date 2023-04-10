@@ -7,16 +7,16 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MEX
+		owner = ARG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = MEX
+		add_core_of = ARG
 	}
 
 	provinces={
-		2160 5188 8211 8240 10924 10982 10996 12902 12916 12917 12973 
+		2160 8211 8240 10924 10982 10996 12902 12916 12973 
 	}
 	
 

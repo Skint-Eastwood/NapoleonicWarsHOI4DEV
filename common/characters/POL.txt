@@ -1,9 +1,9 @@
 characters={
-	POL_Stanislaw={ #Democratic Leader
-		name="Stanisław August Poniatowski"
+	SPR_Carlos_IV={ #Democratic Leader
+		name="Carlos IV"
 		portraits={
 			civilian={
-				large="gfx/leaders/POL/POL_Stanislaw.dds"
+				large="gfx/leaders/SPR/SPR_Carlos_IV.dds"
 			}
 		}
 		country_leader={

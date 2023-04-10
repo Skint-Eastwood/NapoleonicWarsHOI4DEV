@@ -1,7 +1,6 @@
 capital = 4
 
 set_convoys = 300
-set_cosmetic_tag = HAB_AUS
 
 add_ideas = {
 	
@@ -25,7 +24,6 @@ add_ideas = {
 
 puppet = BEL
 puppet = GER
-
 		
 recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I

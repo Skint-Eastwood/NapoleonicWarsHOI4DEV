@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = PHI
+		owner = MEX
 		buildings = {
 			infrastructure = 2
 			4241 = {

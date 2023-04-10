@@ -614,7 +614,7 @@ technologies = {
 					tag = USA
 				}
 				has_war_with = GER
-				GER = { has_war_with = SOV }
+				GER = { has_war_with = RUS }
 			}
 		}
 		

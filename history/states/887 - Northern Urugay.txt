@@ -1,0 +1,22 @@
+state={
+	id=887
+	name="STATE_887"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+	   1641 10347
+	}
+	manpower=67500
+	buildings_max_level_factor=1
+	state_category="rural"
+
+	local_supplies=0.0 
+}

@@ -440,6 +440,20 @@ units = {
 
 
 	# XVe Corps d'Armée (Région Militaire in 1936) -- Marseille
+	division= {	
+		name = "29ème Division d'Infanterie Alpine"
+		location = 6975
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2ème Div. d'Inf. Coloniale"
+		location = 11834
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
 
 	# XVIe Corps d'Armée (Région Militaire in 1936) -- Montpellier
 	division= {	
@@ -450,6 +464,14 @@ units = {
 	}
 
 	# Division d'Inf. Forteresse -- Nice
+	division= {	
+		name = "Nice Div. d'Inf. de Forteresse"
+		location = 9909
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
 
 	### METRPOLITAN FRANCE ###			
 	#navy = {				

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = NFL
+		owner = NSC
 		victory_points = {
 			7361 3
 		}
@@ -20,11 +20,11 @@ state={
 
 			}
 		}
-		add_core_of = NFL
+		add_core_of = NSC
 	}
 
 	provinces={
-		1354 4360 4430 4623 7304 7361 7644 10244 
+		1354 4430 4623 7304 7361 7644 10244 
 	}
 	
 

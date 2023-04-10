@@ -366,7 +366,7 @@ units = {
 		name = "17ya Gorno-Kav. Div."		
 		location = 3653
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 
@@ -389,7 +389,7 @@ units = {
 		name = "10ya Kavaleriyskaya Diviziya"		
 		location = 6474
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 
@@ -398,7 +398,7 @@ units = {
 		name = "12ya 'Kubanskaya' Kav. Div."		
 		location = 6474
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 
@@ -407,7 +407,7 @@ units = {
 		name = "13ya 'Kubanskaya' Kav. Div."		
 		location = 6474
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 
@@ -416,7 +416,7 @@ units = {
 		name = "15ya 'Donskaya' Kav. Div."		
 		location = 6474
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 
@@ -438,7 +438,7 @@ units = {
 		name = "18ya 'Turkestanskaya' Kav. Div."		
 		location = 12370
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -447,7 +447,7 @@ units = {
 		name = "20ya 'Tadzhikskaya' Kav. Div."		
 		location = 5062
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -456,7 +456,7 @@ units = {
 		name = "21ya 'Ferganskaya' Kav. Div."		
 		location = 4768
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -467,7 +467,7 @@ units = {
 		name = "19ya Gorno-Kav. Div."		
 		location = 1459
 		division_template = "Legkaya Kavaleriya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -476,7 +476,7 @@ units = {
 		name = "68ya 'Turkestan.' Gornostrelk. Div."		
 		location = 4923
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -485,7 +485,7 @@ units = {
 		name = "83ya 'Turkestan.' Gornostrelk. Div."		
 		location = 12805
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -510,7 +510,7 @@ units = {
 		name = "71ya Strelkovaya Diviziya"		
 		location = 10610
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -519,7 +519,7 @@ units = {
 		name = "73ya Strelkovaya Diviziya"		
 		location = 1749
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -528,7 +528,7 @@ units = {
 		name = "78ya Strelkovaya Diviziya"		
 		location = 12529
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -537,7 +537,7 @@ units = {
 		name = "94ya Strelkovaya Diviziya"		
 		location = 12662
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -552,7 +552,7 @@ units = {
 	#	base = 3134
 	#	location = 3134 # Murmansk
 	#	# 1ya Flotiliya Esmintsev
-	#	#ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+	#	#ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS } } }
 	#	
 	#}	
 			
@@ -568,7 +568,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "SOV"
+			creator = "RUS"
 		}
 		requested_factories = 7
 		progress = 0.1
@@ -578,7 +578,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "SOV" 
+			creator = "RUS" 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -588,7 +588,7 @@ instant_effect = {
 	#add_equipment_production = {
 	#	equipment = {
 	#		type = artillery_equipment_1
-	#		creator = "SOV" 
+	#		creator = "RUS" 
 	#	}
 	#	requested_factories = 1
 	#	progress = 0.3
@@ -600,7 +600,7 @@ instant_effect = {
 	#add_equipment_production = {
 	#	equipment = {
 	#		type = destroyer_1
-	#		creator = "SOV"
+	#		creator = "RUS"
 	#		version_name = "Leningrad & Minsk Class"
 	#	}
 	#	requested_factories = 2
