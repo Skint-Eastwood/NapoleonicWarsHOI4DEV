@@ -273,8 +273,8 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
-	color = rgb { 255 197 0 }
-	color_ui = rgb { 255 197 0 }
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
 }
 NEP = {
 	color = rgb { 152 130 191 }
@@ -919,3 +919,46 @@ KHV = {
 	color_ui = rgb { 234  116  6 }
 }
 
+<<<<<<< Updated upstream:common/countries/colors.txt
+=======
+LCA = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+HBC = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+NSC = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+PEI = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+NBR = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+COL = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
+}
+
+PRU = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
+}
+
+ARG = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
+}
+
+>>>>>>> Stashed changes:NapoleonicWarsDevBranch/common/countries/colors.txt
