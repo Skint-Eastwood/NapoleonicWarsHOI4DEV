@@ -12,7 +12,7 @@ tags={
 	"Ideologies"
 }
 picture="thumbnail.png"
-name="Napoleonic Wars HOI4 Developer Workbranch"
+name="Napoleonic Wars HOI4 Developer Branch "
 replace_path="common/ai_focuses"
 replace_path="common/bookmarks"
 replace_path="common/characters"
