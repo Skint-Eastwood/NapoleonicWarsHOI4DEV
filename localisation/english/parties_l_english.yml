@@ -58,6 +58,10 @@
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
 
+ ENG_Monarchist_party:0 "House Hanover"
+ ENG_Democratic_party:0 "English Democrats"
+ ENG_Liberalism_party:0 "Liberalist Party"
+ 
  FRA_Monarchist_party:0 "House of Bourbon"
  FRA_Liberalism_party:0 "Girondins"
  FRA_authoritarian_democracy_party:0 "Dantonists"
