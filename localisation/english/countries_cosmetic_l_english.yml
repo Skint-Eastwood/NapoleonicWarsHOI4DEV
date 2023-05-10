@@ -20,6 +20,9 @@
  DSR_HOL:0 "Dutch Sister Republic"
  DSR_HOL_DEF:0 "the Dutch Sister Republic"
  
+ DRP_HOL:0 "Dutch Republic"
+ DRP_HOL_DEF:0 "the Dutch Republic"
+ 
  ## Swiss Tags ##
 
  CAP_SWI:0 "Cisalpine Republic"
