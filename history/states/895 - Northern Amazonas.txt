@@ -1,0 +1,22 @@
+state={
+	id=895
+	name="STATE_895"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		5083 5214 12919
+	}
+	manpower=67500
+	buildings_max_level_factor=1
+	state_category="rural"
+
+	local_supplies=0.0 
+}
