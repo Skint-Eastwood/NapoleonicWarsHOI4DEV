@@ -16,9 +16,24 @@
 ####################
 ## Austrian Ideas ##
 ####################
+
  AUS_crumbling_empire:0 "Crumbling Empire"
  AUS_crumbling_empire_desc:0 "The Holy Roman Empire is beginning to crumble"
  AUS_francis:0 "Francis The Great"
+ 
+#######################
+## Papal States Ides ##
+#######################
+
+ PPL_pius_state:0 "Pius State"
+ PPL_pius_state_desc:0 "The papal states, the home of the Pope and Catholisism"
+ 
+###################
+## Italian Ideas ##
+###################
+
+ INT_italian_identity:0 "Italian Identity"
+ INR_italian_identity_desc:0 "Italian pride is strong and still growing rapidly!"
 
 
 ###################
