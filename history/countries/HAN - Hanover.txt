@@ -13,10 +13,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	authoritarian = 20
-	monarchist = 60
-	socialism = 0
+	democratic = 4
+	authoritarian = 13
+	monarchist = 76
+	liberalism = 7
 }
 
 add_ideas = {

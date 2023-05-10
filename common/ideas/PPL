@@ -1,0 +1,17 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+		PPL_pius_state = {
+			picture = air_support_focus
+			allowed = {
+				original_tag = PPL
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.030
+				justify_war_goal_time = 0.4
+			}
+		}

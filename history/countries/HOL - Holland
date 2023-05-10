@@ -1,4 +1,5 @@
-capital = 50
+capital = 64
+set_cosmetic_tag = DRP_HOL
 
 set_convoys = 300
 
@@ -13,15 +14,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 3
-	authoritarian = 7
-	monarchist = 90
+	democratic = 2
+	authoritarian = 4
+	monarchist = 86
+	liberalism = 8
 }
 
 add_ideas = {
 		}
-		
-recruit_character = GER_Leopold_II
-recruit_character = GER_francis_II
 
 

@@ -37,10 +37,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 6
-	authoritarian = 0
-	monarchist = 45
+	monarchist = 43
 	socialism = 3
-	Liberalism = 4
+	Liberalism = 8
 	authoritarian_democracy = 30
 	jacobinism = 12
 }

@@ -1,0 +1,24 @@
+ideas = {
+	
+  ## Italian Peninsular Ideas ##
+  
+	country = {
+		INT_italian_identity = {
+			picture = idea_king_louis
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.3
+        stability_weekly = 0.04
+        annex_cost_factor = 0.1
+			}
+		}
+}
