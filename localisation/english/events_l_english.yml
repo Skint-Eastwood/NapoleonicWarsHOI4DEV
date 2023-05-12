@@ -3,24 +3,24 @@
 
 ## France ##
  france.1.t:0 "Storming The Tuileries"
- france.1.d:0 "The French monarchy has been toppled"
- france.1.a:0 "Down With The King!"
+ france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"
+ france.1.a:0 "Only Time Will Tell..."
 
  france.2.t:0 "Declaration of The First French Republic"
- france.2.d:0 ""
+ france.2.d:0 "The first French republic was officially delcared on the 21st of September 1792 after the toppling of King Louis XVI and the House of Bourbon at the righteous hand of the French revolutionaries."
  france.2.a:0 "Liberté, égalité, fraternité"
 
 ## Austria ##
 
  austria.2.t:0 "Death of Leopold II"
- austria.2.d:0 "The Emperor of Austria and the Holy Roman Empire, Leopold II, died unexpectedly on the first of March 1792 in Vienna, Austria. "
- austria.2.a:0 "Francis II Takes The Throne"
+ austria.2.d:0 "The Emperor of Austria and the Holy Roman Empire, Leopold II, died unexpectedly on the first of March 1792 in Vienna, Austria. His sucessor Francis II of Austria will ascend to his rightful place on the Austrian throne."
+ austria.2.a:0 "Francis II Takes The Throne!"
 
 ## News ##
 
  news.1.t:0 "Storming of The Tuileries"
- news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people"
- news.1.a:0 "Down with the king!."
+ news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people?"
+ news.1.a:0 "The Power Balance In Europe Is About To Change Dramatically."
 
  news.2.t:0 "Declaration of The First French Republic"
  news.2.d:0 ""
