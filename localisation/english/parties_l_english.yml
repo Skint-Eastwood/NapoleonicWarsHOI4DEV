@@ -56,10 +56,14 @@
  centrism:1 "Centrism"
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  anarchism:0 "Anarchism"
- anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+
+########################################
+## NAPOLEONIC WARS CUSTOM PARTY NAMES ##
+########################################
 
  ENG_Monarchist_party:0 "House Hanover"
- ENG_Democratic_party:0 "English Democrats"
+ ENG_Democratic_party:0 "the Conservative Party"
  ENG_Liberalism_party:0 "Liberalist Party"
  
  FRA_Monarchist_party:0 "House of Bourbon"
@@ -67,6 +71,7 @@
  FRA_authoritarian_democracy_party:0 "Dantonists"
  FRA_Democratic_party:0 "Thermidorian’s"
  FRA_Socialism_party:0 "The Mountain"
+ 
  GER_authoritarian_party:0 "NSDAP"
  GER_authoritarian_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_socialism_party:0 "KPD"
