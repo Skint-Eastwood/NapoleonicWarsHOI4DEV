@@ -1,9 +1,11 @@
 capital = 4
+oob = AUS_1936
+
+1792.1.1 = {
 
 set_convoys = 300
 
 add_ideas = {
-	
 }
 
 set_politics = {
@@ -18,13 +20,14 @@ set_popularities = {
 	monarchist = 87
 	socialism = 3
 }
-
-add_ideas = {
-		}
-
 puppet = BEL
 puppet = GER
-		
+}
+
+################	
+## CHARACTERS ##
+################
+
 recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I
 
