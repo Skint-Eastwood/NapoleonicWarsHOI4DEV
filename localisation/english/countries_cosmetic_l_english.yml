@@ -1,11 +1,15 @@
 ﻿l_english:
 
+##########################
+## FRENCH COSMETIC TAGS ##
+##########################
+
 ## Kingdom of France ##
 
  KIN_FRA:0 "Bourbon France" 
  KIN_FRA_DEF:0 "Bourbon France"
 
-## First Republic Tags##
+## First French Republic ##
 
  FRP_FRA:0 "First French Republic" 
  FRP_FRA_DEF:0 "the First French Republic"
@@ -15,46 +19,77 @@
  REV_FRA:0 "Revolutionary France"
  REV_FRA_DEF:0 "Revolutionary France"
 
- ## Holland Tags ##
+#########################
+## DUTCH COSMETIC TAGS ##
+#########################
+
+## Dutch Sister Republic ##
 
  DSR_HOL:0 "Dutch Sister Republic"
  DSR_HOL_DEF:0 "the Dutch Sister Republic"
  
+ ## Dutch Republic ##
+ 
  DRP_HOL:0 "Dutch Republic"
  DRP_HOL_DEF:0 "the Dutch Republic"
  
- ## Swiss Tags ##
+ #########################
+ ## SWISS COSMETIC TAGS ##
+ #########################
+ 
+ ## Cisalpine Republic ##
 
  CAP_SWI:0 "Cisalpine Republic"
  CAP_SWI_DEF:0 "the Cisalpine Republic"
 
- 
+############################
+## AUSTRIAN COSMETIC TAGS ##
+############################
 
-## Other ##
-
-NSW_AST:0 "New South Wales"
-POB_BRA:0 "Portuguese Brazil"
+## Austrian Habsburgs ##
 
 HAB_AUS:0 "Austrian Habsburgs"
 HAB_AUS_DEF:0 "the Austrian Habsburgs"
+
+## Austro-Hungarian Empire ##
+
 AHU_AUS:0 "Austro-Hungarian Empire"
 AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
+
+## Austrian Empire ##
+
+EMP_AUS_DEF:0 "the Austrian Empire"
+EMP_AUS:0 "Austrian Empire"
+
+
+###########################
+## BELGIAN COSMETIC TAGS ##
+############################
+
+## Austrian Netherlands ##
 
 AUN_BEL:0 "Austrian Netherlands"
 AUN_BEL_DEF:0 "the Austrian Netherlands"
 
-EMP_AUS_DEF:0 "the Austrian Empire"
-EMP_AUS:0 "Austrian Empire"
+############################
+## COLONIAL COSMETIC TAGS ##
+############################
+
+## Portuguese Colonial Tags ##
+
+POB_BRA:0 "Portuguese Brazil"
 
 ## British Colonial Tags ##
 
  BBN_BAN:0 "British Bengal"
  BBN_BAN_DEF:0 "British Bengal" 
+ 
  BRA_AND:0 "British Andhra"
  BRA_AND_DEF:0 "British Andhra"
 
  BAS_AST:0 "British Australia"
  BAS_AST:0 "British Australia"
+ NSW_AST:0 "New South Wales"
 
 
 
