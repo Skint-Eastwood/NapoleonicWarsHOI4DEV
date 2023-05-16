@@ -29,13 +29,9 @@ bookmarks = {
 		"PRE"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
-
 			focuses = {
-				
 			}	
 		}
 
@@ -43,21 +39,16 @@ bookmarks = {
 		"ENG"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
 			ideas = {
-				
 			}
 			focuses = {
-				
 			}	
 		}
 
 		"AUS"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 
@@ -71,36 +62,27 @@ bookmarks = {
 		"TUR"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
-			focuses = {
-				
+			focuses = {	
 			}	
 		}
 
 		"RUS"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
-				
 			}	
 		}
 
 		"GER"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
-			focuses = {
-				
+			focuses = {	
 			}	
 		}
 
@@ -108,9 +90,7 @@ bookmarks = {
 		"SPR"={
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
 			ideas = {
-				
 			}
 			focuses = {
 			}	
@@ -120,9 +100,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
@@ -132,9 +110,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
@@ -144,9 +120,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
 			ideas = {
-				
 			}
 			focuses = {
 			}	
@@ -158,7 +132,6 @@ bookmarks = {
 			ideology = Monarchist
 			#available = { has_dlc = "La Resistance" } 
 			ideas = {
-				
 			}
 			focuses = {
 			}	
@@ -168,9 +141,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
@@ -180,9 +151,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
@@ -192,9 +161,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
@@ -204,9 +171,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = Monarchist
-			#available = { has_dlc = "La Resistance" } 
-			ideas = {
-				
+			ideas = {	
 			}
 			focuses = {
 			}	
