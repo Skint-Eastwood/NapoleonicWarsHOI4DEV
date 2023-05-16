@@ -62,6 +62,8 @@ anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the 
 ## NAPOLEONIC WARS CUSTOM PARTY NAMES ##
 ########################################
 
+ QNG_Monarchist_party:0 "Qing Dynasty"
+
  ENG_Monarchist_party:0 "House Hanover"
  ENG_Democratic_party:0 "the Conservative Party"
  ENG_Liberalism_party:0 "Liberalist Party"
