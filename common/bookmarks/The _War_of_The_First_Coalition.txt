@@ -7,6 +7,10 @@ bookmarks = {
 		default_country = "FRA"
 		default = yes
 		
+		###################
+		## MAJOR NATIONS ##
+		###################
+		
 		"FRA"={
 			history = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom."
 			ideology = Monarchist 
@@ -95,6 +99,10 @@ bookmarks = {
 			focuses = {
 			}	
 		}	
+		
+		###################
+		## MINOR NATIONS ##
+		###################
 
 		"POR"={
 			minor = yes
