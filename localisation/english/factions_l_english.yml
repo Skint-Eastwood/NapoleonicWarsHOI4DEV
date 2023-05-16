@@ -1,6 +1,20 @@
 ﻿l_english:
  FACTION_LEADER:0 "Faction leader: §Y$COUNTRY$§!"
  FACTION_MEMBER:0 "Faction member: §Y$COUNTRY$§!"
+ 
+ ##############################
+ ## NAPOLEONIC WARS FACTIONS ##
+ ##############################
+ 
+ first_coalition:0 "First Coalition"
+ second_coalition:0 "Second Coalition"
+ third_coalition:0 "Third Coalition"
+ russian_empire:0 "the Russian Empire"
+ 
+ ######################
+ ## VANILLA FACTIONS ##
+ ######################
+ 
  FACTION_NAME_GER_fascism:0 "Axis"
  FACTION_NAME_GER_none:0 "Axis"
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
