@@ -27,6 +27,11 @@ set_research_slots = 3
 
 add_ideas = {
 	FRA_Unpopular_Monarch
+	FRA_King_Louis
+        civilian_economy
+	limited_conscription
+	limited_exports
+	
 }
 
 set_politics = {
@@ -45,13 +50,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_King_Louis
-
-	## Economic / Political ##
-
-	civilian_economy
-	limited_conscription
-	limited_exports
 	
 }
 
