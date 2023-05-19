@@ -1,4 +1,5 @@
-FRA = {
+continent = {
+	name = europe
 	army = {
 		male = {
 			"GFX_FraGenericLancer1"
