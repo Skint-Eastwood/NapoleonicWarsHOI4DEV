@@ -31,7 +31,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.3
-		manpower = 1000
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 90
@@ -41,7 +41,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 900
 		}
 	}
 	
@@ -72,7 +72,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 40
 		default_morale = 0.20
-		manpower = 750
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 30
@@ -82,7 +82,7 @@ sub_units = {
 		supply_consumption = 0.03
 	
 		need = {
-			carbine = 60
+			infantry_equipment = 500
 		}
 		#Bonuses
 		urban = {
@@ -99,46 +99,46 @@ sub_units = {
 		}
 	}
 	
-#	light_infantry = {
-#		sprite = infantry
-#		map_icon_category = infantry
-#		
-#		priority = 600
-#		ai_priority = 200
-#		active = no
-#
-#		type = {
-#			infantry
-#		}
-#		
-#		group = infantry
-#		
-#	categories = {
-#			category_front_line
-#			category_light_infantry
-#			category_all_infantry
-#			category_army
-#		}
-#		
-#		combat_width = 2
-#		
-#		#Size Definitions
-#		max_strength = 25
-#		max_organisation = 60
-#		default_morale = 0.3
-#		manpower = 1000
-#
-#		#Misc Abilities
-#		training_time = 90
-#		suppression = 1
-#		weight = 0.5
-#		
-#		supply_consumption = 0.07
-#	
-#		need = {
-#			infantry_equipment = 100
-#		}
-#	}
+	light_infantry = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+	categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1100
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 1
+		weight = 0.5
+		
+		supply_consumption = 0.07
+	
+		need = {
+			infantry_equipment = 1000
+		}
+	}
 	
 	grenadier = {
 		sprite = infantry
@@ -167,7 +167,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.5
-		manpower = 1000
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 180
@@ -177,7 +177,7 @@ sub_units = {
 		supply_consumption = 0.1
 	
 		need = {
-			infantry_equipment = 200
+			infantry_equipment = 1100
 		}
 		#Bonuses
 		fort = {
@@ -188,6 +188,7 @@ sub_units = {
 	rifleman = {
 		sprite = infantry
 		map_icon_category = infantry
+		special_forces = yes
 		
 		priority = 600
 		ai_priority = 200
@@ -212,7 +213,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 45
 		default_morale = 0.3
-		manpower = 1000
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 90
@@ -222,7 +223,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			rifle = 80
+			rifle = 1000
 		}
 		hills = {
 			movement = 0.05
@@ -230,81 +231,81 @@ sub_units = {
 		}
 	}
 	
-	bicycle_battalion = {
-		sprite = bicycle
-		map_icon_category = infantry
-		
-		priority = 600
-		ai_priority = 150
-		active = no
-
-		type = {
-			infantry
-		}
-		
-		group = infantry
-		
-		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
-			category_army
-		}
-		
-		combat_width = 2
-		
-		#Size Definitions
-		max_strength = 25
-		max_organisation = 60
-		default_morale = 0.3
-		maximum_speed = 0.6
-		manpower = 1000
-
-		#Misc Abilities
-		training_time = 90
-		suppression = 1
-		weight = 0.5
-		
-		supply_consumption = 0.07
-	
-		need = {
-			infantry_equipment = 100
-			support_equipment = 10			
-		}
-
-		forest = {
-			movement = 0.00
-		}
-		hills = {
-			movement = 0.1
-		}
-		mountain = {
-			movement = 0.05
-		}
-		marsh = {
-			movement = 0.05
-		}
-		plains = {
-			movement = 0.2
-		}
-		urban = {
-			movement = 0.2
-		}
-		desert = {
-			movement = 0.05
-		}
-		river = {
-			movement = -0.05
-		}
-		amphibious = {
-			movement = -0.05
-		}
-	}
+#	bicycle_battalion = {
+#		sprite = bicycle
+#		map_icon_category = infantry
+#		
+#		priority = 600
+#		ai_priority = 150
+#		active = no
+#
+#		type = {
+#			infantry
+#		}
+#		
+#		group = infantry
+#		
+#		categories = {
+#			category_front_line
+#			category_light_infantry
+#			category_all_infantry
+#			category_army
+#		}
+#		
+#		combat_width = 2
+#		
+#		#Size Definitions
+#		max_strength = 25
+#		max_organisation = 60
+#		default_morale = 0.3
+#		maximum_speed = 0.6
+#		manpower = 1000
+#
+#		#Misc Abilities
+#		training_time = 90
+#		suppression = 1
+#		weight = 0.5
+#		
+#		supply_consumption = 0.07
+#	
+#		need = {
+#			infantry_equipment = 100
+#			support_equipment = 10			
+#		}
+#
+#		forest = {
+#			movement = 0.00
+#		}
+#		hills = {
+#			movement = 0.1
+#		}
+#		mountain = {
+#			movement = 0.05
+#		}
+#		marsh = {
+#			movement = 0.05
+#		}
+#		plains = {
+#			movement = 0.2
+#		}
+#		urban = {
+#			movement = 0.2
+#		}
+#		desert = {
+#			movement = 0.05
+#		}
+#		river = {
+#			movement = -0.05
+#		}
+#		amphibious = {
+#			movement = -0.05
+#		}
+#	}
 	
 	marine = {
 		sprite = infantry
 		map_icon_category = infantry
-		special_forces = yes
+		special_forces = no
 		marines = yes
 		
 		priority = 601
@@ -331,7 +332,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 120
@@ -341,7 +342,7 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 1000
 		}
 
 		marsh = {
@@ -383,7 +384,7 @@ sub_units = {
 		max_strength = 30
 		max_organisation = 100
 		default_morale = 0.5
-		manpower = 1000
+		manpower = 1100
 		breakthrough = 0.3
 
 		#Misc Abilities
@@ -394,7 +395,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 1500
 		}
 	}
 	
@@ -439,67 +440,67 @@ sub_units = {
 #		}
 #	}
 	
-	skirmishers = {
-		sprite = infantry
-		map_icon_category = infantry
-		special_forces = yes
-		
-		priority = 600
-		ai_priority = 200
-		active = no
-
-		type = {
-			infantry
-		}
-		
-		group = infantry
-		
-		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
-			category_army
-		}
-		
-		combat_width = 2
-		
-		#Size Definitions
-		max_strength = 20
-		max_organisation = 50
-		default_morale = 0.4
-		manpower = 1000
-		breakthrough = 0.3
-
-		#Misc Abilities
-		training_time = 90
-		suppression = 1
-		weight = 0.5
-		
-		supply_consumption = 0.07
-	
-		need = {
-			infantry_equipment = 100
-		}
-		#Bonuses
-		urban = {
-			defence = 0.10
-		}
-		hills = {
-			attack = 0.15
-			defence = 0.15
-			movement = 0.10
-		}
-		mountain = {
-			attack = 0.15
-			defence = 0.15
-			movement = 0.10
-		}
-		plains = {
-			attack = 0.10
-			defence = 0.10
-			movement = 0.10
-		}
-	}
+#	skirmishers = {
+#		sprite = infantry
+#		map_icon_category = infantry
+#		special_forces = yes
+#		
+#		priority = 600
+#		ai_priority = 200
+#		active = no
+#
+#		type = {
+#			infantry
+#		}
+#		
+#		group = infantry
+#		
+#		categories = {
+#			category_front_line
+#			category_light_infantry
+#			category_all_infantry
+#			category_army
+#		}
+#		
+#		combat_width = 2
+#		
+#		#Size Definitions
+#		max_strength = 20
+#		max_organisation = 50
+#		default_morale = 0.4
+#		manpower = 1000
+#		breakthrough = 0.3
+#
+#		#Misc Abilities
+#		training_time = 90
+#		suppression = 1
+#		weight = 0.5
+#		
+#		supply_consumption = 0.07
+#	
+#		need = {
+#			infantry_equipment = 100
+#		}
+#		#Bonuses
+#		urban = {
+#			defence = 0.10
+#		}
+#		hills = {
+#			attack = 0.15
+#			defence = 0.15
+#			movement = 0.10
+#		}
+#		mountain = {
+#			attack = 0.15
+#			defence = 0.15
+#			movement = 0.10
+#		}
+#		plains = {
+#			attack = 0.10
+#			defence = 0.10
+#			movement = 0.10
+#		}
+#	}
 	
 	mountaineers = {
 		sprite = infantry
@@ -531,7 +532,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 1100
 
 		#Misc Abilities
 		training_time = 120
@@ -542,7 +543,7 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 140
+			infantry_equipment = 1100
 		}
 
 		hills = {
