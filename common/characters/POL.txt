@@ -1,15 +1,15 @@
 characters={
-	SPR_Carlos_IV={ #Democratic Leader
-		name="Carlos IV"
+	POL_Stanislaw={ #Democratic Leader
+		name="Stanisław August Poniatowski"
 		portraits={
 			civilian={
-				large="gfx/leaders/SPR/SPR_Carlos_IV.dds"
+				large="gfx/leaders/POL/POL_Stanislaw.dds"
 			}
 		}
 		country_leader={
 			ideology=Despotism
-			traits={ dictator }
-			expire="1799.2.16.1"
+			traits={ unpopular_monarch }
+			expire="1798.2.12.1"
 			id=-1
 		}
 	}
