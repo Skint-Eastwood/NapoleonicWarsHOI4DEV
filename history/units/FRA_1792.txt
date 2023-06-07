@@ -16,7 +16,7 @@ division_template = {
     division_names_group = FRA_INF_02
 
     regiments = {
-        skirmishers = { x = 0 y = 0 }
+        light_infantry = { x = 0 y = 0 }
     }
 }
 
