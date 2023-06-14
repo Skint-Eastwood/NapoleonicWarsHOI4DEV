@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Generic/FraGenericOfficer3.png"
 	}
 	spriteType = {
+		name = "GFX_FraGenericOfficer4"
+		texturefile = "gfx/leaders/Generic/FraGenericOfficer4.png"
+	}
+	spriteType = {
 		name = "GFX_FraGenericVistule"
 		texturefile = "gfx/leaders/Generic/FraGenericVistule.png"
 	}
