@@ -25,7 +25,7 @@ ideas = {
 	## Ideas ##
 
 	FRA_Constitutional_Guard = {
-		picture = spa_carlism
+		picture = idea_FRA_Constitutional_Guard
 		allowed = {
 			original_tag = FRA
 			always = no

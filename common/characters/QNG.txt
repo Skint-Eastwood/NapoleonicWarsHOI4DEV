@@ -1,0 +1,16 @@
+characters={
+	QNG_qianlong={ 
+		name="Gaozong of Qing"
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/QNG_qianlong.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ autocratic_imperialist }
+			expire="1796.2.9.1"
+			id=-1
+		}
+	}
+}

@@ -44,6 +44,9 @@ bookmarks = {
 			history = ""
 			ideology = Monarchist
 			ideas = {
+
+				ENG_british_empire
+				
 			}
 			focuses = {
 			}	
@@ -53,6 +56,10 @@ bookmarks = {
 			history = ""
 			ideology = Monarchist
 			ideas = {	
+
+				AUS_centre_of_europe
+				AUS_ethnic_tension
+				
 			}
 			focuses = {
 

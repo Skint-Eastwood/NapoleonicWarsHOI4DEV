@@ -27,7 +27,7 @@ set_technology = {
 add_ideas = {
 	FRA_Unpopular_Monarch
 	FRA_King_Louis
-        civilian_economy
+    civilian_economy
 	limited_conscription
 	limited_exports	
 }

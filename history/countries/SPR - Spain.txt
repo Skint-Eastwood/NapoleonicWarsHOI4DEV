@@ -25,6 +25,10 @@ add_ideas = {
 puppet = MEX
 puppet = CUB
 puppet = DOM
+puppet = ARG
+puppet = PRU
+puppet = COL
+
 
 recruit_character = SPR_Carlos_IV
 

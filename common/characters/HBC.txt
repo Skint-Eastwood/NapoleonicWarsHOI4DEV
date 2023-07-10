@@ -1,0 +1,16 @@
+characters={
+	HBC_george_simpson={ #Democratic Leader
+		name="Sir George Simpson"
+		portraits={
+			civilian={
+				large="gfx/leaders/HBC/HBC_george_simpson.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1820.1.29.1"
+			id=-1
+		}
+	}
+}

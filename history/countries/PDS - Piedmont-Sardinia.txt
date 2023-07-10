@@ -19,7 +19,7 @@ set_popularities = {
 	socialism = 0
 }
 add_ideas = {
-	
+	INT_italian_identity
 	}
 
 recruit_character = PDS_Charles_Emmanuel_IV

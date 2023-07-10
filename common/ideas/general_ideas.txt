@@ -1,0 +1,43 @@
+ideas = {
+	
+  ## Italian Peninsular Ideas ##
+  
+	country = {
+		INT_papal_influence = {
+			picture = idea_INT_papal_influence
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {					
+				research_speed_factor = -0.15
+				drift_defence_factor = 0.25
+
+			}
+		}
+
+		INT_italian_identity = {
+			picture = idea_INT_italian_identity
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.3
+        		stability_weekly = 0.04
+        		annex_cost_factor = 0.1
+			}
+		}
+	}

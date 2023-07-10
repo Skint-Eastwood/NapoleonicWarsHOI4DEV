@@ -1,6 +1,16 @@
 spriteTypes = {	
 
+	SpriteType = {
+		name = "GFX_idea_idea_INT_italian_identity"
+		texturefile = "gfx/interface/ideas/idea_INT_italian_identity.dds"
+		noOfFrames = 1
+	}
 
+	SpriteType = {
+		name = "GFX_idea_idea_INT_papal_influence"
+		texturefile = "gfx/interface/ideas/idea_INT_papal_influence.dds"
+		noOfFrames = 1
+	}
 
 	SpriteType = {
 		name = "GFX_idea_idea_king_louis"
@@ -11,6 +21,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_AUS_crumbling_empire"
 		texturefile = "gfx/interface/ideas/AUS_crumbling_empire.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_centre_of_europe"
+		texturefile = "gfx/interface/ideas/idea_AUS_centre_of_europe.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_ethnic_tension"
+		texturefile = "gfx/interface/ideas/idea_AUS_ethnic_tension.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_british_empire"
+		texturefile = "gfx/interface/ideas/idea_ENG_british_empire.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Constitutional_Guard"
+		texturefile = "gfx/interface/ideas/idea_FRA_Constitutional_Guard.dds"
 		noOfFrames = 1
 	}
 
