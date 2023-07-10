@@ -1,6 +1,24 @@
 ideas = {
 
 	country = {
+		ENG_british_empire = {
+			picture = idea_ENG_british_empire
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
 		}
 	}
+}
 

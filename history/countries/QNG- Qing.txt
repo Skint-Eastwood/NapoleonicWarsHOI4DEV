@@ -20,4 +20,6 @@ set_popularities = {
 
 add_ideas = {
 		}
+	
+recruit_character = QNG_qianlong
 

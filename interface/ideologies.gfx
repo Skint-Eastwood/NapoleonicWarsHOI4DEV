@@ -25,6 +25,46 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_FRA_Monarchist_group"
 		texturefile = "gfx/interface/ideologies/FRA_Monarchist_group.dds"			
-	}	
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_ENG_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/ENG_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_AUS_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/AUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_PRE_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/PRE_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_PPL_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/PPL_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_HAN_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/ENG_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_GER_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/AUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_BAY_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/BAY_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_RUS_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/RUS_Monarchist_group.dds"			
+	}
 	
 }

@@ -1,10 +1,9 @@
 capital = 2
 
-set_convoys = 300
 
-add_ideas = {
-	
-}
+1792.1.1 = {
+
+set_convoys = 300
 
 set_politics = {
 	ruling_party = monarchist
@@ -21,7 +20,11 @@ set_popularities = {
 
 add_ideas = {
 	INT_italian_identity
-		}
+}
 
 recruit_character = PPL_Pope_Blessed_Pius_IX
+
+}
+
+
 

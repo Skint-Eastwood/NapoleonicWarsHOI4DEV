@@ -19,6 +19,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	ENG_british_empire
 		}
 
 puppet = LCA

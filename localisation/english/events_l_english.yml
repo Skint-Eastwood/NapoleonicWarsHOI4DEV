@@ -30,6 +30,10 @@
  news.3.d:0 "Due to King Louis XVI banning the breaking wheel. France needs a better, more efficient way of executing traitors. "
  news.3.a:0 "Its the will of the King.."
 
+ news.4.t:0 "Death of Emperor Leopold"
+ news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
+ news.4.a:0 "What will this mean for Europe?"
+
 ## Tool Tips ##
 
 MENU_DISCORD:0 "Click Here To Join Our §1Discord!"

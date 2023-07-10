@@ -2,9 +2,7 @@ capital = 64
 
 set_convoys = 300
 
-add_ideas = {
-	
-}
+1792.1.1 = {
 
 set_politics = {
 	ruling_party = monarchist
@@ -18,9 +16,10 @@ set_popularities = {
 	monarchist = 60
 	socialism = 0
 }
-
+give_guarantee = AUS
 add_ideas = {
-		}
+}
+}
 
 recruit_character = PRE_Frederick_William_II
 

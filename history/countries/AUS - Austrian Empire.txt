@@ -5,29 +5,45 @@ oob = AUS_1936
 
 set_convoys = 300
 
-add_ideas = {
-}
-
 set_politics = {
 	ruling_party = monarchist
 	last_election = "1890.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 3
 	authoritarian = 7
 	monarchist = 87
 	socialism = 3
 }
+
 puppet = BEL
 puppet = GER
+
+give_guarantee = PRE
+
+diplomatic_relation = {
+    country = PRE
+    relation = non_aggression_pact
+    active = yes
+}
+
+add_ideas = {
+	AUS_ethnic_tension
+	AUS_centre_of_europe
+	INT_papal_influence
+}
+
+recruit_character = AUS_Leopold_II
+recruit_character = AUS_Francis_I
+
 }
 
 ################	
 ## CHARACTERS ##
 ################
 
-recruit_character = AUS_Leopold_II
-recruit_character = AUS_Francis_I
+
 

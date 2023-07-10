@@ -21,6 +21,11 @@
  AUS_crumbling_empire_desc:0 "The Holy Roman Empire is beginning to crumble"
  AUS_francis:0 "Francis The Great"
  
+ AUS_ethnic_tension:0 "Ethnic Tension"
+ AUS_ethnic_tension_desc:0 "Due to the expansive nature of the Austrian Empire the ethnic groups it spans over unfortunately do not get along."
+ AUS_centre_of_europe:0 "Centre of Europe"
+ AUS_centre_of_europe_desc:0 "The Austrian Empire has long held a position of power within Europe, controlling the historically mighty Holy Roman Empire."
+
 #######################
 ## Papal States Ides ##
 #######################
@@ -34,6 +39,10 @@
 
  INT_italian_identity:0 "Italian Identity"
  INR_italian_identity_desc:0 "Italian pride is strong and still growing rapidly!"
+
+
+ INT_papal_influence:0 "Papal Infulence"
+ INT_papal_influence_desc:0 "The catholic church, and the Pope, exert their influence through out Europe and other nations which follow the Catholic faith."
 
 
 ###################

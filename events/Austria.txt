@@ -65,6 +65,9 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		} 
+
+		news_event = news.4
+
 		GER = {
 			retire_character = GER_Leopold_II
 		}

@@ -49,5 +49,19 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_002
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+	}
+}
+
 
 

@@ -1,6 +1,42 @@
 ideas = {
-
+	## Starting Ideas ##
 	country = {
+
+		AUS_centre_of_europe = {
+			picture = idea_AUS_centre_of_europe
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.4		
+				monarchist_acceptance = 25
+			}
+		}
+
+		AUS_ethnic_tension = {
+			picture = idea_AUS_ethnic_tension
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.0015
+			}
 		}
 	}
-
+}

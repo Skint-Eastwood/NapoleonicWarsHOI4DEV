@@ -20,7 +20,8 @@ set_popularities = {
 }
 
 add_ideas = {
+	INT_italian_identity
 		}
 
-recruit_character = VNI_Doge_Lodovico_Manin
+recruit_character = 
 
