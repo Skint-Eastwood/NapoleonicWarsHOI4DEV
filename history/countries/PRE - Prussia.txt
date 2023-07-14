@@ -1,5 +1,7 @@
 capital = 64
 
+oob = PRE_1936
+
 set_convoys = 300
 
 1792.1.1 = {

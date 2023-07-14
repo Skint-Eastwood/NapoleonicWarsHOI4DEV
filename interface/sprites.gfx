@@ -14,6 +14,12 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 
+	SpriteType = {
+		name = "GFX_logo_type"
+		texturefile = "gfx/menu/text2.dds"
+		noOfFrames = 1
+	}
+
 	### new tfv nat spirit icons
 
 }

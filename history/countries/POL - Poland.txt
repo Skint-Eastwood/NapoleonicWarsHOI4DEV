@@ -22,5 +22,5 @@ add_ideas = {
 		}
 puppet = BRA
 
-recruit_character = POL_Stanislaw
+recruit_character = POL_stanislaw_august_poniatowski
 

@@ -43,10 +43,35 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_AUS_francis_the_great"
+		texturefile = "gfx/interface/ideas/idea_AUS_francis_the_great.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_FRA_Constitutional_Guard"
 		texturefile = "gfx/interface/ideas/idea_FRA_Constitutional_Guard.dds"
 		noOfFrames = 1
 	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_portraits_of_the_kaiser"
+		texturefile = "gfx/interface/ideas/idea_AUS_portraits_of_the_kaiser.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_the_empire_on_its_knees"
+		texturefile = "gfx/interface/ideas/idea_AUS_the_empire_on_its_knees.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_pro_habsburg_propaganda"
+		texturefile = "gfx/interface/ideas/idea_AUS_pro_habsburg_propaganda.dds"
+		noOfFrames = 1
+	}
+
 
 	### new tfv nat spirit icons
 
