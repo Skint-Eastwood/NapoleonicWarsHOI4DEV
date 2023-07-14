@@ -3031,4 +3031,34 @@ spriteTypes = {
 		name = "GFX_focus_fra_the_french_republic"
 		texturefile = "gfx/interface/goals/focus_fra_the_french_republic.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_AUS_befriend_the_wittelsbach_dynasty"
+		texturefile = "gfx/interface/goals/AUS_befriend_the_wittelsbach_dynasty.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_portraits_of_the_kaiser"
+		texturefile = "gfx/interface/goals/AUS_portraits_of_the_kaiser.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_prussias_position"
+		texturefile = "gfx/interface/goals/AUS_prussias_position.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_the_empire_on_its_knees"
+		texturefile = "gfx/interface/goals/AUS_the_empire_on_its_knees.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_were_allies_for_now"
+		texturefile = "gfx/interface/goals/AUS_were_allies_for_now.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_pro_habsburg_propaganda"
+		texturefile = "gfx/interface/goals/AUS_pro_habsburg_propaganda.dds"
+	}
 }

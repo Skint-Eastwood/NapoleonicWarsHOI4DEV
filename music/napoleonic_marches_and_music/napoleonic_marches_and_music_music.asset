@@ -21,23 +21,8 @@ music = {
 	volume = 0.65
 }
 music = {
-	name = "imganzenvaterland"
-	file = "imganzenvaterland.ogg"
-	volume = 0.65
-}
-music = {
 	name = "haufen"
 	file = "haufen.ogg"
-	volume = 0.65
-}
-music = {
-	name = "bigiron"
-	file = "bigiron.ogg"
-	volume = 0.65
-}
-music = {
-	name = "danceoftheknights"
-	file = "danceoftheknights.ogg"
 	volume = 0.65
 }
 music = {
@@ -103,6 +88,12 @@ music = {
 music = {
 	name = "godsavetheking"
 	file = "godsavetheking.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "smoothcriminal"
+	file = "smoothcriminal.ogg"
 	volume = 0.65
 }
 

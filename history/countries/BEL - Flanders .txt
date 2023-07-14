@@ -1,7 +1,6 @@
 capital = 4
 
 set_convoys = 300
-set_cosmetic_tag = AUN_BEL
 add_ideas = {
 	
 }

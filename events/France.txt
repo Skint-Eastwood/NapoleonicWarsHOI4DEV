@@ -35,7 +35,36 @@ country_event = {
 			factor = 1
 		}
 	}
+}	
+
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.3.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			transfer_state = 8
+			transfer_state = 34
+			transfer_state = 6 
+			transfer_state = 837
+		}	
+	}
+	option = {
+		name = france.3.b
+		ai_chance = {
+			factor = 0
+		}
+	}
 }			
+
 
 
 

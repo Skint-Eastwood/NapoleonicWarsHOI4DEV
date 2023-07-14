@@ -62,9 +62,21 @@ guiTypes = {
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= 135 y = 15 }
-		}		
+		}	
+
+		iconType ={
+			name ="logo_type"
+			spriteType = "GFX_logo_type"
+			position = { x= -225 y = 925 }
+		}	
 		
-	}		
+	}	
+	
+	iconType ={
+		name ="frontend_dev_logo"
+		spriteType = "GFX_frontend_dev_logo"
+		position = { x= 15 y = 15 }
+	}
 
 	### SINGLE PLAYER MENU
 	containerWindowType = {

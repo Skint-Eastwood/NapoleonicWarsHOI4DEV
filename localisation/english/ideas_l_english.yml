@@ -1,13 +1,21 @@
 ﻿l_english:
 
+###################
+## English Ideas ##
+###################
+
+ENG_british_empire:0 "The British Empire"
+ENG_british_empire_desc:0 "The United Kingdom is at the head of an expansive global empire, colonising the regions of North America, Asia and Oceania.\nThe Empire is a force feared throughout the globe due to their naval and militaristic capabilities."
+
+
 ##################
 ## French Ideas ##
 ##################
 
  FRA_King_Louis:0 "King Louis XVI"
- FRA_King_Louis_desc:0 "King Louis XVI the tyranical and unpopular monarch of France."
+ FRA_King_Louis_desc:0 "King Louis XVI, the tyranical and unpopular ruler of Bourbon France.\nDue to the Kings unpopular status, many have taken to the streets in revolt against him and the French nobility causing instability and chaos across France."
  FRA_Constitutional_Guard:0 "The Constitutional Guard"
- FRA_Constitutional_Gard_desc:0 "The French Royal guard formed in 1792 as part of the Maison du Roi being superseded by the National Guard"
+ FRA_Constitutional_Guard_desc:0 "The Constitutional Guard was a French royal guard formation which existed for several months in the year 1792 as part of the Maison du Roi being superseded by the National Guard. \nThe Constitutional Guard briefly existed during the period of the French constitutional monarchy and the French Revolution."
  FRA_National_Convention:0 "The National Convention"
  FRA_National_Convention_desc:0 "The National Convention were a group of individuals elected to provide France with a new constitution after the French monarchy had been toppled "
  FRA_Napoleon:0 "Napoleon Bonaparte"
@@ -22,9 +30,15 @@
  AUS_francis:0 "Francis The Great"
  
  AUS_ethnic_tension:0 "Ethnic Tension"
- AUS_ethnic_tension_desc:0 "Due to the expansive nature of the Austrian Empire the ethnic groups it spans over unfortunately do not get along."
+ AUS_ethnic_tension_desc:0 "Due to the expansive nature of the mighty Austrian Empire their territory spans over the native lands of many ethnic groups and cultures of which unfortunately do not co-exist well. \nUnfortunately this may prove a large issue to the Austrians causing a deterioration in their national stability."
+
  AUS_centre_of_europe:0 "Centre of Europe"
- AUS_centre_of_europe_desc:0 "The Austrian Empire has long held a position of power within Europe, controlling the historically mighty Holy Roman Empire."
+ AUS_centre_of_europe_desc:0 "The rather expansive Austrian Empire has long held a position of power within Europe, controlling the formerly might Holy Roman Empire, however as the politics within Europe changes so does the stability of the Holy Roman Empire, jeopardising Austria's influence within central Europe. \nThe brittle foundation of the once glorious Holy Roman Empire is beginning to crumble. What will the Emperor do?"
+
+ AUS_francis_the_great:0 "Francis The Great"
+ AUS_francis_the_great_def:0 ""
+
+ AUS_french_aggression:0 "French Aggression"
 
 #######################
 ## Papal States Ides ##
@@ -41,8 +55,8 @@
  INR_italian_identity_desc:0 "Italian pride is strong and still growing rapidly!"
 
 
- INT_papal_influence:0 "Papal Infulence"
- INT_papal_influence_desc:0 "The catholic church, and the Pope, exert their influence through out Europe and other nations which follow the Catholic faith."
+ INT_papal_influence:0 "Papal Influence"
+ INT_papal_influence_desc:0 "The Catholic church, based in the Vatican, Exerts its influence throughout the European continent, tightly controlling the politics of time time. \nDuring this period the Catholic church encouraged people to stick with the traditional method of doing things, meaning that new methods were unapproved and unused."
 
 
 ###################

@@ -2,9 +2,9 @@ capital = 50
 
 set_convoys = 300
 
-add_ideas = {
-	
-}
+1792.1.1 = {
+
+	oob = GER_1936
 
 set_politics = {
 	ruling_party = monarchist
@@ -23,5 +23,7 @@ add_ideas = {
 		
 recruit_character = GER_Leopold_II
 recruit_character = GER_francis_II
+
+}
 
 

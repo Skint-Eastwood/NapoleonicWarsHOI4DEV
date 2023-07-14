@@ -13,7 +13,7 @@ focus_tree = {
 		icon =  GFX_focus_aus_habsburg_monarchy
 		x = 5
 		y = 0
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -39,24 +39,25 @@ focus_tree = {
 		icon = GFX_focus_the_holy_roman_empire
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = AUS_habsburg_monarchy_of_europe }
 		relative_position_id = AUS_habsburg_monarchy_of_europe
+
 		available = {
 			GER = {
 				is_puppet_of = AUS
 			}
 		}
-		completion_reward = {		
+		completion_reward = {	
+				add_stability = 0.1
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
-			}
+				add_opinion_modifier = {
+					target = GER
+					modifier = huge_increase
+				}
 		}
 	}
 
@@ -65,26 +66,30 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 1
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = AUS_the_holy_roman_empire }
 		relative_position_id = AUS_the_holy_roman_empire
 
+		available = {
+			has_government = monarchist
+		}
+
 		completion_reward = {		
 
 		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
+			ideology = monarchist
+			popularity = 0.05
 			
-			}
+		}
 		}
 	}
 
 	focus = {
 		id = AUS_portraits_of_the_kaiser
-		icon = GFX_focus_generic_manpower
+		icon = AUS_portraits_of_the_kaiser
 		x = 0
 		y = 2
 		cost = 5
@@ -94,12 +99,19 @@ focus_tree = {
 		prerequisite = { focus = AUS_kaisers_tour }
 		relative_position_id = AUS_the_holy_roman_empire
 
-		completion_reward = {		
+		available = {
+			if = {
+				monarchist = 0.40
+			}
+		}
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		completion_reward = {		
+			add_stability = 0.1
+			add_ideas = AUS_portraits_of_the_kaiser
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.03
+				
 			}
 		}
 	}
@@ -117,40 +129,45 @@ focus_tree = {
 		relative_position_id = AUS_the_holy_roman_empire
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			add_ideas ={
+				AUS_francis_the_great
 			}
 		}
 	}
 
 	focus = {
 		id = AUS_prussias_position
-		icon = GFX_focus_generic_manpower
+		icon = AUS_prussias_position
 		x = -2
 		y = 2
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = AUS_kaisers_tour }
 		relative_position_id = AUS_the_holy_roman_empire
 
-		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		available = {
+			PRE = {
+				has_capitulated = no
+				has_government = monarchist
 			}
+		}
+
+		completion_reward = {	
+			give_guarantee = PRE
+			add_war_support = 0.02
+			
+			PRE = {
+				give_guarantee = AUS
+			}
+
 		}
 	}
 
 	focus = {
 		id = AUS_were_allies_for_now
-		icon = GFX_focus_generic_manpower
+		icon = AUS_were_allies_for_now
 		x = -2
 		y = 3
 		cost = 5
@@ -160,19 +177,23 @@ focus_tree = {
 		prerequisite = { focus = AUS_prussias_position }
 		relative_position_id = AUS_the_holy_roman_empire
 
+		available = {
+			has_army_manpower = { size > 4999 }
+		}
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			create_faction = first_coalition
+			AUS = {
+				add_to_faction = PRE
 			}
+
+			add_war_support = 0.03
+
 		}
 	}
 
 	focus = {
 		id = AUS_the_empire_on_its_knees
-		icon = GFX_focus_generic_manpower
+		icon = AUS_the_empire_on_its_knees
 		x = 2
 		y = 2
 		cost = 5
@@ -182,19 +203,24 @@ focus_tree = {
 		prerequisite = { focus = AUS_kaisers_tour }
 		relative_position_id = AUS_the_holy_roman_empire
 
-		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		
+		available = {
+			GER = {
+				is_puppet_of = AUS
 			}
+		}
+
+		completion_reward = {		
+			add_ideas = {
+				AUS_the_empire_on_its_knees
+			}
+			
 		}
 	}
 
 	focus = {
 		id = AUS_pro_habsburg_propaganda
-		icon = GFX_focus_generic_manpower
+		icon = AUS_pro_habsburg_propaganda
 		x = 2
 		y = 3
 		cost = 5
@@ -204,15 +230,27 @@ focus_tree = {
 		prerequisite = { focus = AUS_the_empire_on_its_knees }
 		relative_position_id = AUS_the_holy_roman_empire
 
-		completion_reward = {		
+		
+		available = {
+			GER = {
+				is_puppet_of = AUS
+			}
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			has_government = monarchist
+		}
+
+		completion_reward = {	
+			remove_ideas  = {
+				AUS_the_empire_on_its_knees
+			}	
+			add_war_support = 0.05
+			add_political_power = 75
+			GER = {
+				add_ideas = AUS_pro_habsburg_propaganda
 			}
 		}
 	}
+	
 
 	focus = {
 		id = AUS_bavaria
@@ -227,18 +265,16 @@ focus_tree = {
 		relative_position_id = AUS_habsburg_monarchy_of_europe
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			add_opinion_modifier = {
+				target = BAY
+				modifier = large_increase
 			}
 		}
 	}
 
 	focus = {
 		id = AUS_befriend_the_wittelsbach_dynasty
-		icon = GFX_focus_generic_manpower
+		icon = AUS_befriend_the_wittelsbach_dynasty
 		x = 0
 		y = 1
 		cost = 5
@@ -249,11 +285,10 @@ focus_tree = {
 		relative_position_id = AUS_bavaria
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			diplomatic_relation = {
+				country = BAY
+				relation = non_aggression_pact
+				active = yes
 			}
 		}
 	}
@@ -272,10 +307,16 @@ focus_tree = {
 
 		completion_reward = {		
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			diplomatic_relation = {
+				country = BAY
+				relation = guarantee
+				active = yes
+			}
+
+			diplomatic_relation = {
+				country = BAY
+				relation = military_access
+				active = yes
 			}
 		}
 	}
@@ -294,13 +335,15 @@ focus_tree = {
 
 		completion_reward = {		
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+
+			send_equipment = {
+				equipment = infantry_equipment_0
+				amount = 350
+				target = BAY
 			}
 		}
 	}
+	
 
 	focus = {
 		id = AUS_defend_munich
@@ -314,18 +357,40 @@ focus_tree = {
 		prerequisite = { focus = AUS_befriend_the_wittelsbach_dynasty }
 		relative_position_id = AUS_bavaria
 
-		completion_reward = {		
+		completion_reward = {
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			add_war_support = 0.02
+
+			153 =  {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					limit_to_border = yes
+					province = 11634
+				}	
+
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					limit_to_border = yes
+					province = 673
+				}
+
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					limit_to_border = yes
+					province = 9636
+				}
 			}
 		}
 	}
 
 	focus = {
-		id = AUS_celebrated_the_new_electorat
+		id = AUS_celebrated_the_new_electorate
 		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 3
@@ -339,12 +404,7 @@ focus_tree = {
 		relative_position_id = AUS_bavaria
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
-			}
+			add_stability = 0.07
 		}
 	}
 
@@ -357,15 +417,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = AUS_celebrated_the_new_electorat }
+		prerequisite = { focus = AUS_celebrated_the_new_electorate }
 		relative_position_id = AUS_bavaria
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+			diplomatic_relation ={
+				non_aggression_pact = BAY
 			}
 		}
 	}
@@ -383,15 +440,14 @@ focus_tree = {
 		relative_position_id = AUS_habsburg_monarchy_of_europe
 
 		available = {
+			owns_state = 8
+			owns_state = 34
+			owns_state = 6
+			owns_state = 837
 		}
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
-			}
+			country_event = austria.3
 		}
 	}
 
@@ -408,12 +464,7 @@ focus_tree = {
 		relative_position_id = AUS_austrian_netherlands
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
-			}
+			add_ideas = low_economic_mobilisation
 		}
 	}
 
@@ -431,12 +482,8 @@ focus_tree = {
 		mutually_exclusive = { focus = AUS_surrender_the_netherlands }
 
 		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
-			}
+				add_war_support = 0.05
+				add_stability = -0.03
 		}
 	}
 
@@ -453,14 +500,21 @@ focus_tree = {
 		relative_position_id = AUS_austrian_netherlands
 		mutually_exclusive = { focus = AUS_leave_them_to_their_fate }
 
-		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		available = {
+			has_army_manpower = { size > 24999 }
+			FRA = {
+				has_government = authoritarian_democracy
 			}
 		}
+
+		completion_reward = {		
+			add_war_support = 0.05
+			create_wargoal = {
+				type = annex_everything
+				target = FRA
+			}	
+			add_ideas = AUS_french_aggression
+		}	
 	}
 
 	focus = {
@@ -476,12 +530,22 @@ focus_tree = {
 		relative_position_id = AUS_austrian_netherlands
 		mutually_exclusive = { focus = AUS_until_the_last_drop_of_blood }
 
-		completion_reward = {		
+		available = {
+		}
 
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		completion_reward = {		
+			release = BEL
+			end_puppet = BEL
+
+			BEL = {					
+				drop_cosmetic_tag = yes
+			}
+
+			FRA = {
+				create_wargoal = {
+					type = annex_everything
+					target = BEL
+				}	
 			}
 		}
 	}
@@ -499,12 +563,10 @@ focus_tree = {
 		relative_position_id = AUS_austrian_netherlands
 		mutually_exclusive = { focus = AUS_ban_thought_of_unification }
 
-		completion_reward = {		
-
-		add_popularity = {
-			ideology = Democratic
-			popularity = 0.15
-			
+		completion_reward = {	
+		
+			FRA = {
+				country_event = france.3
 			}
 		}
 	}

@@ -39,34 +39,7 @@ music = {
 }
 
 music = {
-	song = "imganzenvaterland"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
-
-music = {
 	song = "haufen"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
-
-music = {
-	song = "bigiron"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
-
-music = {
-	song = "danceoftheknights"
 	chance = {
 		modifier = {
 			factor = 0.5
@@ -178,6 +151,15 @@ music = {
 }
 music = {
 	song = "godsavetheking"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+music = {
+	song = "smoothcriminal"
 	chance = {
 		modifier = {
 			factor = 0.5

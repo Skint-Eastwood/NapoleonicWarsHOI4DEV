@@ -12,7 +12,7 @@ bookmarks = {
 		###################
 		
 		"FRA"={
-			history = "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom."
+			history = FRA_RISE_OF_NAPOLEON_DESC
 			ideology = Monarchist 
 			ideas = {
 				
@@ -31,7 +31,7 @@ bookmarks = {
 		}
 
 		"PRE"={
-			history = ""
+			history = PRE_RISE_OF_NAPOLEON_DESC
 			ideology = Monarchist
 			ideas = {	
 			}
@@ -41,7 +41,7 @@ bookmarks = {
 
 
 		"ENG"={
-			history = ""
+			history = ENG_RISE_OF_NAPOLEON_DESC
 			ideology = Monarchist
 			ideas = {
 
@@ -53,13 +53,12 @@ bookmarks = {
 		}
 
 		"AUS"={
-			history = ""
+			history = AUS_RISE_OF_NAPOLEON_DESC
 			ideology = Monarchist
 			ideas = {	
-
+				AUS_francis_the_great
 				AUS_centre_of_europe
-				AUS_ethnic_tension
-				
+				AUS_ethnic_tension	
 			}
 			focuses = {
 

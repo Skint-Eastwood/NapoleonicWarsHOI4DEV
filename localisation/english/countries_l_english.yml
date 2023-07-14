@@ -1,4 +1,12 @@
 ﻿l_english:
+ PER:0 "Perisa"
+ PER_DEF:0 "Persia"
+ PER_ADJ:0 "Persian"
+ JAP:0 "Japan"
+ JAP_DEF:0 "Japan"
+ JAP_ADJ:0 "Japanese"
+ KOR:0 "Joseon"
+ KOR_DEF:0 "Joseon"
  SIA:0 "Kingdom of Siam"
  SIA_DEF:0 "the Kingdom of Siam"
  SIA_ADJ:0 "Siamese"

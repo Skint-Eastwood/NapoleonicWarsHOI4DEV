@@ -10,11 +10,20 @@
  france.2.d:0 "The first French republic was officially delcared on the 21st of September 1792 after the toppling of King Louis XVI and the House of Bourbon at the righteous hand of the French revolutionaries."
  france.2.a:0 "Liberté, égalité, fraternité"
 
+ france.3.t:0 "Austria Surrenders The Netherlands!"
+ france.3.a:0 "Annex The Austrian Netherlands!"
+ france.3.b:0 "Austria Can Keep The Netherlands."
+
 ## Austria ##
 
  austria.2.t:0 "Death of Leopold II"
- austria.2.d:0 "The Emperor of Austria and the Holy Roman Empire, Leopold II, died unexpectedly on the first of March 1792 in Vienna, Austria. His sucessor Francis II of Austria will ascend to his rightful place on the Austrian throne."
+ austria.2.d:0 "Austria has been plunged into an abyss of sorrow and anguish as the devastating news of Emperor Leopold II's untimely death shocks our nation. Our people, already burdened by the turbulent times, have now found ourselves facing an even greater tragedy—the loss of our compassionate and visionary leader.From the grand halls of Vienna to the humblest of villages, an outpouring of sorrow swept through all of us. Tears flowed freely, and anguished cries of mourning echoed through the streets. The loss is not merely of a ruler but of a father figure, a beacon of hope in troubled times. Now we must hope the son of our late Emperor can bear the torch of our great nation.."
  austria.2.a:0 "Francis II Takes The Throne!"
+
+ austria.3.t:0 "The Austrian Netherlands?"
+ austria.3.d:0 ""
+ austria.3.a:0 "Puppet the Austrian Netherlands!"
+ austria.3.b:0 "They shall remain part of the Fatherland!"
 
 ## News ##
 

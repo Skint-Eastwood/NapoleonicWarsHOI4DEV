@@ -19,31 +19,48 @@ set_popularities = {
 	socialism = 3
 }
 
-puppet = BEL
-puppet = GER
-
-give_guarantee = PRE
-
-diplomatic_relation = {
-    country = PRE
-    relation = non_aggression_pact
-    active = yes
-}
-
-add_ideas = {
-	AUS_ethnic_tension
-	AUS_centre_of_europe
-	INT_papal_influence
-}
-
 recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I
 
+puppet = BEL
+puppet = GER
+
+set_cosmetic_tag = HAB_AUS
+
+add_ideas = { 
+	AUS_centre_of_europe
+	INT_papal_influence
+	AUS_ethnic_tension
+	limited_conscription
 }
 
-################	
-## CHARACTERS ##
-################
+
+add_equipment_to_stockpile = {
+    type = infantry_equipment_1
+    amount = 5000
+    producer = AUS
+}
+
+add_equipment_production = {
+    equipment = {
+        type = infantry_equipment_1
+    }
+    requested_factories = 10
+    progress = 0.95
+    amount = 1
+}
+
+add_equipment_production = {
+    equipment = {
+        type = support_equipment_1
+    }
+    requested_factories = 5
+    progress = 0.95
+    amount = 1
+}
+
+}
+
 
 
 

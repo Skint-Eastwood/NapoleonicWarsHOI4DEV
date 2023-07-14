@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "División de Infanteria"			# Divisions were at reserve levels during peacetime
+	name = "División de Infanteria"			# Create Accurate Division Templates
 
 	regiments = {
 		infantry = { x = 0 y = 0 }

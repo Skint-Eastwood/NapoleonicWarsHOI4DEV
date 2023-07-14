@@ -436,7 +436,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = RUS
+					tag = SOV
 					has_war = yes
 					OR = {
 						has_manpower < 2000000
@@ -564,18 +564,23 @@ ideas = {
 			}
 
 			on_remove = {
-				if = {
-					limit = {
-						tag = POL
-						85 = { is_demilitarized_zone = no }
-						has_civil_war = no 
-					}
-					85 = {
-						if = {
-							limit = {
-								has_dynamic_modifier = { modifier = international_city }
+				effect_tooltip =  {
+					remove_dynamic_modifier = { modifier = international_city }
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							tag = POL
+							85 = { is_demilitarized_zone = no }
+							has_civil_war = no 
+						}
+						85 = {
+							if = {
+								limit = {
+									has_dynamic_modifier = { modifier = international_city }
+								}
+								remove_dynamic_modifier = { modifier = international_city }
 							}
-							remove_dynamic_modifier = { modifier = international_city }
 						}
 					}
 				}
@@ -802,7 +807,7 @@ ideas = {
 					has_idea = tot_economic_mobilisation
 				}
 				OR = {
-					NOT = {	tag = RUS }
+					NOT = {	tag = SOV }
 					NOT = { has_opinion_modifier = MR_pact }
 				}
 

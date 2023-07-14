@@ -36,7 +36,7 @@ characters={
 		}
 		country_leader={
 			ideology=Despotism
-			traits={ unpopular_monarch }
+			traits={ unpopular_monarch indecisive_king }
 			expire="1793.1.21.1"
 			id=-2
 		}
@@ -307,11 +307,11 @@ characters={
 		name="Napoleon Bonaparte"
 		portraits={
 			army={
-				large="gfx/leaders/FRA/FRA_Napoleon.dds"
-				small="gfx/leaders/FRA/FRA_Napoleon.dds"
+				large="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
+				small="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ brilliant_strategist war_hero politically_connected  }
 			skill=6
 			attack_skill=6
@@ -330,7 +330,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=5
 			attack_skill=4
@@ -349,7 +349,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Adam_Philippe_Custine.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=5
 			attack_skill=5
@@ -368,7 +368,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=5
 			attack_skill=3
@@ -387,7 +387,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=4
 			attack_skill=3
@@ -398,7 +398,7 @@ characters={
 		}
 	}
 
-	FRA_Jean_Charles_Pichegru={
+	corps_commander={
 		name="Jean-Charles Pichegru"
 		portraits={
 			army={
@@ -406,7 +406,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Jean_Charles_Pichegru.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=4
 			attack_skill=3
@@ -425,7 +425,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Francois_Christophe_Kellermann.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ career_officer politically_connected  }
 			skill=6
 			attack_skill=5

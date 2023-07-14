@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # austrian Events
 ###########################
 
@@ -76,5 +76,48 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = austria.3
+	title = austria.3.t
+	desc = austria.3.d
+	picture = GFX_report_death_of_leopold
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	
+	option = { 
+		name = austria.3.a
+		ai_chance = {
+			factor = 100
+		}
+
+		puppet = BEL
+		release = BEL
+
+		BEL = {
+			set_cosmetic_tag = AUN_BEL
+		}
+	} 
+
+	option = { 
+		name = austria.3.b
+		ai_chance = {
+				factor = 0
+		} 
+
+		AUS = {
+			add_state_core = 8
+			add_state_core = 34
+			add_state_core = 6
+			add_state_core = 837
+		}
+	}	
+}
+
+
 
 	

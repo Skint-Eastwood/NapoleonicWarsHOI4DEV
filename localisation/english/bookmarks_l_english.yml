@@ -1,8 +1,20 @@
 ﻿l_english:
+
  BM_HISTORY_TITLE:0 "Brief History"
+
  RISE_OF_NAPOLEON_NAME:0 "The War of the First Coalition"
+
  RISE_OF_NAPOLEON_DESC:0 "The War of the First Coalition was a set of wars that several European powers fought between 1792 and 1797 initially against the constitutional Kingdom of France and then the French Republic that succeeded it. They were only loosely allied and fought without much apparent coordination or agreement; each power had its eye on a different part of France it wanted to appropriate after a French defeat, which never occurred. Selecting this book mark will start you in 1792 and you will experience the back end of the Revolution as well as Napoleons rise to power."
- FRA_RISE_OF_NAPOLEON_DESC:0 "The year is 1792, The tyranical French monarchy has been toppled by the revolutionaries and the Republic of France rises from the ashes of the former kingdom. The great military leader Napoleon Bonaparte takes place as the new leader of France. Will he lead them to greatness, or plunge them into darkness?"
+
+ FRA_RISE_OF_NAPOLEON_DESC:0 "In 1792, the Kingdom of France was undergoing a period of significant political and social turmoil. The Bourbon Monarchy, represented by King Louis XVI, was facing mounting challenges that would eventually lead to its downfall. \nThe Bourbon Monarchy had ruled France for centuries, but by 1792, the Kingdom was grappling with deep-rooted issues. The country was burdened by a severe economic crisis, worsened by the monarchy's heavy spending, a regressive tax system, and an outdated feudal structure.."
+
+ PRE_RISE_OF_NAPOLEON_DESC:0 "In 1792, the Kingdom of Prussia was a powerful and expanding state in Central Europe. Under the rule of King Frederick William II, Prussia was a major player in the complex political landscape of the time. \nPrussia had gained prominence in the 18th century under the leadership of Frederick the Great, who had implemented significant military and administrative reforms. By 1792, Prussia had become a formidable military power and had territorial ambitions that aimed to strengthen its position in Europe."
+
+ AUS_RISE_OF_NAPOLEON_DESC:0 "In 1792, the Austrian Empire was a prominent European Power under the rule of Emperor Leopold II of the Habsburg Dynasty. Austria expanded over a vast territory and played a crucial role in the complex political landscape of the time. Internally, Austria was a multi-ethnic empire with a diverse population. The Habsburg Monarchy maintained a centralized system of governance, but it faced challenges in managing the different ethnic and cultural groups within its borders. The Empire consisted of various regions, including Austria, Hungary, Bohemia, and parts of Italy and the Balkans."
+
+ ENG_RISE_OF_NAPOLEON_DESC:0 "In 1792, the United Kingdom was a constitutional monarchy and Union between England, Scotland, Wales, and Ireland. King George III, from the House of Hanover, was the reigning monarch. The United Kingdom was a dominant global power, who traded extensively in overseas trade and territorial expansion. \nInternally, the United Kingdom was undergoing social and economic changes due to the Industrial Revolution. Urbanization was rapidly transforming cities, leading to the growth of industries such as textiles, coal mining, and iron production. "
+
+
+
  THE_FRENCH_EMPIRE_NAME:0 "The French Empire"
  THE_FRENCH_EMPIRE_DESC:0 "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
- FRA_THE_FRENCH_EMPIRE_DESC:0 "Napoleon Bonaparte, ruler of France, crowns himself the new Emperor of France. Will he lead his new French Empire to glory and secure their rightfull place in the sun? or will the new found empire crumble into a distant relic of the past?"
