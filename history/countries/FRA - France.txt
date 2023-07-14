@@ -1,5 +1,5 @@
 capital = 16
-oob = FRA_1936
+oob = FRA_1792
 
 1792.1.1 = {
 
