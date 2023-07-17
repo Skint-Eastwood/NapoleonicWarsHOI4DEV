@@ -12,13 +12,30 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	construction1 = 1
+	seven_artillery = 1
+	early_cavalry = 1
+	
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+}
+
 set_popularities = {
 	democratic = 3
 	authoritarian = 7
 	monarchist = 87
 	socialism = 3
 }
-
+recruit_character = AUS_franz_xaver_saint_julien
+recruit_character = AUS_joseph_radetzky_von_radetz
 recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I
 
@@ -37,7 +54,7 @@ add_ideas = {
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
-    amount = 5000
+    amount = 6700
     producer = AUS
 }
 
@@ -57,6 +74,12 @@ add_equipment_production = {
     requested_factories = 5
     progress = 0.95
     amount = 1
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 5000
+	producer = AUS
 }
 
 }

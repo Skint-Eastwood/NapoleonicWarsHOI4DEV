@@ -4,7 +4,7 @@ set_convoys = 300
 
 1792.1.1 = {
 
-	oob = GER_1936
+oob = GER_1936
 
 set_politics = {
 	ruling_party = monarchist

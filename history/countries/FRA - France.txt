@@ -1,7 +1,9 @@
 capital = 16
-oob = FRA_1936
+
 
 1792.1.1 = {
+
+oob = FRA_1936
 
 set_convoys = 300
 set_cosmetic_tag = KIN_FRA
@@ -45,6 +47,36 @@ set_popularities = {
 	authoritarian_democracy = 30
 	jacobinism = 10
  }
+
+
+ add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 9000
+	producer = FRA
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 3400
+	producer = FRA
+}
+
+add_equipment_production = {
+	equipment = {
+		type = infantry_equipment_0
+	}
+	requested_factories = 20
+	progress = 0.95
+	amount = 1
+}
+
+add_equipment_production = {
+	equipment = {
+		type = support_equipment_1
+	}
+	requested_factories = 4
+	progress = 0.95
+}
 }
 
 ################
