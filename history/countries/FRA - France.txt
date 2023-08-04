@@ -32,6 +32,7 @@ add_ideas = {
     civilian_economy
 	limited_conscription
 	limited_exports	
+	PTY_house_of_bourbon
 }
 set_politics = {
 	ruling_party = monarchist
@@ -61,22 +62,7 @@ add_equipment_to_stockpile = {
 	producer = FRA
 }
 
-add_equipment_production = {
-	equipment = {
-		type = infantry_equipment_0
-	}
-	requested_factories = 20
-	progress = 0.95
-	amount = 1
-}
 
-add_equipment_production = {
-	equipment = {
-		type = support_equipment_1
-	}
-	requested_factories = 4
-	progress = 0.95
-}
 }
 
 ################

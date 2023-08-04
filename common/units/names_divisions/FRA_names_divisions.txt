@@ -1,1 +1,83 @@
-﻿  
+﻿FRA_INF_01 = {
+	name = "Régiments d'infanterie de ligne"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%de Régiment d'infanterie de ligne"
+#	link_numbering_with = { FRA_INF_01 }
+	ordered = {
+		1 = { "1er Régiment d'infanterie de ligne" }
+		2 = { "2e Régiment d'infanterie de ligne" }
+		3 = { "3e Régiment d'infanterie de ligne" }
+	}
+}
+
+FRA_INF_02 = {
+	name = "Bataillons de chasseurs"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%de Bataillon de chasseurs"
+#	link_numbering_with = { FRA_INF_01 }
+	ordered = {
+		1 = { "1er Bataillon de chasseurs" }
+		2 = { "2e Bataillon de chasseurs" }
+		3 = { "3e Bataillon de chasseurs" }
+	}
+}
+
+FRA_INF_03 = {
+	name = "Bataillons de volontaires nationaux"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%de Bataillon de volontaires nationaux"
+#	link_numbering_with = { FRA_INF_01 }
+	ordered = {
+		1 = { "1er Bataillon de volontaires nationaux" }
+		2 = { "2e Bataillon de volontaires nationaux" }
+		3 = { "3e Bataillon de volontaires nationaux" }
+	}
+}
+
+FRA_INF_04 = {
+	name = "Régiments de la Garde Nationale"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%de Régiment de la Garde Nationale"
+#	link_numbering_with = { FRA_INF_01 }
+	ordered = {
+		1 = { "1er Régiment de la Garde Nationale" }
+		2 = { "2e Régiment de la Garde Nationale" }
+		3 = { "3e Régiment de la Garde Nationale" }
+	}
+}
+
+FRA_CAV_01 = {
+	name = "Régiments de carabiniers"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { armor }
+	fallback_name = "%de Régiments de carabiniers"
+#	link_numbering_with = { FRA_CAV_01 }
+	ordered = {
+		1 = { "1er Régiment de carabiniers" }
+		2 = { "2e Régiment de carabiniers" }
+		3 = { "3e Régiment de carabiniers" }
+	}
+}
+
+FRA_CAV_02 = {
+	name = "Régiments de dragons"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { armor }
+	fallback_name = "%de Régiment de dragons"
+#	link_numbering_with = { FRA_CAV_01 }
+	ordered = {
+		1 = { "1er Régiment de dragons" }
+		2 = { "2e Régiment de dragons" }
+		3 = { "3e Régiment de dragons" }
+	}
+}

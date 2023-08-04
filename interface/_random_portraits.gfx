@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_FraGenericLancer1"
+		texturefile = "gfx/leaders/Generic/FraGenericLancer1.png"
+	}
+	spriteType = {
+		name = "GFX_FraGenericOfficer1"
+		texturefile = "gfx/leaders/Generic/FraGenericOfficer1.png"
+	}
+	spriteType = {
+		name = "GFX_FraGenericOfficer2"
+		texturefile = "gfx/leaders/Generic/FraGenericOfficer2.png"
+	}
+	spriteType = {
+		name = "GFX_FraGenericOfficer3"
+		texturefile = "gfx/leaders/Generic/FraGenericOfficer3.png"
+	}
+	spriteType = {
+		name = "GFX_FraGenericOfficer4"
+		texturefile = "gfx/leaders/Generic/FraGenericOfficer4.png"
+	}
+	spriteType = {
+		name = "GFX_FraGenericVistule"
+		texturefile = "gfx/leaders/Generic/FraGenericVistule.png"
+	}
+}
