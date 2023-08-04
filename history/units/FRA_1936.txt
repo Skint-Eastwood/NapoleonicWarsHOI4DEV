@@ -473,6 +473,9 @@ units = {
 
 	}
 
+
+
+
 	### METRPOLITAN FRANCE ###			
 	#navy = {				
 	#	name = "2ème Région Navale"			
@@ -495,25 +498,23 @@ units = {
 #########################
 
 instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "FRA"
-		}
-		requested_factories = 2
-		progress = 0.1
-		efficiency = 50
-	}
 
 	add_equipment_production = {
 		equipment = {
-			type = support_equipment_1
-			creator = "FRA" 
+			type = infantry_equipment_0
 		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 50
+		requested_factories = 13
+		progress = 0.95
+		amount = 1
 	}
 	
-}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 8
+		progress = 0.95
+	}
+
+
 ###################

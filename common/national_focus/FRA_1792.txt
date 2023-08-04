@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_intoduction_of_the_guilotine
-		icon = GFX_focus_secret_rearmament
+		icon = GFX_FRA_introduction_of_the_guilotine
 		x = 5
 		y = 0
 		cost = 3.6
@@ -40,8 +40,8 @@ focus_tree = {
 		}
 		completion_reward = {		
 			add_manpower = -1000
-			}
 		}
+	}
 
 
 	focus = {

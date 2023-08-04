@@ -1,0 +1,16 @@
+characters={
+	SWE_Gustav_IV_Adolf={ #Democratic Leader
+		name="Gustav IV Adolf"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/SWE_Gustav_IV_Adolf.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

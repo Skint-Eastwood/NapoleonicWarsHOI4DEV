@@ -1,0 +1,22 @@
+capital = 797
+
+
+set_convoys = 300
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = unexplored_land
+	elections_allowed = no
+}
+set_popularities = {
+	unexplored_land = 100
+}
+
+
+add_ideas = {
+}
+
+recruit_character = TRB_unexplored_land
+

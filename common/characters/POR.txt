@@ -1,0 +1,16 @@
+characters={
+	POR_John_VI={ #Democratic Leader
+		name="John VI"
+		portraits={
+			civilian={
+				large="gfx/leaders/POR/POR_John_VI.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1820.1.29.1"
+			id=-1
+		}
+	}
+}

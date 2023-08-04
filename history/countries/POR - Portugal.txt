@@ -6,6 +6,8 @@ add_ideas = {
 	
 }
 
+puppet = BRA
+
 set_politics = {
 	ruling_party = monarchist
 	last_election = "1890.5.1"
@@ -18,9 +20,6 @@ set_popularities = {
 	monarchist = 60
 	socialism = 0
 }
-add_ideas = {
-		}
-puppet = BRA
 
-recruit_character = 
+recruit_character = POR_John_VI
 

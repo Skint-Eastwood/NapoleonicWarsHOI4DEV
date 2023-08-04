@@ -1,4 +1,6 @@
 ﻿l_english:
+ Unexplored_land:0 "Unexplored Land"
+  Unexplored_land_desc:0 "Unexplored, Uncolonised Lands"
  Monarchist:0 "Monarchism"
  Monarchist_noun:0 "Monarchism"
  Monarchist_desc:0 "Ruled by Monarch"
@@ -65,6 +67,8 @@ anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the 
 
  QNG_Monarchist_party:0 "Qing Dynasty"
 
+  AUS_Monarchist_party:0 "House of Habsburg"
+
  ENG_Monarchist_party:0 "House Hanover"
  ENG_Democratic_party:0 "the Conservative Party"
  ENG_Liberalism_party:0 "Liberalist Party"
@@ -75,6 +79,8 @@ anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the 
  FRA_Democratic_party:0 "Thermidorian’s"
  FRA_Socialism_party:0 "The Mountain"
  PPL_Monarchist_party:0 "the Holy See"
+ SPR_Monarchist_party:0 "House of Bourbon"
+ SWI_Democratic_party:0 "Tagsatzung"
 
 
  GER_authoritarian_party:0 "NSDAP"

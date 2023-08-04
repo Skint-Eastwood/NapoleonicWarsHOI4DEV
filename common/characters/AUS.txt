@@ -28,6 +28,63 @@ characters={
 			id=-1
 		}
 	}
+
+	AUS_franz_xaver_saint_julien={
+		name="Franz Xaver Saint Julien"
+		portraits={
+			army={
+				large="gfx/leaders/AUS/AUS_franz_xaver_saint_julien.dds"
+				small="gfx/leaders/AUS/AUS_franz_xaver_saint_julien.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	AUS_joseph_radetzky_von_radetz={
+		name="Joseph Radetzky von Radetz"
+		portraits={
+			army={
+				large="gfx/leaders/AUS/AUS_joseph_radetzky_von_radetz.dds"
+				small="gfx/leaders/AUS/AUS_joseph_radetzky_von_radetz.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	AUS_dagobert_sigmund_von_wurmser={
+		name="Dagobert Sigmund von Wurmser"
+		portraits={
+			army={
+				large="gfx/leaders/AUS/AUS_dagobert_sigmund_von_wurmser.dds"
+				small="gfx/leaders/AUS/AUS_dagobert_sigmund_von_wurmser.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
 }
 
 

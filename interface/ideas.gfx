@@ -1,6 +1,30 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_habsburg"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_habsburg.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_hanover"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_hanover.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTV_house_of_hanover"
+		texturefile = "gfx/interface/ideas/idea_PTV_house_of_hanover.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_bourbon"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_bourbon.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_idea_INT_italian_identity"
 		texturefile = "gfx/interface/ideas/idea_INT_italian_identity.dds"
 		noOfFrames = 1
@@ -7264,5 +7288,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
+	
 			
 }

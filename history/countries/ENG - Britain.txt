@@ -20,6 +20,7 @@ set_popularities = {
 
 add_ideas = {
 	ENG_british_empire
+	PTY_house_of_hanover
 		}
 
 puppet = LCA

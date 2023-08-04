@@ -1,0 +1,16 @@
+characters={
+	GEN_Michelangelo_Cambiaso={ #Democratic Leader
+		name="Michelangelo Cambiaso"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/GEN_Michelangelo_Cambiaso.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

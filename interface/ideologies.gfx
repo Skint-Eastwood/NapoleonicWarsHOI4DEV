@@ -10,7 +10,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_Authoritarian_group"
 		texturefile = "gfx/interface/ideologies/Authoritarian_group.dds"			
-		}	
+	}	
 
 	SpriteType = {
 		name = "GFX_ideology_authoritarian_democracy_group"
@@ -65,6 +65,31 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_RUS_Monarchist_group"
 		texturefile = "gfx/interface/ideologies/RUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SPR_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/SPR_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SWI_Democratic_group"
+		texturefile = "gfx/interface/ideologies/SWI_Democratic_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_MEK_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/MEK_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SAX_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/SAX_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_POL_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/POL_Monarchist_group.dds"			
 	}
 	
 }

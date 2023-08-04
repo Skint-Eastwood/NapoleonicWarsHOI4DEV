@@ -1,0 +1,16 @@
+characters={
+	SAX_Frederick_Augustus_III={ #Democratic Leader
+		name="Frederick Augustus III"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAX/SAX_Frederick_Augustus_III.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1802.10.24.1"
+			id=-1
+		}
+	}
+}

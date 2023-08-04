@@ -1,0 +1,15 @@
+characters={
+	SWI_Tagsatzung={ #Democratic Leader
+		name="Tagsatzung"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/SWI_Tagsatzung.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic
+			traits={  }
+			id=-1
+		}
+	}
+}

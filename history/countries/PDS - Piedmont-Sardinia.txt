@@ -22,4 +22,4 @@ add_ideas = {
 	INT_italian_identity
 	}
 
-recruit_character = PDS_Charles_Emmanuel_IV
+recruit_character = PDS_Victor_Amadeus_III

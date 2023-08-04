@@ -49,7 +49,7 @@ guiTypes = {
 				name = "text"
 				position = { x = -400 y = 13 }
 				textureFile = ""
-				font = "loadscreen_header"
+				font = "vic_36"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 800
@@ -89,7 +89,7 @@ guiTypes = {
 				name = "text"
 				position = { x = -450 y = -157 }
 				textureFile = ""
-				font = "loadscreen_tip"
+				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 900

@@ -180,6 +180,141 @@ units = {
 
 	}
 
+	division= {	
+		name = "16. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 619
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "16. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 619
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "17. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 11659
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "17. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 11659
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "18. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 3548
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "18. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 3548
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "19. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 6573
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "19. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 6573
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "19. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 6573
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "20. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 11539
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "20. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 11539
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "20. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 9606
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "20. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 690
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "20. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 690
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "21. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		location = 653
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
 	# II Korps
 	division= {	
 		name = "4. Division"			# Used to form 45. Infanterie--division post-Anschluss
