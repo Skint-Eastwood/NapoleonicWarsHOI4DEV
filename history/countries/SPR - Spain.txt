@@ -3,7 +3,7 @@ capital = 41
 set_convoys = 300
 
 add_ideas = {
-	
+	PTY_house_of_bourbon
 }
 
 

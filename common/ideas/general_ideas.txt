@@ -40,4 +40,52 @@ ideas = {
         		annex_cost_factor = 0.1
 			}
 		}
+
+		PTY_house_of_bourbon = {
+			picture = idea_PTY_house_of_bourbon
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+
+		PTY_house_of_hanover = {
+			picture = idea_PTY_house_of_hanover
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+
+		PTY_house_of_habsburg = {
+			picture = idea_PTY_house_of_habsburg
+			allowed = {
+				always = yes
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
 	}

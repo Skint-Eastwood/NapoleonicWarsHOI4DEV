@@ -1,5 +1,14 @@
 ﻿l_english:
 
+#################
+## Party Ideas ##
+#################
+
+PTY_house_of_bourbon:0 "House of Bourbon"
+PTY_house_of_hanover:0 "House of Hanover"
+PTY_house_of_habsburg:0 "House of Habsburg"
+
+
 ###################
 ## English Ideas ##
 ###################

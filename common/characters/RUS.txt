@@ -1,4 +1,20 @@
 characters={
+
+	RUS_Paul_I={ #Democratic Leader
+	name="Paul I"
+	portraits={
+		civilian={
+			large="gfx/leaders/RUS/RUS_Paul_I.dds"
+		}
+	}
+	country_leader={
+		ideology=Despotism
+		traits={ dictator }
+		expire="1796.11.17.1"
+		id=-1
+	}
+}
+
 	RUS_Catherine_II={ #Democratic Leader
 		name="Catherine II"
 		portraits={

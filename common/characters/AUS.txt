@@ -66,6 +66,25 @@ characters={
 			legacy_id=0
 		}
 	}
+
+	AUS_dagobert_sigmund_von_wurmser={
+		name="Dagobert Sigmund von Wurmser"
+		portraits={
+			army={
+				large="gfx/leaders/AUS/AUS_dagobert_sigmund_von_wurmser.dds"
+				small="gfx/leaders/AUS/AUS_dagobert_sigmund_von_wurmser.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
 }
 
 

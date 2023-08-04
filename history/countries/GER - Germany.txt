@@ -19,6 +19,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	PTY_house_of_habsburg
 		}
 		
 recruit_character = GER_Leopold_II

@@ -24,5 +24,4 @@ add_ideas = {
 	}
 
 recruit_character = RUS_Catherine_II
-
-create_faction = Russia
+recruit_character = RUS_Paul_I

@@ -1,0 +1,16 @@
+characters={
+	HOL_William_V={ #Democratic Leader
+		name="William V"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/HOL_William_V.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1802.10.24.1"
+			id=-1
+		}
+	}
+}

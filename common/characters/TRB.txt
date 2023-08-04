@@ -1,0 +1,15 @@
+characters={
+	TRB_unexplored_land={ #Democratic Leader
+		name="Unexplored Land"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRB/TRB_unexplored_land.dds"
+			}
+		}
+		country_leader={
+			ideology=unexplored_lands
+			traits={  }
+			id=-1
+		}
+	}
+}

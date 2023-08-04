@@ -1,9 +1,9 @@
 characters={
-	PDS_Charles_Emmanuel_IV={ #Democratic Leader
-		name="Charles Emmanuel IV"
+	PDS_Victor_Amadeus_III={ #Democratic Leader
+		name="Victor Amadeus III"
 		portraits={
 			civilian={
-				large="gfx/leaders/PDS/PDS_Charles_Emmanuel_IV.dds"
+				large="gfx/leaders/PDS/PDS_Victor_Amadeus_III.dds"
 			}
 		}
 		country_leader={

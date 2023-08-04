@@ -23,4 +23,5 @@ set_popularities = {
 add_ideas = {
 		}
 
+recruit_character = HOL_William_V
 

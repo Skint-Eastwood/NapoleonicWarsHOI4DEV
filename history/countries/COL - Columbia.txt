@@ -1,0 +1,26 @@
+capital = 50
+
+set_cosmetic_tag = NGA_COL
+
+set_convoys = 300
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	authoritarian = 100
+	Tribalism = 0
+	monarchist = 0
+	socialism = 0
+}
+
+add_ideas = {
+		}
+

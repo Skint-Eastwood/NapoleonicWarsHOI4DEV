@@ -13,4 +13,24 @@ characters={
 			id=-1
 		}
 	}
+
+	ENG_admiral_nelson={
+		name="Horatio Nelson"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_ENG_admiral_nelson.dds"
+				small="gfx/leaders/ENG/Portrait_ENG_admiral_nelson.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
 }

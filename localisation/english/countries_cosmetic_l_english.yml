@@ -4,6 +4,16 @@
 ## FRENCH COSMETIC TAGS ##
 ##########################
 
+## Spanish Colonies ##
+ RLP_ARG:0 "Rio de la Plata"
+ RLP_ARG_DEF:0 "the Viceroyalty of Río de la Plata"
+
+ NGA_COL:0 "New Granada"
+ NGA_COL_DEF:0 "the Viceroyalty of New Granada"
+ 
+ SPR_PRU:0 "Spanish Peru"
+ SPR_PRU_DEF:0 "the Viceroyalty of Peru"
+
 ## Kingdom of France ##
 
  KIN_FRA:0 "Kingdom of France" 

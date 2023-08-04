@@ -20,6 +20,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	PTY_house_of_hanover
 	}
 
 recruit_character = HAN_George_III

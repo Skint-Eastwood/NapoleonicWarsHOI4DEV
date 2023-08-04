@@ -38,6 +38,8 @@ recruit_character = AUS_franz_xaver_saint_julien
 recruit_character = AUS_joseph_radetzky_von_radetz
 recruit_character = AUS_Leopold_II
 recruit_character = AUS_Francis_I
+recruit_character = AUS_joseph_radetzky_von_radetz
+recruit_character = AUS_dagobert_sigmund_von_wurmser
 
 puppet = BEL
 puppet = GER
@@ -49,6 +51,7 @@ add_ideas = {
 	INT_papal_influence
 	AUS_ethnic_tension
 	limited_conscription
+	PTY_house_of_habsburg
 }
 
 

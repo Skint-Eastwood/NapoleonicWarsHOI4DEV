@@ -63,7 +63,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_kaisers_tour
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_focus_kaisers_tour
 		x = 0
 		y = 1
 		cost = 2
@@ -118,7 +118,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_francis_the_great
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_francis_the_great
 		x = 0
 		y = 3
 		cost = 5
@@ -295,7 +295,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_bastion_of_the_alps
-		icon = GFX_focus_generic_manpower
+		icon = AUS_bastion_of_the_alps
 		x = 0
 		y = 2
 		cost = 5
@@ -323,7 +323,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_send_equipment_to_bavaria
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_focus_send_equipment_to_bavaria
 		x = -2
 		y = 2
 		cost = 5
@@ -347,7 +347,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_defend_munich
-		icon = GFX_focus_generic_manpower
+		icon = AUS_defend_munich
 		x = 2
 		y = 2
 		cost = 5
@@ -391,7 +391,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_celebrated_the_new_electorate
-		icon = GFX_focus_generic_manpower
+		icon = AUS_celebrated_the_new_electorate
 		x = 0
 		y = 3
 		cost = 5
@@ -410,7 +410,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_welcome_the_exiled_monarchy_to_wein
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_welcome_the_exiled_monarchy_to_wein
 		x = 0
 		y = 4
 		cost = 5
@@ -487,7 +487,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_until_the_last_drop_of_blood
-		icon = GFX_focus_generic_manpower
+		icon = AUS_until_the_last_drop_of_blood
 		x = 2
 		y = 3
 		cost = 5
@@ -517,7 +517,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_leave_them_to_their_fate
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_leave_them_to_their_fate
 		x = -2
 		y = 3
 		cost = 5
@@ -550,7 +550,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_surrender_the_netherlands
-		icon = GFX_focus_generic_manpower
+		icon = GFX_AUS_focus_surrender_the_netherlands
 		x = -3
 		y = 2
 		cost = 5

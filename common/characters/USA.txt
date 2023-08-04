@@ -1,0 +1,16 @@
+characters={
+	USA_george_washington={ #Democratic Leader
+		name="George Washington"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/USA_george_washington.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic
+			traits={ figurehead_president }
+			expire="1820.1.29.1"
+			id=-1
+		}
+	}
+}
