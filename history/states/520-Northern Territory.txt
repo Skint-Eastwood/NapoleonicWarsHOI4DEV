@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = AST
+		owner = TRB
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -20,16 +20,15 @@ state={
 		victory_points = {
 			7669 5 
 		}
-		add_core_of = AST
+		add_core_of = TRB
 
 	}
 
 	provinces={
-		1217 1410 1422 1431 1454 1478 2139 4415 4441 4462 4487 7457 7481 7669 10276 10288 10316 10518 12104 12246 12290 12311 12326 12339 12499 
+		1217 1431 1454 1478 4415 4441 7669 10276 10288 10316 10518 12104 12246 12290 12311 12326 12339 13279 13280 13281 
 	}
 	manpower=13000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

@@ -2,14 +2,12 @@
 state={
 	id=414
 	name="STATE_414"
-	manpower = 486013
-	
-	state_category = wasteland
 
 	history={
-		owner = PER
+		owner = QAJ
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
 			10913 1 
@@ -17,12 +15,15 @@ state={
 		victory_points = {
 			7990 1 
 		}
-		add_core_of = PER
+		add_core_of = QAJ
+
 	}
 
 	provinces={
-		1986 7990 10759 10890 10913 11249 12739 12809 12852 12895 
+		1986 10913 11249 12739 12809 12895 
 	}
-
-	local_supplies=0.0 
+	manpower=486013
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

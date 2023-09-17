@@ -12,3 +12,8 @@ BRA_AND = {
     color = rgb { 198 0 0 }
     color_ui = rgb { 198 0 0 }
 }
+
+NSW_AST = {
+    color = rgb { 233  59  59 }
+    color_ui = rgb { 233  59  59 }
+}

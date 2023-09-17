@@ -10,7 +10,7 @@ state={
 
 	state_category = rural
 	history={
-		owner = PER
+		owner = QAJ
 		victory_points = {
 			8117 3 
 		}
@@ -29,7 +29,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = PER
+		add_core_of = QAJ
 	}
 
 	provinces={
