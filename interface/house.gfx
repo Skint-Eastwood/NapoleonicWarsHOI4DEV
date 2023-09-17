@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_bourbon"
+		texturefile = "gfx/interface/ideas/house/idea_bourbon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_hanover"
+		texturefile = "gfx/interface/ideas/house/idea_hanover.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_habsburg"
+		texturefile = "gfx/interface/ideas/house/idea_habsburg.dds"
+	}
+}

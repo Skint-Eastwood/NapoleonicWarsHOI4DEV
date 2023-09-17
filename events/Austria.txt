@@ -63,7 +63,7 @@ country_event = {
 	option = { 
 		name = austria.2.a
 		ai_chance = {
-			factor = 70
+			factor = 1
 		} 
 
 		news_event = news.4
@@ -92,7 +92,7 @@ country_event = {
 	option = { 
 		name = austria.3.a
 		ai_chance = {
-			factor = 100
+			factor = 1
 		}
 
 		puppet = BEL

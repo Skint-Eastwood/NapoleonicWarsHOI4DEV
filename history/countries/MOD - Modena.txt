@@ -3,7 +3,7 @@ capital = 64
 set_convoys = 300
 
 add_ideas = {
-	
+	catholic
 }
 
 set_politics = {

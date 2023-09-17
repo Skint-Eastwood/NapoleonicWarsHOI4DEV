@@ -21,7 +21,20 @@ ideas = {
 			}
 		}
 
+		FRA_Revolutionary_Spirit = {
+			picture = idea_FRA_Revolutionary_Spirit
 
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
 
 	## Ideas ##
 

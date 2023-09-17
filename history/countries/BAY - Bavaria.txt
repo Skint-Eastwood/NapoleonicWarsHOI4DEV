@@ -20,7 +20,8 @@ set_popularities = {
 
 add_ideas = {
 	INT_papal_influence
-		}
+	catholic
+}
 
 recruit_character = BAY_Charles_Theodore
 

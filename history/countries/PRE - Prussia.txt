@@ -19,8 +19,11 @@ set_popularities = {
 	socialism = 0
 }
 give_guarantee = AUS
-add_ideas = {
-}
+	add_ideas = {
+		protestant
+		mildintervention
+		absolute
+	}
 }
 
 recruit_character = PRE_Frederick_William_II

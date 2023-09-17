@@ -20,8 +20,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
-	}
+	orthodox	
+}
 
 recruit_character = RUS_Catherine_II
 recruit_character = RUS_Paul_I

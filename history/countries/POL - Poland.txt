@@ -19,7 +19,8 @@ set_popularities = {
 	socialism = 0
 }
 add_ideas = {
-		}
+	catholic
+}
 puppet = BRA
 
 recruit_character = POL_Stanislaw

@@ -49,7 +49,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "decision_grid_container"
-			position = {x=5 y=45}
+			position = {x=10 y=45}
 			size = {width=-1 height=-10 } # Y Set in code to match the window size, but initial value is used as extra space in height
 			Orientation = upper_left
 			verticalScrollbar = "right_vertical_slider"
@@ -138,7 +138,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			position = { x=0 y=-1 }
+			position = { x=10 y=-1 }
 			quadTextureSprite="GFX_tiled_decisions_bg_small"
 			clicksound = click_default
 		}

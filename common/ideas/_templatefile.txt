@@ -1,0 +1,65 @@
+ideas = {
+
+	house = {
+		law = yes
+		use_list_view = yes
+
+		bourbon = {
+
+
+			available = {
+					}
+			
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.15					
+				drift_defence_factor = 0.25
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		hanover = {
+
+
+			available = {
+					}
+			
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.15					
+				drift_defence_factor = 0.25
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+	}
+	
+		habsburg = {
+
+
+			available = {
+			}
+		
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.15					
+				drift_defence_factor = 0.25
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+	}
+}
+	
