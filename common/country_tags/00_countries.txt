@@ -1,3 +1,4 @@
+QAJ = "countries/Qajar.txt"
 AND = "countries/Andhra.txt"
 NFL = "countries/Newfoundland.txt"
 BKH = "countries/Bukhara.txt"
