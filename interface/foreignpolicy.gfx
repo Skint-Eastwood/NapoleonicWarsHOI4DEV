@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_interveneinaffairs"
+		texturefile = "gfx/interface/ideas/idea_interveneinaffairs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_mildintervention"
+		texturefile = "gfx/interface/ideas/idea_mildintervention.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_splendidisolation"
+		texturefile = "gfx/interface/ideas/idea_splendidisolation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_globalintervention"
+		texturefile = "gfx/interface/ideas/idea_globalintervention.dds"
+	}
+	
+}

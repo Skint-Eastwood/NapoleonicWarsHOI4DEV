@@ -20,6 +20,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	protestant
 		}
 
 recruit_character = SWE_Gustav_IV_Adolf

@@ -28,6 +28,8 @@ set_popularities = {
 
 
 add_ideas = {
+	sunni
+	mildintervention
 }
 
 recruit_character = TUR_Selim_III

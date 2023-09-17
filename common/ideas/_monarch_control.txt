@@ -1,0 +1,107 @@
+ideas = {
+
+	monarch_control = {
+		law = yes
+		use_list_view = yes
+
+		absolute = {
+
+
+			available = {
+				has_government = monarchist
+				NOT = {
+					is_puppet = yes
+				}
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.005
+				guarantee_cost = 0.25
+				political_power_gain = 0.25
+				drift_defence_factor = 0.2  
+				justify_war_goal_time = -0.15
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = yes
+		}
+
+		constitutional = {
+			available = {
+				NOT = {
+					has_government = monarchist
+					is_puppet = yes
+				}
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {		
+				war_support_weekly = 0.3
+				monarchist_drift = 0.02
+				stability_weekly = 0.05
+				puppet_cost_factor = 0.05
+				drift_defence_factor = -0.05
+
+
+
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = yes
+		}
+
+		no_monarch = {
+			available = {
+				NOT = {
+					has_government = monarchist
+					is_puppet = yes
+				}
+			}
+			
+			cost = 200
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				puppet_cost_factor = 0.10
+				annex_cost_factor = 0.05
+				democratic_drift = 0.02
+				stability_weekly = 0.05
+				guarantee_cost = -0.20
+				trade_opinion_factor = 0.25
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = yes
+		}
+
+		puppet = {
+			available = {
+				is_puppet = yes	
+			}
+			
+			cost = 0
+			removal_cost = -1
+
+			modifier = {
+				autonomy_gain = 0.5
+				master_ideology_drift = 0.5
+				autonomy_gain_trade_factor = 0.25
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = yes
+	}
+}

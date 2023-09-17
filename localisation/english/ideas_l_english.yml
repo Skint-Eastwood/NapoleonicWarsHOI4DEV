@@ -28,6 +28,8 @@ ENG_british_empire_desc:0 "The United Kingdom is at the head of an expansive glo
  FRA_National_Convention:0 "The National Convention"
  FRA_National_Convention_desc:0 "The National Convention were a group of individuals elected to provide France with a new constitution after the French monarchy had been toppled "
  FRA_Napoleon:0 "Napoleon Bonaparte"
+ FRA_Revolutionary_Spirit:0 "Revolutionary Spirit"
+ FRA_Revolutionary_Spirit_desc:0 ""
 
 
 ####################
@@ -83,11 +85,11 @@ ANT_Nomadic_Tribes_desc:0 "The African Nation are a group of disconnected tribes
  new_economic_policy:0 "New Economic Policy"
  idea_group_mobilization_laws:0 "Conscription Laws"
  disarmed_nation:0 "Disarmed Nation"
- volunteer_only:0 "Volunteer Only"
- limited_conscription:0 "Limited Conscription"
- extensive_conscription:0 "Extensive Conscription"
- service_by_requirement:0 "Service by Requirement"
- all_adults_serve:0 "All Adults Serve"
+ volunteer_only:0 "Mercenary Army"
+ limited_conscription:0 "Volunteer Only"
+ extensive_conscription:0 "Professional Army"
+ service_by_requirement:0 "National Service"
+ all_adults_serve:0 "Everyone into Service"
  scraping_the_barrel:0 "Scraping the Barrel"
  #generic_communist_revolutionary:0 "Communist Politician"
  #generic_democratic_reformer:0 "Democratic Politician"

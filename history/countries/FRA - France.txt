@@ -27,12 +27,16 @@ set_technology = {
 }
 
 add_ideas = {
+	FRA_Revolutionary_Spirit
 	FRA_Unpopular_Monarch
 	FRA_King_Louis
     civilian_economy
 	limited_conscription
 	limited_exports	
 	PTY_house_of_bourbon
+	catholic
+	absolute
+	interveneinaffairs
 }
 set_politics = {
 	ruling_party = monarchist

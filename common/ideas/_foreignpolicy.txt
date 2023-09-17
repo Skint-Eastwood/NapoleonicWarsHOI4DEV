@@ -1,0 +1,91 @@
+ideas = {
+
+	foreignpolicy = {
+		law = yes
+		use_list_view = yes
+
+		splendidisolation = {
+
+
+			available = {
+					}
+			
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.2
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+	
+		mildintervention = {
+
+
+			available = {
+			}
+		
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1					
+				army_attack_factor = 0.05
+				war_support_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		interveneinaffairs = {
+
+
+			available = {
+			}
+		
+			cost = 300
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.1
+				war_support_factor = 0.1
+				stability_factor = -0.1
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		globalintervention = {
+
+
+			available = {
+			}
+		
+			cost = 400
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				war_support_factor = 0.2
+				stability_factor = -0.2
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}
+	

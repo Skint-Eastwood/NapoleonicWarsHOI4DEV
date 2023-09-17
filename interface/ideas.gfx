@@ -1,6 +1,18 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_FRA_Revolutionary_Spirit"
+		texturefile = "gfx/interface/ideas/idea_FRA_Revolutionary_Spirit.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_add_pol_idea_buttonn"
+		texturefile = "gfx/interface/ideas/idea_add_pol_idea_buttonn.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_idea_PTY_house_of_habsburg"
 		texturefile = "gfx/interface/ideas/idea_PTY_house_of_habsburg.dds"
 		noOfFrames = 1

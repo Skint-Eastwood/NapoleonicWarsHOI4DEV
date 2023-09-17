@@ -20,6 +20,7 @@ set_popularities = {
 
 add_ideas = {
 	INT_italian_identity
+	catholic
 }
 
 recruit_character = PPL_Pope_Blessed_Pius_IX

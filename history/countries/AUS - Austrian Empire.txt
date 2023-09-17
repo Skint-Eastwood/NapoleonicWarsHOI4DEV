@@ -52,6 +52,10 @@ add_ideas = {
 	AUS_ethnic_tension
 	limited_conscription
 	PTY_house_of_habsburg
+	catholic
+	absolute
+	interveneinaffairs
+
 }
 
 

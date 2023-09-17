@@ -1,0 +1,53 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_catholic"
+		texturefile = "gfx/interface/ideas/idea_catholic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sunni"
+		texturefile = "gfx/interface/ideas/idea_sunni.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_protestant"
+		texturefile = "gfx/interface/ideas/idea_protestant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_orthodox"
+		texturefile = "gfx/interface/ideas/idea_orthodox.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shia"
+		texturefile = "gfx/interface/ideas/idea_shia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jewish"
+		texturefile = "gfx/interface/ideas/idea_jewish.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_hindu"
+		texturefile = "gfx/interface/ideas/idea_hindu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_sikh"
+		texturefile = "gfx/interface/ideas/idea_sikh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shinto"
+		texturefile = "gfx/interface/ideas/idea_shinto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_confucian"
+		texturefile = "gfx/interface/ideas/idea_confucian.dds"
+	}
+
+}

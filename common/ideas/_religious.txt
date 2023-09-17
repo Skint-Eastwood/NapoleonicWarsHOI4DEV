@@ -1,0 +1,443 @@
+ideas = {
+
+	religion = {
+		law = yes
+		use_list_view = no
+
+		catholic = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = catholic
+				}
+				NOT = {
+					OR = {
+						has_idea = sunni
+						has_idea = hindu
+						has_idea = shia
+						has_idea = jewish
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = orthodox
+						has_idea = sikh
+					}
+				}
+			}
+
+			removal_cost = -1
+			
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = catholic }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			modifier = {					
+				stability_factor = 0.1					
+				army_core_attack_factor = 0.1
+				political_power_gain = -0.1
+			}
+			cancel_if_invalid = no
+		}
+	
+
+		protestant = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = protestant
+			}
+				NOT = {
+					OR = {
+						has_idea = sunni
+						has_idea = hindu
+						has_idea = shia
+						has_idea = jewish
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = orthodox
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = protestant }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {					
+				army_leader_cost_factor = -0.2					
+				promote_cost_factor = -0.2
+				political_power_gain = -0.1
+
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		orthodox = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = orthodox
+				}
+				NOT = {
+					OR = {
+						has_idea = sunni
+						has_idea = hindu
+						has_idea = shia
+						has_idea = jewish
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = orthodox }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.1				
+				army_core_defence_factor = 0.1
+				consumer_goods_factor = 0.5
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		sunni = {
+			available = {
+				any_neighbor_country = {
+					has_idea = sunni
+			}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = hindu
+						has_idea = jewish
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = sunni }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				war_support_factor = 0.1
+				stability_factor = -0.05
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		
+		shia = {
+			available = {
+				any_neighbor_country = {
+					has_idea = shia
+			}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = hindu
+						has_idea = jewish
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = shia }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.1
+				stability_factor = -0.05
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		jewish = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = jewish
+				}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = hindu
+						has_idea = shia
+						has_idea = sunni
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = jewish }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.5
+				political_power_gain = 0.15
+				war_support_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		hindu = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = hindu
+				}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = sikh
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = hindu }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population = 0.02
+				monthly_population = 0.25
+				army_defence_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		
+		sikh = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = sikh
+				}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = confucian
+						has_idea = shinto
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = hindu
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = sikh }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population = 0.02
+				army_attack_factor = 0.1
+				economy_cost_factor = 0.25
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		shinto = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = shinto
+				}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = confucian
+						has_idea = sikh
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = hindu
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = shinto }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				consumer_goods_factor = 0.05
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+
+		confucian = {
+			available = {
+				any_neighbor_country = {
+				    has_idea = confucian
+				}
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = shinto
+						has_idea = sikh
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = hindu
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = confucian }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population = 0.02
+				stability = 0.1
+				war_support_factor -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+	}
+}

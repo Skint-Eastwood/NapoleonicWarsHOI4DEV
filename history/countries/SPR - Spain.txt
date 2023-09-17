@@ -21,7 +21,9 @@ set_popularities = {
 }
 
 add_ideas = {
-		}
+	catholic
+	mildintervention
+}
 puppet = MEX
 puppet = CUB
 puppet = DOM

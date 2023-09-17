@@ -1,0 +1,192 @@
+on_actions = {
+	on_startup = {	
+		
+		effect = {
+			if = {
+				limit = { is_subject = yes }
+				add_ideas = puppet
+			}
+		}
+		effect = {
+			every_country = {
+				limit = { has_idea = catholic }
+				every_other_country = {
+					limit = { has_idea = catholic }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = protestant }
+				every_other_country = {
+					limit = { has_idea = protestant }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = orthodox }
+				every_other_country = {
+					limit = { has_idea = orthodox }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = shia }
+				every_other_country = {
+					limit = { has_idea = shia }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = jewish }
+				every_other_country = {
+					limit = { has_idea = jewish }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = hindu }
+				every_other_country = {
+					limit = { has_idea = hindu }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = sihk }
+				every_other_country = {
+					limit = { has_idea = sihk }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = shinto }
+				every_other_country = {
+					limit = { has_idea = shinto }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_idea = confucian }
+				every_other_country = {
+					limit = { has_idea = confucian }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}
+				}		
+			}
+		}
+	}
+	
+	on_weekly = {
+		effect = {
+			if = {
+				NOT = {
+						has_government = monarchist 
+					}
+					
+				add_ideas = no_monarch
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { 
+					has_government = monarchist
+					NOT = {
+						has_idea = constitutional
+					}
+				}
+			}
+			add_ideas = absolute
+		}	
+		
+		
+
+
+		effect = {
+			if = {
+				limit = { is_subject = yes }
+				add_ideas = puppet
+			}
+		}
+		
+
+		effect = {
+			if = {
+				limit = { 
+					is_subject = no 
+					has_government = monarchist
+					NOT = {
+						has_idea = constitutional
+					}
+				}
+				add_ideas = absolute
+			}
+		}
+
+		
+
+		effect = {
+			if = {
+				limit = { 
+					is_subject = no 
+					NOT = {
+						has_government = monarchist 
+					}
+				}
+				add_ideas = no_monarch
+			}
+		}
+	}
+}
+
+	
+

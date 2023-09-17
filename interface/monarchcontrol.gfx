@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_absolute"
+		texturefile = "gfx/interface/ideas/idea_absolute.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_constitutional"
+		texturefile = "gfx/interface/ideas/idea_constitutional.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_monarch"
+		texturefile = "gfx/interface/ideas/idea_no_monarch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_puppet"
+		texturefile = "gfx/interface/ideas/idea_puppet.dds"
+	}
+	
+}
