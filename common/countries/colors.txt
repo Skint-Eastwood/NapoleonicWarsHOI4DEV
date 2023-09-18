@@ -958,3 +958,13 @@ ARG = {
 	color_ui = rgb { 255 255 122 }
 }
 
+LUC = {
+	color = rgb { 189 145 255 }
+	color_ui = rgb { 189 145 255 }
+}
+
+QAJ = {
+	color = rgb { 255 116 73 }
+	color_ui = rgb { 255 116 73 }
+}
+

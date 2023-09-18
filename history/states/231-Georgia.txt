@@ -1,9 +1,10 @@
-state = {
-	id = 231
-	name = "STATE_231"
 
-	history = {
-		owner = RUS
+state={
+	id=231
+	name="STATE_231"
+
+	history={
+		owner = TRB
 		victory_points = {
 			1599 5 
 		}
@@ -21,7 +22,7 @@ state = {
 			}
 
 		}
-		add_core_of = RUS
+		add_core_of = TRB
 		add_core_of = GEO
 		1939.1.1 = {
 			buildings = {
@@ -33,12 +34,11 @@ state = {
 
 	}
 
-	provinces = {
-		654 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 12309 
+	provinces={
+		654 1530 1599 3658 4534 4605 6436 6669 6671 9626 9702 12309 
 	}
-	manpower = 2457844
-	buildings_max_level_factor = 1.000
-	state_category = town
-
-	local_supplies = 0.0 
+	manpower=2457844
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

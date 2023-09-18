@@ -1,0 +1,21 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		11402 
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = GER
+	}
+
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}

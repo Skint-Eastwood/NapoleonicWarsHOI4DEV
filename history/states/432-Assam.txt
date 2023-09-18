@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = BRM
-		add_core_of = BRM
+		owner = TRB
+		add_core_of = TRB
 		buildings = {
 			infrastructure = 2
 
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		997 1525 1553 10090 10514 12366 12395 
+		1525 1553 10514 12366 12395 
 	}
 	manpower=8977100
 	buildings_max_level_factor=1.000

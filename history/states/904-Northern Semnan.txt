@@ -1,0 +1,21 @@
+state={
+	id=904
+	name="STATE_904"
+
+	history={
+		owner = QAJ
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = QAJ
+	}
+
+	provinces={
+		12359 
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}

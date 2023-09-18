@@ -2,24 +2,25 @@
 state={
 	id=418
 	name="STATE_418"
-	manpower = 332362
-	
-	state_category = wasteland
 
 	history={
 		owner = QAJ
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
 			8093 1 
 		}
 		add_core_of = QAJ
+
 	}
 
 	provinces={
-		8093 10873 11671 12704 12748 12818 
+		7602 8093 10873 11671 12704 12748 12818 13298 
 	}
-
-	local_supplies=0.0 
+	manpower=332362
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

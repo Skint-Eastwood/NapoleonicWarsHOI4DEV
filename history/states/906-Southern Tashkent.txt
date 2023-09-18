@@ -1,0 +1,19 @@
+state={
+	id=905
+	name="STATE_905"
+	provinces={
+		1216 1384 1919 10205 12430 12581 
+	}
+	history={
+		owner = BKH
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = BKH
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}
