@@ -4,7 +4,7 @@ state={
 	name="STATE_584"
 
 	history={
-		owner = RUS
+		owner = TRB
 		victory_points = {
 			12333 2 
 		}
@@ -13,13 +13,12 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = RUS
-
+		add_core_of = TRB
 
 	}
 
 	provinces={
-		1593 4563 7477 7563 7635 10359 10406 12359
+		1593 4563 7477 7563 7635 10359 10406 
 	}
 	manpower=931458
 	buildings_max_level_factor=1.000

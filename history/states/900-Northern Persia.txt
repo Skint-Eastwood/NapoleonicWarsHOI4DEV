@@ -1,4 +1,3 @@
-
 state={
 	id=900
 	name="STATE_900"
@@ -8,17 +7,15 @@ state={
 		buildings = {
 			infrastructure = 1
 			air_base = 1
-
 		}
 		add_core_of = PER
+	}
 
-	}
 	provinces={
-		7990 8009 10759 10890 12852 13290 13292 13293 13294 13303 13301 13291
+		8099 10510 12333
 	}
-	manpower=67500
+	manpower=32500
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category=town
-
+	state_category="rural"
 }
