@@ -1,6 +1,6 @@
 focus_tree = {
 	id = AUS_1792
-	continuous_focus_position = { x = 0 y = 2000 } 
+	continuous_focus_position = { x = 5 y = 750 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -18,7 +18,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		#prerequisite = { focus = AUS_stand_with_the_coalition }
-		#relative_position_id = AUS_matters_in_europe
+		#relative_position_id = AUS_matters_in_europe`TAG
 
 		available = {
 			has_government = monarchist

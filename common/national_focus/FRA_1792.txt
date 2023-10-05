@@ -1,6 +1,6 @@
 focus_tree = {
 	id = FRA_1792
-	continuous_focus_position = { x = 0 y = 1300 } 
+	continuous_focus_position = { x = 2 y = 750 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -103,7 +103,7 @@ focus_tree = {
 
 			country_event = { id = france.1 }
 			news_event = { id = news.1 }
-			load_focus_tree = FRA_First_Republic
+			#load_focus_tree = FRA_First_Republic
 
 			set_cosmetic_tag = REV_FRA
 		}
@@ -236,7 +236,7 @@ focus = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {	
-			load_focus_tree = FRA_Kingdom
+			#load_focus_tree = FRA_Kingdom
 			}
 		}
 	
