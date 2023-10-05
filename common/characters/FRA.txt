@@ -333,10 +333,10 @@ characters={
 		corps_commander={
 			traits={    }
 			skill=2
-			attack_skill=4
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -371,10 +371,10 @@ characters={
 		corps_commander={
 			traits={    }
 			skill=2
-			attack_skill=3
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -390,10 +390,10 @@ characters={
 		corps_commander={ 
 			traits={}
 			skill=2
-			attack_skill=3
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -428,10 +428,10 @@ characters={
 		corps_commander={
 			traits={    }
 			skill=2
-			attack_skill=5
+			attack_skill=4
 			defense_skill=4
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

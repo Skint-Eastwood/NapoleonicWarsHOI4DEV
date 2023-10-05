@@ -3117,4 +3117,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FRA_focus_introduce_guilotine.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_FRA_peasant_revolt_escalates"
+		texturefile = "gfx/interface/goals/FRA_peasant_revolt_escalates.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_respond_to_the_manifesto"
+		texturefile = "gfx/interface/goals/FRA_respond_to_the_manifesto.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_to_arms_citizens"
+		texturefile = "gfx/interface/goals/FRA_to_arms_citizens.dds"
+	}
+
 }
