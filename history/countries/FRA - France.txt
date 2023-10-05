@@ -56,7 +56,7 @@ set_popularities = {
 
  add_equipment_to_stockpile = {
 	type = infantry_equipment_0
-	amount = 9000
+	amount = 40000
 	producer = FRA
 }
 
