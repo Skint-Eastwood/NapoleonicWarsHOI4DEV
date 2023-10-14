@@ -1,5 +1,23 @@
 on_actions = {
 	on_startup = {	
+
+		effect = {
+			POL = {
+				news_event = { id = news.5 days = 388 }
+			}
+		}
+
+		effect = {
+			FRA = {
+				news_event = { id = news.7 days = 408 }
+			}
+		}
+
+		effect = {
+			POL = {
+				news_event = { id = news.6 days = 1392 }
+			}
+		}
 		
 		effect = {
 			if = {

@@ -14,6 +14,25 @@
  france.3.a:0 "Annex The Austrian Netherlands!"
  france.3.b:0 "Austria Can Keep The Netherlands."
 
+ france.4.t:0 "The Cisalpine Republic?"
+ france.4.d:0 ""
+ france.4.a:0 "Put Napoleon Incharge!"
+ france.4.b:0 "Let The Be Independent!"
+
+ france.5.t:0 "The Dutch Refuse!"
+ france.5.d:0 ""
+ france.5.a:0 "How Dare They!"
+ france.5.b:0 "We're Out Of Luck..."
+
+ france.6.t:0 "The Swiss Refuse!"
+ france.6.d:0 ""
+ france.6.a:0 "We'll See Who's Laughing!"
+ france.6.b:0 "Time Will Tell..."
+
+ france.7.t:0 "Austria Refuse"
+ france.7.a:0 "So Its Annihilation They Want."
+
+
 ## Austria ##
 
  austria.2.t:0 "Death of Leopold II"
@@ -21,9 +40,28 @@
  austria.2.a:0 "Francis II Takes The Throne!"
 
  austria.3.t:0 "The Austrian Netherlands?"
- austria.3.d:0 ""
+ austria.3.d:0 "After recent talks within our government regarding the autonomy of the Austrian Netherlands we have been presented with two options as to what to do. Many within the government believe we should keep the territory as part of the Fatherland however others believe we should have it become a semi-autonomous puppet state."
  austria.3.a:0 "Puppet the Austrian Netherlands!"
  austria.3.b:0 "They shall remain part of the Fatherland!"
+
+ austria.4.t:0 "The French Take Wien"
+ austria.4.a:0 "We Surrender..."
+ austria.4.b:0 "Continue Fighting!"
+ 
+ austria.5.t:0 "Peace With The French?"
+ austria.5.a:0 "End The War"
+ austria.5.b:0 "Keep Fighting"
+
+## Netherlands ##
+ netherlands.1.t:0 "Batavian Republic?"
+ netherlands.1.a:0 "Join France"
+ netherlands.1.b:0 "Refuse Their Offer"
+
+## Switzerland ##
+
+ switzerland.1.t:0 "Helvetic Republic?"
+ switzerland.1.a:0 "Join France"
+ switzerland.1.b:0 "Refuse Their Offer"
 
 ## News ##
 
@@ -42,6 +80,18 @@
  news.4.t:0 "Death of Emperor Leopold"
  news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
  news.4.a:0 "What will this mean for Europe?"
+
+ news.5.t:0 "Second Partition of Poland"
+ news.5.d:0 ""
+ news.5.a:0 "Bad Day For Poland."
+
+ news.6.t:0 "Third Partition of Poland"
+ news.6.d:0 ""
+ news.6.a:0 "A Glorious Day For Prussia and Russia"
+
+ news.7.t:0 "Britain and Holland Join The Coalition"
+ news.7.a:0 "What Does This Mean For The War?"
+ my_peace_tt1:0 "Austria Accepted Our Demands"
 
 ## Tool Tips ##
 

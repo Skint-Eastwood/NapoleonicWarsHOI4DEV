@@ -151,26 +151,77 @@ guiTypes = {
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 			}			
-			
+
+			containerWindowType = {
+				name = "power_balance_button"
+				position = { x = 320 y = -62 }
+				clipping = no
+
+				buttonType = {
+					name = "show_power_balance"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_show_power_balance_button"
+				}
+				
+				iconType = {
+					name = "show_power_balance_glow"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_bop_glow_effect"
+					alwaystransparent = yes
+				}
+
+				instantTextboxType = {
+					name = "power_balance_percentage"
+					format = center
+					position = { x = 40 y = 10 }
+					font = "hoi_16mbs"
+					text = "90%"
+					fixedsize = yes
+					maxWidth = 100				
+					maxHeight = 20
+					alwaystransparent = yes
+				}	
+				
+				instantTextboxType = {
+					name = "power_balance_levels"
+					format = center
+					position = { x = 40 y = 25 }
+					font = "hoi_16mbs"
+					text = "3/5"
+					fixedsize = yes
+					maxWidth = 100				
+					maxHeight = 20
+					alwaystransparent = yes
+				}	
+				
+				iconType = {
+					name = "power_balance_ICON"
+					position = { x = 12 y = 4 }
+					quadTextureSprite = "GFX_placeholder_bordered"
+					alwaystransparent = yes				
+					scale = 0.55
+				}
+			}				
 		}
 						
 		containerWindowType = {
 			name = "autonomy_progress_view"
 			position = { x = 170 y = 242 }
-			size = { width = 255 height = 60 }
+			size = { width = 245 height = 55 }
 			clipping = no
 
 			background = {
 				name = "Background"		
-				quadTextureSprite ="GFX_subject_overlay"
+				quadTextureSprite ="GFX_mini_bg"
 			}
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 110 y = 8 }
-				font = "hoi_18mbs"
+				position = { x = 92 y = 8 }
+				font = "hoi_16mbs"
 				text = "autonomy"
-				maxWidth = 193
+				fixedsize = yes
+				maxWidth = 100
 				maxHeight = 20		
 				format = center
 			}
@@ -191,27 +242,26 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 75 y = 9 }
+				position = { x = 60 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
-				alwaystransparent = yes
 			}
 			
 			iconType = {
 				name = "autonomy_progress"
-				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 116 y = 29 }
+				spriteType = "GFX_subject_progressbar"
+				position = { x = 95 y = 29 }
 				frame = 100
 			}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 299 y = 5 }
+				position = { x = 190 y = 5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 287 y = -2 }
+				position = { x = 179 y = -2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -219,7 +269,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 304 y = 9 }
+				position = { x = 195 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
@@ -245,37 +295,35 @@ guiTypes = {
 #			quadTextureSprite = "GFX_subject_button"
 #		}
 		
-		containerWindowType = {
-			name = "active_goal"
-			position = { x = 180 y = 50 }
-			size = { width = 330 height = 50 }
-			clipping = no
-						
+        containerWindowType = {
+            name = "active_goal"
+            position = { x = 179 y = 48 }
+            size = { width = 330 height = 50 }
+            clipping = no
+                        
+            buttonType = {
+                name = "add_national_goal_button"
+                position = { x = 90 y = 12 }
+                spriteType = "GFX_add_national_goal_button"
+                clicksound = click_default
+            }
 
-			
-			buttonType = {
-				name = "add_national_goal_button"
-				position = { x = 91 y = 10 }
-				spriteType = "GFX_add_national_goal_button"
-				clicksound = click_default
-			}
+            iconType = {
+                name = "nat_spirit_glow_overlay"
+                position = { x = 94 y = 16 }
+                spriteType = "GFX_nat_spirit_glow_overlay"
+                alwaystransparent = yes
+            }			
+            
+            iconType = {
+                name = "pol_power_icon"
+                position = { x = 105 y = 55 }
+                quadTextureSprite = "GFX_pol_power_icon"
+            }
 
-			iconType = {
-				name = "nat_spirit_glow_overlay"
-				position = { x = 95 y = 14 }
-				spriteType = "GFX_nat_spirit_glow_overlay"
-				alwaystransparent = yes
-			}			
-			
-			iconType = {
-				name = "pol_power_icon"
-				position = { x = 105 y = 55 }
-				quadTextureSprite = "GFX_pol_power_icon"
-			}
-		`
-			instantTextboxType = {
-				name = "focus_cost"
-				position = { x = 95 y = 60 }
+            instantTextboxType = {
+                name = "focus_cost"
+                position = { x = 132 y = 60 }
 				font = "vic_18"
 				text = "3"
 				maxWidth = 35
@@ -766,6 +814,19 @@ guiTypes = {
 		}
 	}
 	
+	containerWindowType = {
+		name = "industrial_org_entry"
+		size = { width = 53 height = 53 }
+		clipping = no
+
+		buttonType = {
+			name = "open_roster_button"
+			position = { x = 31 y = 31 }
+			spriteType = "GFX_add_pol_idea_button"
+			centerposition = yes
+			clicksound = click_default
+		}
+	}
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
 		size = { width = 231 height = 74 }

@@ -1,0 +1,26 @@
+## ## ## ##		## ## ## ##		## ## ## ##		## ## ## ##		##		 ##						
+##		 ##		##		 ##			##			##				##		 ##						
+## ## ## ##		## ## ## ##			##			##				## ## ## ##				
+##				##		 ##			##			##				##		 ##						
+##    			## 		 ##			##			## ## ## ##		##		 ##		
+
+
+##				## ## ## ##		## ## ## ##
+##				##		 ##		##
+##				##		 ##		##	  ## ##
+##				##		 ##		##		 ##
+## ## ## ##		## ## ## ##		## ## ## ##
+
+
+Napoleonic Wars 1792-1815 | Alpha
+Mod Version: ALPHA 1.0 
+Date of release: 12.10.2023 (DD.MM.YYYY)
+
+Document all changes made below.
+
+DATE : 13.10.2023
+CHANGES:
+
+1. Austrian Habsburgs renamed to "Habsburg Monarchy"
+2. Patch Log Created
+3. Magniot Line Removed

@@ -56,7 +56,7 @@ set_popularities = {
 
  add_equipment_to_stockpile = {
 	type = infantry_equipment_0
-	amount = 40000
+	amount = 60000
 	producer = FRA
 }
 
@@ -76,6 +76,7 @@ add_equipment_to_stockpile = {
 recruit_character = FRA_Louis_XVI
 recruit_character = FRA_national_convention
 recruit_character = FRA_the_revolutionaries
+recruit_character = FRA_maximilien_robespierre
 recruit_character = FRA_Napoleon_Bonaparte
 recruit_character = FRA_Napoleon_Bonaparte_General
 recruit_character = FRA_Eugene_De_Beauharnais
@@ -93,3 +94,4 @@ recruit_character = FRA_Gilbert_du_Motier_de_Lafayette
 recruit_character = FRA_Pierre_Augereau
 recruit_character = FRA_Jean_Charles_Pichegru
 recruit_character = FRA_Francois_Kellermann
+

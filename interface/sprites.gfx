@@ -20,6 +20,12 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 
+	SpriteType = {
+		name = "GFX_logo_game"
+		texturefile = "gfx/logo_game.dds"
+		noOfFrames = 1
+	}
+
 	### new tfv nat spirit icons
 
 }

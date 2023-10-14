@@ -62,14 +62,7 @@ guiTypes = {
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= 135 y = 15 }
-		}		
-		
-	}	
-	
-	iconType ={
-		name ="frontend_dev_logo"
-		spriteType = "GFX_frontend_dev_logo"
-		position = { x= 15 y = 15 }
+		}			
 	}
 
 	### SINGLE PLAYER MENU
@@ -399,6 +392,30 @@ guiTypes = {
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
+		}
+	}
+
+	containerWindowType = {
+		name ="mainmenu_single_player"
+		position = { x= 100 y = -15 } 
+		size = { width = 600 height = 250 }
+		Orientation = LOWER_RIGHT
+		Origo = LOWER_RIGHT	
+		
+		containerWindowType = {
+			name ="version_logo_box"
+			position = { x= -100 y =10 }
+			show_position = { x=-10 y = -10 }
+			animation_type = decelerated
+			animation_time = 1000					
+			size = { width = 587 height = 250 }
+			Orientation = LOWER_RIGHT
+	
+			iconType = {
+				name = "version_logo"
+				position = { x = -10 y = -10 }
+				spriteType = "GFX_logo_game"
+			}
 		}
 	}
 

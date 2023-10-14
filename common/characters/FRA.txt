@@ -1,4 +1,12 @@
 characters={
+	FRA_maximilien_robespierre={ 
+		name="Maximilien Robespierre"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_maximilien_robespierre.dds"
+			}
+		}
+	}
 
 	FRA_national_convention={ 
 		name="National-Convention"
@@ -61,7 +69,8 @@ characters={
 			allowed = {
 				original_tag = FRA
 			}
-			available = {	
+			available = {
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -90,7 +99,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
-				
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -119,7 +128,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
-				
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -148,6 +157,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -176,6 +186,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -204,6 +215,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -232,6 +244,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -261,6 +274,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -289,6 +303,7 @@ characters={
 				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -313,7 +328,7 @@ characters={
 		}
 		corps_commander={
 			traits={  bearer_of_artillery trickster }
-			skill=5
+			skill=2
 			attack_skill=5
 			defense_skill=3
 			planning_skill=5

@@ -1,0 +1,10 @@
+characters={
+	ITA_napoleon_puppet={ 
+		name="Napoleon Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/ITA_napoleon_puppet.dds"
+			}
+		}
+	}
+}

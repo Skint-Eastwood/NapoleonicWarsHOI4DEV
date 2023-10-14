@@ -411,13 +411,13 @@ units = {
 	# XIVe Corps d'Armée (Région Militaire in 1936) -- Lyon
 	division= {	
 		name = "27ème Division d'Infanterie Alpine"
-		location = 778
+		location = 6639
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "30ème Division d'Infanterie Alpine"
-		location = 9745
+		location = 764	
 		division_template = "Division d'Infanterie Alpine" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -466,7 +466,7 @@ units = {
 	# Division d'Inf. Forteresse -- Nice
 	division= {	
 		name = "Nice Div. d'Inf. de Forteresse"
-		location = 9909
+		location = 3928
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

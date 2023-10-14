@@ -35,8 +35,8 @@
 
 ## Dutch Sister Republic ##
 
- DSR_HOL:0 "Dutch Sister Republic"
- DSR_HOL_DEF:0 "the Dutch Sister Republic"
+ BAT_HOL:0 "Batavian Republic"
+ BAT_HOL_DEF:0 "the Batavian Republic"
  
  ## Dutch Republic ##
  
@@ -49,8 +49,8 @@
  
  ## Cisalpine Republic ##
 
- CAP_SWI:0 "Cisalpine Republic"
- CAP_SWI_DEF:0 "the Cisalpine Republic"
+ HEL_SWI:0 "Helvetic Republic"
+ HEL_SWI_DEF:0 "the Helvetic Republic"
 
 ############################
 ## AUSTRIAN COSMETIC TAGS ##
@@ -58,8 +58,8 @@
 
 ## Austrian Habsburgs ##
 
-HAB_AUS:0 "Austrian Habsburgs"
-HAB_AUS_DEF:0 "the Austrian Habsburgs"
+HAB_AUS:0 "Habsburg Monarchy"
+HAB_AUS_DEF:0 "the Habsburg Monarchy"
 
 ## Austro-Hungarian Empire ##
 
@@ -74,12 +74,23 @@ EMP_AUS:0 "Austrian Empire"
 
 ###########################
 ## BELGIAN COSMETIC TAGS ##
-############################
+###########################
 
 ## Austrian Netherlands ##
 
 AUN_BEL:0 "Austrian Netherlands"
 AUN_BEL_DEF:0 "the Austrian Netherlands"
+
+##########################
+## Sister Republic Tags ##
+##########################
+
+LIG_GEN:0 "Ligurian Republic"
+LIG_DEF:0 "the Ligurian Republic"
+
+FRA_LUC:0 "French Republic of Lucca"
+FRA_LUC_DEF:0 "the French Republic of Lucca"
+
 
 ############################
 ## COLONIAL COSMETIC TAGS ##
