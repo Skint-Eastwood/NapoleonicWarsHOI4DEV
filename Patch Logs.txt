@@ -24,4 +24,4 @@ CHANGES:
 Pixy - 
 1: Changed GFX of buildings
 2: Removed NSB Tanks tech file, (not needed)
-3. Removed un-needed buildings 
+3: Removed un-needed buildings 
