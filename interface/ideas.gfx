@@ -1,6 +1,18 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_manufacture_darmes_de_saint_etienne"
+		texturefile = "gfx/interface/ideas/manufacture_darmes_de_saint_etienne.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_manufacture_darmes_de_charleville"
+		texturefile = "gfx/interface/ideas/manufacture_darmes_de_charleville.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_FRA_Revolutionary_Spirit"
 		texturefile = "gfx/interface/ideas/idea_FRA_Revolutionary_Spirit.dds"
 		noOfFrames = 1

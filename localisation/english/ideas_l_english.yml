@@ -133,6 +133,10 @@ ANT_Nomadic_Tribes_desc:0 "The African Nation are a group of disconnected tribes
  export_focus:0 "Export Focus"
  limited_exports:0 "Limited Exports"
  closed_economy:0 "Closed Economy"
+ manufacture_darmes_de_charleville:0 "Manufacture d'armes de Charleville"
+ manufacture_darmes_de_saint_etienne:0 "Manufacture d'armes de Saint-Étienne"
+ versailles_armory:0 "Versailles Armory"
+ materiel_manufacturer:0 "Material Manufacturer"
 
 
 

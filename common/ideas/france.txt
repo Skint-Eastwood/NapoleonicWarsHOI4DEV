@@ -172,6 +172,73 @@ ideas = {
 
 		}
 	}
+}
 
+	######################
+	## DESIGN COMPANIES ##
+	######################
+
+	materiel_manufacturer = {
+			
+		manufacture_darmes_de_charleville = {
+			picture = idea_manufacture_darmes_de_charleville
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		manufacture_darmes_de_saint_etienne = {
+			picture = idea_manufacture_darmes_de_saint_etienne		
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		versailles_armory = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		renault_fra = {
+		
+			picture = renault
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { heavy_tank_manufacturer }
+		}
 	}
 }
