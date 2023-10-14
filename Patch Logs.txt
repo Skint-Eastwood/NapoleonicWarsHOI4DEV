@@ -18,9 +18,20 @@ Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
 
-DATE : 13.10.2023
+DATE : 14.10.2023
 CHANGES:
+
+Pixy - 
+1: Changed GFX of buildings
+2: Removed NSB Tanks tech file, (not needed)
+3: Removed un-needed buildings 
+----
 
 1. Austrian Habsburgs renamed to "Habsburg Monarchy"
 2. Patch Log Created
 3. Magniot Line Removed
+
+DATE : 13.10.2024
+CHANGES: 
+1. Tech Fix Napoleonic Wars Integrated
+2. Material Companies Added For France
