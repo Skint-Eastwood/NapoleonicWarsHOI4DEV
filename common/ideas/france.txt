@@ -95,5 +95,83 @@ ideas = {
 		}
 	}
 
+	FRA_get_rid_of_the_catholic_church_idea = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+			has_government = democratic
+		}
+
+		removal_cost = -1
+		
+		modifier = {				
+			research_speed_factor = 0.15
+			trade_opinion_factor = -0.2
+			political_power_cost = 0.5
+			stability_factor = -0.25
+		
+		}
+	}
+
+	
+	FRA_plan_a_new_campaign = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			war_support_weekly = 0.025	
+			political_power_cost = 0.3				
+			annex_cost_factor = -0.15
+		}
+	}
+
+	FRA_three_pronged_attack = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			army_org_factor = 0.2
+			consumer_goods_factor = -0.1
+			army_speed_factor = 0.15
+
+		}
+	}
+
+	FRA_italian_campaign = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			training_time_factor = -0.15
+			weekly_manpower = 15000
+			production_speed_buildings_factor = -0.3
+
+		}
+	}
+
 	}
 }

@@ -63,5 +63,130 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_004
 
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = news.5.a
+		ai_chance = {
+			factor = 1
+		} 
+
+		RUS = {
+			set_state_owner = 199
+			set_state_owner = 198
+			set_state_owner = 201
+			set_state_owner = 202
+			set_state_owner = 194
+			set_state_owner = 204
+			set_state_owner = 206
+		}
+
+		PRE = {
+			set_state_owner = 86
+			set_state_owner = 85
+			set_state_owner = 918
+			set_state_owner = 87
+		}
+	}
+}
+
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_004
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = news.5.a
+		ai_chance = {
+			factor = 1
+		} 
+
+		RUS = {
+			set_state_owner = 93
+			set_state_owner = 94
+			set_state_owner = 95
+			set_state_owner = 96
+			set_state_owner = 784
+			set_state_owner = 814
+			set_state_owner = 11
+			set_state_owner = 815
+			set_state_owner = 809
+			set_state_owner = 189
+			set_state_owner = 190
+			set_state_owner = 97
+
+		}
+
+		PRE = {
+			set_state_owner = 98
+			set_state_owner = 188
+			
+
+		}
+
+		AUS = {
+			set_state_owner = 919
+			set_state_owner = 90
+			set_state_owner = 92
+			set_state_owner = 10
+			set_state_owner = 920
+			set_state_owner = 921
+			set_state_owner = 922
+		}
+	}
+}
+
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_004
+
+	available = {
+		FRA = {
+			has_war_with = AUS
+		}
+	}
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+
+		AUS = { add_to_faction = ENG }
+		AUS = { add_to_faction = HOL }
+		ENG = {
+			add_to_war = {
+				targeted_alliance = AUS
+				enemy = FRA
+				hostility_reason = asked_to_join
+			}
+		}
+		HOL = {
+			add_to_war = {
+				targeted_alliance = AUS
+				enemy = FRA
+				hostility_reason = asked_to_join
+			}
+		}
+	}
+}
 

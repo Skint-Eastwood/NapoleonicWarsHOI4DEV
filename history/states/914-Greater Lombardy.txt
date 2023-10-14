@@ -1,0 +1,20 @@
+state={
+	id=914
+	name="Greater Lombardy"
+	provinces={
+		603 773 969 3776 11568 11734 
+	}
+	history={
+		owner = VNI
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = VNI
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}
+

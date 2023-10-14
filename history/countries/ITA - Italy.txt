@@ -1,0 +1,25 @@
+capital = 159
+
+set_convoys = 300
+
+add_ideas = {
+	
+}
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarian_democracy = 70
+	authoritarian = 10
+	monarchist = 20
+	socialism = 0
+}
+
+add_ideas = {
+}
+
+recruit_character = ITA_napoleon_puppet

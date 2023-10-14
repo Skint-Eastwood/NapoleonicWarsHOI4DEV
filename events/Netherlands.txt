@@ -1,0 +1,36 @@
+﻿###########################
+# austrian Events
+###########################
+
+add_namespace = Netherlands
+
+country_event = {   ## Puppet Refuse/Accept Style Event
+	id = netherlands.1
+	title = netherlands.1.t
+	desc = netherlands.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # netherlands Accept
+		name = netherlands.1.a
+		ai_chance = {
+			factor = 1
+		} 
+		FRA = {
+			puppet = HOL
+		}
+		set_cosmetic_tag = DSR_HOL
+	}
+
+	option = { # netherlands Decline
+		name = netherlands.1.b
+		ai_chance = { 
+			factor = 0
+		}			
+		FRA = {
+			country_event = france.5
+		}
+	}
+}			
+

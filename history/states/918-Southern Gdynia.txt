@@ -1,0 +1,19 @@
+state={
+	id=918
+	name="Southern Gdynia"
+	provinces={
+		548 3230 6321 6401 
+	}
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = POL
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}

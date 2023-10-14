@@ -61,7 +61,7 @@ add_ideas = {
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
-    amount = 6700
+    amount = 110000
     producer = AUS
 }
 

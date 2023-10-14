@@ -1,0 +1,36 @@
+﻿###########################
+# austrian Events
+###########################
+
+add_namespace = Switzerland
+
+country_event = {
+	id = switzerland.1
+	title = switzerland.1.t
+	desc = switzerland.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # switzerland Accept
+		name = switzerland.1.a
+		ai_chance = {
+			factor = 70
+		} 
+		FRA = {
+			puppet = SWI
+		}
+		set_cosmetic_tag = HEL_SWI
+	}
+
+	option = { # switzerland Decline
+		name = switzerland.1.b
+		ai_chance = { 
+			factor = 30
+		}			
+		FRA = {
+			country_event = france.6
+		}
+	}
+}			
+

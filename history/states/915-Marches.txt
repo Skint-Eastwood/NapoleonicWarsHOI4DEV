@@ -1,0 +1,20 @@
+state={
+	id=915
+	name="Marches"
+	provinces={
+		782 6606 6793 6985 
+	}
+	history={
+		owner = PPL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = PPL
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}
+

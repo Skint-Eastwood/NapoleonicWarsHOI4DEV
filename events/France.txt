@@ -34,6 +34,9 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+
+		news_event = { id = news.2 }
+
 	}
 }	
 
@@ -63,8 +66,141 @@ country_event = {
 			factor = 0
 		}
 	}
-}			
+}	
 
+country_event = {
+	id = france.4
+	title = france.4.t
+	desc = france.4.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.4.a
+		ai_chance = {
+			factor = 100
+		}	
+
+		ITA = {
+			transfer_state = 159
+			transfer_state = 914
+			transfer_state = 915
+			transfer_state = 911
+			transfer_state = 917
+			transfer_state = 916
+		}	
+
+		puppet = {
+    			target = ITA
+   				end_wars = no
+		}
+		ITA = {
+			add_country_leader_role = {
+				character = ITA_napoleon_puppet
+				promote_leader = yes
+				country_leader = {
+					ideology = authoritarian_democracy
+					expire = ""
+					traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = france.4.b
+		ai_chance = {
+			factor = 0
+		}
+		ITA = {
+			transfer_state = 159
+			transfer_state = 914
+			transfer_state = 915
+			transfer_state = 911
+			transfer_state = 917
+			transfer_state = 916
+		}	
+	}
+}
+
+country_event = {
+	id = france.5
+	title = france.5.t
+	desc = france.5.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.5.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HOL
+			}
+		}	
+	}
+	option = {
+		name = france.5.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = france.6
+	title = france.6.t
+	desc = france.6.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.6.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+		}	
+	}
+	option = {
+		name = france.6.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = france.7
+	title = france.7.t
+	desc = france.7.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.7.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+		}	
+	}
+}
 
 
 

@@ -54,11 +54,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-			completion_reward = {
-				create_wargoal = {
-					type = annex_everything
-					target = AUS
-				}
+		completion_reward = {
+			declare_war_on = {
+  			target = AUS
+   		    type = annex_everything
+			}
 		}
 	}
 	
@@ -101,10 +101,21 @@ focus_tree = {
    				ideology = authoritarian_democracy
     			popularity = 0.3
 			}
-
+			set_politics = {
+				ruling_party = authoritarian_democracy
+				elections_allowed = no	
+			}
+			add_country_leader_role = {
+				character = FRA_the_revolutionaries
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+			}
 			country_event = { id = france.1 }
-			news_event = { id = news.1 }
-			#load_focus_tree = FRA_First_Republic
+			load_focus_tree = FRA_First_Republic
 
 			set_cosmetic_tag = REV_FRA
 		}
