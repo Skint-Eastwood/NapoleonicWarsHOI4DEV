@@ -24,3 +24,7 @@ CHANGES:
 1. Austrian Habsburgs renamed to "Habsburg Monarchy"
 2. Patch Log Created
 3. Magniot Line Removed
+
+DATE : 13.10.2024
+CHANGES: 
+1. Tech Fix Napoleonic Wars Integrated
