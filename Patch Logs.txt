@@ -17,6 +17,11 @@ Mod Version: ALPHA 1.0
 Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
+DATE : 15.10.2023
+CHANGES:
+Pixy - 
+1:Removed Airforce related stuff from the Officer Corps
+
 
 DATE : 14.10.2023
 CHANGES:
