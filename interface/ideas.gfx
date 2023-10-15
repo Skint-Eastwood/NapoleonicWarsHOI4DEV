@@ -1,5 +1,62 @@
 spriteTypes = {	
+	### POLAND
+	SpriteType = {
+		name = "GFX_idea_PLC_stanislaw_august_poniatowski"
+		texturefile = "gfx/interface/ideas/POL/POL_Poniatowski.dds"
+		noOfFrames = 1
+	}
 
+	SpriteType = {
+		name = "GFX_idea_PLC_treaty_of_perpetual_friendship"
+		texturefile = "gfx/interface/ideas/POL/POL_treaty.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_jurgielt"
+		texturefile = "gfx/interface/ideas/POL/POL_Jurgielt.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_polish_prussian_pact"
+		texturefile = "gfx/interface/ideas/POL/POL_polish_prussian_pact.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_third_may_constitution"
+		texturefile = "gfx/interface/ideas/POL/POL_third_may_constitution.dds"
+		noOfFrames = 1
+	}
+
+	###
+	### ENGLAND
+	SpriteType = {
+		name = "GFX_idea_ENG_british_empire"
+		texturefile = "gfx/interface/ideas/idea_ENG_british_empire.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_parliament"
+		texturefile = "gfx/interface/ideas/ENG/prlm-2.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_thirteen_colonies"
+		texturefile = "gfx/interface/ideas/ENG/Loss-of-the-13-Colonies.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_slave_trade"
+		texturefile = "gfx/interface/ideas/ENG/slave_trade_national_spirit.dds"
+		noOfFrames = 1
+	}
+
+	###
 	SpriteType = {
 		name = "GFX_idea_manufacture_darmes_de_saint_etienne"
 		texturefile = "gfx/interface/ideas/manufacture_darmes_de_saint_etienne.dds"
@@ -81,12 +138,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_AUS_ethnic_tension"
 		texturefile = "gfx/interface/ideas/idea_AUS_ethnic_tension.dds"
-		noOfFrames = 1
-	}
-
-	SpriteType = {
-		name = "GFX_idea_ENG_british_empire"
-		texturefile = "gfx/interface/ideas/idea_ENG_british_empire.dds"
 		noOfFrames = 1
 	}
 

@@ -21,6 +21,12 @@ DATE : 15.10.2023
 CHANGES:
 Pixy - 
 1:Removed Airforce related stuff from the Officer Corps
+2:Polish National Spirits
+3:English National Spirits
+4:Building Banner Fix Thingy?
+
+Lair - 
+1:Fixed up electronics tree + added new tech
 
 
 DATE : 14.10.2023
