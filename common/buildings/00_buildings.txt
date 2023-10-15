@@ -199,13 +199,13 @@ buildings = {
 
 	rocket_site = {
 		show_on_map = 1
-		base_cost = 6400
+		base_cost = 900000
 		icon_frame = 12
-		rocket_production = 5
-		rocket_launch_capacity = 1
-		max_level = 1
+		rocket_production = 0
+		rocket_launch_capacity = 0
+		max_level = 0
 		shares_slots = yes
-		value = 1
+		value = 0
 		infrastructure_construction_effect = yes
 	}
 
