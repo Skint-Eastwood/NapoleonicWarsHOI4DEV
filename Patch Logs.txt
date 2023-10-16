@@ -17,6 +17,11 @@ Mod Version: ALPHA 1.0
 Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
+DATE : 16.10.2023 
+Pixy - 
+1:Added in French National Spirits
+2:Added in American National Spirits
+3:Added in Swedish National Spirits
 DATE : 15.10.2023
 CHANGES:
 Pixy - 

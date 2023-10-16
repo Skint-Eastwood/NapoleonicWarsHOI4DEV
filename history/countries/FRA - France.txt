@@ -30,6 +30,9 @@ add_ideas = {
 	FRA_Revolutionary_Spirit
 	FRA_Unpopular_Monarch
 	FRA_King_Louis
+	FRA_Versailles
+	FRA_Estates_General
+	FRA_Bastille
     civilian_economy
 	limited_conscription
 	limited_exports	

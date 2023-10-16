@@ -19,6 +19,9 @@ set_popularities = {
 }
 
 add_ideas = {
+	USA_american_indian_wars
+	USA_a_new_country
+	USA_whiskey_rebellion
 }
 recruit_character = USA_george_washington
 

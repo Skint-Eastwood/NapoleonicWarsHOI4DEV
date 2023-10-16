@@ -7,6 +7,29 @@
 PTY_house_of_bourbon:0 "House of Bourbon"
 PTY_house_of_hanover:0 "House of Hanover"
 PTY_house_of_habsburg:0 "House of Habsburg"
+###################
+## American Ideas ##
+###################
+USA_whiskey_rebellion:0 "Whiskey Rebellion"
+USA_whiskey_rebellion_desc:0 "In 1791 the Whiskey Tax became a law intended to generate money for the American Revolutionary War debt of 54 million. Many farmers mostly from Pennsylvania became pissed over this new tax regulation and avoided it altogether. Many of these very same farmers were war veterans of the Revolutionary war, and believed they fought in the principals of America. Specifically, the slogan "taxation without local representation". There was a meeting held on July 27, 1791, at Redstone Old Fort in Fayette County in order to quell the violence. They agreed over a year later to change the tax by one cent advocated by William Findley. \n\nThis was incredibly unsuccessful, and resistance still sprung up everywhere. Finally ending in 1794. Washington held a meeting in August of that year between Attorney General William Bradford, Justice Jasper Yeates of the Pennsylvania Supreme Court, and Senator James Ross. A Referendum was held on September 11th and was entirely mixed. Washington then called upon two thousand Militia to defend against the insurrection in Carlisle, Pennsylvania. One of those soldiers being Meriwether Lewis. Eventually in October of 1794 the rebellion entirely died out, ending the whiskey rebellion. \n\nTMany of the leaders from the rebellion fled to the Louisiana Territory that New Spain held. Interestingly enough this rebellion had more of a positive outlook on America, seeing how the President handled it so well and so little were killed or injured. It sparked some sense of "nationalism" in the American people."
+
+USA_american_indian_wars:0 "BAmerican Indian Wars"
+USA_american_indian_wars_desc:0 "Before America was free and was under British rule there were many Indian Wars in the Americas. Such as the Beaver Wars, especially during the 7 years war and American Revolution. During the Revolution, many Indian factions went to different sides. \n\nThe Oneida and Tuscarora sided with the American Patriots, while the  Mohawk, Seneca, Cayuga, and Onondaga sided with the British. However the infamous Cherokee split apart between British and American evenly. Throughout the 1790s there were such Indian wars as the Cherokee American Wars, Northwest American Wars, and the controversial Nickajack Expedition."
+
+USA_a_new_country:0 "A New Country"
+USA_a_new_country_desc:0 "Declaring itself independent in 1776 after ages under British rule, America is a new shining beacon in the world. Allowing peace, more rights, and more opportunity. Mass floods of population, especially from Sweden and Ireland come into the new country looking to start anew."
+###################
+## Swedish Ideas ##
+###################
+
+SWE_svenskund:0 "Battle of Svensksund"
+SWE_svenskund_desc:0 "The Battle of Svensksund is known to be possibly the biggest Naval battle of the 1700s. The battle started on the 9th of July 1790, at 8 in the morning. Over 14,000 Seamen died in this battle and is one of the biggest Victories in Swedish history,"
+
+SWE_treaty_of_varala:0 "Treaty of Varala"
+SWE_treaty_of_varala_desc:0 "The Treaty of Varala, also known as the Treaty of Wereloe was signed on the 14th of August 1790, ending the Russo Swedish War of 1788. It changed the Status Quo of the borders between Finnish Sweden and Russia. Over a year later in October of 1791, a convention was signed in Stockholm. \n\nThe defense pact anticipated the war of the First Coalition against Revolutionary France, Catherine II paying 300,000 rubles to Sweden. Gustav III and Catherine II were cousins and Gustav sent a letter saying "forget the war as a passing cloud" and invoked their common blood."
+
+SWE_union_security_act:0 "Union and Security Act"
+SWE_union_security_act_desc:0 "Added to the Swedish Constitution of 1772 the king proposed this act in 1789 during the Russo Swedish War of 1788, summoning the Riksdag of Estates. \n\nThree of four Estates accepted it besides the Nobles, most likely because it gave the king entire power to declare war on whoever, most noble privileges were abolished with most offices now available to all regardless of rank, Noble lands could now be bought by anyone instead of only by nobles, and estates would lose the ability to initiate legislation."
 
 
 ###################
@@ -44,6 +67,14 @@ PLC_third_may_constitution_desc:0 "Widely considered to be the first constitutio
 ##################
 ## French Ideas ##
 ##################
+ FRA_Versailles:0 "The Versailles Palace"
+ FRA_Versailles_desc:0 "todo"
+
+ FRA_Estates_General:0 "The Estates General"
+ FRA_Estates_General_desc:0 "With revolutionary ideas spreading across Europe, and following decades of high taxation and poor harvests, the widespread dissatisfaction at King Louis's absolutist rule can no longer be ignored The King has been forced to reconvene the Estates General, a feat unseen for over a century, to have the deputees devise a reform program that will lead to a way forward for France. However, compromise between the various factions will no doubt prove difficult, and already the divisions between the old order and radical groups are threatening to explode into conflict!"
+
+ FRA_Bastille:0 "Bastille Fortifications"
+ FRA_Bastille_desc:0 "todo"
 
  FRA_King_Louis:0 "King Louis XVI"
  FRA_King_Louis_desc:0 "King Louis XVI, the tyranical and unpopular ruler of Bourbon France.\nDue to the Kings unpopular status, many have taken to the streets in revolt against him and the French nobility causing instability and chaos across France."
