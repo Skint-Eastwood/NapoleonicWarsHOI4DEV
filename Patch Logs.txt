@@ -22,6 +22,9 @@ Pixy -
 1:Added in French National Spirits
 2:Added in American National Spirits
 3:Added in Swedish National Spirits
+4:Fixed NSB Loading Screen
+5:Added in English Order of Battle
+
 DATE : 15.10.2023
 CHANGES:
 Pixy - 

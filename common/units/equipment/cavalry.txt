@@ -3,11 +3,7 @@
 equipments = {
 	#Light Cavalry = Lancers
 	light_cavalry_equipment = {
-		year = 1750
-
-		can_be_produced = {
-			date > 1799.1.1
-		}
+		year = 1750	
 	
 		is_archetype = yes
 		is_buildable = no
@@ -178,10 +174,6 @@ equipments = {
 	
 	medium_cavalry_equipment = {
 		year = 1750
-
-		can_be_produced = {
-			date > 1799.1.1
-		}
 
 		is_archetype = yes
 		is_convertable = yes
