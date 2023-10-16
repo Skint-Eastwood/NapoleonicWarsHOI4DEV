@@ -155,76 +155,9 @@ ideas = {
 		extensive_conscription = {
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.5
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT
-						#		ratio > 0.5
-						#	}
-						#}
-					}
-				}
+				has_war = yes
+				enemies_strength_ratio > 0.5
 				has_war_support > 0.2
-				#Special rules AST in TFV
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = CAN_commit_to_the_war
-					has_completed_focus = CAN_if_day
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						original_tag = ENG
-						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
-					}
-					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				if = {
-					limit = {
-						original_tag = BUL
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = { has_idea = BUL_army_restrictions }
-				}
 			}
 			ai_will_do = {
    				factor = 1
@@ -297,81 +230,13 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.6
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT
-						#		ratio > 0.6
-						#	}
-						#}
-					}
-				}
+					has_war = yes
+					enemies_strength_ratio > 0.6
 				OR = {
 					has_war_support > 0.6
-					surrender_progress > 0
+					surrender_progress > 0.1
 				}
 
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						original_tag = ENG
-						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
-					}
-					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				if = {
-					limit = {
-						original_tag = BUL
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = { has_idea = BUL_army_restrictions }
-				}
 			}
 
 			ai_will_do = {

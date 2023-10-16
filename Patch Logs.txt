@@ -24,6 +24,8 @@ Pixy -
 3:Added in Swedish National Spirits
 4:Fixed NSB Loading Screen
 5:Added in English Order of Battle
+6:fixed economic ideas
+7:fixed manpower ideas
 
 DATE : 15.10.2023
 CHANGES:
