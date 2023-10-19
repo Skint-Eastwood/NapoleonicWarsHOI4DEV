@@ -23,8 +23,9 @@ Pixy -
 2:added in grain
 3:added in grain in various states
 ~~:removed airport icon from map~~ removed since causes CTD apprently
-5:fixed up localisation for buildings
-6:church has a weekly stability modifier
+3:fixed up localisation for buildings
+4:church has a weekly stability modifier
+5:industrial_org_polic was fucked apparently dont ask me how
 
 DATE : 16.10.2023 
 Pixy - 
