@@ -17,6 +17,7 @@ Mod Version: ALPHA 1.0
 Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
+
 DATE : 19.10.2023
 Pixy - 
 1:Changing the Fuel system into the food system, infantry, artillery and cavalry now use food and receive debuffs if you dont have enough
@@ -25,6 +26,12 @@ Pixy -
 4:removed airport icon from map
 5:fixed up localisation for buildings
 6:church has a weekly stability modifier
+
+Apollo -
+
+7: New songs added
+8: Production GUI changed
+9: Construction GUI changed
 
 DATE : 16.10.2023 
 Pixy - 
