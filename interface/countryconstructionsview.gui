@@ -224,37 +224,37 @@ guiTypes = {
 
 			iconType = {
 				name = "constructions_bg1"
-				position = { x = 0 y = 6 }
+				position = { x = 0 y = 40}
 				quadTextureSprite = "GFX_constructions_bg2"
 			}
 
 			iconType = {
 				name = "constructions_bg2"
-				position = { x = 0 y = 152 }
+				position = { x = 0 y = 185 }
 				quadTextureSprite = "GFX_constructions_bg4"
 			}
 			
 			iconType = {
 				name = "constructions_bg3"
-				position = { x = 0 y = 380 }
+				position = { x = 0 y = 420 }
 				quadTextureSprite = "GFX_constructions_bg1"
 			}
 
 			iconType = {
 				name = "state_constructions"
-				position = { x = 5 y = 9 }
+				position = { x = 5 y = 44 }
 				quadTextureSprite = "GFX_state_constructions"
 			}
 
 			iconType = {
 				name = "shared_constructions"
-				position = { x = 5 y = 155 }
+				position = { x = 5 y = 187 }
 				quadTextureSprite = "GFX_shared_constructions"
 			}
 
 			iconType = {
 				name = "province_constructions"
-				position = { x = 5 y = 383 }
+				position = { x = 5 y = 423 }
 				quadTextureSprite = "GFX_province_constructions"
 			}
 			
@@ -287,7 +287,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "convert_ic_button"
-				position = { x = -50 y = 332 }
+				position = { x = -50 y = 225 }
 				quadTextureSprite ="GFX_convert_ic_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"
@@ -345,7 +345,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "start_construction_entry"
-		position = { x=0 y=4 }
+		position = { x=0 y=75 }
 		size = { width = 45 height = 45 }
 		clipping = no
 		

@@ -20,7 +20,7 @@ equipments = {
 		maximum_speed = 4
 		recon = 1
 		initiative = 0.05
-
+		fuel_consumption = 0.3
 		#Defensive Abilities
 		defense = 25
 		breakthrough = 1

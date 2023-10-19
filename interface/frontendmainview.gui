@@ -185,6 +185,19 @@ guiTypes = {
 			position = { x = @warn_icon_x y = 22 }
 			spriteType = "GFX_missing_dlc_warning_sign"
 		}
+        
+		instantTextBoxType = {
+
+			name ="version_label"
+			position = { x = 16 y = 300 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = left
+			maxWidth = 250
+			maxHeight = 20	
+		}
 
 		positionType = {
 			name = "version_label_subscription_position"

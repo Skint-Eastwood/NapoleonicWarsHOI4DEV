@@ -230,7 +230,7 @@ technologies = {
 	culture_enlightenment = { #Culture 1
 
 		# small boost to research speed
-		research_speed_factor = 0.05
+		drift_defence_factor = 0.01
 		
 		
 		path = {
@@ -260,7 +260,6 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.01
-		war_support_weekly_factor = 0.50
 		army_morale_factor = 0.10
 		
 		
@@ -290,7 +289,7 @@ technologies = {
 	culture_nationalism = { #Culture 3
 
 		# small boost to research speed
-		war_support_weekly_factor = 0.50
+		war_support_weekly_factor = 0.02
 		conscription = 0.02
 		army_org_factor = 0.10
 		
@@ -321,12 +320,12 @@ technologies = {
 
 		# small boost to research speed
 		conscription = 0.01
-		stability_weekly_factor = 0.50
-		war_support_weekly_factor = 0.50
-		political_power_factor = 0.05
+		stability_weekly_factor = 0.02
+		war_support_weekly_factor = 0.02
+		political_power_factor = 0.03
 		
 		path = {
-			leads_to_tech = culture_mass_media
+			leads_to_tech = culture_the_victorian_thought
 			research_cost_coeff = 1
 		}
 		
@@ -335,6 +334,30 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+		
+
+	}
+
+	culture_the_victorian_thought = { #Culture 5
+
+		# small boost to research speed
+		production_factory_efficiency_gain_factor = 0.10
+		production_speed_industrial_complex_factor = 0.05
+		
+		research_cost = 1
+		start_year = 1814
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
 		}
 		
 		ai_will_do = {

@@ -5,7 +5,10 @@ state={
 	manpower = 943422
 	
 	state_category = rural
+	resources = {
+		oil = 30
 
+	}
 	history={
 		owner = RUS
 		victory_points = {

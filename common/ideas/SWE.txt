@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+		SWE_svenskund = {
+			allowed = {
+				original_tag = SWE
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.1 
+				industrial_capacity_dockyard = 0.15
+				conscription = 0.015
+
+			}
+		}
+
+		SWE_treaty_of_varala = {
+			allowed = {
+				original_tag = SWE
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				political_power_factor = -0.05
+			}
+		}
+
+		SWE_union_security_act = {
+			allowed = {
+				original_tag = SWE
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				stability_factor = 0.05
+				political_advisor_cost_factor = 0.5
+				military_staff_cost_factor = 0.3
+			}
+		}
+	}
+
+}
+

@@ -209,59 +209,6 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "air_chief_entry"
-		position = {x=45 y=15}
-		size = { width=84 height=150 }
-		Orientation = upper_left
-		clipping = no
-		scale = 1
-		
-		iconType = {
-			name = "idea_alert_glow"
-			position = { x = 0 y = 80 }
-			centerposition = yes
-			spriteType = "GFX_ongoing_generic_glow_yellow"
-			scale = 0.65
-			alwaystransparent = yes
-		}
-		
-		buttonType = {
-			name = "button"
-			position = { x = -30 y = 50 }
-			spriteType = "GFX_group_add_leader_bg"
-			no_clicksound = yes
-		}
-
-		iconType = {
-			name = "advisor_type_icon"
-			position = { x = 12 y = 95 }
-			spriteType = "GFX_chief_and_theorist_strip"
-			alwaystransparent = yes
-			centerposition = yes
-			frame = 4
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 12 y = 95 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
-
-		instantTextboxType = {
-			name = "leader_text"
-			position = {x= 35 y= 60 }
-			font = "hoi_18mbs"
-			maxWidth = 110
-			maxHeight = 23
-			alwaystransparent = yes
-			text = "Name PlaceHolder"
-		}
-	}
-
-	containerWindowType = {
 		name = "theorist_entry"
 		position = {x=30 y=-4}
 		size = { width=84 height=150 }
@@ -347,11 +294,11 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "army_title"
-			position = { x = 20 y = 8 }
-			font = "vic_36"
+			position = { x = 45 y = 8 }
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "OFFICER_CORPS_LABEL"
-			maxWidth = 300
+			maxWidth = 440
 			maxHeight = 20
 			format = left
 		}
@@ -360,7 +307,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -43 y = 10 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "vic_18"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -377,7 +324,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "XP_gain"
 			position = { x = 240 y = 51 }
-			font = "vic_22"
+			font = "hoi_18mbs"
 			text = "DAILY_EXPERIENCE_GAIN_OFFICERS"
 			maxWidth = 80
 			maxHeight = 18
@@ -402,7 +349,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="experience_value"
 				position = { x= 16 y = 3 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				text = "999"
 				format = left
 				maxWidth = 45
@@ -427,32 +374,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="navy_experience_value"
 				position = { x= 16 y = 3 }
-				font = "vic_22"
-				text = "999"
-				format = left
-				maxWidth = 45
-				maxHeight = 24
-				fixedsize = yes
-			}
-		}
-		
-		containerWindowType = {
-			name = "airxp"
-			position = { x= 468 y = 48}
-			clipping = no
-			Orientation = UPPER_LEFT
-
-			iconType = {
-				name ="air_experience_icon"
-				spriteType = "GFX_air_experience"
-				position = { x= 0 y = 6 }
-				Orientation = "UPPER_LEFT"
-			}
-			
-			instantTextBoxType = {
-				name ="air_experience_value"
-				position = { x= 16 y = 3 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				text = "999"
 				format = left
 				maxWidth = 45
@@ -471,7 +393,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "cp_allocation"
 				position = { x = -80 y = 3 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				text = "COMMAND_POWER_ALLOCATION"
 				maxWidth = 70
 				maxHeight = 18
@@ -490,7 +412,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="command_power_value"
 				position = { x= 27 y = 3 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				text = "999"
 				format = left
 				maxWidth = 56
@@ -573,7 +495,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "army_header"
 			position = { x = 0 y = 5 }
-			size = { width = 98% height = 270 }
+			size = { width = 98% height = 246 }
 			margin = { top = 0 left = 0 bottom = 0 right = 0}
 			
 			background = {
@@ -583,7 +505,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "modifiers_grid"
-				position = { x = 4 y = 194 }
+				position = { x = 4 y = 174 }
 				size = { width = 500 height = 35 }
 				slotsize = { width = 72 height = 33 }
 				max_slots_horizontal = 7
@@ -610,7 +532,7 @@ guiTypes = {
 				name = "text"
 				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "OFFICER_CORP_ARMY_DOCTRINE"
 				maxWidth = 240
@@ -637,7 +559,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "army_doctrine_button"
-				position = { x=274 y=-8 }
+				position = { x=274 y=-14 }
 				size = {width=20 height=20}
 				clipping = no
 
@@ -646,7 +568,7 @@ guiTypes = {
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
 					position = { x=34 y=47 }
 					#buttonText = "Doctrines"
-					font = "vic_36"
+					font = "hoi_24header"
 				}
 
 				iconType = {
@@ -669,7 +591,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=34 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -681,9 +603,9 @@ guiTypes = {
 			buttonType = {
 				name = "commander_roster_army"
 				quadTextureSprite = "GFX_diplo_filter_entry"
-				position = { x=382 y=36 }
+				position = { x=382 y=32 }
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_ARMY_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED"
@@ -692,9 +614,9 @@ guiTypes = {
 			buttonType = {
 				name = "commander_roster_division"
 				quadTextureSprite = "GFX_diplo_filter_entry"
-				position = { x=382 y=70 }
+				position = { x=382 y=66 }
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_DIVISION_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_DIVISION_TOOLTIP_DELAYED"
@@ -704,8 +626,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy_header"
-			position = { x = 0 y = 285 }
-			size = { width = 98% height = 237 }
+			position = { x = 0 y = 255 }
+			size = { width = 98% height = 213 }
 			margin = { top = 0 left = 0 bottom = 0 right = 0}
 
 			background = {
@@ -732,7 +654,7 @@ guiTypes = {
 				name = "text"
 				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "OFFICER_CORP_NAVY_DOCTRINE"
 				maxWidth = 240
@@ -742,7 +664,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "navy_chief"
-				position = { x=92 y=28 }
+				position = { x=92 y=26 }
 				size = { width=100%% height=100%% }
 				clipping = no
 
@@ -759,7 +681,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "modifiers_grid"
-				position = { x = 7 y = 194 }
+				position = { x = 7 y = 174 }
 				size = { width = 500 height = 35 }
 				slotsize = { width = 71 height = 33 }
 				max_slots_horizontal = 7
@@ -769,7 +691,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "navy_doctrine_button"
-				position = { x=240 y=-8 }
+				position = { x=240 y=-14 }
 				size = {width=20 height=20}
 				clipping = no
 
@@ -801,7 +723,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=69 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -813,84 +735,67 @@ guiTypes = {
 			buttonType = {
 				name = "commander_roster_navy"
 				quadTextureSprite = "GFX_diplo_filter_entry"
-				position = { x=382 y=58 }
+				position = { x=382 y=54 }
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_NAVY_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED"
 			}
 			
 		}
-
+		
 		containerWindowType = {
-			name = "air_header"
-			position = { x = 0 y = 533 }
-			size = { width = 98% height = 277 }
+			name = "special_forces_header"
+			position = { x = 0 y = 471 }
+			size = { width = 98% height = 127 }
 			margin = { top = 0 left = 0 bottom = 0 right = 0}
-
+			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_air_tiled_marble_bg"
+				quadTextureSprite ="GFX_army_tiled_marble_bg"
 			}
 
-			iconType ={
+			gridBoxType = {
+				name = "modifiers_grid"
+				position = { x = 4 y = 54 }
+				size = { width = 340 height = 35 }
+				slotsize = { width = 72 height = 33 }
+				max_slots_horizontal = 4
+				max_slots_vertical = 3
+				format = "UPPER_LEFT"
+			}
+
+            iconType ={
                 name ="icon_banner"
-                spriteType = "GFX_officer_corp_bg_banner_air"
+                spriteType = "GFX_officer_corp_bg_banner_army"
                 position = { x=0 y=-12 }
                 Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
             }
 
             iconType ={
-                name ="icon_air"
-                spriteType = "GFX_officer_corp_chief_air_icon"
-                position = { x=0 y=-6 }
+                name ="icon_army"
+                spriteType = "GFX_officer_corp_special_forces_icon"
+                position = { x=-4 y=-4 }
                 Orientation = "UPPER_LEFT"
             }
 
 			instantTextboxType = {
 				name = "text"
-				position = { x= 110 y=6 }
+				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
-				text = "OFFICER_CORP_AIR_DOCTRINE"
+				text = "OFFICER_CORP_SPECIAL_FORCES_DOCTRINE"
 				maxWidth = 240
 				maxHeight = 20
 				format = left
 			}			
 
 			containerWindowType = {
-				name = "air_chief"
-				position = { x=94 y=-28 }
-				size = { width=100%% height=100%% }
-				clipping = no
-
-				gridBoxType = {
-					name = "air_chief_advisors"
-					position = { x = 0 y = 0 }
-					size = { width = 100% height = 100% }
-					slotsize = { width = 70 height = 150 }
-					max_slots_horizontal = 5
-					max_slots_vertical = 1
-					format = "UPPER_LEFT"
-				}
-			}
-
-			gridBoxType = {
-				name = "modifiers_grid"
-				position = { x = 6 y = 200 }
-				size = { width = 500 height = 35 }
-				slotsize = { width = 71 height = 33 }
-				max_slots_horizontal = 7
-				max_slots_vertical = 2
-				format = "UPPER_LEFT"
-			}
-
-			containerWindowType = {
-				name = "air_doctrine_button"
-				position = { x=274 y=-8 }
+				name = "special_forces_doctrine_button"
+				position = { x=274 y=-12 }
 				size = {width=20 height=20}
 				clipping = no
 
@@ -904,9 +809,9 @@ guiTypes = {
 
 				iconType = {
 					name = "icon"
-					position = { x=59 y=71 }
-					spriteType = "GFX_placeholder_bordered"
+					position = { x=58 y=72 }
 					Orientation = CENTER
+					spriteType = "GFX_placeholder_bordered"
 					alwaystransparent = yes
 					centerposition = yes
 				}
@@ -922,7 +827,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=34 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -930,19 +835,22 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
 		}
-
+		
 		containerWindowType = {
 			name = "army_spirits_view"
-			position = { x = 2% y = 132 }
+			position = { x = 18 y = 126 }
 			size = {width=95% height=30%}
 			clipping = no
-
+			
+			scale = 0.9
+			
 			gridboxtype = {
 				name = "spirit_grid"
 				position = { x = 0 y = 67 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 170 height = 64 }
+				slotsize = { width = 188 height = 64 }
 				max_slots = { x = 3 y = 1 }
 				format = "UPPER_LEFT"
 			}
@@ -950,31 +858,16 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy_spirits_view"
-			position = { x = 2% y = 400 }
+			position = { x = 18 y = 363 }
 			size = { width=95% height=22% }
 			clipping = no
-
+			scale = 0.9
+			
 			gridboxtype = {
 				name = "spirit_grid"
 				position = { x = 0 y = 67 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 170 height = 64 }
-				max_slots = { x = 3 y = 1 }
-				format = "UPPER_LEFT"
-			}
-		}
-
-		containerWindowType = {
-			name = "air_spirits_view"
-			position = { x=2% y=700 }
-			size = { width=95% height=22% }
-			clipping = no
-
-			gridboxtype = {
-				name = "spirit_grid"
-				position = { x = 0 y = 67 }
-				size = { width = 100% height = 100% }
-				slotsize = { width = 170 height = 64 }
+				slotsize = { width = 188 height = 64 }
 				max_slots = { x = 3 y = 1 }
 				format = "UPPER_LEFT"
 			}
@@ -1040,7 +933,7 @@ guiTypes = {
 				name = "text"
 				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "OFFICER_CORP_ARMY_DOCTRINE"
 				maxWidth = 240
@@ -1099,7 +992,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=34 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -1113,7 +1006,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_diplo_filter_entry"
 				position = { x=382 y=36 }
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_ARMY_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED"
@@ -1124,7 +1017,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_diplo_filter_entry"
 				position = { x=382 y=79				}
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_DIVISION_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_DIVISION_TOOLTIP_DELAYED"
@@ -1162,7 +1055,7 @@ guiTypes = {
 				name = "text"
 				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "OFFICER_CORP_NAVY_DOCTRINE"
 				maxWidth = 240
@@ -1231,7 +1124,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=69 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -1245,7 +1138,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_diplo_filter_entry"
 				position = { x=396 y=476 }
 				buttonText = "Placeholder"
-				font = "vic_18"
+				font = "hoi_16mbs"
 				frame = 2
 				pdx_tooltip = "COMMANDER_ROSTER_NAVY_TOOLTIP"
 				pdx_tooltip_delayed = "COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED"
@@ -1254,72 +1147,55 @@ guiTypes = {
 		}
 		
 		containerWindowType = {
-			name = "air_header"
-			position = { x = 0 y = 393 }
-			size = { width = 98% height = 207 }
+			name = "special_forces_header"
+			position = { x = 0 y = 611 }
+			size = { width = 98% height = 127 }
 			margin = { top = 0 left = 0 bottom = 0 right = 0}
-
+			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_air_tiled_marble_bg"
+				quadTextureSprite ="GFX_army_tiled_marble_bg"
 			}
 
-			iconType ={
+			gridBoxType = {
+				name = "modifiers_grid"
+				position = { x = 4 y = 54 }
+				size = { width = 340 height = 35 }
+				slotsize = { width = 72 height = 33 }
+				max_slots_horizontal = 4
+				max_slots_vertical = 3
+				format = "UPPER_LEFT"
+			}
+
+            iconType ={
                 name ="icon_banner"
-                spriteType = "GFX_officer_corp_bg_banner_air"
+                spriteType = "GFX_officer_corp_bg_banner_army"
                 position = { x=0 y=-12 }
                 Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
             }
 
             iconType ={
-                name ="icon_air"
-                spriteType = "GFX_officer_corp_chief_air_icon"
-                position = { x=0 y=-6 }
+                name ="icon_army"
+                spriteType = "GFX_officer_corp_special_forces_icon"
+                position = { x=-4 y=-4 }
                 Orientation = "UPPER_LEFT"
             }
 
 			instantTextboxType = {
 				name = "text"
-				position = { x= 110 y=6 }
+				position = { x=110 y=6 }
 				Orientation = "UPPER_LEFT"
-				font = "vic_22"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
-				text = "OFFICER_CORP_AIR_DOCTRINE"
+				text = "OFFICER_CORP_SPECIAL_FORCES_DOCTRINE"
 				maxWidth = 240
 				maxHeight = 20
 				format = left
 			}			
 
 			containerWindowType = {
-				name = "air_chief"
-				position = { x=94 y=-28 }
-				size = { width=100%% height=100%% }
-				clipping = no
-
-				gridBoxType = {
-					name = "air_chief_advisors"
-					position = { x = 0 y = 0 }
-					size = { width = 100% height = 100% }
-					slotsize = { width = 70 height = 150 }
-					max_slots_horizontal = 5
-					max_slots_vertical = 1
-					format = "UPPER_LEFT"
-				}
-			}
-
-			gridBoxType = {
-				name = "modifiers_grid"
-				position = { x = 6 y = 130 }
-				size = { width = 500 height = 35 }
-				slotsize = { width = 71 height = 33 }
-				max_slots_horizontal = 7
-				max_slots_vertical = 2
-				format = "UPPER_LEFT"
-			}
-
-			containerWindowType = {
-				name = "air_doctrine_button"
+				name = "special_forces_doctrine_button"
 				position = { x=274 y=-12 }
 				size = {width=20 height=20}
 				clipping = no
@@ -1334,9 +1210,9 @@ guiTypes = {
 
 				iconType = {
 					name = "icon"
-					position = { x=59 y=71 }
-					spriteType = "GFX_placeholder_bordered"
+					position = { x=58 y=72 }
 					Orientation = CENTER
+					spriteType = "GFX_placeholder_bordered"
 					alwaystransparent = yes
 					centerposition = yes
 				}
@@ -1352,7 +1228,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
 					position = { x=34 y=97 }
-					font = "vic_18"
+					font = "hoi_16mbs"
 					text = "0"
 					format = center
 					maxWidth = 20
@@ -1360,6 +1236,7 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
 		}
 
 		containerWindowType = {
@@ -1627,126 +1504,6 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "air_force_command_spirit_entry"
-		position = { x = 151 y = -88 }
-		size = { width = 150 height = 66 }
-		clipping = no
-
-		origo = center
-
-		buttonType = {
-			name = "button"
-			position = { x = 94 y = 46 }
-			spriteType = "GFX_officer_corp_spirit_bg_enabled"
-			no_clicksound = yes
-			frame = 1
-			centerposition = yes
-		}
-		iconType = {
-			name = "air_force_command_spirit_glow"
-			position = { x = 94 y = 45 }
-			spriteType = "GFX_spirit_glow"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "icon_background"
-			position = { x = 96 y = 36 }
-			spriteType = "GFX_officer_corp_spirit_icon_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			scale = 0.8
-			frame = 4
-		}
-
-		iconType = {
-			name = "spirit_icon"
-			position = { x = 94 y = 48 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-	}
-
-	containerWindowType = {
-		name = "air_force_spirit_entry"
-		position = { x = 133 y = -88 }
-		size = { width = 150 height = 66 }
-		clipping = no
-
-		origo = center
-
-		buttonType = {
-			name = "button"
-			position = { x = 94 y = 46 }
-			spriteType = "GFX_officer_corp_spirit_bg_enabled"
-			no_clicksound = yes
-			frame = 1
-			centerposition = yes
-		}
-		iconType = {
-			name = "air_force_spirit_glow"
-			position = { x = 94 y = 45 }
-			spriteType = "GFX_spirit_glow"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "icon_background"
-			position = { x = 96 y = 38 }
-			spriteType = "GFX_officer_corp_spirit_icon_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			scale = 0.8
-			frame = 7
-		}
-
-		iconType = {
-			name = "spirit_icon"
-			position = { x = 94 y = 46 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-	}
-
-	containerWindowType = {
-		name = "air_force_academy_spirit_entry"
-		position = { x = 62 y = -42 }
-		size = { width = 150 height = 66 }
-		clipping = no
-
-		origo = center
-
-		buttonType = {
-			name = "button"
-			position = { x = 94 y = 46 }
-			spriteType = "GFX_officer_corp_spirit_bg_enabled"
-			no_clicksound = yes
-			frame = 1
-			centerposition = yes
-		}
-
-		iconType = {
-			name = "icon_background"
-			position = { x = 96 y = 33 }
-			spriteType = "GFX_officer_corp_spirit_icon_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			scale = 0.8
-			frame = 1
-		}
-
-		iconType = {
-			name = "spirit_icon"
-			position = { x = 94 y = 46 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-	}
-
-	containerWindowType = {
 		name = "spirit_window"
 		size = { width=500 height=593 }
 		show_sound = open_sub_window
@@ -1780,20 +1537,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		buttonType = {
-			name = "icon_background_air"
-			position = { x = -260 y = 68 }
-			size = { x = 500 y = 66 }
-			quadTextureSprite = "GFX_spirit_banner_decoration_air"
-			format = center
-			orientation = "center_up"
-			alwaystransparent = yes
-		}
-
 		instantTextboxType = {
 			name = "title"
 			position = { x = -308 y = 5 }
-			font = "vic_36"
+			font = "hoi_24header"
 			text = "ARMY_ARMY_LABEL"
 			maxWidth = 600
 			format = center
@@ -1804,7 +1551,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "switch"
 			position = { x = -308 y = 32 }
-			font = "vic_22"
+			font = "hoi_18b"
 			text = "Switch out Henschel"
 			maxWidth = 600
 			format = center
@@ -1863,7 +1610,7 @@ guiTypes = {
 			name = "close"
 			position = { x = -42 y = 5 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "vic_18"
+			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -1908,7 +1655,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -1919,7 +1666,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "vic_18"
+				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 140
@@ -1932,7 +1679,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -1943,7 +1690,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -1989,7 +1736,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -2000,7 +1747,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "vic_18"
+				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 140
@@ -2013,7 +1760,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2024,7 +1771,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2070,7 +1817,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -2081,7 +1828,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "vic_18"
+				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 140
@@ -2094,7 +1841,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2105,7 +1852,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2151,7 +1898,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -2175,7 +1922,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2186,7 +1933,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2232,7 +1979,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -2243,7 +1990,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "vic_18"
+				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 140
@@ -2256,7 +2003,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2267,7 +2014,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2313,7 +2060,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "vic_22"
+				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 120
@@ -2324,7 +2071,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "vic_18"
+				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""
 				maxWidth = 140
@@ -2337,7 +2084,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2348,7 +2095,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "vic_18"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2357,246 +2104,6 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
-		name = "air_force_academy_spirit_window_item_grid"
-		size = { width = 231 height = 74 }
-		clipping = no
 
-		background = {
-			name = "idea_entry_bg"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_spirit_entry_bg_strip"
-		}
 
-		iconType = {
-			name = "icon"
-			position = { x = 42 y = 38 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
-
-		containerWindowType = {
-			name = "traits_container"
-			position = { x = 76 y = 0 }
-			show_position = { x = 0 y = 0 }
-			size = { width = 170 height = 100%% }
-
-			instantTextboxType = {
-				name = "name"
-				position = { x = 0 y = 10 }
-				font = "vic_22"
-				fixedsize = yes
-				text = ""
-				maxWidth = 120
-				format = left
-				alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "traits"
-				position = { x = 0 y = 28 }
-				font = "vic_18"
-				fixedsize = yes
-				text = ""
-				maxWidth = 140
-				maxHeight = 100%%
-				format = left
-				alwaystransparent = yes
-			}
-		}
-
-		instantTextboxType = {
-			name = "cost"
-			position = { x = 80 y = 47 }
-			font = "vic_18"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = right
-			alwaystransparent = yes
-		}
-
-		instantTextboxType = {
-			name = "stats"
-			position = { x = 300 y = 32 }
-			font = "vic_18"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = center
-			alwaystransparent = yes
-		}
-	}
-
-	containerWindowType = {
-		name = "air_force_spirit_window_item_grid"
-		size = { width = 231 height = 74 }
-		clipping = no
-
-		background = {
-			name = "idea_entry_bg"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_spirit_entry_bg_strip"
-		}
-
-		iconType = {
-			name = "icon"
-			position = { x = 42 y = 38 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
-
-		containerWindowType = {
-			name = "traits_container"
-			position = { x = 76 y = 0 }
-			show_position = { x = 0 y = 0 }
-			size = { width = 170 height = 100%% }
-
-			instantTextboxType = {
-				name = "name"
-				position = { x = 0 y = 10 }
-				font = "vic_22"
-				fixedsize = yes
-				text = ""
-				maxWidth = 120
-				format = left
-				alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "traits"
-				position = { x = 0 y = 28 }
-				font = "vic_18"
-				fixedsize = yes
-				text = ""
-				maxWidth = 140
-				maxHeight = 100%%
-				format = left
-				alwaystransparent = yes
-			}
-		}
-
-		instantTextboxType = {
-			name = "cost"
-			position = { x = 80 y = 47 }
-			font = "vic_18"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = right
-			alwaystransparent = yes
-		}
-
-		instantTextboxType = {
-			name = "stats"
-			position = { x = 300 y = 32 }
-			font = "vic_18"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = center
-			alwaystransparent = yes
-		}
-	}
-
-	containerWindowType = {
-		name = "air_force_command_spirit_window_item_grid"
-		size = { width = 231 height = 74 }
-		clipping = no
-
-		background = {
-			name = "idea_entry_bg"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_spirit_entry_bg_strip"
-		}
-
-		iconType = {
-			name = "icon"
-			position = { x = 42 y = 38 }
-			spriteType = "GFX_placeholder_bordered"
-			centerposition = yes
-			alwaystransparent = yes
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
-
-		containerWindowType = {
-			name = "traits_container"
-			position = { x = 76 y = 0 }
-			show_position = { x = 0 y = 0 }
-			size = { width = 170 height = 100%% }
-
-			instantTextboxType = {
-				name = "name"
-				position = { x = 0 y = 10 }
-				font = "vic_22"
-				fixedsize = yes
-				text = ""
-				maxWidth = 120
-				format = left
-				alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "traits"
-				position = { x = 0 y = 28 }
-				font = "vic_22"
-				fixedsize = yes
-				text = ""
-				maxWidth = 140
-				maxHeight = 100%%
-				format = left
-				alwaystransparent = yes
-			}
-		}
-
-		instantTextboxType = {
-			name = "cost"
-			position = { x = 80 y = 47 }
-			font = "vic_22"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = right
-			alwaystransparent = yes
-		}
-
-		instantTextboxType = {
-			name = "stats"
-			position = { x = 300 y = 32 }
-			font = "vic_22"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = center
-			alwaystransparent = yes
-		}
-	}
 }

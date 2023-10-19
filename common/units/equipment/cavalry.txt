@@ -3,11 +3,7 @@
 equipments = {
 	#Light Cavalry = Lancers
 	light_cavalry_equipment = {
-		year = 1750
-
-		can_be_produced = {
-			date > 1799.1.1
-		}
+		year = 1750	
 	
 		is_archetype = yes
 		is_buildable = no
@@ -25,7 +21,7 @@ equipments = {
 		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.6
-
+		fuel_consumption = 0.4
 		#Defensive Abilities
 		defense = 5
 		breakthrough = 18
@@ -178,10 +174,6 @@ equipments = {
 	
 	medium_cavalry_equipment = {
 		year = 1750
-
-		can_be_produced = {
-			date > 1799.1.1
-		}
 
 		is_archetype = yes
 		is_convertable = yes

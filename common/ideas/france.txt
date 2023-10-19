@@ -36,6 +36,55 @@ ideas = {
 			}
 		}
 
+		FRA_Versailles = {
+			picture = idea_FRA_Versailles
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+				political_power_factor = -0.5
+				political_advisor_cost_factor = 0.1
+				military_staff_cost_factor = 0.1
+				research_speed_factor = -0.1
+				consumer_goods_factor = 0.1
+
+			}
+		}
+
+		FRA_Estates_General = {
+			picture = idea_FRA_Estates_General
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
+
+		FRA_Bastille = {
+			picture = idea_FRA_Bastille
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
 	## Ideas ##
 
 	FRA_Constitutional_Guard = {

@@ -1,0 +1,165 @@
+﻿##### Division Templates #####
+
+division_template = {
+    name = "Foot Guards"
+    division_names_group = ENG_INF_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Line Infantry"
+    division_names_group = ENG_INF_02
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Dragoon Guards"
+    division_names_group = ENG_CAV_01
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		lancers = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+
+##### OOB #####
+
+units = {
+    ###Foot Guards
+	division= {	
+		name = "1st Regiment of Foot Guards"
+		location = 6103
+		division_template = "Foot Guards"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+    
+	division= {	
+		name = "Coldstream Regiment of Foot Guards"
+		location = 6103
+		division_template = "Foot Guards"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+
+	division= {	
+		name = "3rd Regiment of Foot Guards"
+		location = 6103
+		division_template = "Foot Guards"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+    ###Line Infantry
+    division= {	
+		name = "42nd (Royal Highland) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "64th (2nd Staffordshire) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "71st (Highland) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "78th (Ross-Shire Buffs Highlanders) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "84th (York and Lancaster) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "20th (East Devonshire) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "47th (Lancashire) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "27th (Inniskilling) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "3rd (East Kent) Regiment of Foot"
+		location = 6103
+		division_template = "Line Infantry"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+    ###Dragoons
+    division= {	
+		name = "1st (Royal) Dragoons"
+		location = 6103
+		division_template = "Dragoon Guards"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+
+    division= {	
+		name = "2nd (Royal North British) Dragoons"
+		location = 6103
+		division_template = "Dragoon Guards"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+
+    division= {	
+		name = "(King's Own) Dragoons"
+		location = 6103
+		division_template = "Dragoon Guards"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+}

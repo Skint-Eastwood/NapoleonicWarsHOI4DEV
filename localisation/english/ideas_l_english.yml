@@ -7,6 +7,29 @@
 PTY_house_of_bourbon:0 "House of Bourbon"
 PTY_house_of_hanover:0 "House of Hanover"
 PTY_house_of_habsburg:0 "House of Habsburg"
+###################
+## American Ideas ##
+###################
+USA_whiskey_rebellion:0 "Whiskey Rebellion"
+USA_whiskey_rebellion_desc:0 "In 1791 the Whiskey Tax became a law intended to generate money for the American Revolutionary War debt of 54 million. Many farmers mostly from Pennsylvania became pissed over this new tax regulation and avoided it altogether. Many of these very same farmers were war veterans of the Revolutionary war, and believed they fought in the principals of America. Specifically, the slogan "taxation without local representation". There was a meeting held on July 27, 1791, at Redstone Old Fort in Fayette County in order to quell the violence. They agreed over a year later to change the tax by one cent advocated by William Findley. \n\nThis was incredibly unsuccessful, and resistance still sprung up everywhere. Finally ending in 1794. Washington held a meeting in August of that year between Attorney General William Bradford, Justice Jasper Yeates of the Pennsylvania Supreme Court, and Senator James Ross. A Referendum was held on September 11th and was entirely mixed. Washington then called upon two thousand Militia to defend against the insurrection in Carlisle, Pennsylvania. One of those soldiers being Meriwether Lewis. Eventually in October of 1794 the rebellion entirely died out, ending the whiskey rebellion. \n\nTMany of the leaders from the rebellion fled to the Louisiana Territory that New Spain held. Interestingly enough this rebellion had more of a positive outlook on America, seeing how the President handled it so well and so little were killed or injured. It sparked some sense of "nationalism" in the American people."
+
+USA_american_indian_wars:0 "BAmerican Indian Wars"
+USA_american_indian_wars_desc:0 "Before America was free and was under British rule there were many Indian Wars in the Americas. Such as the Beaver Wars, especially during the 7 years war and American Revolution. During the Revolution, many Indian factions went to different sides. \n\nThe Oneida and Tuscarora sided with the American Patriots, while the  Mohawk, Seneca, Cayuga, and Onondaga sided with the British. However the infamous Cherokee split apart between British and American evenly. Throughout the 1790s there were such Indian wars as the Cherokee American Wars, Northwest American Wars, and the controversial Nickajack Expedition."
+
+USA_a_new_country:0 "A New Country"
+USA_a_new_country_desc:0 "Declaring itself independent in 1776 after ages under British rule, America is a new shining beacon in the world. Allowing peace, more rights, and more opportunity. Mass floods of population, especially from Sweden and Ireland come into the new country looking to start anew."
+###################
+## Swedish Ideas ##
+###################
+
+SWE_svenskund:0 "Battle of Svensksund"
+SWE_svenskund_desc:0 "The Battle of Svensksund is known to be possibly the biggest Naval battle of the 1700s. The battle started on the 9th of July 1790, at 8 in the morning. Over 14,000 Seamen died in this battle and is one of the biggest Victories in Swedish history,"
+
+SWE_treaty_of_varala:0 "Treaty of Varala"
+SWE_treaty_of_varala_desc:0 "The Treaty of Varala, also known as the Treaty of Wereloe was signed on the 14th of August 1790, ending the Russo Swedish War of 1788. It changed the Status Quo of the borders between Finnish Sweden and Russia. Over a year later in October of 1791, a convention was signed in Stockholm. \n\nThe defense pact anticipated the war of the First Coalition against Revolutionary France, Catherine II paying 300,000 rubles to Sweden. Gustav III and Catherine II were cousins and Gustav sent a letter saying "forget the war as a passing cloud" and invoked their common blood."
+
+SWE_union_security_act:0 "Union and Security Act"
+SWE_union_security_act_desc:0 "Added to the Swedish Constitution of 1772 the king proposed this act in 1789 during the Russo Swedish War of 1788, summoning the Riksdag of Estates. \n\nThree of four Estates accepted it besides the Nobles, most likely because it gave the king entire power to declare war on whoever, most noble privileges were abolished with most offices now available to all regardless of rank, Noble lands could now be bought by anyone instead of only by nobles, and estates would lose the ability to initiate legislation."
 
 
 ###################
@@ -16,10 +39,42 @@ PTY_house_of_habsburg:0 "House of Habsburg"
 ENG_british_empire:0 "The British Empire"
 ENG_british_empire_desc:0 "The United Kingdom is at the head of an expansive global empire, colonising the regions of North America, Asia and Oceania.\nThe Empire is a force feared throughout the globe due to their naval and militaristic capabilities."
 
+ENG_parliament:0 "Parliament of Great Britain"
+ENG_parliament_desc:0 "Made in May of 1707 after the Acts of the Union passed by both the Parliament of England and Scotland, the acts paved an enactment in which created a new parliament. Scots law and Scottish regulations remained separate; English was not. Thousands of acts were enacted throughout the time of the Great British Parliament."
 
+ENG_thirteen_colonies:0 "Loss of the 13 Colonies"
+ENG_thirteen_colonies_desc:0 " In 1775 the 13 colonies led a revolution and became the United States of America, this loss hurt Britain deeply and worsened our Debt. Officially declaring itself independent in 1776. The war ended in 1783 with the loss of the original 13 colonies and the succeeding of our southern North American colonies aswell. "
+
+ENG_slave_trade:0 "Slave Trade"
+ENG_slave_trade_desc:0 "Great Britain has been using slaves for over 200 years. This has led to the separation of families, and torture to Africans worldwide. Although the industry has exploded, leading to some benefits in such things as construction and infrastructure improvements."
+##################
+## Polish Ideas ##
+##################
+PLC_stanislaw_august_poniatowski:0 "Stanisław August Poniatowski"
+PLC_stanislaw_august_poniatowski_desc:0 "Considered by many as a weak king, Stanisław August Poniatowski is a liberal ruler at heart. As a former lover of Catherine the Great he had been elected to the throne of Poland-Lithuania in 1764 in what was a de-facto coup, aided by thousands of Russian troops who had entered Poland to force this resolution through. \n\nDuring his reign the nation has become nothing more than a Russian protectorate and his powers have been significantly reduced by foreign intervention and internal opposition. He had attempted reforms, many of which fell through in the end. A portion of his reign had been dubbed the "King-Ambassador system of governance" due to the fact that the Russian ambassadors had used guarantee treaties signed with Poland-Lithuania to usurp de-facto power within the nation itself, governing from the Russian embassy. \n\nUnder the weakened King and increasingly corrupt aristocracy the nation had slipped into a sharp decline which climaxed in 1772 with the first partition of Poland. Ultimately the King had chosen to adapt to reforms spearheaded by the republicans, accepting the 3rd of May Constitution in 1791 and regaining a sizeable amount of power over state affairs."
+
+PLC_treaty_of_perpetual_friendship:0 "'Treaty of Perpetual Friendship'"
+PLC_treaty_of_perpetual_friendship_desc:0 "Imposed on Poland-Lithuania in 1768 by the Russian Empire, the treaty formalised Catherine the Great as the protector of noble rights within Poland-Lithuania. De-facto the treaty made Poland-Lithuania into a protectorate of the Russian Empire, justifying any Russian interventions in the case that the Poles might try and uplift the meddling of foreign affairs within their territory."
+PLC_jurgielt:0 "Jurgielt"
+
+PLC_jurgielt_desc:0 "Otherwise known as 'Jahrgelt', an institutionalised form of corruption that runs rampant within Polish politics. Politicians from across the nation accept direct bribes in the form of pensions handed out by the Austrian, Prussian and Russian embassies. In the past years the bribes paid out by the Russian embassy in particular have grown enormous and are now essentially a part of the fundamental system of politics in Poland. "
+
+PLC_polish_prussian_pact:0 "Polish-Prussian Pact"
+PLC_polish_prussian_pact_desc:0 "A treaty signed on the 29th of March, 1790, gave mutual guarantees between Poland-Lithuania and Prussia on the integrity of eachother's territory. Both nations agreed within the terms of the treaty to help eachother in case of an invasion by outside powers. Both nations would, by provisions of the treaty, raise forces of cavalrymen and infantrymen as an auxiliary corps to defend the other in case of such invasions. The treaty in it's form was meant to repel any further Russian interventions in Poland-Lithuania in order to cement the republican reforms occurring there."
+
+PLC_third_may_constitution:0 "3rd of May Constitution"
+PLC_third_may_constitution_desc:0 "Widely considered to be the first constitution of Europe and the second in the world (after the American constitution), the Constitution of the 3rd of May signed in 1791 is a fairly liberal document that grants a lot of liberties and rights to the citizens of Poland-Lithuania. The Constitution granted a large amount of powers to the King, alongside abolishing the liberum veto and the electoral system that had been in place for centuries. Though popular amongst the republican and liberal movements, the Constitution had found itself at odds with the upper nobility, which had lost many rights as a result of it's passing."
 ##################
 ## French Ideas ##
 ##################
+ FRA_Versailles:0 "The Versailles Palace"
+ FRA_Versailles_desc:0 "todo"
+
+ FRA_Estates_General:0 "The Estates General"
+ FRA_Estates_General_desc:0 "With revolutionary ideas spreading across Europe, and following decades of high taxation and poor harvests, the widespread dissatisfaction at King Louis's absolutist rule can no longer be ignored The King has been forced to reconvene the Estates General, a feat unseen for over a century, to have the deputees devise a reform program that will lead to a way forward for France. However, compromise between the various factions will no doubt prove difficult, and already the divisions between the old order and radical groups are threatening to explode into conflict!"
+
+ FRA_Bastille:0 "Bastille Fortifications"
+ FRA_Bastille_desc:0 "todo"
 
  FRA_King_Louis:0 "King Louis XVI"
  FRA_King_Louis_desc:0 "King Louis XVI, the tyranical and unpopular ruler of Bourbon France.\nDue to the Kings unpopular status, many have taken to the streets in revolt against him and the French nobility causing instability and chaos across France."

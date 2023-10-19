@@ -19,6 +19,68 @@ ideas = {
 
 			}
 		}
+
+		ENG_parliament = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.1
+				surrender_limit = 0.5
+				economy_cost_factor = -0.1
+			}
+		}
+
+		ENG_thirteen_colonies = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				political_advisor_cost_factor = 0.25
+			}
+		}
+
+		ENG_slave_trade = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = 0.3
+				weekly_manpower = -1000 
+				production_speed_industrial_complex_factor = 0.2 
+				production_speed_arms_factory_factor = 0.15 
+				production_speed_infrastructure_factor = 0.1
+				production_speed_dockyard_factor = 0.05 
+			}
+		}
+
 	}
 }
 

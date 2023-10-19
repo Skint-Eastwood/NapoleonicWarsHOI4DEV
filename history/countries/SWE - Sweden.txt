@@ -2,9 +2,7 @@ capital = 64
 
 set_convoys = 300
 
-add_ideas = {
-	
-}
+
 
 set_politics = {
 	ruling_party = monarchist
@@ -20,6 +18,9 @@ set_popularities = {
 }
 
 add_ideas = {
+	SWE_svenskund
+	SWE_treaty_of_varala
+	SWE_union_security_act
 	protestant
 		}
 

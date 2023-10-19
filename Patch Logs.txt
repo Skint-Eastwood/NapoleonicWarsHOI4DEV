@@ -17,6 +17,37 @@ Mod Version: ALPHA 1.0
 Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
+DATE : 19.10.2023
+Pixy - 
+1:Changing the Fuel system into the food system, infantry, artillery and cavalry now use food and receive debuffs if you dont have enough
+2:added in grain
+3:added in grain in various states
+4:removed airport icon from map
+5:fixed up localisation for buildings
+6:church has a weekly stability modifier
+
+DATE : 16.10.2023 
+Pixy - 
+1:Added in French National Spirits
+2:Added in American National Spirits
+3:Added in Swedish National Spirits
+4:Fixed NSB Loading Screen
+5:Added in English Order of Battle
+6:fixed economic ideas
+7:fixed manpower ideas
+
+DATE : 15.10.2023
+CHANGES:
+Pixy - 
+1:Removed Airforce related stuff from the Officer Corps
+2:Polish National Spirits
+3:English National Spirits
+4:Building Banner Fix Thingy?
+5:fixed austrian stockpile
+
+Lair - 
+1:Fixed up electronics tree + added new tech
+
 
 DATE : 14.10.2023
 CHANGES:
@@ -25,7 +56,27 @@ Pixy -
 1: Changed GFX of buildings
 2: Removed NSB Tanks tech file, (not needed)
 3: Removed un-needed buildings 
-----
+4: Cleared out un-used equipment files
+5: Added in Support Companies
+6: Fixed the Loading Screens
+7: Cleared general folder in history folder
+8: added in the following replace_paths
+replace_path="history/countries"
+replace_path="history/units"
+replace_path="common/decisions"
+replace_path="common/decisions/categories"
+replace_path="common/scripted_triggers"
+replace_path="common/scripted_localisation"
+replace_path="common/bop"
+replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
+replace_path="common/dynamic_modifiers"
+replace_path="common/ai_focuses"
+replace_path="common/unit_medals"
+replace_path="common/ai_strategy"
+replace_path="common/ai_focuses"
+
+
 
 1. Austrian Habsburgs renamed to "Habsburg Monarchy"
 2. Patch Log Created

@@ -2,10 +2,6 @@ capital = 112
 
 set_convoys = 300
 
-add_ideas = {
-	
-}
-
 set_politics = {
 	ruling_party = monarchist
 	last_election = "1890.5.1"
@@ -20,6 +16,11 @@ set_popularities = {
 }
 add_ideas = {
 	catholic
+	PLC_stanislaw_august_poniatowski
+	PLC_treaty_of_perpetual_friendship
+	PLC_jurgielt
+	PLC_polish_prussian_pact
+	PLC_third_may_constitution
 }
 puppet = BRA
 
