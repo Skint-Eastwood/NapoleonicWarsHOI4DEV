@@ -1,6 +1,15 @@
 on_actions = {
 	on_startup = {	
-
+		effect = {
+			if = {
+				limit = {
+					TRB = {
+						is_ai = no
+					}
+				}
+				FRA = { change_tag_from = TRB }
+			}
+		}
 		effect = {
 			POL = {
 				news_event = { id = news.5 days = 388 }

@@ -196,4 +196,7 @@
  NEP_DEF:0 "Nepalese"
  BHU:0 "Bhutan"
  BHU_DEF:0 "Bhutanese"
- BHU_ADJ:0 "Bhutaneses"
+ BHU_ADJ:0 "Bhutaneses
+ MOR:0 "Morocco"
+ MOR_DEF:0 "Moroccan"
+ MOR_ADJ:0 "Moroccan"
