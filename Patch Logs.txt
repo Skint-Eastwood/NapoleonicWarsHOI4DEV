@@ -23,9 +23,10 @@ Pixy -
 1:Changing the Fuel system into the food system, infantry, artillery and cavalry now use food and receive debuffs if you dont have enough
 2:added in grain
 3:added in grain in various states
-4:removed airport icon from map
-5:fixed up localisation for buildings
-6:church has a weekly stability modifier
+~~:removed airport icon from map~~ removed since causes CTD apprently
+3:fixed up localisation for buildings
+4:church has a weekly stability modifier
+5:industrial_org_polic was fucked apparently dont ask me how
 
 Apollo -
 
