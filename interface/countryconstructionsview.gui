@@ -17,24 +17,17 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_window_thin_border"
 		}
-
-		iconType ={
-			name ="construction_screen_top_bg"
-			spriteType = "GFX_construction_screen_top_bg"
-			position = { x= 5 y = 37 }
-			Orientation = "UPPER_LEFT"
-		}
 		
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 07 }
+			position = { x= 7 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
 		instantTextboxType = {
 			name = "construction_title"
-			position = { x = 20 y = 8 }
+			position = { x = 20 y = 9 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 0 y = 0}
@@ -43,10 +36,45 @@ guiTypes = {
 			maxHeight = 20
 			format = left	
 		}
-		
+			
+		containerWindowType = {
+			name = "production_lines"
+			position = { x = 0 y = 130 }
+			size = { width = 440 height = 100%% }
+			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 52
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			margin = { top = 13 left = 13 bottom = 15 right = 25}
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+			}
+			
+			gridBoxType = {
+				name = "item_grid"
+				position = { x = 1 y = 5 }
+				size = { width = 100% height = 100%% }
+				slotsize = { width = 500 height = 1 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}	
+		}
+		iconType ={
+			name ="construction_screen_top_bg"
+			spriteType = "GFX_construction_screen_top_bg"
+			position = { x= 5 y = 50 }
+			Orientation = "UPPER_LEFT"
+		}
 		containerWindowType = {
 			name = "production_win_top"
-			position = { x = 28 y = 26 }
+			position = { x = 28 y = 35 }
 			size = { width = 100% height = 80% }
 			verticalScrollbar = "right_vertical_slider"
 			
@@ -57,7 +85,7 @@ guiTypes = {
 
 			iconType = {
 				name = "civilian_factory_icon"
-				position = { x = -11 y = 29 }
+				position = { x = -12 y = 25 }
 				spriteType = "GFX_non_available_factory_icon"
 			}
 			
@@ -144,7 +172,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "location"
-			position = { x = 20 y = 106 }
+			position = { x = 20 y = 116 }
 			font = "vic_22"
 			maxWidth = 150			
 			text = "CONSTRUCTION_LOCATION_LABEL"
@@ -153,7 +181,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "task"
-			position = { x = 180 y = 106 }
+			position = { x = 175 y = 116 }
 			font = "vic_22"
 			maxWidth = 80				
 			text = "CONSTRUCTION_TASK_LABEL"
@@ -162,13 +190,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "factories"
-			position = { x = 274 y = 106 }
+			position = { x = 274 y = 114 }
 			spriteType = "GFX_non_available_factory_icon"
 		}
 
 		instantTextboxType = {
 			name = "factories_amount"
-			position = { x = 250 y = 106 }
+			position = { x = 250 y = 116 }
 			font = "vic_22"
 			maxWidth = 120				
 			text = "CONSTRUCTION_FACTORIES_LABEL"
@@ -177,41 +205,11 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "priority"
-			position = { x = 330 y = 106 }
+			position = { x = 330 y = 116 }
 			font = "vic_22"
 			maxWidth = 110				
 			text = "CONSTRUCTION_PRIORITY_LABEL"
 			format = center
-		}
-			
-		containerWindowType = {
-			name = "production_lines"
-			position = { x = 0 y = 130 }
-			size = { width = 440 height = 100%% }
-			verticalScrollbar = "right_vertical_slider"
-			vertical_scroll_step = 52
-			scroll_wheel_factor = 40
-			smooth_scrolling = yes
-			margin = { top = 13 left = 13 bottom = 15 right = 25}
-			
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window2_1b_border"
-			}
-
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
-			}
-			
-			gridBoxType = {
-				name = "item_grid"
-				position = { x = 1 y = 5 }
-				size = { width = 100% height = 100%% }
-				slotsize = { width = 500 height = 1 }
-				max_slots_horizontal = 1
-				format = "UPPER_LEFT"
-			}	
 		}
 		
 		containerWindowType = {
@@ -300,7 +298,7 @@ guiTypes = {
 				
 		buttonType = {
 			name = "minimize"
-			position = { x = -93 y = 12 }
+			position = { x = -75 y = 15 }
 			quadTextureSprite ="GFX_production_line_arrow_left"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
@@ -318,7 +316,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -43 y = 13 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -668,7 +666,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "picture"
-			position = { x = 210 y = 26 }
+			position = { x = 208 y = 20 }
 			spriteType = "GFX_consumer_goods_icon"
 			centerposition = yes
 			
@@ -677,7 +675,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "factories"
-			position = { x = 254 y = 17 }
+			position = { x = 265 y = 15 }
 			textureFile = ""
 			font = "vic_22"
 			text = "-"
