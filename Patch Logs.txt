@@ -33,6 +33,10 @@ Apollo -
 7: New songs added
 8: Production GUI changed
 9: Construction GUI changed
+10: Players unable to play as TRB/Unexplored Land
+11: Morocco Localisation added
+12: Material Designer and Cav Designer icon Added
+
 
 DATE : 16.10.2023 
 Pixy - 
