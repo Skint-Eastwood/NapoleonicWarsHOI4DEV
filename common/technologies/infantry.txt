@@ -535,10 +535,15 @@ technologies = {
 		}
 	}
 	supply_lines  = {
+
 		category_all_infantry = {
 			max_organisation = 5
 			supply_consumption = -0.05
 			}
+
+		enable_equipments = {
+			supply_caravan_1
+		}
 		research_cost = 1.5
 		start_year = 1790
 		path = {

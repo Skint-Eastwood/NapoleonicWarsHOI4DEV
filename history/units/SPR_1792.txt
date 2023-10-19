@@ -1,0 +1,165 @@
+﻿##### Division Templates #####
+
+division_template = {
+    name = "Guardia Real"
+ #   division_names_group = ENG_INF_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Infanteria de Linea"
+  #  division_names_group = ENG_INF_02
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Caballeria"
+  #  division_names_group = ENG_CAV_01
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		lancers = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+
+##### OOB #####
+
+units = {
+    ###Guardia Real
+	division= {	
+		name = "1st Guardia Real"
+		location = 3938
+		division_template = "Guardia Real"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+    
+	division= {	
+		name = "2nd Guardia Real"
+		location = 3938
+		division_template = "Guardia Real"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+
+	division= {	
+		name = "3rd Guardia Real"
+		location = 3938
+		division_template = "Guardia Real"	# very senior and very good and best stuff
+		start_experience_factor = 1
+        start_equipment_factor = 1
+	}
+    ###Infanteria de Linea
+    division= {	
+		name = "2nd Soboya Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "2nd Mallorca Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "lst Granada Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "lst Burgos Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "lst Catalunia Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "lst Sevilla Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "2nd Malaga Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "1st Toledo Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+
+    division= {	
+		name = "1st Princesa Infantry Regiment"
+		location = 3938
+		division_template = "Infanteria de Linea"	# general infantry
+		start_experience_factor = 0.4
+        start_equipment_factor = 0.4
+	}
+    ###Dragoons
+    division= {	
+		name = "Pavia Dragoon Regiment"
+		location = 3938
+		division_template = "Caballeria"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+
+    division= {	
+		name = "Sagunto Dragoon Regiment"
+		location = 3938
+		division_template = "Caballeria"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+
+    division= {	
+		name = "Villaviciosa Dragoon Regiment"
+		location = 3938
+		division_template = "Caballeria"	# King's one and only guards
+		start_experience_factor = 0.8
+        start_equipment_factor = 1
+	}
+}

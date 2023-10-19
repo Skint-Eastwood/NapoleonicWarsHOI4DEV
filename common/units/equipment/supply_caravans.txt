@@ -1,0 +1,39 @@
+equipments = {
+	#archetype
+	supply_caravan = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		active = no
+		type = train
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+
+		interface_category = interface_category_land
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		lend_lease_cost = 20
+
+		build_cost_ic = 70
+		resources = {
+			steel = 1
+		}
+	}
+	# regular trains
+	supply_caravan_1 = {
+		year = 1700
+
+		archetype = supply_caravan
+		priority = 10
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 70
+		resources = {
+			steel = 1
+		}
+	}
+}

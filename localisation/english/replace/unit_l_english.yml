@@ -130,8 +130,8 @@
  SHIP_IS_PRIDE_OF_FLEET_DESC:0 "§HPride of the Fleet§! receives various bonuses but its country will suffer §HWar Support§! if it is sunk."
  NAVY_CONTAINS_PRIDE_OF_FLEET:0 "This navy contains §HPride of the Fleet§! §H($NAME$)§!"
  NAVY_CONTAINS_PRIDE_OF_FLEET_WITHOUT_NAME:0 "This navy contains §HPride of the Fleet§!"
- FLEET_HAS_FUEL_INEFFICIENT_SHIP_FOR_MISSION:0 "£mapicon_unit_invalid_orders  This fleet contains task forces operating at sub-optimal fuel efficiency"
- TASK_FORCE_HAS_FUEL_INEFFICIENT_SHIP_FOR_MISSION:0 "£mapicon_unit_invalid_orders  The following ship classes are not fuel efficient for the mission $MISSION|H$"
+ FLEET_HAS_FUEL_INEFFICIENT_SHIP_FOR_MISSION:0 "£mapicon_unit_invalid_orders  This fleet contains task forces operating at sub-optimal Food efficiency"
+ TASK_FORCE_HAS_FUEL_INEFFICIENT_SHIP_FOR_MISSION:0 "£mapicon_unit_invalid_orders  The following ship classes are not Food efficient for the mission $MISSION|H$"
  SPECIFIC_NAVY_CONTAINS_PRIDE_OF_FLEET:0 "$NAVY_NAME|H$ contains §HPride of the Fleet§! §H($NAME$)§!"
  DISBAND_PRIDE_OF_THE_FLEET_COST:1 "Disbanding your §HPride of the Fleet§! §H($NAME$)§! will cost $COST|R$ £pol_power "
  

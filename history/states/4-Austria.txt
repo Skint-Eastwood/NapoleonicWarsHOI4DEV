@@ -4,7 +4,7 @@ state={
 	name="STATE_4"
 	manpower = 2595983
 	resources={
-		oil=1 # was: 2
+		oil=15 # was: 2
 	}
 	
 	state_category = large_city
@@ -24,17 +24,6 @@ state={
 			air_base = 6
 		}
 		add_core_of = AUS
-
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-		1939.1.1 = {
-			buildings = {
-				TRBi_air_building = 5
-			}
-		}
 	}
 
 	provinces={

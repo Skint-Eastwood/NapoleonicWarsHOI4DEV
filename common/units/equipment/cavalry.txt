@@ -21,7 +21,7 @@ equipments = {
 		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.6
-
+		fuel_consumption = 0.4
 		#Defensive Abilities
 		defense = 5
 		breakthrough = 18
