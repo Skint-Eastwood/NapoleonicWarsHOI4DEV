@@ -280,7 +280,23 @@ ideas = {
 		modifier = {					
 			drift_defence_factor = 0.1
 			justify_war_goal_time = -0.15			
-			political_power_cost = 0.2
+			political_power_cost = 0.45
+		}
+	}
+	FRA_cult_of_the_supreme_being = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			surrender_limit = 0.15
+			political_power_gain = 0.3		
+			research_speed_factor = -0.10
+			justify_war_goal_time = -0.15
+			drift_defence_factor = 0.1	
 		}
 	}
 }
