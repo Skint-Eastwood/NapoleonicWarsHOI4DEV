@@ -23,6 +23,7 @@ state = {
 			air_base = 4
 
 		}
+		add_core_of = GCI
 		add_core_of = POL
 		add_core_of = AUS
 		controller = AUS

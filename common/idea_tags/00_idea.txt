@@ -38,9 +38,9 @@ idea_categories = {
 	}
 	
 	research_production = {
-		slot = tank_manufacturer
+		#slot = tank_manufacturer
 		slot = naval_manufacturer
-		slot = aircraft_manufacturer
+		#slot = aircraft_manufacturer
 		slot = materiel_manufacturer
 		slot = industrial_concern
 		character_slot = theorist
@@ -69,6 +69,7 @@ idea_categories = {
 		slot = religion	
 		slot = monarch_control
 		slot = foreignpolicy
+		slot = institution
 		#slot = culture
 		#slot = accepted_culture1
 		#slot = accepted_culture2
@@ -199,7 +200,6 @@ idea_categories = {
 	}
 }
 
-
 slot_ledgers = {
 	army_chief = army
 	navy_chief = navy
@@ -215,4 +215,6 @@ slot_ledgers = {
 	
 	mobilization_laws = civilian
 	religion = civilian
+	institution = hidden
 }
+

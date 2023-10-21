@@ -5,6 +5,8 @@ state={
 	history={
 		owner = AUS
 		add_core_of = BEL
+		add_claim_by = FRA
+		add_core_of = HOL
 		victory_points = {
 			778 1 
 		}

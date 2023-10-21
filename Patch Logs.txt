@@ -18,6 +18,18 @@ Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
 
+DATE : 20.10.2023
+Apollo - 
+1 : Institution ideas added
+2 : Political Menu Icons Added
+3 : Air and Tank Manufacturer Removed
+4 : Material, Naval and Industrial Manufacturers added for Austria. Bespoke Modifiers Needed
+5 : Habsburg Legacy Idea added for Austria and the HRE
+6 : Eastern Menace Idea added for Austria
+7 : Legacy Of The Thirty Years War Idea added for HRE
+8 : Localisation added for nations
+9 : European Core States Fixed
+
 DATE : 19.10.2023
 Pixy - 
 1:Changing the Fuel system into the food system, infantry, artillery and cavalry now use food and receive debuffs if you dont have enough
@@ -36,6 +48,8 @@ Apollo -
 10: Players unable to play as TRB/Unexplored Land
 11: Morocco Localisation added
 12: Material Designer and Cav Designer icon Added
+13: TRB nerf idea added
+14: French Advisors Fixed
 
 
 DATE : 16.10.2023 

@@ -21,6 +21,42 @@ ideas = {
 			}
 		}
 
+		AUS_habsburg_legacy = {
+			picture = idea_AUS_habsburg_legacy
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.15
+				stability_weekly = 0.002
+			}
+		}
+
+		AUS_eastern_menace = {
+			picture = idea_AUS_eastern_menace
+			allowed = {
+				original_tag = AUS
+				always = not
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.005
+				stability_factor = -0.05
+			}
+		}
+
 		AUS_ethnic_tension = {
 			picture = idea_AUS_ethnic_tension
 			allowed = {
@@ -69,7 +105,7 @@ ideas = {
 			}
 
 			available = {
-				has_government = monarchism
+				has_government = monarchist
 			}
 	
 
@@ -143,4 +179,273 @@ ideas = {
 			}
 		}
 	}
+
+	materiel_manufacturer = {
+			
+		AUS_wiener_neustadt_armory = {
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		AUS_hofwaffenfabrik = {
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_kaiserliche_waffenkammer = {
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_hofbuchsenmeister = {
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_imperial_artillery_works = {
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+
+			available = {
+				has_government = monarchist
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_austrian_cannon_founders = {
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_habsburg_ordnance_forges = {
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+				
+			available = {
+				has_government = monarchist
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+		AUS_imperial_weaving_co = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = AUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+				
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		AUS_vienna_silk_mills = {
+			picture = generic_industrial_concern_2
+			allowed = {
+				original_tag = AUS
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		AUS_bohemian_crystal_artisans = {
+			picture = generic_industrial_concern_3
+			allowed = {
+			}
+			
+			available = {
+				NOT = {
+					country_exists = CZE
+				}
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		AUS_danube_glassworks_guild = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = AUS
+			}
+			
+			available = {
+				NOT = {
+					country_exists = HUN
+				}
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_imperial_ironworks_guild = {
+			picture = generic_industrial_concern_2
+			allowed = {
+				original_tag = AUS
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_austrian_ore_foundry = {
+			picture = generic_industrial_concern_3
+			allowed = {
+				original_tag = AUS
+			}
+				
+			available = {
+				has_government = monarchist
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+	}
+	naval_manufacturer = {
+		AUS_imperial_shipwright_consortium = {
+			picture = generic_naval_manufacturer_1
+			allowed = {
+				original_tag = AUS
+			}
+				
+			available = {
+				has_government = monarchist
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		AUS_austrian_maritime_craftsmen = {
+			picture = generic_naval_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_habsburg_naval_constructors = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+				original_tag = AUS
+			}
+				
+			available = {
+				has_government = monarchist
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_danube_shipbuilding_guild = {
+			picture = generic_naval_manufacturer_1
+			allowed = {
+				original_tag = AUS
+			}
+
+			available = {
+				NOT = {
+					country_exists = HUN
+				}
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+		AUS_vienna_nautical_works = {
+			picture = generic_naval_manufacturer_2
+			allowed = {
+				original_tag = AUS
+			}
+					
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer }
+		}
+	}
 }
+

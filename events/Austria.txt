@@ -173,6 +173,12 @@ country_event = {   ## Puppet Refuse/Accept Style Event
 			tag = FRA
 			message = my_peace_tt1
 		}
+		ENG = {
+			white_peace = {
+				tag = FRA
+				message = my_peace_tt1
+			}
+		}
 		FRA = {
 			country_event = france.4
 		}

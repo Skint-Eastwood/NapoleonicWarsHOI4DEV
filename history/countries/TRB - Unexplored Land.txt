@@ -16,6 +16,7 @@ set_popularities = {
 
 
 add_ideas = {
+	TRB_unexplored_landsidea
 }
 
 recruit_character = TRB_unexplored_land

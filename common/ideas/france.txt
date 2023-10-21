@@ -151,7 +151,6 @@ ideas = {
 			always = no
 		}
 		available = {
-			has_government = democratic
 		}
 
 		removal_cost = -1
@@ -219,6 +218,55 @@ ideas = {
 			weekly_manpower = 15000
 			production_speed_buildings_factor = -0.3
 
+		}
+	}
+
+	FRA_athiest_rising = {
+		picture = FRA_athiest_rising
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			stability_factor = -0.3
+			war_support_factor = 0.15
+
+		}
+	}
+
+	FRA_louis_lives = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			monarchist_drift = 0.03
+		}
+	}
+
+	FRA_committee_of_public_safety_idea = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			improve_relations_maintain_cost_factor = 0.25
+			political_power_factor = 0.15
 		}
 	}
 }

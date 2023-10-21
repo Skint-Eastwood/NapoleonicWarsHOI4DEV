@@ -9,7 +9,8 @@ state={
 		}
 		owner = AUS
 		add_core_of = AUS
-		add_core_of = VEN
+		add_core_of = VNI
+		add_core_of = SER
 		buildings = {
 			infrastructure = 1
 			6626 = {

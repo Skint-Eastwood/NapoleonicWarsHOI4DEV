@@ -1,6 +1,22 @@
 ideas = {
-
 	country = {
+		# Starting Ideas | Austrian Puppet
+		HRE_legacy_of_the_thirty_years_war = {
+			picture = GER_legacy_of_the_thirty_years_war
+			allowed = {
+				original_tag = GER
+				has_government = monarchism
+			}
+
+			removal_cost = -1
+
+			available = {
+			}
+
+			modifier = {
+				experience_gain_army = -0.25
+				army_org_factor = -0.15
+			}
 		}
 	}
-
+}
