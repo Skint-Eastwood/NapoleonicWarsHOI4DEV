@@ -3,34 +3,41 @@
 
 ## France ##
  france.1.t:0 "Storming The Tuileries"
- france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"
+ france.1.d:0 "The spirit of the Revolution surged through the streets of Paris as the resolute will of the people culminated in a momentous event that shall forever be etched in the annals of history. The Tuileries Palace, once the symbol of monarchic privilege and excess, has been reclaimed by the people of France, marking a monumental victory for the forces of liberty and equality."
  france.1.a:0 "Only Time Will Tell..."
 
  france.2.t:0 "Declaration of The First French Republic"
- france.2.d:0 "The first French republic was officially delcared on the 21st of September 1792 after the toppling of King Louis XVI and the House of Bourbon at the righteous hand of the French revolutionaries."
+ france.2.d:0 "In a defining moment that reverberates with the spirit of liberty and the unyielding determination of the French people, the National Convention has announced the historic proclamation of the First French Republic. Amidst a wave of fervent enthusiasm and patriotic zeal, the delegates of the Convention have officially severed the chains of the old regime, ushering in a new era of republican governance for the nation."
  france.2.a:0 "Liberté, égalité, fraternité"
 
  france.3.t:0 "Austria Surrenders The Netherlands!"
  france.3.a:0 "Annex The Austrian Netherlands!"
  france.3.b:0 "Austria Can Keep The Netherlands."
+ france.3.d:0 "In the wake of prolonged hostilities and mounting pressure, the Austrian Empire, under duress, has signed the Treaty of Surrender, relinquishing its control over the Austrian Netherlands to the advancing French forces. As the fate of this crucial territory hangs in the balance, the question of its sovereignty has ignited a heated debate within the chambers of power."
 
  france.4.t:0 "The Cisalpine Republic?"
- france.4.d:0 ""
+ france.4.d:0 "Amid the fervor of political upheaval and revolutionary aspirations, the proclamation of the Cisalpine Republic has marked a pivotal moment in the history of the Italian peninsula. A bastion of hope and reform, this newly formed republic represents the aspirations of the people for liberation and self-governance. However, as the leaders of the burgeoning republic deliberate on its future, a critical decision must be made regarding its leadership."
  france.4.a:0 "Put Napoleon Incharge!"
  france.4.b:0 "Let The Be Independent!"
 
  france.5.t:0 "The Dutch Refuse!"
- france.5.d:0 ""
+ france.5.d:0 "As the French advance with a proposition to establish a sister republic, echoing the revolutionary fervor that has gripped the neighboring territories, the Dutch leaders have stood firm, citing the nation's rich cultural heritage, distinct political traditions, and unwavering commitment to independent governance as the foundations of their steadfast refusal."
  france.5.a:0 "How Dare They!"
  france.5.b:0 "We're Out Of Luck..."
 
  france.6.t:0 "The Swiss Refuse!"
- france.6.d:0 ""
+ france.6.d:0 "As the winds of revolution sweep across Europe, the French authorities, emboldened by their recent successes, have sought to extend their influence over the territories neighboring their borders. However, the Swiss Confederation, guided by the principles of neutrality and self-determination, has adamantly resisted the pressures to align itself with the revolutionary fervor espoused by the French Republic, instead choosing to uphold the sanctity of its long-standing traditions and values."
  france.6.a:0 "We'll See Who's Laughing!"
  france.6.b:0 "Time Will Tell..."
 
  france.7.t:0 "Austria Refuse"
  france.7.a:0 "So Its Annihilation They Want."
+ france.7.d:0 " In the face of overwhelming pressure and formidable opposition at the Battle of Austerlitz, the Austrian forces have displayed unwavering resilience and unyielding determination, refusing to succumb to the relentless advance of the French army under the command of Emperor Napoleon Bonaparte. The battleground of Austerlitz has become a testament to the valor and fortitude of the Austrian troops, as they stand firm in defense of their homeland and national sovereignty."
+ 
+ france.8.t:0 "The King Louis Question"
+ france.8.a:0 "Execute The Tyrant!"
+ france.8.b:0 "Spare Him"
+ france.8.d:0 "The revolution rages on as the National Convention stands poised at a critical juncture. King Louis XVI, once the symbol of the old regime, has been brought to justice for his alleged crimes against the people of France. The debate within the Convention hall grows fervent, with impassioned voices arguing for both the execution and the clemency of the deposed monarch. Amidst the fervor of the revolutionary fervor, the question of the fate of King Louis XVI hangs heavy in the air, weighing the hearts of the delegates. Will the bloodshed of the past be avenged by the swift stroke of the guillotine, or will the ideals of the Revolution be tempered by the spirit of forgiveness and reconciliation? "
 
 
 ## Austria ##
@@ -47,34 +54,38 @@
  austria.4.t:0 "The French Take Wien"
  austria.4.a:0 "We Surrender..."
  austria.4.b:0 "Continue Fighting!"
+ austria.4.d:0 "The once-proud city of Vienna, heart of the Habsburg Empire and bastion of Austrian power, has fallen to the relentless advance of the French forces under the command of Emperor Napoleon Bonaparte. Amidst the tumult of battle and the piercing cries of war, the triumphant tricolor of the French Republic now flies over the conquered capital, marking a watershed moment in the history of the Austrian Empire."
  
  austria.5.t:0 "Peace With The French?"
  austria.5.a:0 "End The War"
  austria.5.b:0 "Keep Fighting"
+ austria.5.d:0 "The French proposal, crafted with the intention of averting further bloodshed and fostering a climate of reconciliation, offers the Austrian Empire an opportunity to consider the prospect of peace and the potential benefits of an amicable resolution to the conflict. However, the terms of the proposed peace may necessitate the relinquishment of certain territories and the acceptance of conditions that could impact the long-term stability and influence of the Austrian Empire within the region."
 
 ## Netherlands ##
  netherlands.1.t:0 "Batavian Republic?"
  netherlands.1.a:0 "Join France"
  netherlands.1.b:0 "Refuse Their Offer"
+ netherlands.1.d:0 "The Dutch Republic finds itself at a crossroads as an offer from the French Republic arrives, proposing the establishment of a sister republic relationship. The proposition, inspired by the ideals of the French Revolution, presents the opportunity for the Dutch to align themselves with the revolutionary fervor sweeping across Europe, promising the potential benefits of cooperation, shared governance, and mutual defense."
 
 ## Switzerland ##
 
  switzerland.1.t:0 "Helvetic Republic?"
  switzerland.1.a:0 "Join France"
  switzerland.1.b:0 "Refuse Their Offer"
+ switzerland.1.d:0 "The steadfast and neutral Swiss Confederation faces a momentous decision as an offer arrives from the French Republic, proposing the establishment of a sister republic relationship. The proposition, founded on the principles of the French Revolution, presents the Swiss with the opportunity to align themselves with the revolutionary fervor coursing through Europe, promising the potential benefits of mutual cooperation, shared governance, and collective security."
 
 ## News ##
 
  news.1.t:0 "Storming of The Tuileries"
- news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people?"
+ news.1.d:0 "The storming of the Tuileries Palace stands as a resounding declaration of the people's resolve to cast off the shackles of monarchy and tyranny, ushering in a new era of popular sovereignty and the spirit of the Revolution. As the flames of discontent continue to engulf the nation, the repercussions of this monumental event will undoubtedly reverberate far beyond the borders of France, reshaping the political landscape of Europe and inspiring similar movements for liberty and justice across the continent."
  news.1.a:0 "The Power Balance In Europe Is About To Change Dramatically."
 
  news.2.t:0 "Declaration of The First French Republic"
- news.2.d:0 ""
+ news.2.d:0 "The grandiose ideals of liberty, equality, and fraternity have now taken a decisive step forward as the newly formed National Convention has made a historic proclamation. In a momentous session that echoed with the fervor of the Revolution, the deputies of the National Convention gathered to declare the establishment of the First French Republic. Amidst the resounding cheers of the people, the legacy of the monarchy is consigned to the annals of history, and the dawn of a new era rises over the nation. The tricolor flag of blue, white, and red now symbolizes the principles of a united and sovereign France, where the power belongs to the people."
  news.2.a:0 "Liberté, égalité, fraternité"
 
  news.3.t:0 "National Razor"
- news.3.d:0 "Due to King Louis XVI banning the breaking wheel. France needs a better, more efficient way of executing traitors. "
+ news.3.d:0 "In the midst of the turbulent times of the French Revolution, a revolutionary invention has emerged, promising a swift and humane method of execution that transcends the traditional barbarity of past methods. The guillotine, a mechanical contraption designed by Dr. Joseph-Ignace Guillotin and perfected by the German engineer Tobias Schmidt, has been unveiled as the latest innovation in the administration of justice."
  news.3.a:0 "Its the will of the King.."
 
  news.4.t:0 "Death of Emperor Leopold"

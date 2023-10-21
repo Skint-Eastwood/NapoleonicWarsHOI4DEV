@@ -359,7 +359,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_get_rid_of_the_catholic_church
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_get_rid_of_the_catholic_church
 		x = -2
 		y = 2
 		cost = 10
@@ -375,7 +375,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_destroy_religious_values
-		icon = GFX_focus_fra_le_deluge
+		icon = FRA_destroy_religious_values
 		x = -2
 		y = 3
 		cost = 10
@@ -383,10 +383,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = {
+				remove_idea = FRA_get_rid_of_the_catholic_church_idea
+				add_idea = FRA_athiest_rising
+			}
 		}
 	}
 
@@ -396,15 +396,15 @@ focus_tree = {
 		x = 0
 		y = 4
 		cost = 10
-		prerequisite = { focus = FRA_destroy_religious_values  } 
-		prerequisite = { focus = FRA_change_the_christian_calendar }
+		prerequisite = { focus = FRA_change_the_christian_calendar focus = FRA_destroy_religious_values }
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			add_stability = 0.25
+			add_political_power = 50
+			add_manpower = -10000
 
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+
 		}
 	}
 
@@ -418,10 +418,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			country_event = france.8
 		}
 	}
 
@@ -435,10 +432,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = {
+				remove_idea = FRA_athiest_rising
+				add_idea = FRA_committee_of_public_safety_idea
+			}
 		}
 	}
 
@@ -452,10 +449,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.5
+			add_stability = -0.2
 		}
 	}
 
@@ -1324,7 +1319,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_promote_napoleon
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_promote_napoleon_icon
 		x = -4
 		y = 7
 		cost = 2
@@ -1360,6 +1355,12 @@ focus_tree = {
 			add_state_core = 6
 			add_state_core = 8
 			add_state_core = 837
+			hidden_effect = {
+				transfer_state = 34
+				transfer_state = 8
+				transfer_state = 6
+				transfer_state = 837
+			}
 		}
 	}
 

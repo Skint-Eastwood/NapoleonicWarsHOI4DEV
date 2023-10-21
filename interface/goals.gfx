@@ -1,6 +1,16 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
+
+
+	SpriteType = {
+	name = "GFX_FRA_destroy_religious_values"
+	texturefile = "gfx/interface/goals/FRA_destroy_religious_values.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_get_rid_of_the_catholic_church"
+	texturefile = "gfx/interface/goals/FRA_get_rid_of_the_catholic_church.dds"			
+	}	
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
@@ -3130,6 +3140,11 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_to_arms_citizens"
 		texturefile = "gfx/interface/goals/FRA_to_arms_citizens.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_promote_napoleon_icon"
+		texturefile = "gfx/interface/goals/FRA_promote_napoleon.dds"			
 	}
 
 }

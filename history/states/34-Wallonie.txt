@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = AUS
+	
 		victory_points = {
 			3516 5
 		}
@@ -25,6 +26,7 @@ state={
 
 		}
 		add_core_of = BEL
+		add_claim_by = FRA
 	}
 
 	provinces={

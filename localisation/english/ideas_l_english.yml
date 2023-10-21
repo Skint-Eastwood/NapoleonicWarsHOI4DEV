@@ -85,7 +85,10 @@ PLC_third_may_constitution_desc:0 "Widely considered to be the first constitutio
  FRA_Napoleon:0 "Napoleon Bonaparte"
  FRA_Revolutionary_Spirit:0 "Revolutionary Spirit"
  FRA_Revolutionary_Spirit_desc:0 ""
-
+ FRA_get_rid_of_the_catholic_church:0 "Get Rid Of The Catholic Church"
+ FRA_athiest_rising:0 "Athiest Risings"
+ FRA_louis_lives:0 "Louis Lives"
+ FRA_committee_of_public_safety_idea:0 "Committee Of Public Safety"
 
 ####################
 ## Austrian Ideas ##
@@ -106,6 +109,31 @@ PLC_third_may_constitution_desc:0 "Widely considered to be the first constitutio
 
  AUS_french_aggression:0 "French Aggression"
 
+ AUS_habsburg_legacy:0 "Habsburg Legacy"
+ AUS_habsburg_legacy_desc:0 "todo"
+
+ AUS_eastern_menace:0 "Eastern Menace"
+ AUS_eastern_menace_desc:0 "todo"
+
+ AUS_wiener_neustadt_armory:0 "Wiener Neustadt Armory"
+ AUS_hofwaffenfabrik:0 "Hofwaffenfabrik"
+ AUS_kaiserliche_waffenkammer:0 "Kaiserliche Waffenkammer"
+ AUS_hofbuchsenmeister:0 "Hofbüchsenmeister"
+ AUS_imperial_weaving_co:0 "Imperial Weaving Co."
+ AUS_vienna_silk_mills:0 "Vienna Silk Mills"
+ AUS_bohemian_crystal_artisans:0 "Bohemian Crystal Artisans"
+ AUS_danube_glassworks_guild:0 "Danube Glasswork Guild"
+ AUS_imperial_ironworks_guild:0 "Imperial Ironworks Guild"
+ AUS_austrian_ore_foundry:0 "Austrian Ore Foundry"
+ AUS_imperial_shipwright_consortium:0 "Imperial Shipwright Consortium"
+ AUS_austrian_maritime_craftsmen:0 "Austrian Maritime Craftsmen"
+ AUS_habsburg_naval_constructors:0 "Habsburg Naval Constructors"
+ AUS_danube_shipbuilding_guild:0 "Danube Shipbuilding Guild"
+ AUS_vienna_nautical_works:0 "Vienna Nautical Works"
+ AUS_imperial_artillery_works:0 "Imperial Artillery Works"
+ AUS_austrian_cannon_founders:0 "Austrian Cannon Founders"
+ AUS_habsburg_ordnance_forges:0 "Habsburg Ordnance Forges"
+
 #######################
 ## Papal States Ides ##
 #######################
@@ -124,6 +152,12 @@ PLC_third_may_constitution_desc:0 "Widely considered to be the first constitutio
  INT_papal_influence:0 "Papal Influence"
  INT_papal_influence_desc:0 "The Catholic church, based in the Vatican, Exerts its influence throughout the European continent, tightly controlling the politics of the time. \nDuring this period the Catholic church encouraged people to stick with the traditional method of doing things, meaning that new methods were unapproved and unused."
 
+######################
+## Holy Roman Ideas ##
+######################
+
+HRE_legacy_of_the_thirty_years_war:0 "Legacy Of The Thirty Years War"
+HRE_legacy_of_the_thirty_years_war_desc:0 "The Thirty Years War began as a religious war, fought between Roman Catholics and Protestants in Germany. It developed into a political struggle between the Catholic Habsburgs of the Holy Roman Empire."
 
 ###################
 ## African Ideas ##
@@ -193,7 +227,13 @@ ANT_Nomadic_Tribes_desc:0 "The African Nation are a group of disconnected tribes
  versailles_armory:0 "Versailles Armory"
  materiel_manufacturer:0 "Material Manufacturer"
 
+ TRB_unexplored_landsidea:0 "Unexplored Lands"
 
+ colonialism:0 "Colonialism"
+ imperialism:0 "Imperialism"
+ industrialisation:0 "Industrialisation"
+ printingpress:0 "Printing Press"
+ institution:0 "Institution"
 
 
 

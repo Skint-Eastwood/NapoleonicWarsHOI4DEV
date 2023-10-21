@@ -1,4 +1,6 @@
 QAJ = "countries/Qajar.txt"
+MOV = "countries/Moravia.txt"
+GCI = "countries/GaliciaGCI.txt"
 AND = "countries/Andhra.txt"
 NFL = "countries/Newfoundland.txt"
 BKH = "countries/Bukhara.txt"

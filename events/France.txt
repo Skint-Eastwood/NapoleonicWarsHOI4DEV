@@ -17,6 +17,7 @@ country_event = {
 		ai_chance = {
 			factor = 100	
 		}	
+		news_event = { id = news.1 }
 	}
 }
 
@@ -201,6 +202,38 @@ country_event = {
 		}	
 	}
 }
+
+country_event = {
+	id = france.8
+	title = france.8.t
+	desc = france.8.d
+	picture = GFX_report_french_republic
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = france.8.a
+		ai_chance = {
+			factor = 0
+		}	
+		retire_ideology_leader = monarchist
+		remove_ideas = {
+			FRA_King_Louis
+		}
+	}
+
+	option = {
+		name = france.8.b
+		ai_chance = {
+			factor = 0
+		}	
+		add_ideas  = { 
+			FRA_louis_lives
+		}
+		add_stability = -0.1
+	}	
+}
+
 
 
 

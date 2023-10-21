@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_institution_bg"
+		textureFile = "/gfx/interface/institution_bg.dds"
+	}
+}

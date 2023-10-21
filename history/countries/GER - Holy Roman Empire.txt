@@ -19,9 +19,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	PTY_house_of_habsburg
 	catholic
-		}
+	HRE_legacy_of_the_thirty_years_war
+	AUS_habsburg_legacy
+}
 		
 recruit_character = GER_Leopold_II
 recruit_character = GER_francis_II

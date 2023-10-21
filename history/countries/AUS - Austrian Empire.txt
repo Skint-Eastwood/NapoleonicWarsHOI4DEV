@@ -51,10 +51,11 @@ add_ideas = {
 	INT_papal_influence
 	AUS_ethnic_tension
 	limited_conscription
-	PTY_house_of_habsburg
 	catholic
 	absolute
 	interveneinaffairs
+	AUS_habsburg_legacy
+	AUS_eastern_menace
 
 }
 

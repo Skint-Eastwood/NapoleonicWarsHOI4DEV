@@ -1,4 +1,101 @@
 spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_FRA_athiest_rising"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_athiest_rising.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_slot_institution"
+		texturefile = "gfx/interface/idea_slot_institution.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_imperialism"
+		texturefile = "gfx/interface/institutions/imperialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_printingpress"
+		texturefile = "gfx/interface/institutions/printing_press.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_colonialism"
+		texturefile = "gfx/interface/institutions/colonialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_industrialisation"
+		texturefile = "gfx/interface/institutions/industrialisation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_legacy_of_the_thirty_years_war"
+		texturefile = "gfx/interface/ideas/HRE/idea_GER_legacy_of_the_thirty_years_war.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_eastern_menace"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_eastern_menace.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_habsburg_legacy"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_habsburg_legacy.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Jacques"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Jacques-Louis_David.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_Emmanuel_Joseph_Sieyes"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Emmanuel_Joseph_Sieyes.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Francois_Barbe_Marbois"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Francois_Barbe_Marbois.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Pasquale_Paoli"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Pasquale_Paoli.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Jean_Baptiste_Collin_de_Sussy"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Jean-Baptiste_Collin_de_Sussy.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_pierre_daru"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_pierre_daru.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Charles_Maurice_de_Talleyrand_Perigord"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Charles_Maurice_de_Talleyrand_Perigord.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_lucien_bonaparte"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_lucien_bonaparte.dds"
+		noOfFrames = 1
+	}
+
 	### SWEDEN
 	SpriteType = {
 		name = "GFX_idea_SWE_svenskund"
@@ -155,6 +252,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_idea_king_louis"
 		texturefile = "gfx/interface/ideas/idea_king_louis.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_TRB_unexplored_land_icon"
+		texturefile = "gfx/interface/ideas/idea_TRB_unexplored_land_icon.dds"
 		noOfFrames = 1
 	}
 

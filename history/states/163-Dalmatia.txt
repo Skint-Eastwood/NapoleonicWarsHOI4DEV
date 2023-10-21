@@ -15,8 +15,8 @@ state={
 		}
 		add_core_of = VNI
 		add_core_of = AUS
-		start_resistance = CRO
-
+		add_core_of = SER
+		add_core_of = CRO
 	}
 
 	provinces={
