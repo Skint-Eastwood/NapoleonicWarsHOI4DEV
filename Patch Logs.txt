@@ -18,6 +18,10 @@ Date of release: 12.10.2023 (DD.MM.YYYY)
 
 Document all changes made below.
 
+DATE : 21.10.2023
+Pixy - 
+1 : french oob fixed
+
 DATE : 20.10.2023
 Apollo - 
 1 : Institution ideas added

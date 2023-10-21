@@ -25,7 +25,7 @@ set_technology = {
 	early_battlecruiser = 1
 	early_battleship = 1
 }
-
+oob = FRA_1936
 add_ideas = {
 	FRA_Revolutionary_Spirit
 	FRA_Unpopular_Monarch
