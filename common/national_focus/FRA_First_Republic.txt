@@ -624,10 +624,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 45
+			add_stability = -0.05
+			add_manpower = -5000
 		}
 	}
 
@@ -641,10 +640,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_manpower = -1500
+			add_stability = -0.05
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = 0.025
+			}
 		}
 	}
 
@@ -658,10 +659,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = 0.05
+			add_political_power = 35
 		}
 	}
 
@@ -675,10 +674,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 5
 		}
 	}
 
@@ -692,10 +688,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = 0.025
 		}
 	}
 
@@ -709,10 +702,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 50
+			add_war_support = -0.05
+			add_stability = 0.025
 		}
 	}
 
@@ -726,10 +718,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 5
 		}
 	}
 
@@ -743,10 +732,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = -0.1
 		}
 	}
 
@@ -760,10 +746,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_manpower = 15000
+			add_war_support = 0.15
 		}
 	}
 
@@ -777,10 +761,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 5
 		}
 	}
 
@@ -794,10 +775,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_manpower = -15000
 		}
 	}
 
@@ -811,10 +789,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = 0.1
 		}
 	}
 
@@ -828,10 +803,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 5
 		}
 	}
 
@@ -845,10 +817,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = 0.015
+			}
 		}
 	}
 
@@ -862,10 +834,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = -0.025
+			add_war_support = 0.05
 		}
 	}
 
