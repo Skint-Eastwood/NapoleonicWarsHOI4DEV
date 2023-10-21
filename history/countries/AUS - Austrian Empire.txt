@@ -28,6 +28,22 @@ set_technology = {
 	early_battleship = 1
 }
 
+HUN = {
+	set_cosmetic_tag = AUS_HUN
+}
+CZE = {
+	set_cosmetic_tag = AUS_CZE
+}
+CRO = {
+	set_cosmetic_tag = AUS_CRO
+}
+GCI = {
+	set_cosmetic_tag = AUS_GCI
+}
+MOV = {
+	set_cosmetic_tag = AUS_MOV
+}
+
 set_popularities = {
 	democratic = 3
 	authoritarian = 7

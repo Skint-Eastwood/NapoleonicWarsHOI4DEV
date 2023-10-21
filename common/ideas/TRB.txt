@@ -14,9 +14,14 @@ ideas = {
 			removal_cost = -1
 		
 			modifier = {
-				political_power_gain = -1
-				weekly_manpower = -100000
+				political_power_gain = -100
+				weekly_manpower = -1000000
 				war_support_weekly = -1.0
+				research_speed_factor = -1.0
+				justify_war_goal_time = 1
+				production_speed_buildings_factor = -1
+				trade_opinion_factor = -1	
+				local_resources_factor = -1	
 			}
 		}
 	}

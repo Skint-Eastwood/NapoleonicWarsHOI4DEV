@@ -58,19 +58,34 @@
 
 ## Austrian Habsburgs ##
 
-HAB_AUS:0 "Habsburg Monarchy"
-HAB_AUS_DEF:0 "the Habsburg Monarchy"
+ HAB_AUS:0 "Habsburg Monarchy"
+ HAB_AUS_DEF:0 "the Habsburg Monarchy"
 
 ## Austro-Hungarian Empire ##
 
-AHU_AUS:0 "Austro-Hungarian Empire"
-AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
+ AHU_AUS:0 "Austro-Hungarian Empire"
+ AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
 
 ## Austrian Empire ##
 
-EMP_AUS_DEF:0 "the Austrian Empire"
-EMP_AUS:0 "Austrian Empire"
+ EMP_AUS_DEF:0 "the Austrian Empire"
+ EMP_AUS:0 "Austrian Empire"
 
+## Austrian Galicia ##
+ AUS_GCI:0 "Austrian Galicia"
+ AUS_GCI_DEF:0 "Austrian Galicia"
+
+ AUS_MOV:0 "Austrian Moravia"
+ AUS_MOV_DEF:0 "Austrian Moravia"
+
+ AUS_CZE:0 "Austrian Bohemia"
+ AUS_CZE_DEF:0 "Austrian Bohemia"
+
+ AUS_HUN:0 "Austrian Hungary"
+ AUS_HUN_DEF:0 "Austrian Hungary"
+
+ AUS_CRO:0 "Austrian Croatia"
+ AUS_CRO_DEF:0 "Austrian Croatia"
 
 ###########################
 ## BELGIAN COSMETIC TAGS ##
