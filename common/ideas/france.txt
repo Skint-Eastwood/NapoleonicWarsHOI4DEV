@@ -150,7 +150,7 @@ ideas = {
 			original_tag = FRA
 			always = no
 		}
-		available = {
+		available = { 
 		}
 
 		removal_cost = -1
@@ -267,6 +267,36 @@ ideas = {
 		modifier = {					
 			improve_relations_maintain_cost_factor = 0.25
 			political_power_factor = 0.15
+		}
+	}
+	FRA_revolutionary_tribunal = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			drift_defence_factor = 0.1
+			justify_war_goal_time = -0.15			
+			political_power_cost = 0.45
+		}
+	}
+	FRA_cult_of_the_supreme_being = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			surrender_limit = 0.15
+			political_power_gain = 0.3		
+			research_speed_factor = -0.10
+			justify_war_goal_time = -0.15
+			drift_defence_factor = 0.1	
 		}
 	}
 }

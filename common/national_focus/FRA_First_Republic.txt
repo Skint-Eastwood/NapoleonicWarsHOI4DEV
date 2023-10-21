@@ -252,7 +252,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.05
 		remove_ideas = FRA_King_Louis	
 		remove_country_leader = yes
 			retire_character = FRA_the_revolutionaries
@@ -282,7 +282,6 @@ focus_tree = {
 		completion_reward = {		
 			add_political_power = 20
 			add_ideas = FRA_National_Convention			
-			retire_character = FRA_maximilien_robespierre
 			remove_country_leader = yes
 			add_country_leader_role = {
 				character = FRA_national_convention
@@ -322,7 +321,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			add_stability = 0.15
+			add_stability = 0.025
 			add_political_power = 25
 		}
 	}
@@ -403,8 +402,10 @@ focus_tree = {
 			add_stability = 0.25
 			add_political_power = 50
 			add_manpower = -10000
-
-
+			add_popularity = {
+				ideology = authoritarian_democracy
+			 popularity = -0.05
+		 }
 		}
 	}
 
@@ -449,8 +450,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			add_war_support = 0.5
-			add_stability = -0.2
+			add_war_support = 0.15
+			add_manpower = 7500
+			add_stability = -0.25
+			army_experience = -15
 		}
 	}
 
@@ -464,10 +467,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = authoritarian_democracy
+			 popularity = 0.05
+		 }
 		}
 	}
 
@@ -481,10 +485,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = FRA_revolutionary_tribunal
 		}
 	}
 
@@ -498,10 +499,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_manpower = -250000
+			add_political_power = 75
+			add_popularity = {
+				ideology = authoritarian_democracy
+			 popularity = 0.025
+		 }
 		}
 	}
 
@@ -516,10 +519,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_manpower = -250000
+			add_stability = -0.1
+			add_popularity = {
+				ideology = authoritarian_democracy
+			 popularity = 0.05
+		 }
 		}
 	}
 
@@ -533,10 +538,25 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			remove_country_leader = yes
+			retire_character = FRA_national_convention
+			remove_country_leader = yes
+			add_country_leader_role = {
+				character = FRA_maximilien_robespierre
+				promote_leader = yes
+				country_leader = {
+				  ideology = authoritarian_democracy
+				  expire = ""
+				  traits = { popular_figurehead }
+				}
+				add_stability = -0.05
+				army_experience = -2
+				add_manpower = -1500
+				add_popularity = {
+					ideology = authoritarian_democracy
+				 popularity = 0.1
+			 }
+			}
 		}
 	}
 
@@ -550,10 +570,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = 0.15
+			add_political_power = 25
+			add_popularity = {
+				ideology = monarchist
+			 popularity = -0.05
+		 }
 		}
 	}
 
@@ -568,10 +590,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_stability = -0.025
+			add_war_support = -0.05
+			add_political_power = 25
 		}
 	}
 
@@ -585,10 +606,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = FRA_revolutionary_tribunal
+				add_idea = FRA_cult_of_the_supreme_being
+			}
 		}
 	}
 
