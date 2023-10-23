@@ -543,38 +543,6 @@ guiTypes = {
 			maxWidth = 122
 			alwaystransparent = yes
 		}
-		
-		buttonType = {
-			name = "institutions"
-			position = { x = 190 y = 390 }
-			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "vic_18"
-			shortcut = "ESCAPE"
-			Orientation = "UPPER_LEFT"
-			effect = {
-				set_country_flag = open_institutions_window
-			}
-		}
-
-		instantTextboxType = {
-			name = "institutions_text"
-			position = { x = 265 y = 399 }
-			font = "vic_18"
-			text = "institutions_text"
-			maxWidth = 122
-			alwaystransparent = yes
-		}
-		containerWindowType = {
-			name = "subjects_button_container"
-			position = { x = 367 y = 390 }
-
-			buttonType = {
-				name = "show_subjects_button"
-				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_government_button"
-				buttonFont = "vic_18"
-				Orientation = "UPPER_RIGHT"
-			}
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
