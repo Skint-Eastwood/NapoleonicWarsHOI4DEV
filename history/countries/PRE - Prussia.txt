@@ -23,6 +23,10 @@ give_guarantee = AUS
 		protestant
 		mildintervention
 		absolute
+		PRE_frederick_the_great_legacy
+		PRE_german_dualism
+		PRE_eastward_incentives
+		PRE_shadows_of_the_royal_forces
 	}
 }
 

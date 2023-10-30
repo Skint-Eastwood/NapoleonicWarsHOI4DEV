@@ -1,0 +1,83 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+
+		PRE_frederick_the_great_legacy = {
+			picture = 
+			allowed = {
+				original_tag = PRE
+				always = no
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1		
+				authoritarian_drift = 0.02
+			}
+		}
+
+		PRE_german_dualism = {
+			picture = 
+			allowed = {
+				original_tag = PRE
+				always = no
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.15
+				defensive_war_stability_factor = 0.2
+			}
+		}
+		
+		PRE_eastward_incentives = {
+			picture = 
+			allowed = {
+				original_tag = PRE
+				always = no
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				justify_war_goal_time = -0.05
+				compliance_gain = 0.05
+			}
+		}
+
+		PRE_shadows_of_the_royal_forces = {
+			picture = 
+			allowed = {
+				original_tag = PRE
+				always = no
+			}
+
+			available = {
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				offence = -0.2
+				army_org_factor = -0.10
+				army_speed_factor = -0.05
+				army_morale_factor = -0.15
+				experience_gain_army = 0.02
+
+			}
+		}		
+	}	
+}
