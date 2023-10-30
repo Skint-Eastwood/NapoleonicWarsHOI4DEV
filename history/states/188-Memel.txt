@@ -7,7 +7,7 @@ state = {
 		victory_points = {
 			3288 3
 		}
-		owner = POL
+		owner = PRE
 		buildings = {
 			infrastructure = 3 
 			industrial_complex = 1
@@ -17,11 +17,8 @@ state = {
 		}
 		add_core_of = LIT
 		add_core_of = POL
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-		}
-		controller = POL
+		add_core_of = PRE
+		controller = PRE
 	}
 	provinces = {
 		3288 	
