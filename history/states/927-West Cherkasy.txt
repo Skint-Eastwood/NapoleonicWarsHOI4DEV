@@ -1,0 +1,19 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		9451 11409 
+	}
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = POL
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}

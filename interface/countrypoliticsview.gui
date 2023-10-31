@@ -215,7 +215,6 @@ guiTypes = {
 				quadTextureSprite ="GFX_mini_bg"
 			}
 			
-			
 			instantTextboxType = {
 				name = "current_autonomy_name"
 				position = { x = 92 y = 8 }
@@ -427,7 +426,7 @@ guiTypes = {
 					name = "spirit_grid"
 					position = { x = 1 y = 2 }
 					size = { width = 354 height = 68 }
-					slotsize = { width = 65 height = 68 }
+					slotsize = { width = 59 height = 68 }
 					max_slots = { x = 6 y = 1 }
 					format = "UPPER_LEFT"
 				}
@@ -543,6 +542,18 @@ guiTypes = {
 			maxWidth = 122
 			alwaystransparent = yes
 		}
+		
+		containerWindowType = {
+			name = "subjects_button_container"
+			position = { x = 367 y = 390 }
+
+			buttonType = {
+				name = "show_subjects_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_government_button"
+				buttonFont = "vic_18"
+				Orientation = "UPPER_RIGHT"
+			}
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
@@ -1067,9 +1078,9 @@ guiTypes = {
 				format = UPPER_LEFT
 			}
 		}
-
+		
 		iconType ={
-			name ="manage_occupied_header_bg"`
+			name ="manage_occupied_header_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 7 y = 5 }
 			Orientation = "UPPER_LEFT"

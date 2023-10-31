@@ -1,6 +1,6 @@
 characters={
 	TRB_unexplored_land={ #Democratic Leader
-		name="Unexplored Land"
+		name="Terra incognita"
 		portraits={
 			civilian={
 				large="gfx/leaders/TRB/TRB_unexplored_land.dds"

@@ -1,0 +1,19 @@
+state={
+	id=931
+	name="STATE_931"
+	provinces={
+		4924 
+	}
+	history={
+		owner = TRB
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = TRB
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}
