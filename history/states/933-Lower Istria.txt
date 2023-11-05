@@ -1,0 +1,20 @@
+state={
+	id=933
+	name="STATE_933"
+	
+	history={
+		owner = VNI
+		buildings = {
+			dockyard = 1
+		}
+		add_core_of = VNI
+		controller = VNI
+	}
+	
+	provinces={
+		11735 
+	}
+	manpower=173156
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
