@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = MOD
+		owner = PAR
 		victory_points = {
 			6606 3 
 		}
@@ -21,7 +21,7 @@ state={
 			}
 
 		}
-		add_core_of = MOD
+		add_core_of = PAR
 
 	}
 

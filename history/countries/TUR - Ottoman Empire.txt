@@ -32,5 +32,8 @@ add_ideas = {
 	mildintervention
 }
 
+puppet = MOL
+puppet = ROM
+
 recruit_character = TUR_Selim_III
 

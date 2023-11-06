@@ -1,18 +1,19 @@
+
 state={
 	id=840
-	name="STATE_840"
 	name="Genoa"
 
 	history={
 		owner = GEN
 		add_core_of = GEN
+
 	}
 
 	provinces={
-		3772 6788 
+		3772 6788 11891 
 	}
 	manpower=2500
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=city
+	local_supplies=0.000
 }

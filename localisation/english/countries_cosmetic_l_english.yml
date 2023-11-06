@@ -103,8 +103,8 @@ AUN_BEL_DEF:0 "the Austrian Netherlands"
 LIG_GEN:0 "Ligurian Republic"
 LIG_DEF:0 "the Ligurian Republic"
 
-FRA_LUC:0 "French Republic of Lucca"
-FRA_LUC_DEF:0 "the French Republic of Lucca"
+FRA_PAR:0 "French Republic of Parma"
+FRA_PAR_DEF:0 "the French Republic of Parma"
 
 
 ############################

@@ -1,6 +1,6 @@
-capital = 64
+capital = 911
 
-set_convoys = 300
+set_convoys = 10
 
 add_ideas = {
 	catholic

@@ -1511,12 +1511,12 @@ focus_tree = {
 
 		completion_reward = {
 			ITA = {				
-				release = LUC
+				release = PAR
 			}
-			LUC = {
-				set_cosmetic_tag = FRA_LUC
+			PAR = {
+				set_cosmetic_tag = FRA_PAR
 			}
-			puppet = LUC
+			puppet = PAR
 		}
 	}
 

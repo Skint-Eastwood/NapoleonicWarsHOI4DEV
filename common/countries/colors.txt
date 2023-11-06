@@ -962,7 +962,7 @@ ARG = {
 	color_ui = rgb { 255 255 122 }
 }
 
-LUC = {
+PAR = {
 	color = rgb { 189 145 255 }
 	color_ui = rgb { 189 145 255 }
 }

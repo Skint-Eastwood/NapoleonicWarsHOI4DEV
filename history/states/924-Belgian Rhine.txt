@@ -1,19 +1,24 @@
+
 state={
 	id=924
 	name="STATE_924"
-	provinces={
-		11562 
-	}
+
 	history={
 		owner = AUS
 		buildings = {
 			infrastructure = 1
 			air_base = 1
+
 		}
 		add_core_of = AUS
+
+	}
+
+	provinces={
+		11562 
 	}
 	manpower=2500
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category="rural"
 }
