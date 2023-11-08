@@ -1,14 +1,12 @@
+
 state={
 	id=86
 	name="STATE_86"
-	manpower = 2106500
-	
-	
-	state_category = city
+
 	history={
 		owner = POL
 		victory_points = {
-			6558 10
+			6558 10 
 		}
 		buildings = {
 			infrastructure = 3
@@ -26,16 +24,21 @@ state={
 
 			}
 			air_base = 3
+
 		}
 		add_core_of = POL
 		1938.3.12 = {
 			add_claim_by = GER
+
 		}
+
 	}
 
 	provinces={
-		17 388 3381 3460 3532 6558 9532 11232 11558
+		17 3460 3532 6558 9532 11558 
 	}
-
-	local_supplies=0.0 
+	manpower=2106500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

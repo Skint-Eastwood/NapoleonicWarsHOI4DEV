@@ -1,23 +1,28 @@
-state = {
-	id = 5
-	name = "STATE_5"
-	manpower = 1238108
-	state_category = town
-	history = {
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
 		victory_points = {
-			6375 3
+			6375 3 
 		}
 		owner = PRE
 		controller = PRE
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = GER
 		add_core_of = PRE
-	}
-	provinces = {
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
-	}
-	local_supplies = 12.0
 
+	}
+
+	provinces={
+		266 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=1238108
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=12.000
 }
