@@ -1,18 +1,21 @@
+
 state={
 	id=935
 	name="STATE_935"
-	
+
 	history={
 		owner = VNI
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = VNI
 		add_core_of = TUR
+
 	}
-	
+
 	provinces={
-		10203 
+		1106 10203 
 	}
 	manpower=21095
 	buildings_max_level_factor=1.000

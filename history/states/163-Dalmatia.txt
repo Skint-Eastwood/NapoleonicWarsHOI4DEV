@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		591 984 3868 3924 3943 3974 6611 11901 
+		984 3868 3924 3943 3974 11901 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
