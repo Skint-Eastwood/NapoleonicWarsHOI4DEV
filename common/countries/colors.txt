@@ -69,6 +69,11 @@ MOD = {
 	color_ui = rgb { 255 216 0 }
 }
 
+LUC = {
+	color = rgb { 191 59 59 }
+	color_ui = rgb { 191 59 59 }
+}
+
 TUS = {
 	color = rgb { 0 127 70 }
 	color_ui = rgb { 0 127 70 }
@@ -424,6 +429,11 @@ EGY = {
 	color_ui = rgb { 230 230 70 }
 }
 
+TUN = {
+	color = rgb { 158 62 45 }
+	color_ui = rgb { 158 62 45 }
+}
+
 PAL = {
 	color = rgb { 170  125  80 }
 	color_ui = rgb { 170  125  80 }
@@ -500,8 +510,8 @@ MAL = {
 }
 
 MNT = {
-	color = rgb { 77  90  105 }
-	color_ui = rgb { 77  90  105 }
+	color = rgb { 158 62 45 }
+	color_ui = rgb { 158 62 45 }
 }
 
 BLR = {

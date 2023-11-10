@@ -1,0 +1,21 @@
+state={
+	id=941
+	name="STATE_941"
+	
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	
+	provinces={
+		4199 7215 10113 12087 13309 13310
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

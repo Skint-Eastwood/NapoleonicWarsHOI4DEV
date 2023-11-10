@@ -34,6 +34,8 @@ add_ideas = {
 
 puppet = MOL
 puppet = ROM
+puppet = MNT
+puppet = TUN
 
 recruit_character = TUR_Selim_III
 

@@ -1,29 +1,30 @@
-state=
-{
+
+state={
 	id=550
 	name="STATE_550"
-	manpower = 600600
-	
-	state_category = rural
-	
-	history=
-	{
-		owner = TRB
-		add_core_of = TRB
+
+	history={
+		owner = TUR
+		add_core_of = TUR
 		victory_points = {
-			12766 1
+			12766 1 
 		}
 		buildings = {
 			infrastructure = 2
-			air_base = 3
 			12766 = {
-				naval_base = 3
+				naval_base = 1
+
 			}
+
 		}
-	}
-	provinces={
-		5017 5047 5091 8043 12723 12766
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		4985 5047 5091 8043 12766 
+	}
+	manpower=600600
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

@@ -2,9 +2,9 @@ state = {
 	id = 665
 	name = "STATE_665"
 	history = {
-		owner = TUR
+		owner = TUN
 		add_core_of = TUN
-		add_core_of = TUR
+		add_claim_by = TUR
 		victory_points = {
 			7005 1 
 		}
@@ -12,7 +12,7 @@ state = {
 			infrastructure = 2
 
 		}
-		controller = TUR
+		controller = TUN
 	}
 	state_category = pastoral
 	provinces = {

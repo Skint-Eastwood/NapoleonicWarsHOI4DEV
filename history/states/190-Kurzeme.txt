@@ -1,32 +1,36 @@
-state = {
-	id = 190
-	name = "STATE_190"
-	state_category = rural
-	state_category = rural
-	history = {
+
+state={
+	id=190
+	name="STATE_190"
+
+	history={
 		victory_points = {
-			9262 3
+			9262 3 
 		}
 		victory_points = {
 			3296 1 
 		}
-		owner = POL
+		owner = LAT
 		buildings = {
-			infrastructure = 3 
+			infrastructure = 3
 			9262 = {
 				naval_base = 1
+
 			}
 			dockyard = 1
+
 		}
 		add_core_of = LAT
 		add_core_of = POL
-		controller = POL
-	}
-	provinces = {
-		3194 3296 3319 6322 9262 11246 
-	}
-	local_supplies = 5.0
-	manpower = 315500
-	buildings_max_level_factor = 1.000
+		controller = LAT
 
+	}
+
+	provinces={
+		3194 3296 3319 9262 
+	}
+	manpower=315500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=5.000
 }

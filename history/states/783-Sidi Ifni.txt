@@ -11,7 +11,7 @@ state={
 			12857 1
 		}
 
-		owner = SPR
+		owner = MOR
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 1

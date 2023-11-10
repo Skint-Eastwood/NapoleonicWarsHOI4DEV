@@ -1,0 +1,19 @@
+state={
+	id=939
+	name="STATE_939"
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		add_core_of = AUS
+		add_core_of = CRO
+	}	
+	provinces={
+		11816 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

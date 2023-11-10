@@ -7,9 +7,9 @@ state = {
 		steel = 6
 	}
 	history = {
-		owner = TUR
+		owner = TUN
 		add_core_of = TUN
-		add_core_of = TUR
+		add_claim_by = TUR
 		victory_points = {
 			11969 10 
 		}
@@ -27,7 +27,7 @@ state = {
 				naval_base = 8
 			}
 		}
-		controller = TUR
+		controller = TUN
 	}
 	provinces = {
 		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 
