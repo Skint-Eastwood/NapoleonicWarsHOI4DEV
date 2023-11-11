@@ -1,6 +1,7 @@
 state={
 	id=940
 	name="STATE_940"
+	state_category = rural
 	history = {
 		owner = MNT
 		add_core_of = MNT

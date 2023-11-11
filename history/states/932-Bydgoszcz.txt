@@ -2,7 +2,7 @@
 state={
 	id=932
 	name="STATE_932"
-
+	state_category = rural
 	history={
 		owner = POL
 		victory_points = {
@@ -13,10 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
 			industrial_complex = 1
-			air_base = 0
-
 		}
 		add_core_of = POL
 		controller = POL

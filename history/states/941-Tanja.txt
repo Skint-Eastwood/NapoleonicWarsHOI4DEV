@@ -1,7 +1,7 @@
 state={
 	id=941
 	name="STATE_941"
-	
+	state_category = town
 	history={
 		owner = MOR
 		add_core_of = MOR

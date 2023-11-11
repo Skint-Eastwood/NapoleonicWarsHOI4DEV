@@ -13302,10 +13302,10 @@
 13301;52;146;100;land;false;plains;1
 13302;201;54;252;land;false;plains;1
 13303;130;27;233;land;false;plains;1
-13304;174;197;29;land;false;plains;1
+13304;174;197;29;land;false;plains;0
 13305;143;17;143;land;false;plains;1
 13306;59;139;43;land;false;plains;1
 13307;174;197;29;land;false;plains;1
 13308;8;94;117;land;false;plains;1
-13309;141;86;111;land;desert;1
-13310;123;174;17;land;desert;1
+13309;141;86;111;land;false;1;0
+13310;123;174;17;land;false;1;0

@@ -1,7 +1,7 @@
 state={
 	id=933
 	name="STATE_933"
-	
+	state_category = rural
 	history={
 		owner = VNI
 		buildings = {
