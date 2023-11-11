@@ -4,7 +4,7 @@ state = {
 	manpower = 45628
 	state_category = wasteland
 	history = {
-		owner = TUR
+		owner = LBA
 		victory_points = {
 			1130 5 
 		}
@@ -16,8 +16,8 @@ state = {
 			}
 		}
 		add_core_of = LBA
-		add_core_of = TUR
-		controller = TUR
+		add_claim_by = TUR
+		controller = LBA
 	}
 	provinces = {
 		1130 1204 4136 4151 7082 9992 10120 12094 

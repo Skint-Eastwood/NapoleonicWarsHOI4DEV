@@ -1,22 +1,25 @@
+
 state={
 	id=662
 	name="STATE_662"
-	manpower = 13213
-	
-	state_category = wasteland
-	
-	
+
 	history={
-		owner = TRB
+		owner = LBA
 		buildings = {
 			infrastructure = 1
+
 		}
-		add_core_of = TRB
-	}
-	
-	provinces={
-		4200 7076 7136 8069 13073 
+		add_core_of = LBA
+		add_claim_by = TUR
+		controller = LBA
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		7136 8069 13073 
+	}
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

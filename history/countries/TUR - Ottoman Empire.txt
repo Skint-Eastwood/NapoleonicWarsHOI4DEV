@@ -1,10 +1,6 @@
 capital = 797
 
-
 set_convoys = 300
-
-add_ideas = {
-}
 	
 1792.1.1 = {
 	 set_capital = {state = 797} 
@@ -36,6 +32,7 @@ puppet = MOL
 puppet = ROM
 puppet = MNT
 puppet = TUN
+puppet = LBA
 
 recruit_character = TUR_Selim_III
 

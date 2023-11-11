@@ -137,8 +137,8 @@ EST = {
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
+	color = rgb { 209 125 154 }
+	color_ui = rgb { 209 125 154 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -420,8 +420,8 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 158 62 45 }
+	color_ui = rgb { 158 62 45 }
 }
 
 EGY = {

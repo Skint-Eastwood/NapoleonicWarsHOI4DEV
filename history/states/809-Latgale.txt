@@ -1,7 +1,9 @@
-state = {
-	id = 809
-	name = "STATE_809"
-	history = {
+
+state={
+	id=809
+	name="STATE_809"
+
+	history={
 		owner = LAT
 		victory_points = {
 			310 3 
@@ -13,16 +15,19 @@ state = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		add_core_of = LAT
 		add_core_of = POL
 		controller = LAT
-	}
-	provinces = {
-		265 3255 3525 6222 6342 11358 
-	}
-	manpower = 64500
-	buildings_max_level_factor = 1.000
-	state_category = town
 
+	}
+
+	provinces={
+		265 3255 3525 6222 6342 11358 13312 
+	}
+	manpower=64500
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

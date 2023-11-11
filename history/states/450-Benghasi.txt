@@ -4,7 +4,7 @@ state = {
 	manpower = 82535
 	state_category = enclave
 	history = {
-		owner = TUR
+		owner = LBA
 		victory_points = {
 			11954 3 
 		}
@@ -16,8 +16,8 @@ state = {
 			}
 		}
 		add_core_of = LBA
-		add_core_of = TUR
-		controller = TUR
+		add_claim_by = TUR
+		controller = LBA
 	}
 	provinces = {
 		1127 4120 10123 11954 

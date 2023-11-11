@@ -22,7 +22,8 @@ add_ideas = {
 	PLC_polish_prussian_pact
 	PLC_third_may_constitution
 }
-puppet = BRA
+
+puppet = LAT
 
 recruit_character = POL_Stanislaw
 

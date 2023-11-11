@@ -4,13 +4,13 @@ state = {
 	manpower = 40431
 	state_category = enclave
 	history = {
-		owner = TUR
+		owner = LBA
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = LBA
-		add_core_of = TUR
-		controller = TUR
+		add_claim_by = TUR
+		controller = LBA
 	}
 	provinces = {
 		1041 1198 4047 4057 10046 10117 12088 
