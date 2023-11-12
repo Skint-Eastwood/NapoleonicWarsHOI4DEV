@@ -1,0 +1,193 @@
+﻿l_english:
+
+#################
+## Party Ideas ##
+#################
+
+PTY_house_of_bourbon:0 "House of Bourbon"
+PTY_house_of_hanover:0 "House of Hanover"
+PTY_house_of_habsburg:0 "House of Habsburg"
+
+
+###################
+## English Ideas ##
+###################
+
+ENG_british_empire:0 "The British Empire"
+ENG_british_empire_desc:0 "The United Kingdom is at the head of an expansive global empire, colonising the regions of North America, Asia and Oceania.\nThe Empire is a force feared throughout the globe due to their naval and militaristic capabilities."
+
+
+##################
+## French Ideas ##
+##################
+
+ FRA_King_Louis:0 "King Louis XVI"
+ FRA_King_Louis_desc:0 "King Louis XVI, the tyranical and unpopular ruler of Bourbon France.\nDue to the Kings unpopular status, many have taken to the streets in revolt against him and the French nobility causing instability and chaos across France."
+ FRA_Constitutional_Guard:0 "The Constitutional Guard"
+ FRA_Constitutional_Guard_desc:0 "The Constitutional Guard was a French royal guard formation which existed for several months in the year 1792 as part of the Maison du Roi being superseded by the National Guard. \nThe Constitutional Guard briefly existed during the period of the French constitutional monarchy and the French Revolution."
+ FRA_National_Convention:0 "The National Convention"
+ FRA_National_Convention_desc:0 "The National Convention were a group of individuals elected to provide France with a new constitution after the French monarchy had been toppled "
+ FRA_Napoleon:0 "Napoleon Bonaparte"
+ FRA_Revolutionary_Spirit:0 "Revolutionary Spirit"
+ FRA_Revolutionary_Spirit_desc:0 ""
+
+
+####################
+## Austrian Ideas ##
+####################
+
+ AUS_crumbling_empire:0 "Crumbling Empire"
+ AUS_crumbling_empire_desc:0 "The Holy Roman Empire is beginning to crumble"
+ AUS_francis:0 "Francis The Great"
+ 
+ AUS_ethnic_tension:0 "Ethnic Tension"
+ AUS_ethnic_tension_desc:0 "Due to the expansive nature of the mighty Austrian Empire their territory spans over the native lands of many ethnic groups and cultures of which unfortunately do not co-exist well. \nUnfortunately this may prove a large issue to the Austrians causing a deterioration in their national stability."
+
+ AUS_centre_of_europe:0 "Centre of Europe"
+ AUS_centre_of_europe_desc:0 "The rather expansive Austrian Empire has long held a position of power within Europe, controlling the formerly might Holy Roman Empire, however as the politics within Europe changes so does the stability of the Holy Roman Empire, jeopardising Austria's influence within central Europe. \nThe brittle foundation of the once glorious Holy Roman Empire is beginning to crumble. What will the Emperor do?"
+
+ AUS_francis_the_great:0 "Francis The Great"
+ AUS_francis_the_great_def:0 ""
+
+ AUS_french_aggression:0 "French Aggression"
+ 
+ AUS_exiled_monarchy_unity:0 "Wittelsbach - Habsburg Unity"
+ AUS_exiled_monarchy_unity_desc:0 "In the wake of the tumultuous events that saw the Wittelsbach monarchy forced into exile, a new chapter unfolds in Vienna. The Exiled Monarchy Unity focuses on the efforts to consolidate the displaced ruling house and rally support for the restoration of their rightful place in Munich."
+
+ AUS_civic_representation_act:0 "Civic Representation Act"
+ AUS_civic_representation_act_desc:0 "In response to the evolving demands of our dynamic society, the government has introduced the groundbreaking Civic Representation Act. This legislative initiative aims to redefine the political landscape, fostering inclusivity, and broadening the avenues for civic participation."
+
+ AUS_public_discourse:0 "Public Discourse"
+ AUS_public_discourse_desc:0 "Embark on a journey of public engagement, fostering discussions and debates across the nation. The pulse of our people will guide our decisions as we delve into the potential paths of democratic governance."
+
+ AUS_mourning_of_Leopold_II:0 "Mourning of Leopold II"
+ AUS_mourning_of_Leopold_II_desc:0 "In the somber aftermath of the passing of Leopold II, our nation carries the weight of profound loss and solemn reflection."
+
+ AUS_coronation_of_Francis_I:0 "Coronation of Francis I"
+ AUS_coronation_of_Francis_I_desc:0 "In a grand spectacle that transcends time, the Coronation of Francis I stands as a defining moment in our nation's history. This ceremonial extravaganza marks the ascension of a wise and seasoned ruler to the imperial throne, promising a reign of stability, wisdom, and prosperity."
+
+ AUS_civil_code_of_austria:0 "Civil Code of Austria"
+ AUS_civil_code_of_austria_desc:0 "With the implementation of The Civil Code of Austria, the nation embarked on a legal renaissance. Transparent, inclusive, and efficient, the code became the cornerstone of a just and orderly society. Its echoes reverberated through courtrooms, classrooms, and civic spaces, symbolizing a commitment to the enduring values of justice, equality, and the rule of law."
+
+ AUS_austrian_organized_unrest:0 "Austrian Organized Unrest"
+ AUS_austrian_organized_unrest_desc:0 ""
+
+ AUS_opposition_against_capital_punishment:0 "Opposition against Capital Punishment"
+ AUS_opposition_against_capital_punishment_desc:0 ""
+
+ AUS_jacobin_plot:0 "Jacobin Plot"
+ AUS_jacobin_plot_desc:0 ""
+
+ AUS_guidance_under_sonnenfels:0 "Guidance under Sonnenfels"
+ AUS_guidance_under_sonnenfels_desc:0 ""
+
+ AUS_learn_out_of_jemappes:0 "Learn out of Jemappes"
+ AUS_learn_out_of_jemappes_desc:0 ""
+
+ AUS_polish_sovereignty_undermined:0 "Polish Sovereignty Undermined"
+ AUS_polish_sovereignty_undermined_desc:0 ""
+
+ AUS_militia:0 "Citizens Militia"
+ AUS_militia_desc:0 ""
+
+ AUS_censored_press:0 "Censored Press"
+ AUS_censored_press_desc:0 ""
+
+ AUS_joint_cooperation:0 "Joint Cooperation"
+ AUS_joint_cooperation_desc:0 ""
+
+ AUS_venice_has_to_submit:0 "The End of Venice"
+ AUS_venice_has_to_submit_desc:0 ""
+
+ AUS_guerilla_warfare_in_the_rhein:0 "Guerilla Warfare in the Rhine"
+ AUS_guerilla_warfare_in_the_rhein_desc:0 ""
+
+ AUS_stabilize_against_the_revolution:0 "Protection from the Revolution"
+ AUS_stabilize_against_the_revolution_desc:0 ""
+#######################
+## Papal States Ides ##
+#######################
+
+ PPL_pius_state:0 "Pius State"
+ PPL_pius_state_desc:0 "The papal states, the home of the Pope and Catholisism"
+ 
+###################
+## Italian Ideas ##
+###################
+
+ INT_italian_identity:0 "Italian Identity"
+ INR_italian_identity_desc:0 "Italian pride is strong and still growing rapidly!"
+
+
+ INT_papal_influence:0 "Papal Influence"
+ INT_papal_influence_desc:0 "The Catholic church, based in the Vatican, Exerts its influence throughout the European continent, tightly controlling the politics of the time. \nDuring this period the Catholic church encouraged people to stick with the traditional method of doing things, meaning that new methods were unapproved and unused."
+
+
+###################
+## African Ideas ##
+###################
+
+ANT_Nomadic_Tribes:0 "Nomadic Tribes"
+ANT_Nomadic_Tribes_desc:0 "The African Nation are a group of disconnected tribes. Each with its own culture etc"
+
+ civilian_economy:0 "Civilian Economy"
+ low_economic_mobilisation:0 "Early Mobilization"
+ partial_economic_mobilisation:0 "Partial Mobilization"
+ war_economy:0 "War Economy"
+ tot_economic_mobilisation:0 "Total Mobilization"
+ new_economic_policy:0 "New Economic Policy"
+ idea_group_mobilization_laws:0 "Conscription Laws"
+ disarmed_nation:0 "Disarmed Nation"
+ volunteer_only:0 "Mercenary Army"
+ limited_conscription:0 "Volunteer Only"
+ extensive_conscription:0 "Professional Army"
+ service_by_requirement:0 "National Service"
+ all_adults_serve:0 "Everyone into Service"
+ scraping_the_barrel:0 "Scraping the Barrel"
+ #generic_communist_revolutionary:0 "Communist Politician"
+ #generic_democratic_reformer:0 "Democratic Politician"
+ #generic_fascist_demagogue:0 "Fascist Politician"
+ generic_army_chief_offensive:0 "Offensive Army Chief"
+ generic_army_chief_defensive:0 "Defensive Army Chief"
+ generic_army_chief_reform:0 "Innovative Army Chief"
+ generic_navy_chief_decisive_battle:0 "Gunner Navy Chief"
+ generic_navy_chief_commerce_raiding:0 "Raider Navy Chief"
+ generic_navy_chief_reform:0 "Innovative Navy Chief"
+ generic_air_chief_safety:0 "Meticulous Air Chief"
+ generic_air_chief_ground_support:0 "Support Air Chief"
+ generic_air_chief_reform:0 "Innovative Air Chief"
+ generic_army_entrenchment:0 "Trench General"
+ generic_army_regrouping:0 "Organized General"
+ generic_army_logistics:0 "Logistics General"
+ generic_navy_amphibious_assault:0 "Invasion Admiral"
+ generic_navy_naval_air_defense:0 "Anti-Air Admiral"
+ generic_navy_fleet_logistics:0 "Logistics Admiral"
+ generic_air_air_superiority:0 "Superiority Aviator"
+ generic_air_close_air_support:0 "Support Aviator"
+ generic_air_air_combat_training:0 "Pilot Instructor"
+ generic_land_doctrine:0 "Ground Visionary"
+ generic_naval_doctrine:0 "Naval Visionary"
+ generic_air_doctrine:0 "Aerial Visionary"
+ generic_tank_manufacturer:0 "Armor Company"
+ generic_motorized_equipment_manufacturer:0 "Motorization Company"
+ generic_infantry_equipment_manufacturer:0 "Small Arms Company"
+ generic_artillery_manufacturer:0 "Artillery Company"
+ generic_light_aircraft_manufacturer:0 "Light Air Company"
+ generic_medium_aircraft_manufacturer:0 "Medium Air Company"
+ generic_heavy_aircraft_manufacturer:0 "Heavy Air Company"
+ generic_naval_aircraft_manufacturer:0 "Naval Air Company"
+ generic_naval_manufacturer:0 "Naval Company"
+ generic_industrial_concern:0 "Industrial Company"
+ generic_electronics_concern:0 "Electronics Company"
+ generic_spy_intel:0 "The Tinker"
+ generic_spy_political:0 "The Tailor"
+ generic_spy_coup:0 "The Soldier"
+ free_trade:0 "Free Trade"
+ export_focus:0 "Export Focus"
+ limited_exports:0 "Limited Exports"
+ closed_economy:0 "Closed Economy"
+
+
+
+
+

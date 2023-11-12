@@ -1,0 +1,32 @@
+AUS_monarchy_category = {
+
+	AUS_crush_jacobin_plot = {
+
+		icon = category_generic_democracy
+
+		available = {
+       
+		}
+
+		visible = {
+			always = no
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+		  stability_weekly = -0.005
+          jacobinism_drift = 0.03
+		}
+
+		days_remove = 120
+
+		cost = 125
+
+		complete_effect = {
+            remove_ideas = {
+                AUS_jacobin_plot
+            }
+		}
+	}
+  }

@@ -1,0 +1,504 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+
+		AUS_centre_of_europe = {
+			picture = idea_AUS_centre_of_europe
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.4		
+				monarchist_acceptance = 25
+			}
+		}
+
+		AUS_jacobin_plot = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				jacobinism_drift = 0.03
+			}
+		}
+
+		AUS_guidance_under_sonnenfels = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				annex_cost_factor = -0.15
+				puppet_cost_factor = -0.15
+				subjects_autonomy_gain = 0.2
+			}
+		}
+
+		AUS_learn_out_of_jemappes = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+                army_defence_factor = 0.10
+				army_org_factor = 0.15
+				dig_in_speed_factor = 0.25
+			}
+		}
+
+		AUS_ethnic_tension = {
+			picture = idea_AUS_ethnic_tension
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.0015
+			}
+		}
+
+		AUS_francis_the_great = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.0010
+				political_power_gain = 0.5
+				command_power_gain = -0.1
+				max_training = -0.15
+			}
+		}
+
+		AUS_pro_habsburg_propaganda = {
+			picture = AUS_pro_habsburg_propaganda
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchism
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				GER = {
+					monarchist_drift = 0.03
+				}
+			}
+		}
+
+		AUS_french_aggression = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				guarantee_tension = 0.2
+				war_support_weekly = 0.005
+			}
+		}
+
+		AUS_exiled_monarchy_unity = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+				war_support_weekly = 0.0010
+			}
+		}
+
+		AUS_civic_representation_act = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.20
+				stability_factor = 0.10
+				party_popularity_stability_factor = 0.01
+			}
+		}
+
+		AUS_public_discourse = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.02
+			}
+		}
+
+		AUS_mourning_of_Leopold_II = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.25
+			}
+		}
+
+		AUS_coronation_of_Francis_I = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.25
+			}
+		}
+
+		AUS_civil_code_of_austria = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.10
+				production_speed_industrial_complex_factor = 0.15
+			}
+		}
+
+		AUS_austrian_organized_unrest = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				monarchism_drift = 0.02
+				stability_factor = -0.15
+				political_power_gain = -0.25
+				military_intel_to_others = 0.60
+			}
+		}
+
+		AUS_opposition_against_capital_punishment = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				monarchism_drift = -0.02
+			}
+		}
+
+		AUS_polish_sovereignty_undermined = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.20
+				political_power_gain = -0.25
+				army_morale_factor = -0.10
+				army_defence_factor = -0.10
+				army_attack_factor = -0.10
+			}
+		}
+
+		AUS_militia = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population_factor = 0.02
+				army_org_factor = -0.05
+			}
+		}
+
+		AUS_censored_press = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.02
+				resistance_growth = 0.03
+				political_power_gain = -0.25
+
+			}
+		}
+
+		AUS_joint_cooperation = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.35
+			    puppet_cost_factor = -0.10
+				army_speed_factor = 0.05
+				experience_loss_factor = -0.10
+			}
+		}
+
+		AUS_guerilla_warfare_in_the_rhein = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				dig_in_speed_factor = 0.25
+				army_defence_factor = 0.10
+				army_org_factor = -0.05
+				army_attack_factor = -0.05
+			}
+		}
+
+		AUS_venice_has_to_submit = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = VNI
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+
+		AUS_stabilize_against_the_revolution = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				resistance_activity = -0.2
+				stability_factor = 0.10
+			}
+		}
+
+
+		AUS_the_empire_on_its_knees = {
+			picture = AUS_the_empire_on_its_knees
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				GER = {
+					is_puppet_of = AUS
+				}
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.003
+				political_power_gain = -0.5
+				war_support_weekly = -0.002
+			}
+		}
+
+		AUS_portraits_of_the_kaiser = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				monarchist_drift = 0.03
+			}
+		}
+	}
+}

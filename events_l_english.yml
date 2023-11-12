@@ -1,0 +1,120 @@
+﻿l_english:
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+
+## France ##
+ france.1.t:0 "Storming The Tuileries"
+ france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"
+ france.1.a:0 "Only Time Will Tell..."
+
+ france.2.t:0 "Declaration of The First French Republic"
+ france.2.d:0 "The first French republic was officially delcared on the 21st of September 1792 after the toppling of King Louis XVI and the House of Bourbon at the righteous hand of the French revolutionaries."
+ france.2.a:0 "Liberté, égalité, fraternité"
+
+ france.3.t:0 "Austria Surrenders The Netherlands!"
+ france.3.a:0 "Annex The Austrian Netherlands!"
+ france.3.b:0 "Austria Can Keep The Netherlands."
+
+ france.4.t:0 "The Cisalpine Republic?"
+ france.4.d:0 ""
+ france.4.a:0 "Put Napoleon Incharge!"
+ france.4.b:0 "Let The Be Independent!"
+
+ france.5.t:0 "The Dutch Refuse!"
+ france.5.d:0 ""
+ france.5.a:0 "How Dare They!"
+ france.5.b:0 "We're Out Of Luck..."
+
+ france.6.t:0 "The Swiss Refuse!"
+ france.6.d:0 ""
+ france.6.a:0 "We'll See Who's Laughing!"
+ france.6.b:0 "Time Will Tell..."
+
+ france.7.t:0 "Austria Refuse"
+ france.7.a:0 "So Its Annihilation They Want."
+
+
+## Austria ##
+
+ austria.2.t:0 "Death of Leopold II"
+ austria.2.d:0 "Austria has been plunged into an abyss of sorrow and anguish as the devastating news of Emperor Leopold II's untimely death shocks our nation. Our people, already burdened by the turbulent times, have now found ourselves facing an even greater tragedy—the loss of our compassionate and visionary leader.From the grand halls of Vienna to the humblest of villages, an outpouring of sorrow swept through all of us. Tears flowed freely, and anguished cries of mourning echoed through the streets. The loss is not merely of a ruler but of a father figure, a beacon of hope in troubled times. Now we must hope the son of our late Emperor can bear the torch of our great nation.."
+ austria.2.a:0 "Francis II Takes The Throne!"
+
+ austria.3.t:0 "The Austrian Netherlands?"
+ austria.3.d:0 "After recent talks within our government regarding the autonomy of the Austrian Netherlands we have been presented with two options as to what to do. Many within the government believe we should keep the territory as part of the Fatherland however others believe we should have it become a semi-autonomous puppet state."
+ austria.3.a:0 "Puppet the Austrian Netherlands!"
+ austria.3.b:0 "They shall remain part of the Fatherland!"
+
+ austria.4.t:0 "The French Take Wien"
+ austria.4.a:0 "We Surrender..."
+ austria.4.b:0 "Continue Fighting!"
+ 
+ austria.5.t:0 "Peace With The French?"
+ austria.5.a:0 "End The War"
+ austria.5.b:0 "Keep Fighting"
+
+ austria.6.t:0 "Civic Representation Act"
+ austria.6.d:0 "In response to growing demands for political reform, our government has introduced the Civic Representation Act. This legislation aims to broaden political participation and representation by extending civic rights and liberties. The act is expected to have a profound impact on our nation's political landscape, but its implementation may not be without challenges."
+ austria.6.a:0 "Let them have minimum reforms"
+ austria.6.b:0 "Let them have full reforms"
+
+ austria.7.t:0 "The coronation of Francis I"
+ austria.7.d:0 "As the dawn of a new era approaches, the grandeur of the Coronation of Francis I marks a pivotal moment in the history of our nation. With ceremonial splendor and symbolic significance, this event solidifies the ascension of Francis II to the imperial throne, promising continuity and prosperity under his reign."
+ austria.7.a:0 "Für Gott und Kaiser!"
+
+ austria.8.t:0 "Austrian Organized Unrest"
+ austria.8.d:0 "As revolutionary ideals swept through France, the House of Bourbon found itself in exile, yearning to reclaim its rightful place on the throne. Austria, a staunch defender of monarchies, recognized an opportunity to capitalize on the internal fractures within Revolutionary France. With a nuanced understanding of the revolutionary landscape, Austria initiated a multifaceted propaganda campaign aimed at sowing discontent. Pamphlets, clandestine newspapers, and underground networks disseminated anti-revolutionary narratives, emphasizing the return of the House of Bourbon as a beacon of stability."
+ austria.8.a:0 "Damned be the Austrians!"
+
+ austria.9.t:0 "Improving Awareness to regional Events"
+ austria.9.d:0 "Austria, situated at the crossroads of Europe, is acutely aware of the perpetual flux that characterizes the continent. The rise and fall of empires, the currents of political ideologies, and the ebb and flow of alliances underscore the need for a keen understanding of the regional dynamics that shape the fate of nations."
+ austria.9.a:0 "Improve Awareness"
+ austria.9.b:0 "Not our problem!"
+
+ austria.10.t:0 "Polish Sovereignty Undermined"
+ austria.10.d:0 "As news of the imperial bargain reaches the Polish populace, the streets buzz with whispers of betrayed aspirations. The dreams of a resurgent Poland, free from foreign influence, are dashed against the cold realities of puppet rulers and calculated autonomy. The people, once filled with hope, now harbor a simmering resentment against the empires that have toyed with their destiny."
+ austria.10.a:0 "Damned be our neighbors!"
+## Netherlands ##
+ netherlands.1.t:0 "Batavian Republic?"
+ netherlands.1.a:0 "Join France"
+ netherlands.1.b:0 "Refuse Their Offer"
+
+## Switzerland ##
+
+ switzerland.1.t:0 "Helvetic Republic?"
+ switzerland.1.a:0 "Join France"
+ switzerland.1.b:0 "Refuse Their Offer"
+
+## News ##
+
+ news.1.t:0 "Storming of The Tuileries"
+ news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people?"
+ news.1.a:0 "The Power Balance In Europe Is About To Change Dramatically."
+
+ news.2.t:0 "Declaration of The First French Republic"
+ news.2.d:0 ""
+ news.2.a:0 "Liberté, égalité, fraternité"
+
+ news.3.t:0 "National Razor"
+ news.3.d:0 "Due to King Louis XVI banning the breaking wheel. France needs a better, more efficient way of executing traitors. "
+ news.3.a:0 "Its the will of the King.."
+
+ news.4.t:0 "Death of Emperor Leopold"
+ news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
+ news.4.a:0 "What will this mean for Europe?"
+
+ news.5.t:0 "Second Partition of Poland"
+ news.5.d:0 ""
+ news.5.a:0 "Bad Day For Poland."
+
+ news.6.t:0 "Third Partition of Poland"
+ news.6.d:0 ""
+ news.6.a:0 "A Glorious Day For Prussia and Russia"
+
+ news.7.t:0 "Britain and Holland Join The Coalition"
+ news.7.a:0 "What Does This Mean For The War?"
+ my_peace_tt1:0 "Austria Accepted Our Demands"
+
+## Tool Tips ##
+
+MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
+SPIRIT_ADD_IDEA:0 "Click Here To Add An Idea"

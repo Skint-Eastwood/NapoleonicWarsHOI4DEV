@@ -1,0 +1,12 @@
+AUS_monarchy_category = {
+	icon = rev_zeal_simbol
+	allowed = {
+		
+	}
+	visible = {
+		original_tag = AUS
+	}
+	
+	priority = 61
+	visible_when_empty = yes
+}
