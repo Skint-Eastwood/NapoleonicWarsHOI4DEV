@@ -2,10 +2,8 @@
 state={
 	id=943
 	name="STATE_943"
-
 	state_category = wasteland
 	impassable = yes
-	
 	history={
 		owner = LBA
 		buildings = {
@@ -19,9 +17,10 @@ state={
 	}
 
 	provinces={
-		4962 7985 12082 12866 
+		4962 12082 12866 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }

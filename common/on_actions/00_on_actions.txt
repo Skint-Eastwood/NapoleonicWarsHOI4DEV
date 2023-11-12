@@ -114,9 +114,9 @@ on_actions = {
 
 		effect = {
 			every_country = {
-				limit = { has_idea = sihk }
+				limit = { has_idea = sikh }
 				every_other_country = {
-					limit = { has_idea = sihk }
+					limit = { has_idea = sikh }
 					add_opinion_modifier = {
 						target = PREV
 						modifier = large_increase

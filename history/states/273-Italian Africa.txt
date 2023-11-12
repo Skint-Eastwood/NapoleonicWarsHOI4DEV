@@ -2,10 +2,8 @@
 state={
 	id=273
 	name="STATE_273"
-
 	state_category = wasteland
 	impassable = yes
-	
 	history={
 		owner = TRB
 		buildings = {
@@ -17,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1057 1060 1140 1994 4133 4191 4200 5004 7076 9977 10104 10754 10785 10884 11951 12022 
+		1057 1060 1140 1994 4133 4191 4200 5004 7076 7985 9977 10104 10754 10785 10884 11951 12022 
 	}
 	manpower=42633
 	buildings_max_level_factor=1.000
