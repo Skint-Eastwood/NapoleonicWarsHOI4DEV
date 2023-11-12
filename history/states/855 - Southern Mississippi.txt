@@ -2,11 +2,10 @@ state={
 	id=855
 	name="STATE_855"
 	history = {
-		owner = MEX
+		owner = USA
 		add_core_of = MEX
 		add_core_of = USA
-		set_demilitarized_zone = yes #disputed territory
-	}
+		}
 	provinces={
 		1615 4650 10449
 	}
