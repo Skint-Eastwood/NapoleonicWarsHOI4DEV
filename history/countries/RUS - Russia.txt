@@ -19,14 +19,9 @@ set_popularities = {
 	socialism = 0
 }
 
-declare_war_on = {
-	target = TUR
-	type = annex_everything
-}
-
 add_ideas = {
-	orthodox	
-}
+	
+	}
 
 recruit_character = RUS_Catherine_II
 recruit_character = RUS_Paul_I
