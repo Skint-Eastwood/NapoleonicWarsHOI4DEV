@@ -7,16 +7,19 @@ set_convoys = 300
 1792.1.1 = {
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = authoritarianism
 	last_election = "1890.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	authoritarian = 20
-	monarchist = 60
-	socialism = 0
+	tribalism = 0	
+	leftism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	absolute_despotism = 0 
+	proto_nationalism = 0
 }
 give_guarantee = AUS
 	add_ideas = {

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=monarchist
 			traits={ autocratic_imperialist }
 			expire="1792.3.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Despotism
+			ideology=monarchist
 			traits={ dictator }
 			expire="1835.3.2.1"
 			id=-1

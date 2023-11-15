@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=democratic
+			ideology=conservatism
 			traits={  }
 			id=-1
 		}

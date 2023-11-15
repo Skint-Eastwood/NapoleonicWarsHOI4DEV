@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Despotism
+			ideology=monarchist
 			traits={ dictator }
 			expire="1819.10.6.1"
 			id=-1

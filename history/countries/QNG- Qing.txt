@@ -7,15 +7,19 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = authoritarianism
 	last_election = "1890.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	authoritarian = 15
-	monarchist = 75
+	tribalism = 0	
+	leftism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	absolute_despotism = 0 
+	proto_nationalism = 0
 }
 
 add_ideas = {

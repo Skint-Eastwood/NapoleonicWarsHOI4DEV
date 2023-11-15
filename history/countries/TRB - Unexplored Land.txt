@@ -7,11 +7,18 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = unexplored_land
+	ruling_party = tribalism
 	elections_allowed = no
 }
+
 set_popularities = {
-	unexplored_land = 100
+	tribalism = 100	
+	leftism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 0
+	absolute_despotism = 0 
+	proto_nationalism = 0
 }
 
 

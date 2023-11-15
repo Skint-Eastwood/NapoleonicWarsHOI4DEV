@@ -42,20 +42,21 @@ add_ideas = {
 	interveneinaffairs
 }
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = authoritarianism
 	last_election = "1890.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 6
-	monarchist = 43
-	socialism = 3
-	liberalism = 8
-	authoritarian_democracy = 30
-	jacobinism = 10
- }
 
+set_popularities = {
+	tribalism = 0	
+	leftism = 3
+	liberalism = 13
+	conservatism = 32
+	authoritarianism = 41
+	absolute_despotism = 7 
+	proto_nationalism = 4
+}
 
  add_equipment_to_stockpile = {
 	type = infantry_equipment_0

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Tribal
+			ideology=tribal
 			traits={ dictator }
 			expire="1799.2.16.1"
 			id=-1

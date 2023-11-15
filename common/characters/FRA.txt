@@ -43,7 +43,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Despotism
+			ideology=monarchist
 			traits={ unpopular_monarch indecisive_king }
 			expire="1793.1.21.1"
 			id=-2
