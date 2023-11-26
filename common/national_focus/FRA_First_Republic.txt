@@ -9,19 +9,20 @@ focus_tree = {
 		}
 	}
 
+	###########
+	## Naval ##
+	###########
+
 	focus = {
 		id = FRA_orignise_maritime_customs
 		icon = GFX_focus_fra_le_deluge
 		x = 5
 		y = 0
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }		
+		search_filters = { NAVAL }		
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			navy_experience = 15
 		}
 	}
 
@@ -31,15 +32,19 @@ focus_tree = {
 		x = 5
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { NAVAL }
 		prerequisite = { focus = FRA_orignise_maritime_customs }	
 		prerequisite = { focus = FRA_disband_the_naval_infantry }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			21 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+					province = 911
+				}
+			}
 		}
 	}
 
@@ -49,14 +54,11 @@ focus_tree = {
 		x = 8
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { NAVAL }
 		prerequisite = { focus = FRA_rebuild_toulon }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 25
 		}
 	}
 
@@ -66,14 +68,17 @@ focus_tree = {
 		x = 5
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { NAVAL }
 		prerequisite = { focus = FRA_rebuild_toulon }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			15 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -83,14 +88,23 @@ focus_tree = {
 		x = 5
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { NAVAL }
 		prerequisite = { focus = FRA_legacy_of_rochfort }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			14 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 3552
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -100,14 +114,11 @@ focus_tree = {
 		x = 8
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_orignise_maritime_customs }
 		relative_position_id = FRA_reorginise_the_french_navy		
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			navy_experience = 5
 		}
 	}
 
@@ -117,15 +128,37 @@ focus_tree = {
 		x = 10
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_reform_the_costal_guard }
 		prerequisite = { focus = FRA_marseille_defensive }
 		relative_position_id = FRA_reorginise_the_french_navy		
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		completion_reward = {
+			15 = {	
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			29 = {	
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			19 = {	
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -136,12 +169,10 @@ focus_tree = {
 		x = -12
 		y = 0
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }		
+		search_filters = { NAVAL }		
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			navy_experience = 15
+			add_political_power = 15
 		}
 	}
 
@@ -151,16 +182,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_reorginise_the_french_navy }	
 		relative_position_id = FRA_reorginise_the_french_navy
 
 
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			navy_experience = -5
 		}
 	}
 
@@ -170,16 +198,15 @@ focus_tree = {
 		x = 0
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_disband_the_naval_infantry }	
 		relative_position_id = FRA_reorginise_the_french_navy
 
 
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = {
+				FRA_reformed_naval_artillery
+			}
 		}
 	}
 
@@ -189,16 +216,13 @@ focus_tree = {
 		x = -2
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_reform_the_naval_artillery }	
 		relative_position_id = FRA_reorginise_the_french_navy
 
 
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			navy_experience = 5
 		}
 	}
 
@@ -208,17 +232,17 @@ focus_tree = {
 		x = 0
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_national_volunteers_of_the_sea }	
 		prerequisite = { focus = FRA_assistance_in_the_degree_of_1795 }	
 		relative_position_id = FRA_reorginise_the_french_navy
 
 
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = {
+				add_idea = FRA_reformed_navy
+				remove_idea = FRA_reformed_naval_artillery
+			}
 		}
 	}
 
@@ -228,16 +252,15 @@ focus_tree = {
 		x = 2
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { NAVAL }	
 		prerequisite = { focus = FRA_reform_the_naval_artillery }	
 		relative_position_id = FRA_reorginise_the_french_navy
 
 
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = {
+				FRA_decree_of_1795
+			}
 		}
 	}
 
@@ -353,6 +376,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
+			add_research_slot = 1
 		}
 	}
 
@@ -879,7 +903,7 @@ focus_tree = {
 		x = -2
 		y = 23
 		cost = 10
-		prerequisite = { focus = FRA_present_the_1792_constitution }
+		prerequisite = { focus = FRA_inegrate_the_constitution }
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
@@ -1309,13 +1333,17 @@ focus_tree = {
 		}
 	}
 
+	###################################
+	## War of First-Coalition Branch ##
+	###################################
+
 	focus = {
 		id = FRA_promote_napoleon
 		icon = GFX_FRA_promote_napoleon_icon
 		x = -4
 		y = 7
 		cost = 2
-		search_filters = { FOCUS_FILTER_POLITICAL }		
+		search_filters = { COALITION_WAR }		
 		completion_reward = {	
 			promote_character = FRA_Napoleon_Bonaparte_General		
 			transfer_state = 735				
@@ -1325,11 +1353,11 @@ focus_tree = {
 
 	focus = {
 		id = FRA_annex_belgium
-		icon = GFX_focus_fra_le_deluge
+		icon = FRA_annex_belgium
 		x = 0
 		y = 1
 		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_promote_napoleon }
 		relative_position_id = FRA_promote_napoleon
 
@@ -1339,6 +1367,7 @@ focus_tree = {
 			controls_state = 6
 			controls_state = 8
 			controls_state = 837
+			controls_state = 923
 		}
 		
 
@@ -1347,38 +1376,43 @@ focus_tree = {
 			add_state_core = 6
 			add_state_core = 8
 			add_state_core = 837
+			add_state_core = 923
 			hidden_effect = {
 				transfer_state = 34
 				transfer_state = 8
 				transfer_state = 6
 				transfer_state = 837
+				transfer_state = 923
 			}
 		}
 	}
 
 	focus = {
 		id = FRA_sister_republics
-		icon = GFX_focus_fra_le_deluge
+		icon = FRA_sister_republics
 		x = -2
 		y = 2
 		cost = 7
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 		available = {
 		}
 		completion_reward = {	
-			add_political_power = 50
+			add_timed_idea = {
+				idea = FRA_sister_republics
+				days = 730
+			}
 		}
 	}
 
 	focus = {
 		id = FRA_southern_republics
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_republics
 		x = -16
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_sister_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
@@ -1392,14 +1426,19 @@ focus_tree = {
 		x = -14
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			country_exists = PPL
+		}
+		available = {
+			owns_state = 2
+			owns_state = 157
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			release = PPL
+			puppet = PPL
 		}
 	}
 
@@ -1409,14 +1448,13 @@ focus_tree = {
 		x = -14
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_roman_republic }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = {
+				FRA_exile_pope_pius_vi_to_france
+			}
 		}
 	}
 
@@ -1426,9 +1464,12 @@ focus_tree = {
 		x = -22
 		y = 4
 		cost = 2
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			country_exists = SWI
+		}
 		completion_reward = {	
 			SWI = {
 				country_event = { id = switzerland.1 }
@@ -1442,14 +1483,26 @@ focus_tree = {
 		x = -22
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_helvetic_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			20 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
 
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+				}
+			}
+			32 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+
+				}
+			}
 		}
 	}
 
@@ -1459,16 +1512,17 @@ focus_tree = {
 		x = -22
 		y = 6
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_extract_swiss_riches }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_timed_idea = {
+				idea = FRA_swiss_cantons
+				days = 180
+			}
 		}
 	}
+	
 
 	focus = {
 		id = FRA_ligurian_republic
@@ -1476,7 +1530,7 @@ focus_tree = {
 		x = -20
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
 		available = {
@@ -1498,21 +1552,16 @@ focus_tree = {
 		x = -20
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_ligurian_republic }
 		relative_position_id = FRA_promote_napoleon
 
 		available = {
-			ITA = {
-				is_puppet_of = FRA
-				owns_state = 911
-			}
+			owns_state = 911
 		}
 
-		completion_reward = {
-			ITA = {				
-				release = LUC
-			}
+		completion_reward = {		
+			release = LUC
 			LUC = {
 				set_cosmetic_tag = FRA_LUC
 			}
@@ -1526,14 +1575,22 @@ focus_tree = {
 		x = -20
 		y = 6
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_republic_of_lucca }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			owns_state = 117
+			owns_state = 156
+			owns_state = 115
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			hidden_effect = {
+				NAP = {
+					transfer_state = 117
+					transfer_state = 156
+				}
+			}
+			puppet = NAP
 		}
 	}
 
@@ -1543,14 +1600,15 @@ focus_tree = {
 		x = -20
 		y = 7
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_parthenopean_republic }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			owns_state = 115
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			puppet = SIC
+			release = SIC
 		}
 	}
 
@@ -1560,14 +1618,23 @@ focus_tree = {
 		x = -20
 		y = 8
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_republic_of_sicily }
+		available = {
+			OR = {
+				NAP = {
+					is_puppet_of = FRA
+				}
+				SIC = {
+					is_puppet_of = FRA
+				}
+			}
+		}
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = {
+				FRA_domination_of_southern_italy
+			}
 		}
 	}
 
@@ -1577,14 +1644,17 @@ focus_tree = {
 		x = -18
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		available = {
+			owns_state = 161
+		}
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		completion_reward = {
+			puppet = MOD
+			hidden_effect = {
+			release = MOD
+			}
 		}
 	}
 
@@ -1594,14 +1664,12 @@ focus_tree = {
 		x = -18
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_cispadane_republic }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = -50
+			add_war_support = 0.05
 		}
 	}
 
@@ -1611,15 +1679,21 @@ focus_tree = {
 		x = -17
 		y = 6
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_establish_a_civic_guard }
 		prerequisite = { focus = FRA_lombard_administration }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			ITA = {
+				is_puppet_of = FRA
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			ITA = {
+				add_stability = 0.25
+			}
+			add_political_power = 70
+			add_war_support = 0.2
 		}
 	}
 
@@ -1629,14 +1703,12 @@ focus_tree = {
 		x = -16
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			add_stability = 0.15
 
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
@@ -1646,24 +1718,23 @@ focus_tree = {
 		x = -16
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_transpadane_republic }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			add_political_power = 25
+			army_experience = 5
 
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
 	focus = {
 		id = FRA_northern_republics
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_republics
 		x = -9
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_sister_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
@@ -1677,33 +1748,53 @@ focus_tree = {
 		x = -7
 		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_northern_republics }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			NOT = {
+				country_exists = IRE
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			ENG = {
+				add_popularity = {
+					ideology = authoritarian_democracy
+					popularity = 0.1
+				}
+			}
+			IRE = {
+				add_state_core = 134
+				add_state_core = 135
+				add_state_core = 113
+				add_state_core = 119
+			}
 		}
 	}
-
-		focus = {
+	focus = {
 		id = FRA_send_troops_to_ireland
 		icon = GFX_focus_fra_le_deluge
 		x = -7
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_insight_a_revolt_in_connacht }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		available = {
+		}
+		completion_reward = {
+			add_political_power = 25
+			add_resistance_target = {
+				id = 134
+				amount = 30
+				occupied = IRE
+				occupier = ENG
+				days = 365
+			}
 		}
 	}
+	
+	
 
 	focus = {
 		id = FRA_the_dutch_versailles
@@ -1711,13 +1802,14 @@ focus_tree = {
 		x = -11
 		y = 4
 		cost = 2
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_northern_republics }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			HOL = {
-				country_event = { id = netherlands.1 }
-			}
+		available  = {  
+			country_exists = HOL
+		}
+		completion_reward = {
+			puppet = HOL	
 		}
 	}
 
@@ -1727,14 +1819,17 @@ focus_tree = {
 		x = -11
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_the_dutch_versailles }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			HOL = {
+				add_popularity = {
+					ideology = authoritarian_democracy
+					popularity = 0.05
+				}
+			}
+			add_stability = 0.15
 		}
 	}
 
@@ -1744,14 +1839,22 @@ focus_tree = {
 		x = -11
 		y = 6
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_allow_the_revolutionary_committees_to_take_charge }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			HOL = {
+				owns_state = 681
+				owns_state = 275
+				owns_state = 719
+				is_puppet_of = FRA
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			HOL = {
+				release = SAF
+			}
+			puppet = SAF
 		}
 	}
 
@@ -1761,14 +1864,33 @@ focus_tree = {
 		x = -11
 		y = 7
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { SISTER_REPUBLICS }	
 		prerequisite = { focus = FRA_establish_south_african_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			SAF = {	
+				275 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+					}
+				}
+				681 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+					}
+				}
+				719 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -1778,7 +1900,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_sister_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
@@ -1794,13 +1916,17 @@ focus_tree = {
 		x = -1
 		y = 4
 		cost = 4
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_plan_a_new_campaign }
 		prerequisite = { focus = FRA_rhine_integration }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 			add_ideas = {
 				FRA_three_pronged_attack
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
 			}
 		}
 	}
@@ -1811,49 +1937,15 @@ focus_tree = {
 		x = -2
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_three_pronged_attack }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		available = {
+			has_war_with = AUS
+			has_war_with = GER
 		}
-	}
-
-	focus = {
-		id = FRA_complete_fail
-		icon = GFX_focus_fra_le_deluge
-		x = -4
-		y = 6
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_rhine_campaign }
-		mutually_exclusive = { focus = FRA_surprising_success }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
-		}
-	}
-
-	focus = {
-		id = FRA_a_final_attempt
-		icon = GFX_focus_fra_le_deluge
-		x = -4
-		y = 7
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_complete_fail }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = FRA_rhine_campaign
 		}
 	}
 
@@ -1863,15 +1955,15 @@ focus_tree = {
 		x = -2
 		y = 6
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_rhine_campaign }
 		relative_position_id = FRA_promote_napoleon
-		mutually_exclusive = { focus = FRA_complete_fail }
+		available = {
+			controls_state = 42
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			army_experience = 10
+			add_political_power = 15
 		}
 	}
 
@@ -1881,14 +1973,15 @@ focus_tree = {
 		x = -2
 		y = 7
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_surprising_success }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 50
+			add_manpower = 10000
+			remove_ideas = {
+				FRA_plan_a_new_campaign
+			}
 		}
 	}
 
@@ -1898,7 +1991,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		cost = 4
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_three_pronged_attack }
 		relative_position_id = FRA_promote_napoleon
 		available = {
@@ -1923,10 +2016,12 @@ focus_tree = {
 		x = 0
 		y = 6
 		cost = 3
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_itallian_campaign }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
+			add_manpower = 5000
+			add_political_power = 25
 		}
 	}
 
@@ -1936,7 +2031,7 @@ focus_tree = {
 		x = 0
 		y = 7
 		cost = 7
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_utter_destruction }
 		relative_position_id = FRA_promote_napoleon
 		available = {
@@ -1945,100 +2040,151 @@ focus_tree = {
 			controls_state = 153
 			controls_state = 39
 			controls_state = 836
+			has_war_with = AUS
 		}
 		completion_reward = {	
-			ITA = {
-				annex_country = {
-					target = VNI
-					transfer_troops = yes
-				} 
-			}
-			AUS = {
-				country_event = austria.4
-			}
+			add_manpower = 10000
+			add_stability = 0.1
 		}
 	}
 
 	focus = {
-		id = FRA_first_treaty_of_base
+		id = FRA_negotiate_peace
 		icon = GFX_focus_fra_le_deluge
+		x = -1
+		y = 8
+		cost = 7
+		search_filters = { COALITION_WAR }	
+		prerequisite = { focus = FRA_march_on_vienna }
+		prerequisite = { focus = FRA_a_change_in_plans }
+		relative_position_id = FRA_promote_napoleon
+		available = {
+			controls_state = 4
+			controls_state = 152
+			controls_state = 153
+			controls_state = 39
+			controls_state = 836
+			has_war_with = AUS
+		}
+		completion_reward = {	
+			AUS = {
+				country_event = austria.4
+			}
+			remove_ideas = {
+				FRA_three_pronged_attack
+			}
+		}
+	}
+	
+
+	focus = {
+		id = FRA_first_treaty_of_base
+		icon = GFX_FRA_first_treaty_base
 		x = 2
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			has_war_with = PRE
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			white_peace = PRE
 		}
 	}
 
 	focus = {
 		id = FRA_second_treaty_of_base
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_second_treaty
 		x = 2
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_first_treaty_of_base }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		available = {
+			has_war_with = SPR
 		}
-	}
-
-	focus = {
-		id = FRA_third_treaty_of_base
-		icon = GFX_focus_fra_le_deluge
-		x = 2
-		y = 4
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_second_treaty_of_base }
-		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			white_peace = SPR
 		}
 	}
 
 	focus = {
 		id = FRA_second_treaty_of_san_ildefonso
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_san_ildefono
 		x = 2
-		y = 5
+		y = 4
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_third_treaty_of_base }
+		search_filters = { COALITION_WAR }	
+		prerequisite = { focus = FRA_second_treaty_of_base }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+			hidden_trigger = {
+				SPR = {
+					owns_state = 859
+					owns_state = 860
+					owns_state = 388
+					owns_state = 389
+					owns_state = 371
+					owns_state = 871
+					owns_state = 372
+					owns_state = 374
+					owns_state = 870
+					owns_state = 382
+					owns_state = 383
+					owns_state = 373
+					owns_state = 392
+					owns_state = 381
+					owns_state = 390
+					owns_state = 391
+					owns_state = 384
+				}
+			}
+			NOT = {
+				has_war_with = SPR
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			transfer_state = 859
+			transfer_state = 860
+			transfer_state = 388
+			transfer_state = 389
+			transfer_state = 371
+			transfer_state = 871
+			transfer_state = 372
+			transfer_state = 374
+			transfer_state = 870
+			transfer_state = 382
+			transfer_state = 383
+			transfer_state = 373
+			transfer_state = 392
+			transfer_state = 381
+			transfer_state = 390
+			transfer_state = 391
+			transfer_state = 384
 		}
 	}
 
 	focus = {
 		id = FRA_make_napoleon_commander_of_itallian_forces
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_napoleon_italy
 		x = 0
 		y = 2
 		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 
 		available = {
 			has_war_with = AUS	
+			LUC = {
+				is_puppet_of = FRA
+			}
+			MOD = {
+				is_puppet_of = FRA
+			}
 		}
 
 		completion_reward = {
@@ -2055,14 +2201,23 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { COALITION_WAR }	
 		prerequisite = { focus = FRA_make_napoleon_commander_of_itallian_forces }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			18 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex 
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_political_power = 50
 		}
 	}
 
@@ -2072,7 +2227,7 @@ focus_tree = {
 		x = -23
 		y = 5
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		completion_reward = {	
 			set_cosmetic_tag = FRP_FRA
 
@@ -2087,14 +2242,17 @@ focus_tree = {
 		x = -6
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			HOL = {
+				is_puppet_of = FRA
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.05
+			add_manpower = 2500
 		}
 	}
 
@@ -2104,14 +2262,20 @@ focus_tree = {
 		x = -6
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_dutchmen }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			owns_state = 34
+			owns_state = 8
+			owns_state = 6
+			owns_state = 923
+			owns_state = 924
+			owns_state = 837
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.05
+			add_manpower = 2500
 		}
 	}
 
@@ -2121,14 +2285,17 @@ focus_tree = {
 		x = 6
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			ITA = {
+				is_puppet_of = FRA
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.05
+			add_manpower = 2500
 		}
 	}
 
@@ -2138,14 +2305,17 @@ focus_tree = {
 		x = 6
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_itallians }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			SWI = {
+				is_puppet_of = FRA
+			}
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_war_support = 0.05
+			add_manpower = 2500
 		}
 	}
 
@@ -2155,14 +2325,19 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			country_exists = POL
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_intel = {
+				target = pol
+				civilian_intel = 2
+				army_intel = 3
+			}
+			add_manpower = 2500
 		}
 	}
 
@@ -2172,14 +2347,19 @@ focus_tree = {
 		x = 2
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_polish_deserters }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			has_war_with = ENG
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_intel = {
+				target = ENG
+				civilian_intel = 2
+				army_intel = 3
+			}
+			add_manpower = 2500
 		}
 	}
 
@@ -2189,14 +2369,19 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			has_war_with = PRE
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_intel = {
+				target = pre
+				civilian_intel = 2
+				army_intel = 3
+			}
+			add_manpower = 2500
 		}
 	}
 
@@ -2206,14 +2391,19 @@ focus_tree = {
 		x = -2
 		y = 2
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_prussian_deserters }
 		relative_position_id = FRA_enlist_foreigners
+		available = {
+			has_war_with = AUS
+		}
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_intel = {
+				target = AUS
+				civilian_intel = 2
+				army_intel = 3
+			}
+			add_manpower = 2500
 		}
 	}
 
@@ -2223,19 +2413,17 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
+		search_filters = { ARMY }	
 		prerequisite = { focus = FRA_austrian_deserters }
 		prerequisite = { focus = FRA_irish_deserters }
 		prerequisite = { focus = FRA_enlist_swiss }
 		prerequisite = { focus = FRA_enlist_belgians }
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = {
+				FRA_free_men
+			}
 		}
 	}
-
 }
 

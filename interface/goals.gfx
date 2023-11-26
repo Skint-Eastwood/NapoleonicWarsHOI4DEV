@@ -1,6 +1,39 @@
 spriteTypes = {	
 
+	SpriteType = {
+	name = "GFX_FRA_san_ildefono"
+	texturefile = "gfx/interface/goals/FRA_san_ildefono.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_FRA_second_treaty_base"
+	texturefile = "gfx/interface/goals/FRA_second_treaty_base.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_first_treaty_base"
+	texturefile = "gfx/interface/goals/FRA_first_treaty_base.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_FRA_napoleon_italy"
+	texturefile = "gfx/interface/goals/FRA_napoleon_italy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_republics"
+	texturefile = "gfx/interface/goals/FRA_republics.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_sister_republics"
+	texturefile = "gfx/interface/goals/FRA_sister_republics.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_annex_belgium"
+	texturefile = "gfx/interface/goals/FRA_annex_belgium.dds"			
+	}
 
 	SpriteType = {
 	name = "GFX_FRA_destroy_religious_values"

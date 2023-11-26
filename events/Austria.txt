@@ -114,6 +114,7 @@ country_event = {
 			add_state_core = 34
 			add_state_core = 6
 			add_state_core = 837
+			add_state_core = 923
 		}
 	}	
 }
@@ -134,6 +135,16 @@ country_event = {   ## Puppet Refuse/Accept Style Event
 		white_peace = {
 			tag = FRA
 			message = my_peace_tt1
+		}
+		WUR = {
+			transfer_state = 50
+		}
+		
+		ITA = {
+			annex_country = {
+				target = VNI
+				transfer_troops = no
+			}
 		}
 		BAY = {
 			transfer_state = 39

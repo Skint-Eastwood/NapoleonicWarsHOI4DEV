@@ -279,6 +279,125 @@ ideas = {
 			drift_defence_factor = 0.1	
 		}
 	}
+	FRA_rhine_campaign = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			army_speed_factor = 0.15
+			equipment_capture = 0.05
+			fuel_cost = 100
+		}
+	}
+	FRA_swiss_cantons = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			production_speed_buildings_factor = 0.15
+			military_industrial_organization_policy_cost = -0.25
+		}
+	}
+	FRA_domination_of_southern_italy = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			local_resources_factor = 0.25
+			generate_wargoal_tension = 0.1
+		}
+	}
+	FRA_exile_pope_pius_vi_to_france = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {							
+			research_speed_factor = -0.10
+			stability_weekly = 0.03
+			drift_defence_factor = 0.15
+		}
+	}
+	FRA_sister_republics = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {							
+			justify_war_goal_time = -0.25
+		}
+	}
+	FRA_reformed_navy = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {							
+			navy_org_factor = 0.25
+			repair_speed_factor = 0.15
+			navy_fuel_consumption_factor = 0.15
+		}
+	}
+	FRA_reformed_naval_artillery = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {							
+			experience_gain_navy = 0.02
+			navy_capital_ship_attack_factor = 0.15
+		}
+	}
+	FRA_decree_of_1795 = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {							
+			naval_attrition = -0.2
+			naval_equipment_upgrade_xp_cost = 0.15
+		}
+	}
+	FRA_free_men = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {										
+			weekly_manpower = 1250
+			training_time_factor = 0.15
+		}
+	}
 }
 
 	######################

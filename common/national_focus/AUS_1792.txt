@@ -442,6 +442,10 @@ focus_tree = {
 			owns_state = 34
 			owns_state = 6
 			owns_state = 837
+
+			GER = {
+				owns_state = 923
+			}
 		}
 
 		completion_reward = {		

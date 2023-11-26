@@ -59,6 +59,7 @@ country_event = {
 			transfer_state = 34
 			transfer_state = 6 
 			transfer_state = 837
+			transfer_state = 923
 		}	
 	}
 	option = {
