@@ -106,6 +106,9 @@ LIG_DEF:0 "the Ligurian Republic"
 FRA_PAR:0 "French Republic of Parma"
 FRA_PAR_DEF:0 "the French Republic of Parma"
 
+FRA_NAP:0 "Parthenopean Republic"
+FRA_NAP_DEF:0 "the Parthenopean Republic"
+
 
 ############################
 ## COLONIAL COSMETIC TAGS ##

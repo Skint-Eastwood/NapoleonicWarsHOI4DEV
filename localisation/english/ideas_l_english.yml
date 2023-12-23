@@ -89,6 +89,11 @@ PLC_third_may_constitution_desc:0 "Widely considered to be the first constitutio
  FRA_athiest_rising:0 "Athiest Risings"
  FRA_louis_lives:0 "Louis Lives"
  FRA_committee_of_public_safety_idea:0 "Committee Of Public Safety"
+ FRA_swiss_cantons:0 "Tax The Swiss Cantons"
+ FRA_reformed_navy:0 "Reformed Navy"
+ FRA_reformed_naval_artillery:0 "Reformed Naval Artillery"
+ FRA_decree_of_1795:0 "Decree of 1795"
+ FRA_free_men:0 "Free Men Are Brothers"
 
 ####################
 ## Austrian Ideas ##
