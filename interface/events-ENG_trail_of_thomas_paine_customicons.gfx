@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Trail Of Thomas Paine
+	SpriteType = { 
+		name = "ENG_trail_of_thomas_paine-1"
+		texturefile = "gfx/interface/events/trail_of_thomas_paine-event/ENG_trail_of_thomas_paine-1.dds"
+	}
+
+	##Icon For: Bristol Bridge Riot
+	SpriteType = { 
+		name = "ENG_bristol_bridge_riot-796"
+		texturefile = "gfx/interface/events/trail_of_thomas_paine-event/ENG_bristol_bridge_riot-796.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Increased Sales
+	SpriteType = { 
+		name = "GFX_idea_ENG_increased_sales-1232"
+		texturefile = "gfx/interface/ideas/ideas-ideas/ENG_increased_sales-1232.dds"
+	}
+
+ 
+ }
