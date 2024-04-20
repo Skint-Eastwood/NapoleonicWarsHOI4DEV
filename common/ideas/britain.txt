@@ -80,7 +80,27 @@ ideas = {
 				production_speed_dockyard_factor = 0.05 
 			}
 		}
+ENG_increased_sales = {
+			picture = ENG_increased_sales-1232
+			modifier = {
+						british_austerity_idea = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
 	}
 }
 
