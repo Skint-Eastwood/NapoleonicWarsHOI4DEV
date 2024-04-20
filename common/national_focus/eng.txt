@@ -1,0 +1,990 @@
+focus_tree = {
+	id = eng
+	continuous_focus_position = { x = 4900 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	#Send EX Slaves To Sierra Leon
+	focus = {
+		id = ENG_send_ex_slaves_to_sierra_leon
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 20
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = ENG_parliament_of_britian  }
+		bypass = {
+			has_stability > 0.5
+			
+			
+		}
+		completion_reward = {
+			add_manpower = -5000
+			
+			
+		}
+	}
+
+	#Trial Of Thomas Paine
+	focus = {
+		id = ENG_trial_of_thomas_paine
+		icon = GFX_goal_unknown
+		x = 20
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ENG_charge_thomas_paine_with_treason  }
+		completion_reward = {
+			country_event = {
+			    id = ENG_trail_of_thomas_paine.1
+			    days = 10
+			    random = 50
+			    random_days = 10
+			}
+			
+			
+			
+		}
+	}
+
+	#Establish The London Corresponding Society
+	focus = {
+		id = ENG_establish_the_london_corresponding_society
+		icon = GFX_ENG_establish_the_london_corresponding_society-558103
+		x = 20
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_pitts_government  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#Parliament Of Britian
+	focus = {
+		id = ENG_parliament_of_britian
+		icon = GFX_focus_hol_united_netherlands
+		x = 20
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_establish_the_london_corresponding_society  }
+		completion_reward = {
+			
+			
+			
+			add_political_power = 50
+			
+			
+		}
+	}
+
+	#Pitts Government
+	focus = {
+		id = ENG_pitts_government
+		icon = GFX_ENG_pitts_government-558102
+		x = 20
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Parliamentary Reform? Nonsense
+	focus = {
+		id = ENG_parliamentaryreformnonsense
+		icon = GFX_focus_eng_decolonization
+		x = 19
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_send_ex_slaves_to_sierra_leon  }
+		completion_reward = {
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Repress Democratic Ideas
+	focus = {
+		id = ENG_repress_democratic_ideas
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 21
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_send_ex_slaves_to_sierra_leon  }
+		completion_reward = {
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Charge Thomas Paine With Treason
+	focus = {
+		id = ENG_charge_thomas_paine_with_treason
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ENG_parliamentaryreformnonsense  } prerequisite = { focus = ENG_repress_democratic_ideas  }
+		completion_reward = {
+			add_war_support = -0.1
+			
+			
+			add_stability = -0.1
+			
+			
+			
+		}
+	}
+
+	#Diplomatic Envoy To The Qing
+	focus = {
+		id = ENG_diplomatic_envoy_to_the_qing
+		icon = GFX_focus_chi_one_china_policy
+		x = 22
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_outlaw_paine_to_france  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+			
+			
+			
+		}
+	}
+
+	#Outlaw Paine To France
+	focus = {
+		id = ENG_outlaw_paine_to_france
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ENG_trial_of_thomas_paine  }
+		available = {
+			has_stability > 0.2
+			
+			
+		}
+	}
+
+	#Expel The French Ambassador
+	focus = {
+		id = ENG_expel_the_french_ambassador
+		icon = GFX_focus_attack_france
+		x = 20
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_outlaw_paine_to_france  }
+		completion_reward = {
+			add_opinion_modifier = {
+			    target = FRA
+			    modifier = faction_traitor
+			}
+			
+			
+			
+		}
+	}
+
+	#Around The Empire
+	focus = {
+		id = ENG_around_the_empire
+		icon = GFX_focus_eng_global_defense
+		x = 15
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_parliament_of_britian  }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 2}
+			
+			
+			add_offsite_building = { type = arms_factory level = 2}
+			
+			
+			
+		}
+	}
+
+	#East India Company
+	focus = {
+		id = ENG_east_india_company
+		icon = GFX_focus_RAJ_british_investors
+		x = 15
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_around_the_empire  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+			
+			
+			
+		}
+	}
+
+	#Canadian Giant
+	focus = {
+		id = ENG_canadian_giant
+		icon = GFX_focus_attack_canada
+		x = 13
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
+		}
+		prerequisite = { focus = ENG_around_the_empire  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = dockyard
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+			}
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+
+	#Morally Guilty
+	focus = {
+		id = ENG_morally_guilty
+		icon = GFX_ENG_morally_guilty-59
+		x = 20
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_third_trial  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#First Trial
+	focus = {
+		id = ENG_first_trial
+		icon = GFX_focus_generic_support_the_left_right
+		x = 20
+		y = 13
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_1794_treason_trials  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#alliance with prussia and spain
+	focus = {
+		id = ENG_alliance_with_prussia_and_spain
+		icon = GFX_focus_generic_little_entente
+		x = 20
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = ENG_oppress_the_bristol_bridge_riot  }
+		completion_reward = {
+			add_to_faction = SPR
+			
+			add_to_faction = PRE
+			
+			
+		}
+	}
+
+	#Nootka Claims Convention
+	focus = {
+		id = ENG_nootka_claims_convention
+		icon = GFX_goal_generic_major_alliance
+		x = 18
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_outlaw_paine_to_france  }
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+			    target  = SPR
+			    modifier = medium_increase
+			}
+			
+			
+			
+		}
+	}
+
+	#oppress the Bristol bridge riot
+	focus = {
+		id = ENG_oppress_the_bristol_bridge_riot
+		icon = GFX_ENG_oppress_the_bristol_bridge_riot-262072
+		x = 20
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_expel_the_french_ambassador  }
+		available = {
+			date < 1793.31.10
+			
+			
+		}
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+			
+		}
+	}
+
+	#Popgun Plot Defensive Measures
+	focus = {
+		id = ENG_popgun_plot_defensive_measures
+		icon = GFX_goal_generic_defence
+		x = 20
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = ENG_alliance_with_prussia_and_spain  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#1794 Treason Trials
+	focus = {
+		id = ENG_1794_treason_trials
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 20
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_popgun_plot_defensive_measures  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = poo
+			}
+			
+			
+		}
+	}
+
+	#Second Trial
+	focus = {
+		id = ENG_second_trial
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 20
+		y = 14
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = ENG_first_trial  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = wee
+			}
+			
+			
+		}
+	}
+
+	#Third Trial
+	focus = {
+		id = ENG_third_trial
+		icon = GFX_ENG_third_trial-262050
+		x = 20
+		y = 15
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_second_trial  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = piss
+			}
+			
+			
+		}
+	}
+
+	#A Royal Marrige
+	focus = {
+		id = ENG_a_royal_marrige
+		icon = GFX_focus_generic_royal_wedding
+		x = 22
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_morally_guilty  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#Hair Powder Act
+	focus = {
+		id = ENG_hair_powder_act
+		icon = GFX_goal_unknown
+		x = 22
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_a_royal_marrige  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Extreme Bread Riots
+	focus = {
+		id = ENG_extreme_bread_riots
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 22
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = ENG_hair_powder_act  }
+		completion_reward = {
+			add_stability = -0.2
+			
+			
+		}
+	}
+
+	#Revolt Of The Housewives
+	focus = {
+		id = ENG_revolt_of_the_housewives
+		icon = GFX_ENG_revolt_of_the_housewives-88
+		x = 20
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_morally_guilty  }
+		completion_reward = {
+			add_stability = -0.1
+			
+			
+		}
+	}
+
+	#Food Situation
+	focus = {
+		id = ENG_food_situation
+		icon = GFX_ENG_food_situation-262088
+		x = 18
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_revolt_of_the_housewives  }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Coldest Winter
+	focus = {
+		id = ENG_coldest_winter
+		icon = GFX_goal_unknown
+		x = 20
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = ENG_revolt_of_the_housewives  }
+		completion_reward = {
+			add_stability = -0.1
+			
+			
+		}
+	}
+
+	#Shoot The Ringleaders
+	focus = {
+		id = ENG_shoot_the_ringleaders
+		icon = GFX_ENG_shoot_the_ringleaders-59
+		x = 20
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_coldest_winter  } prerequisite = { focus = ENG_food_situation  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = cluck
+			}
+			
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#Seditious meeting act
+	focus = {
+		id = ENG_seditious_meeting_act
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 21
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_shoot_the_ringleaders  } prerequisite = { focus = ENG_extreme_bread_riots  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = brain
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = poopop
+			}
+			
+			add_research_slot = 1
+			
+			
+		}
+	}
+
+	#A Vaccine ?
+	focus = {
+		id = ENG_avaccine
+		icon = GFX_goal_unknown
+		x = 21
+		y = 21
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_seditious_meeting_act  }
+	}
+
+	#Spanish Traitors
+	focus = {
+		id = ENG_spanish_traitors
+		icon = GFX_goal_unknown
+		x = 21
+		y = 22
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_avaccine  }
+		available = {
+			has_war_with = spr
+			
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Reinforce Gibraltar
+	focus = {
+		id = ENG_reinforce_gibraltar
+		icon = GFX_ENG_reinforce_gibraltar-82
+		x = 21
+		y = 23
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ENG_spanish_traitors  }
+		completion_reward = {
+				# Gibraltar
+						118 = {
+							if = {
+								limit = {
+									is_controlled_by = ROOT
+								}
+								add_building_construction = {
+									type = bunker
+									level = 1
+									province = 4135
+									instant_build = yes
+			
+			
+		}
+	}
+
+	#Increased Sales
+	focus = {
+		id = ENG_increased_sales
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 15
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = ENG_east_india_company  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+			
+			
+			add_timed_idea = {
+			    idea = ENG_increased_sales
+			    days = 180
+			}
+			
+			
+			
+		}
+	}
+
+	#New Holland
+	focus = {
+		id = ENG_new_holland
+		icon = GFX_focus_attack_australia
+		x = 18
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = ENG_around_the_empire  }
+		completion_reward = {
+			
+			
+			annex_country = {
+			    target = AST
+			    transfer_troops = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#New Holland
+	focus = {
+		id = ENG_new_holland
+		icon = GFX_focus_attack_australia
+		x = 18
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = ENG_around_the_empire  }
+		completion_reward = {
+			
+			
+			
+			
+			
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+			type = industrial_complex
+			level = 4
+			instant_build = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#Land Grants To Officers
+	focus = {
+		id = ENG_land_grants_to_officers
+		icon = GFX_focus_chi_army_reform
+		x = 18
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_SPA_CIVIL_WAR
+		}
+		prerequisite = { focus = ENG_new_holland  }
+		completion_reward = {
+			army_experience = 50
+			
+			
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#First Free Settlers
+	focus = {
+		id = ENG_first_free_settlers
+		icon = GFX_focus_generic_concessions
+		x = 18
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_SPA_CARLIST_UPRISING
+		}
+		prerequisite = { focus = ENG_land_grants_to_officers  }
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+}
