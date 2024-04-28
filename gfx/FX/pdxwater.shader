@@ -268,7 +268,6 @@ PixelShader =
 		
 		float4 main( VS_OUTPUT_WATER Input ) : PDX_COLOR
 		{
-			#define LOW_END_GFX
 			//return float4( 0, 0, 1, 1 );
 			float waterHeight = MultiSampleTexX( HeightTexture, Input.uv ) / ( 95.7f / 255.0f );
 			float waterShore = saturate( ( waterHeight - 0.954f ) * 25.0f );
